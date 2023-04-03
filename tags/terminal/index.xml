@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Terminal on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/terminal/</link>
+    <link>https://www.epistemology.pe.kr/tags/terminal/</link>
     <description>Recent content in Terminal on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 21 Oct 2011 21:01:53 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2011 21:01:53 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac OS X Terminal에 IR Black 테마로 예쁜 컬러로 바꿔보자.</title>
-      <link>http://www.epistemology.pe.kr/2011/10/21/595/</link>
+      <link>https://www.epistemology.pe.kr/2011/10/21/595/</link>
       <pubDate>Fri, 21 Oct 2011 21:01:53 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2011/10/21/595/</guid>
+      <guid>https://www.epistemology.pe.kr/2011/10/21/595/</guid>
       <description>요즘 한참 vi를 익히고 있습니다. 그렇다 보니 Terminal을 많이 사용하게 됩니다. 그러다가 문득 클리앙에서 부드러운직선님이 쓰신 다음과 같은 글을 보았습니다.
 -Tip 터미널 텍스트 예쁜 컬러 입히기 IR Black
 원 출처를 조금 찾아보니 다음과 같았습니다.

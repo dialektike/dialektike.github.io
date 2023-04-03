@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>aLinks on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/alinks/</link>
+    <link>https://www.epistemology.pe.kr/tags/alinks/</link>
     <description>Recent content in aLinks on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 06 Jul 2006 16:01:49 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/alinks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2006 16:01:49 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/alinks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>에드온 설치</title>
-      <link>http://www.epistemology.pe.kr/2006/07/06/50/</link>
+      <link>https://www.epistemology.pe.kr/2006/07/06/50/</link>
       <pubDate>Thu, 06 Jul 2006 16:01:49 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2006/07/06/50/</guid>
+      <guid>https://www.epistemology.pe.kr/2006/07/06/50/</guid>
       <description>Wordpress 에 미리 특정 단어에 대한 인터넷 주소를 지정해 자동으로 링크를 만들어주는 Plugin인, aLinks를 설치했습니다. 이 Plugin의 주소는 다음과 같습니다.
 http://www.headzoo.com/alinks</description>
     </item>

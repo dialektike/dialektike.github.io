@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rugarch on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/rugarch/</link>
+    <link>https://www.epistemology.pe.kr/tags/rugarch/</link>
     <description>Recent content in rugarch on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 28 Dec 2016 16:54:36 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/rugarch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Dec 2016 16:54:36 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/rugarch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac 에서 R의 rugarch 패키지 설치시 오류가 날 때 처리법</title>
-      <link>http://www.epistemology.pe.kr/2016/12/28/1097/</link>
+      <link>https://www.epistemology.pe.kr/2016/12/28/1097/</link>
       <pubDate>Wed, 28 Dec 2016 16:54:36 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2016/12/28/1097/</guid>
+      <guid>https://www.epistemology.pe.kr/2016/12/28/1097/</guid>
       <description>제목 그대로 다음과 같은 오류가 날 수 있습니다.
 https://gist.github.com/dialektike/f939309cd457ead414bb02e997b5a303
 그러면 XQuartz에 가서 XQuartz을 다운받아서 설치하시고 R을 종료하고 재실행하시면 잘 설치됩니다. 출처는 다음과 같습니다.

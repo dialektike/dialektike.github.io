@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/raspberry-pi/</link>
+    <link>https://www.epistemology.pe.kr/tags/raspberry-pi/</link>
     <description>Recent content in Raspberry Pi on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 10 Apr 2017 16:09:22 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2017 16:09:22 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>터미널을 이용해서 현재 Raspberry Pi 서버의 IP 번호를 알고 싶을 때?</title>
-      <link>http://www.epistemology.pe.kr/2017/04/10/1111/</link>
+      <link>https://www.epistemology.pe.kr/2017/04/10/1111/</link>
       <pubDate>Mon, 10 Apr 2017 16:09:22 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2017/04/10/1111/</guid>
+      <guid>https://www.epistemology.pe.kr/2017/04/10/1111/</guid>
       <description>저는 라즈베리파이를 서버로 사용하고 있습니다. 터미널을 사용하다가 서버의 IP 주소를 알고자 할 때에는 조금 부식한 명령어인 ifconfig를 사용했습니다. 그런데 Raspberry Pi를 사용하다고 조금 더 쉬운 명령어를 알았습니다. hostname -I이라고 터미널에서 쓰면 바로 IP번호가 나옵니다. 이게 더 단순하게 이쁘게 나오네요! 아마도 파이가 우분투를 사용하니, 우분투를 사용하는 리눅스에서도 이 명령어는 돌아갈 것 같습니다. 맥에서는 이 명령어가 작동하지 않네요. 참고하세요. 이 내용은 Worksheet - Build a Python Web Server with Flask | Raspberry Pi Learning Resources에서 찾았습니다.</description>
     </item>
     

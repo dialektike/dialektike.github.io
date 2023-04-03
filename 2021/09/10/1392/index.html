@@ -9,14 +9,14 @@ fn main() { let s1 = String::from(&#34;hello world!&#34;); let hello = &amp;s1[0
 <meta property='og:title' content='러스트에서 `String`을 이용할 때, 생기는 유니코드 문제점 • Epistemology'>
 <meta property='og:description' content='러스트에서 문자열을 다루는 방법은 String을 이용하는 것입니다. 그런데 이것을 이용하더라도 유니코드를 사용하는 경우 인텍싱이 다른 언어와 같이 명확하게 처리되지 않습니다. 다음 코드를 살펴봅시다.
 fn main() { let s1 = String::from(&#34;hello world!&#34;); let hello = &amp;s1[0..5]; let world = &amp;s1[6..11]; println!(&#34;{}, {}&#34;, hello, world); let s1 = String::from(&#34;안녕 세계!&#34;); let hello = &amp;s1[0..6]; let world = &amp;s1[7..13]; println!(&#34;{}, {}&#34;, hello, world); let s1 = String::from(&#34;こんにちは世界!&#34;); let hello = &amp;s1[0..15]; let world = &amp;s1[15.'>
-<meta property='og:url' content='http://www.epistemology.pe.kr/2021/09/10/1392/'>
+<meta property='og:url' content='https://www.epistemology.pe.kr/2021/09/10/1392/'>
 <meta property='og:site_name' content='Epistemology'>
 <meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:tag' content='Rust'><meta property='article:tag' content='String'><meta property='article:published_time' content='2021-09-10T17:04:06&#43;09:00'/><meta property='article:modified_time' content='2021-09-10T17:04:06&#43;09:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.111.3">
 
   <title>러스트에서 `String`을 이용할 때, 생기는 유니코드 문제점 • Epistemology</title>
-  <link rel='canonical' href='http://www.epistemology.pe.kr/2021/09/10/1392/'>
+  <link rel='canonical' href='https://www.epistemology.pe.kr/2021/09/10/1392/'>
   
   
   <link rel='icon' href='/images/favicon.ico'>

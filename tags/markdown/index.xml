@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/markdown/</link>
+    <link>https://www.epistemology.pe.kr/tags/markdown/</link>
     <description>Recent content in Markdown on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2015 18:56:42 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2015 18:56:42 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>마크다운(Markdown)으로 글을 쓰면서 대괄호(backslash bracket), &#39;[, ]&#39;을 표시하기</title>
-      <link>http://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</link>
+      <link>https://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sat, 05 Dec 2015 18:56:42 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</guid>
       <description>마크다운(Markdown)으로 글을 쓰고 나서, 막상 대괄호(backslash bracket)인 &amp;lsquo;[ &amp;lsquo;이 사라지는 경우가 왕왕 있습니다. 이럴때는 앞 대괄호 앞에 &amp;lsquo;\[&amp;lsquo;처럼 \을 넣어주시면 간단하게 해결되기도 합니다. 만약 뒷 대괄호가 안 나온다면, 위와 마찬가지로 &amp;lsquo;\]&amp;lsquo;처럼 그 앞에 \에 넣어주시면 됩니다. 만약 \이 키보드에 없거나 화면에 표시 되지 않는 경우가 있습니다. 역슬래시,&amp;rsquo;&#39;대신 키보드에서 원화 마크를 찾아서 사용하시면 됩니다.
 PS:혹시 이 글에서 역슬래시가 안 나오고 원화 마크가 계속해서 나오면, 문제가 없는 것이니 위의 문제 해결을 하기 위해서 원화마크를 쓰시면 됩니다.</description>
     </item>

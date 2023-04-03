@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zip on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/zip/</link>
+    <link>https://www.epistemology.pe.kr/tags/zip/</link>
     <description>Recent content in zip on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/zip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/zip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R에서 `csv`형식 파일을 압축하기</title>
-      <link>http://www.epistemology.pe.kr/2022/08/02/1415/</link>
+      <link>https://www.epistemology.pe.kr/2022/08/02/1415/</link>
       <pubDate>Tue, 02 Aug 2022 15:27:14 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2022/08/02/1415/</guid>
+      <guid>https://www.epistemology.pe.kr/2022/08/02/1415/</guid>
       <description>사용하고 있는 csv형식 파일들을 갯수도 많고 용량도 크다면, 이것들을 보관하거나 전달하기 위해서는 압축하는 것이 편리하다. archive라는 패키지를 이용해서 여러개의 csv형식 파일들을 한 파일로 압축해보자. 이 패키지에 대한 세부적인 내용은 아래 링크를 참고하자.
 archive: Multi-Format Archive and Compression Support 우선 해당 패키지를 설치해보자.
 install.packages(&amp;#34;archive&amp;#34;) 아래 명령어로 현재 압축하고자 하는 csv형식 파일이 있는지 살펴보자. 참고로 &amp;ldquo;data.zip&amp;quot;라는 파일명으로 압축하니, 이 폴더에 이 파일이 없어야 한다. 만약 있으면 에러가 날 확률이 많다.

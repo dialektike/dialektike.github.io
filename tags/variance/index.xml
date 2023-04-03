@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>variance on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/variance/</link>
+    <link>https://www.epistemology.pe.kr/tags/variance/</link>
     <description>Recent content in variance on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Feb 2015 01:53:49 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/variance/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Feb 2015 01:53:49 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/variance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance) 구하기</title>
-      <link>http://www.epistemology.pe.kr/2015/02/11/844/</link>
+      <link>https://www.epistemology.pe.kr/2015/02/11/844/</link>
       <pubDate>Wed, 11 Feb 2015 01:53:49 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2015/02/11/844/</guid>
+      <guid>https://www.epistemology.pe.kr/2015/02/11/844/</guid>
       <description>R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance)을 구해보겠습니다. 그러기 위해서는 우선 준비작업으로 값을 넣어보겠습니다.
 여기서 입력하고자 하는 값들은 농구선수가 게임당 특점한 값들이라고 가정했습니다. 1번째 줄은 그 자료를 입력하는 것입니다. 2번째 줄은 그것을 R의 데이터 프레임 형식으로 만들어 player라는 변수에 넣는 것입니다. 마지막으로 3번째 줄은 이 값들에 열 이름을 넣는 것입니다. 엑셀 파일에 1줄로 자료를 입력한 후, 맨 앞 칸에 열 이름을 넣는 것이라고 생각하시면 됩니다. 마지막 줄을 입력하면 지금까지 한 것을 확인할 수 있습니다.</description>
     </item>

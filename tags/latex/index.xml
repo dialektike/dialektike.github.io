@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>latex on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/latex/</link>
+    <link>https://www.epistemology.pe.kr/tags/latex/</link>
     <description>Recent content in latex on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Aug 2016 15:52:11 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Aug 2016 15:52:11 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RStudio를 이용하여, R 코드와 한글이 들어 있는 R Markdown으로 쓴 파일을 pdf로 만드는 팁!</title>
-      <link>http://www.epistemology.pe.kr/2016/08/04/1067/</link>
+      <link>https://www.epistemology.pe.kr/2016/08/04/1067/</link>
       <pubDate>Thu, 04 Aug 2016 15:52:11 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2016/08/04/1067/</guid>
+      <guid>https://www.epistemology.pe.kr/2016/08/04/1067/</guid>
       <description>RStudio에는 기본적인 R보다 유용한 기능이 많습니다. 그중에서는 저는 knitr 패키지를 이용하여 R 코드가 들어있는 R Markdown으로 쓰여진 글을 HTML이나 pdf 파일로 만들어 주는 기능에 관심이 많았습니다. 물론 프리뷰(Preview) 버젼인 RStudio Version 0.99.1273에는 이것 보다 더 진보한R Markdown Notebooks이 들어 있습니다.
 그러나 문제는 이 기능이 영어로만 되어 있는 것은 잘 되는데, 유난히 한글만 들어가면 잘 안 된다는 것입니다. HTML로 변환하는 것은 잘 되는 것 같았는데, pdf으로 변환하는 것이 문제였습니다. 그러다가 우연히 권재명님이 쓰신 Jaimyoung/data-science-in-korean: 한국어를 포함한 데이터와 분석코드를 다루는 팁을 살펴보다가 https://raw.</description>
     </item>
     
     <item>
       <title>LaTeX에서 수평선 그리기</title>
-      <link>http://www.epistemology.pe.kr/2014/11/14/833/</link>
+      <link>https://www.epistemology.pe.kr/2014/11/14/833/</link>
       <pubDate>Fri, 14 Nov 2014 17:56:24 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2014/11/14/833/</guid>
+      <guid>https://www.epistemology.pe.kr/2014/11/14/833/</guid>
       <description>LaTex에서 논증을 구성하고 결론을 보여주고자 할 때 그냥 무작정 그었더니 예쁘지 않더군요. 그래서 오래간만에 좀 찾아봤더니 역시 그리는 방법이 있었습니다.TIMMURPHY.ORG의 글을 참고했습니다.
 선은 LaTeX의 \line function을 이용하여 그립니다. 이 function은 다음과 같이 x-slope, y-slope 그리고 length등을 정의합니다:
 \line(x-slope,y-slope){length} 이때 수평선은 그리기 위해서는, x-slope은 1로, y-slope는 0으로 설정합니다. 다음과 같이 하면 멋진 수평선을 그을 수 있습니다. 여기서 \begin{center}은 문서 중앙에 그리라고 설정한 것입니다.
@@ -30,20 +30,20 @@
     
     <item>
       <title>Latex 에서 &#39;~&#39; 표시를 하려면?</title>
-      <link>http://www.epistemology.pe.kr/2014/10/24/828/</link>
+      <link>https://www.epistemology.pe.kr/2014/10/24/828/</link>
       <pubDate>Fri, 24 Oct 2014 17:31:09 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2014/10/24/828/</guid>
+      <guid>https://www.epistemology.pe.kr/2014/10/24/828/</guid>
       <description>이건 단순합니다.아래와 같이 하면 됩니다.
 $\sim$ </description>
     </item>
     
     <item>
       <title>Latex 에서 {quotation} 와 {quote} 의 차이.</title>
-      <link>http://www.epistemology.pe.kr/2013/03/04/655/</link>
+      <link>https://www.epistemology.pe.kr/2013/03/04/655/</link>
       <pubDate>Mon, 04 Mar 2013 14:26:48 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2013/03/04/655/</guid>
+      <guid>https://www.epistemology.pe.kr/2013/03/04/655/</guid>
       <description>쓰다보면, 이 둘의 차이를 명확하게 알기 쉽지 않습니다. 그래서 그냥 혼합해서 사용했었습니다. 그런데 이 둘 사이에 들여쓰기와 줄간격이 조금 다르게 쓰이는 것을 보고 조금 찾아 봤더니역시 있더군요. 내용을 대충 번역해봤습니다. 참고하세요.
 {quote} : 짧은 인용문이나 작은 인용의 나열 모임 등을 위하여 사용한다. 빈 줄로 분리한다(for a short quotation, or a series of small quotes, separated by blank lines).
 {quotation}: 긴 인용문에 사용하는데, 특히 1단락 이상에서 사용한다. 왜냐하면 이것은 그 각각의 단락의 앞부분을 들여쓰기 하기 때문이다(for use with longer quotations, of more than one paragraph, because it indents the first line of each paragraph).</description>
@@ -51,10 +51,10 @@ $\sim$ </description>
     
     <item>
       <title>LaTeX 에서 chapter / section title 에 Footnote(각주) 달기</title>
-      <link>http://www.epistemology.pe.kr/2010/09/30/520/</link>
+      <link>https://www.epistemology.pe.kr/2010/09/30/520/</link>
       <pubDate>Thu, 30 Sep 2010 15:16:32 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2010/09/30/520/</guid>
+      <guid>https://www.epistemology.pe.kr/2010/09/30/520/</guid>
       <description>그냥 다음과 같이 하면, 아랫줄에 각주 번호가 나옵니다.
 \section{History of Philosophy? \footnote{코플스톤, 김보연 역, 『그리스 로마 철학사』 1998년, 들어가는 말에서} } 다음과 같이 하면 본인이 의도한 위치에 각주 번호가 나옵니다.
 \section[blah]{History of Philosophy? \footnote{코플스톤, 김보연 역, 『그리스 로마 철학사』 1998년, 들어가는 말에서} } [blah]이라는 태그만 들어가면 됩니다.

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evernote on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/evernote/</link>
+    <link>https://www.epistemology.pe.kr/tags/evernote/</link>
     <description>Recent content in Evernote on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Apr 2014 17:09:03 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Apr 2014 17:09:03 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/evernote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>맥 검색인 Spotlight 에서 Evernote가 검색되지 않는 경우 해결책</title>
-      <link>http://www.epistemology.pe.kr/2014/04/02/723/</link>
+      <link>https://www.epistemology.pe.kr/2014/04/02/723/</link>
       <pubDate>Wed, 02 Apr 2014 17:09:03 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2014/04/02/723/</guid>
+      <guid>https://www.epistemology.pe.kr/2014/04/02/723/</guid>
       <description>에버노트를 잘 앱스토어에서 잘 다운 받아 쓰다가 문득 해봤는데 안 검색이 되지 않아서 고생했습니다. 찾아보니 해결책은 쉽습니다. 애버노트 홈피에서 개발자의 다음과 같은 답변을 찾았습니다.
 There is an issue with 10.9 and Spotlight functionality. It is a restriction only on Mac App Store builds. To get around this, please download Evernote directly from us at
 즉 애플 앱스토어에서 애버노트 앱을 다운 받지 말고, 애버노트 홈에서 다음 링크로 가신 다음,

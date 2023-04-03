@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/categories/hugo/</link>
+    <link>https://www.epistemology.pe.kr/categories/hugo/</link>
     <description>Recent content in Hugo on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Feb 2023 13:29:40 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Feb 2023 13:29:40 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Hugo Post</title>
-      <link>http://www.epistemology.pe.kr/2023/02/22/1416/</link>
+      <link>https://www.epistemology.pe.kr/2023/02/22/1416/</link>
       <pubDate>Wed, 22 Feb 2023 13:29:40 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2023/02/22/1416/</guid>
+      <guid>https://www.epistemology.pe.kr/2023/02/22/1416/</guid>
       <description>블로그를 WordPress에서 Hugo으로 이전합니다.
 Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!</description>

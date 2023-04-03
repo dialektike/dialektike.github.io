@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WordPress on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/categories/wordpress/</link>
+    <link>https://www.epistemology.pe.kr/categories/wordpress/</link>
     <description>Recent content in WordPress on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Oct 2015 18:27:37 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Oct 2015 18:27:37 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wordpress에 Gist GitHub Shortcode 넣기</title>
-      <link>http://www.epistemology.pe.kr/2015/10/12/920/</link>
+      <link>https://www.epistemology.pe.kr/2015/10/12/920/</link>
       <pubDate>Mon, 12 Oct 2015 18:27:37 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2015/10/12/920/</guid>
+      <guid>https://www.epistemology.pe.kr/2015/10/12/920/</guid>
       <description>초보자가 프로그램을 공부를 하면서 정리도 할 겸 이 곳에서 간단한 소개와 함께 써놓았죠. 워드프레스(wordpress)에서 코드를 보여주기 위해서 단순하게 글에 작은 코드를 넣고 보게끔 만들었습니다. 그런데 그 코드들을 변경하고자 할 경우, 번거롭게 글도 고쳐야 했습니다. 이때 https://gist.github.com를 사용하여 코드를 저장하고 관리하는데 더 편리한 것을 알게되었습니다. 그러면 여기에 저장되어 있는 작은 코드를 어떻게 하면 wordpress에 넣을까 하고 플러그인을 찾아봤습니다. 역시 있더군요.
 https://wordpress.org/plugins/gist-github-shortcode/
 사용하는 방법은 단순합니다. 우선 플러그인 Gist GitHub Shortcode을 설치합니다. 그런 다음 이 플러그인을 Plugins 메뉴에서 찾아 활성화(activate) 해 줍니다.</description>
@@ -19,59 +19,59 @@ https://wordpress.org/plugins/gist-github-shortcode/
     
     <item>
       <title>프로그램 코드와 같은 형식의 글을 넣어보자!</title>
-      <link>http://www.epistemology.pe.kr/2008/10/03/234/</link>
+      <link>https://www.epistemology.pe.kr/2008/10/03/234/</link>
       <pubDate>Fri, 03 Oct 2008 23:24:50 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2008/10/03/234/</guid>
+      <guid>https://www.epistemology.pe.kr/2008/10/03/234/</guid>
       <description>조금 제목이 이상하지만, 가끔 글을 올릴 때 컴퓨터 명령어나 프로그램 코드와 같은 것들을 올려야 될 경우가 있습니다. 바로 Mac OS X 에서는 어떻게 MD5 체크(MD5 Check)를 할까?라는 글이 그렇습니다. 여기에는 터미널에서 사용하는 명령어를 넣어야 하는데 그냥 쓰는 글로 쓰면 구별이 안될 것 같아서 다르게 넣으려고 인용으로 넣었지만 보기가 좋지 않았습니다. 그래서 찾아보다 다음 플러그인을 발견했습니다. 쓸만합니다. 사용법도 물론 간단합니다.
 WP-Syntax</description>
     </item>
     
     <item>
       <title>이미지 파일을 크게 띄우는 플러그인 Lightbox 2</title>
-      <link>http://www.epistemology.pe.kr/2007/07/22/109/</link>
+      <link>https://www.epistemology.pe.kr/2007/07/22/109/</link>
       <pubDate>Sun, 22 Jul 2007 19:15:51 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2007/07/22/109/</guid>
+      <guid>https://www.epistemology.pe.kr/2007/07/22/109/</guid>
       <description>이미지를 크게 보려고 이미지를 눌러도 커지지 않습니다. 그래서 고민하다가 옛 기억을 살려서 다음 플러그 인을 설치했습니다. 아래 링크를 가 보시면 알 아실 수 있습니다.
 Lightbox 2 Wordpress Plugin</description>
     </item>
     
     <item>
       <title>83개의 멋있는 WordPress 테마를 봅시다.</title>
-      <link>http://www.epistemology.pe.kr/2007/07/22/108/</link>
+      <link>https://www.epistemology.pe.kr/2007/07/22/108/</link>
       <pubDate>Sun, 22 Jul 2007 15:08:03 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2007/07/22/108/</guid>
+      <guid>https://www.epistemology.pe.kr/2007/07/22/108/</guid>
       <description>Wordprss는 테마가 정말로 많습니다. 저도 기분에 따라 바꾸곤 하는데 이런 글이 있었네요. 영어로 되어 있지만 볼만합니다. 뭐 디자인만 보면 되니..
 83 Beautiful Wordpress Themes You (Probably) Haven’t Seen</description>
     </item>
     
     <item>
       <title>블로그에서 각주를 달아봅시다!</title>
-      <link>http://www.epistemology.pe.kr/2007/07/22/107/</link>
+      <link>https://www.epistemology.pe.kr/2007/07/22/107/</link>
       <pubDate>Sun, 22 Jul 2007 15:05:26 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2007/07/22/107/</guid>
+      <guid>https://www.epistemology.pe.kr/2007/07/22/107/</guid>
       <description>여기에 글을 올릴려고 하는데, 긴 글이다 보니 각주를 달아야 될 일이 생겼습니다. 고민하고 있었는데 역시 찾았습니다. 아직 설치는 하지 않았지만, 설치할 계획입니다. 자세한 것은 아랫 글을 참고해주세요!
 WP-Footnotes (a plugin for WordPress)</description>
     </item>
     
     <item>
       <title>페이지 넘어가는 답변 기능을 가진 플러그인을 깔아서 방명록 만들기!</title>
-      <link>http://www.epistemology.pe.kr/2006/10/02/11/</link>
+      <link>https://www.epistemology.pe.kr/2006/10/02/11/</link>
       <pubDate>Mon, 02 Oct 2006 15:46:43 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2006/10/02/11/</guid>
+      <guid>https://www.epistemology.pe.kr/2006/10/02/11/</guid>
       <description>항상 홈페이지를 만들때, 항상 방명록을 어떻게 구현하는가하는게 문제였습니다. 저번에 Movble Type(이하 MT)을 사용할 때에도 이것은 문제였습니다. 그래서 항상 제로보드와 같은 별도의 프로그램을 사용하여 방명록를 만들어 왔습니다. 그런데 제가 디자인과 프로그램 실력이 미천해서, 홈피와 방명록을 같은 디자인으로 만들지 못하겠더군요. 항상 제 홈피는 망명록과 홈피 디자인이 따로 놀게 되었습니다. 어느날 우연히 kukie님의 글을 보니, 쉽게 만들수 있을 것 같은 생각이 들더군요! 물론 이런 생각이 무모했죠 ^^; kukie님의 글을 몇번씩 숙독한 다음, 따라하기 시작했습니다.</description>
     </item>
     
     <item>
       <title>블로그에 음악을 달아봅시다.</title>
-      <link>http://www.epistemology.pe.kr/2006/09/28/56/</link>
+      <link>https://www.epistemology.pe.kr/2006/09/28/56/</link>
       <pubDate>Thu, 28 Sep 2006 23:01:10 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2006/09/28/56/</guid>
+      <guid>https://www.epistemology.pe.kr/2006/09/28/56/</guid>
       <description>뭐 아시는 분은 다 아시겠지만, 요즘 온라인게임이 유행입니다. 그런데 거기에 쓰이는 음악들이 수준이 대단합니다. 이번에 World of Warcraft라는 온라인 게임이 확장팩을 만들고 있습니다. 거기에 쓰인다는 노래를 들었는데, 정말로 좋더군요! 그래서 이 노래를 홈피에 올리고자, 기억을 더듬어서 다음 링크를 찾아냈습니다. 오래전부터 깔고 싶었던 것인데, 이제서야 손을 대는 군요!
 http://www.1pixelout.net/code/audio-player-wordpress-plugin/
 설치 방법은 쉽습니다. 위에 링크에 있습니다만, 잠시 정리하겠습니다.
@@ -80,40 +80,40 @@ http://www.1pixelout.net/code/audio-player-wordpress-plugin/
     
     <item>
       <title>에드온 설치</title>
-      <link>http://www.epistemology.pe.kr/2006/07/06/50/</link>
+      <link>https://www.epistemology.pe.kr/2006/07/06/50/</link>
       <pubDate>Thu, 06 Jul 2006 16:01:49 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2006/07/06/50/</guid>
+      <guid>https://www.epistemology.pe.kr/2006/07/06/50/</guid>
       <description>Wordpress 에 미리 특정 단어에 대한 인터넷 주소를 지정해 자동으로 링크를 만들어주는 Plugin인, aLinks를 설치했습니다. 이 Plugin의 주소는 다음과 같습니다.
 http://www.headzoo.com/alinks</description>
     </item>
     
     <item>
       <title>인용문에 따옴표(“) 넣기</title>
-      <link>http://www.epistemology.pe.kr/2005/12/21/32/</link>
+      <link>https://www.epistemology.pe.kr/2005/12/21/32/</link>
       <pubDate>Wed, 21 Dec 2005 22:51:44 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2005/12/21/32/</guid>
+      <guid>https://www.epistemology.pe.kr/2005/12/21/32/</guid>
       <description>하는 일이 특성상 사람들이 말했던 말을 인용하는 경우가 많습니다. 물론 글을 쓸 때에는 인용을 하고 각주 같은 것을 달아서 해결하지만, 웹에서는 어떻게 처리할지 걱정이 많았습니다. 요즘 웹표준(링크는 예스 24입니다)이라는 책을 읽으면서 4장 인용문에서 힌트를 얻었습니다. 그리고 저자 사이트를 참고했습니다. 기본 CSS에 다음과 같은 코드를 넣고 따옴표 이미지 파일을 넣으시면 됩니다. 간단하죠?
 blockquote { margin:0; padding:0 18px; font-size: 88%; line-height: 1.5em; color: #777; padding-left: 23px; background: url(/images/quotemarks.gif) no-repeat 0 3px; } </description>
     </item>
     
     <item>
       <title>유저(user)의 레벨(Level) 관리</title>
-      <link>http://www.epistemology.pe.kr/2005/08/16/12/</link>
+      <link>https://www.epistemology.pe.kr/2005/08/16/12/</link>
       <pubDate>Tue, 16 Aug 2005 15:19:54 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2005/08/16/12/</guid>
+      <guid>https://www.epistemology.pe.kr/2005/08/16/12/</guid>
       <description>관리자 암호로 쓰는 것을 별로 좋아하지 않습니다. 옛날에 리눅스를 혼자 깔아서 쓰던 때에 배운 것인지 몰라도 항상 다른 아이디를 만들어서 사용합니다. 맥을 쓰고 있는데, 지금의 맥 OS는 유닉스의 변종(?)이죠. 그래서 인지 몰라도 설치할때, 관리자 아이디랑 사용자 아이디를 구별합니다. 그래서 프로그램을 깔 경우에는 관리자 비번을 묻습니다. 하여간 관리자 아이디로 블로그를 쓰는 것은 관리상 좋지 않습니다!
 그런데 (이하 WP)의 장점이 여러명이서 한 블로그를 사용할 수 있다는 점입니다. 그러나 만약 여러개의 불로그를 만드는 경우에는 아마도 어러번 WP를 깔아주어야 될 듯 같네요.</description>
     </item>
     
     <item>
       <title>시작합니다.</title>
-      <link>http://www.epistemology.pe.kr/2005/08/14/5/</link>
+      <link>https://www.epistemology.pe.kr/2005/08/14/5/</link>
       <pubDate>Sun, 14 Aug 2005 22:13:01 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2005/08/14/5/</guid>
+      <guid>https://www.epistemology.pe.kr/2005/08/14/5/</guid>
       <description>새 학기를 맞아서, 새로운 기분으로 홈페이지를 개편합니다. 저번에 쓰던 Movble type이 3.0대로 넘어가면서, 유료화 되고 시스템이 제가 유지하기에는 너무 방대하게 변하여, 과감히 WordPress로 개편했습니다.
 많은 것을 설치하지 않고, 이 한가지로만 만들려고 하지만, 아직까지 실력이 미천하여, 제로보드는 사용해야 될 것 같습니다. (참고:2005년 12월 23일 현재 저는 제로보드를 사용하고 있지 않습니다. 맥 노트북을 쓰는 저로써는 노트북에서 제로보드를 제대로 사용할 수 없기 때문에 게시판 프로그램을 바꿨습니다. GR보드를 쓰는데 이 게시판은 깔끔하며, 어떤 웹브라우져에서도 사용하실 수 있습니다) 수업게시판 같은 것을 사용하고자 할 경우에는 Blog 프로그램을 사용하는 것보다는 게시판용 프로그램을 쓰는 편이 좋을 것 같습니다.</description>
     </item>

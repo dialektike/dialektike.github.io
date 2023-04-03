@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LEICA on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/leica/</link>
+    <link>https://www.epistemology.pe.kr/tags/leica/</link>
     <description>Recent content in LEICA on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 26 May 2014 14:48:41 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/leica/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 May 2014 14:48:41 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/leica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LEICA T 카메라의 센서 크기에 대한 메모</title>
-      <link>http://www.epistemology.pe.kr/2014/05/26/744/</link>
+      <link>https://www.epistemology.pe.kr/2014/05/26/744/</link>
       <pubDate>Mon, 26 May 2014 14:48:41 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2014/05/26/744/</guid>
+      <guid>https://www.epistemology.pe.kr/2014/05/26/744/</guid>
       <description>목표가 풀프레임_DSLR을 사보는 것인데, 최근에 라이카에서 새로운 LEICA T 카메라가 나와서, 라이카 홈페이지에서 TECHNICAL DATA 자료를 찾아봤습니다. 생각처럼 플프레임은 아니었고, size APS-C 이더군요(다음 인용 참고: 이 인용은 라이카 홈페이지 자료를 참고했습니다).
 CMOS sensor, size APS-C (23.6 x 15.7 mm) with 16.5/16.3 million pixels (total/effective), format aspect ratio 3:2.
 이 센서는 DSLR 이미지센서 - [ APS-H ] 와 [ APS-C ] 타입의 이해를 참고해 보면, 대략 풀프레임보다 1/2 정도 되는 것 같습니다.</description>

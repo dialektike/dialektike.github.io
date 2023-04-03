@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ubuntu on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/ubuntu/</link>
+    <link>https://www.epistemology.pe.kr/tags/ubuntu/</link>
     <description>Recent content in ubuntu on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Jul 2013 16:17:48 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Jul 2013 16:17:48 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ubuntu 설치에 대한 몇 가지 tip!</title>
-      <link>http://www.epistemology.pe.kr/2013/07/03/672/</link>
+      <link>https://www.epistemology.pe.kr/2013/07/03/672/</link>
       <pubDate>Wed, 03 Jul 2013 16:17:48 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2013/07/03/672/</guid>
+      <guid>https://www.epistemology.pe.kr/2013/07/03/672/</guid>
       <description>USB 에 만들어서 설치하면 빠르게 설치할 수 있다. 다음 링크 참고!
 http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows 단, &amp;lsquo;Step 4: Set a persistent file size for storing change (Optional)&amp;lsquo;이라는 항목에서 USB 메모리가 허용하는 한 많은 양을 설정해야 한다. 왜냐하면 이 항목을 0으로 처리하면 모든 자료를 서버에서 다운받아 설치하기 때문에 우분투가 느리게 설치됩니다. 다음 링크 참고
 http://kmsblog.tistory.com/70 </description>

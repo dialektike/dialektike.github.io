@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sshpass on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/sshpass/</link>
+    <link>https://www.epistemology.pe.kr/tags/sshpass/</link>
     <description>Recent content in sshpass on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 Mar 2021 18:36:57 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/sshpass/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 18:36:57 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/sshpass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>맥에서 sshpass 설치하기</title>
-      <link>http://www.epistemology.pe.kr/2021/03/09/1361/</link>
+      <link>https://www.epistemology.pe.kr/2021/03/09/1361/</link>
       <pubDate>Tue, 09 Mar 2021 18:36:57 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2021/03/09/1361/</guid>
+      <guid>https://www.epistemology.pe.kr/2021/03/09/1361/</guid>
       <description>homebrew로 sshpass이 설치되지 않는다! 아래 링크를 보면, 초보자들이 가볍게 설치하지 못 하도록 하려고 설치를 막았다고 하는 것 같다. 그래서 아래 링크에 있는 소스를 이용하는 방법으로 설치해보자! 설치한 후 다운받은 폴더와 파일을 삭제하면 된다.
 cd ~ curl -O -L https://fossies.org/linux/privat/sshpass-1.09.tar.gz &amp;amp;&amp;amp; tar xvzf sshpass-1.09.tar.gz cd sshpass-1.09 ./configure sudo make install sshpass macos - How to install sshpass on mac? - Stack Overflow</description>
     </item>

@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XHTML, CSS, etc.. on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/categories/xhtml-css-etc../</link>
+    <link>https://www.epistemology.pe.kr/categories/xhtml-css-etc../</link>
     <description>Recent content in XHTML, CSS, etc.. on Epistemology</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.epistemology.pe.kr/categories/xhtml-css-etc../index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.epistemology.pe.kr/categories/xhtml-css-etc../index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

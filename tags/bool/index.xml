@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BOOL on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/bool/</link>
+    <link>https://www.epistemology.pe.kr/tags/bool/</link>
     <description>Recent content in BOOL on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Jul 2011 21:21:03 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/bool/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2011 21:21:03 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/bool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BOOL 값을 NSDictionary 에 넣어보자.</title>
-      <link>http://www.epistemology.pe.kr/2011/07/10/589/</link>
+      <link>https://www.epistemology.pe.kr/2011/07/10/589/</link>
       <pubDate>Sun, 10 Jul 2011 21:21:03 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2011/07/10/589/</guid>
+      <guid>https://www.epistemology.pe.kr/2011/07/10/589/</guid>
       <description>BOOL 값과 같은 비 객체는 NSDictionary 에 넣을 수 없습니다. 그래서 다음과 같이 값을 숫자로 변신 시켜서 저장해야 합니다. BOOL isInReply; NSNumber *isInReplyToNumberValue = [NSNumber numberWithBool:isInReply]; reply = [NSDictionary dictionaryWithObjectsAndKeys: reply_time, @&amp;#34;time&amp;#34;, reply_id, @&amp;#34;iD&amp;#34;, isInReplyToNumberValue, @&amp;#34;isInReply&amp;#34;, reply_content, @&amp;#34;content&amp;#34;, nil]; </description>
     </item>
     

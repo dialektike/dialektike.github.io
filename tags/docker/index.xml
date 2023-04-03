@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/docker/</link>
+    <link>https://www.epistemology.pe.kr/tags/docker/</link>
     <description>Recent content in Docker on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Oct 2020 16:35:59 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Oct 2020 16:35:59 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R으로 Docker로 구성한 MariaDB 사용하기</title>
-      <link>http://www.epistemology.pe.kr/2020/10/30/1342/</link>
+      <link>https://www.epistemology.pe.kr/2020/10/30/1342/</link>
       <pubDate>Fri, 30 Oct 2020 16:35:59 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2020/10/30/1342/</guid>
+      <guid>https://www.epistemology.pe.kr/2020/10/30/1342/</guid>
       <description>이 글은 R로 MariaDB(이하 마리아디비)에 접근하기 위한 글입니다. 컴퓨터에 직접 마리아디비를 설치하고 이용하는 것이 아니라, 도커에 설치한 마리아디비를 이용하고자 합니다. 직접 설치하신 마리아디비를 사용하고자 하실 분들이나 외부 다른 컴퓨터에 설치된 것을 사용하고자 하실 분들도 아래 연결 설정값을 적절하게 입력하신다면, 그 글을 따라가시는데 문제가 없을 것 같습니다.
 본격적으로 시작하기에 앞서 참고로 여기에서는 이미 Docker로 마리아디비를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. Docker를 사용해서 MariaDB을 설치하기 그리고 이미 다음과 같은 sql명령을 사용하여 gregs_list이라는 DATABASE를 만들고, 그 안에 my_contacts라는 테이블을 만들고 두 사람의 자료를 입력했습니다.</description>
     </item>
     
     <item>
       <title>파이썬으로 Docker로 구성한 MariaDB 사용하기</title>
-      <link>http://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
+      <link>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
       <pubDate>Fri, 23 Oct 2020 16:49:30 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
+      <guid>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
       <description>도커를 이용하여 MariaDB(이하 마리아디비)를 설치해봤습니다. 이렇게 설치한 마리아디비에 파이썬으로 이용하여 자료를 저장하고 저장한 값을 확인하고 지워보겠습니다. 우선 파이썬으로 마리아디비와 같은 실제 DB(이하 데이터베이스)에 접근하기 위해서는 해당 데이터베이스에 맞는 드라이버(또는 클라이언트 라이브러리(client library)라고 하기도 합니다)를 설치해줘야 합니다. 이 글에서는PyMySQL을 사용하겠습니다. 설치 방법은 Installation을 참고하세요. 현재 사용하고 있는 PyMySQL의 버전은 0.10.1입니다.
 본격적으로 시작하기에 앞서 참고로 여기에서는 이미 Docker로 MariaDB를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. Docker를 사용해서 MariaDB을 설치하기 그리고 이미 다음과 같은 sql명령을 사용하여 gregs_list이라는 DATABASE를 만들고, 그 안에 my_contacts라는 테이블을 만들고 두 사람의 자료를 입력했습니다.</description>
     </item>
     
     <item>
       <title>Docker를 사용해서 MariaDB을 설치하기</title>
-      <link>http://www.epistemology.pe.kr/2020/09/26/1293/</link>
+      <link>https://www.epistemology.pe.kr/2020/09/26/1293/</link>
       <pubDate>Sat, 26 Sep 2020 16:56:26 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2020/09/26/1293/</guid>
+      <guid>https://www.epistemology.pe.kr/2020/09/26/1293/</guid>
       <description>참고: 이 글은 JiHun님의 Docker를-사용해서-MariaDB-설치하기을 참고했습니다. 자세한 내용은 이 글을 참고하세요!
 docker 에 mariadb container를 받고 실행합니다. MYSQL_ROOT_PASSWORD = RT27hDosK에 쓴 RT27hDosK은 DB 비번입니다. 적절하게 고쳐주세요. 연습용으로 쓰실 것이면, 그대로 사용해도 무방합니다.
 docker pull mariadb docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=RT27hDosK mariadb 앞에서 실행한 container에 들어가서 bash를 실행합니다.

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python3.7 on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/python3.7/</link>
+    <link>https://www.epistemology.pe.kr/tags/python3.7/</link>
     <description>Recent content in python3.7 on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Mar 2019 13:45:47 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/python3.7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Mar 2019 13:45:47 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/python3.7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>라즈베리 파이에 Python 3.7.2 설치</title>
-      <link>http://www.epistemology.pe.kr/2019/03/22/1194/</link>
+      <link>https://www.epistemology.pe.kr/2019/03/22/1194/</link>
       <pubDate>Fri, 22 Mar 2019 13:45:47 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2019/03/22/1194/</guid>
+      <guid>https://www.epistemology.pe.kr/2019/03/22/1194/</guid>
       <description>라즈베리 파이에는 Python 3.5.3이 설치되어 있어서, 여기에 Python 3.7.2을 설치하려고 합니다.
 아래 코드의 출처 다음과 같습니다.
 http://www.wikipython.com/raspberry-pi/installing-python-3-7-2/ 라즈베리 파이의 터미널에서 다음과 같이 입력하시면 설치가 됩니다.

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mpv on Epistemology</title>
-    <link>http://www.epistemology.pe.kr/tags/mpv/</link>
+    <link>https://www.epistemology.pe.kr/tags/mpv/</link>
     <description>Recent content in mpv on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Nov 2016 15:54:06 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/mpv/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Nov 2016 15:54:06 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/mpv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>맥에 mpv을 설치해보자!</title>
-      <link>http://www.epistemology.pe.kr/2016/11/21/1094/</link>
+      <link>https://www.epistemology.pe.kr/2016/11/21/1094/</link>
       <pubDate>Mon, 21 Nov 2016 15:54:06 +0900</pubDate>
       
-      <guid>http://www.epistemology.pe.kr/2016/11/21/1094/</guid>
+      <guid>https://www.epistemology.pe.kr/2016/11/21/1094/</guid>
       <description>맥에는 이미 무비스트라는 걸출한 동영상을 보는 앱이 있기 때문에, 다른 앱이 거의 필요가 없죠. 그러나 가끔은 다른 앱이 필요한 경우가 있습니다. 이런 경우 저는 MPlayerx, MPlayer, VLC 등을 사용했었습니다. 그러나 MPlayerx은 malware 문제가 있는 관계로 바로 지워 버렸고, MPlayer 도 설치하는 것이 어렵고 뭘 설치해야 하는지 정신이 없고, VLC는 좀 사용하기가 불편했습니다. 예를 들어 앞으로 돌리기, 뒤로 되돌아 가기 등을 잘 찾을 수가 없더군요.
 그러던 중 mplayer2 과 MPlayer을 포크해서(즉 소스를 갖다가 새로 만든) mpv(mpv.</description>
     </item>
