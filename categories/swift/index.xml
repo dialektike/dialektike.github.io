@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swift on Epistemology</title>
+    <link>https://dialektike.github.io/categories/swift/</link>
+    <description>Recent content in swift on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 07 Dec 2015 23:51:37 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>내일 날자를 만들어 봅시다.</title>
+      <link>https://dialektike.github.io/2015/12/07/965/</link>
+      <pubDate>Mon, 07 Dec 2015 23:51:37 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/12/07/965/</guid>
+      <description>swift에서 초 단위의 데이터를 사용하지 않고, 내일 날자를 구하는 코드입니다.
+// 아래 코드는 swift 2.0에서 현재 시간에 하루를 더하는 것을 보여주고 있습니다. let now = NSDate() // 현재 시간 정보를 넣습니다. let comp = NSDateComponents() // 하루를 더하기 위해서 NSDateComponents를 하나 만듭니다. comp.setValue(1, forKey: &amp;#34;day&amp;#34;) // 위에서 만든 곳에 1일을 넣습니다. forKey를 바꾸면 다른 것도 넣을 수 있습니다. let myCal = NSCalendar.init(calendarIdentifier: NSCalendarIdentifierGregorian) // 하루를 더해서 넣을 NSCalendar를 하나 만듭니다. let tomorrow = myCal!</description>
+    </item>
+    
+    <item>
+      <title>swift 에서 문자에 들어 있는 글자 숫자를 세어보자.</title>
+      <link>https://dialektike.github.io/2015/11/07/934/</link>
+      <pubDate>Sat, 07 Nov 2015 18:55:34 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/11/07/934/</guid>
+      <description>swift 2.0 에서 문자를 세는 방법이 많이 바뀌었습니다. 어떻게 보면 단순해진 것이죠. 다음 코드를 보시면 담박 아실 수 있습니다.
+let string = &amp;#34;나는 전설이다.&amp;#34; print(string.characters.count) let newString = &amp;#34;I Am Legend.&amp;#34; print(newString.characters.count) 좀 더 자세한 내용은 아래 링크를 확인하세요.
+애플 개발자 문서 Strings in Swift 2</description>
+    </item>
+    
+    <item>
+      <title>String 를 NSData 로, NSData 를 String 로</title>
+      <link>https://dialektike.github.io/2015/10/12/929/</link>
+      <pubDate>Mon, 12 Oct 2015 18:39:26 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/10/12/929/</guid>
+      <description>swift에서 String를 NSData로, NSData를 String로 바꾸는 코드입니다.
+var swift_string = &amp;#34;lorem ipsum dolor sit amet&amp;#34; // from String to NSData let data = swift_string.dataUsingEncoding(NSUTF8StringEncoding) print(data) // from NSData to String var out: String = String(data:data!, encoding:NSUTF8StringEncoding)! print(out) // print &amp;#34;lorem ipsum dolor sit amet&amp;#34; </description>
+    </item>
+    
+    <item>
+      <title>Swift 2.x에서 .toInt() 명령어가 사라지고, 대신 초기자 Int 등장!</title>
+      <link>https://dialektike.github.io/2015/09/21/888/</link>
+      <pubDate>Mon, 21 Sep 2015 18:35:42 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/09/21/888/</guid>
+      <description>Swift 2.x에서 string(문자)를 int(숫자)로 바꿔 주는 .toInt() 함수가 없어졌네요. 헐! 그 대신 문자열을 제어할 수 있는 초기자(initializer), Int 가 생겼습니다. 다음 코드를 보시면 쉽게 아실 수 있습니다.
+// from string to int in swift let intString: String = &amp;#34;256&amp;#34; let stringInt: Int? = Int(intString) </description>
+    </item>
+    
+  </channel>
+</rss>

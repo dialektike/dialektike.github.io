@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Epistemology</title>
+    <link>https://dialektike.github.io/categories/python/</link>
+    <description>Recent content in python on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Oct 2020 16:49:30 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>파이썬으로 Docker로 구성한 MariaDB 사용하기</title>
+      <link>https://dialektike.github.io/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Fri, 23 Oct 2020 16:49:30 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
+      <description>도커를 이용하여 MariaDB(이하 마리아디비)를 설치해봤습니다. 이렇게 설치한 마리아디비에 파이썬으로 이용하여 자료를 저장하고 저장한 값을 확인하고 지워보겠습니다. 우선 파이썬으로 마리아디비와 같은 실제 DB(이하 데이터베이스)에 접근하기 위해서는 해당 데이터베이스에 맞는 드라이버(또는 클라이언트 라이브러리(client library)라고 하기도 합니다)를 설치해줘야 합니다. 이 글에서는PyMySQL을 사용하겠습니다. 설치 방법은 Installation을 참고하세요. 현재 사용하고 있는 PyMySQL의 버전은 0.10.1입니다.
+본격적으로 시작하기에 앞서 참고로 여기에서는 이미 Docker로 MariaDB를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. Docker를 사용해서 MariaDB을 설치하기 그리고 이미 다음과 같은 sql명령을 사용하여 gregs_list이라는 DATABASE를 만들고, 그 안에 my_contacts라는 테이블을 만들고 두 사람의 자료를 입력했습니다.</description>
+    </item>
+    
+    <item>
+      <title>라즈베리 파이에 Python 3.7.2 설치</title>
+      <link>https://dialektike.github.io/2019/03/22/1194/</link>
+      <pubDate>Fri, 22 Mar 2019 13:45:47 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2019/03/22/1194/</guid>
+      <description>라즈베리 파이에는 Python 3.5.3이 설치되어 있어서, 여기에 Python 3.7.2을 설치하려고 합니다.
+아래 코드의 출처 다음과 같습니다.
+http://www.wikipython.com/raspberry-pi/installing-python-3-7-2/ 라즈베리 파이의 터미널에서 다음과 같이 입력하시면 설치가 됩니다.
+sudo apt install build-essential checkinstall sudo apt install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev sudo apt-get install libffi-dev cd /usr/src sudo wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz sudo tar xzf Python-3.7.2.tgz cd Python-3.7.2 sudo ./configure --enable-optimizations sudo make altinstall 아마도 다음과 같은 문구가 나온다면 설치가 완료된 것입니다.</description>
+    </item>
+    
+    <item>
+      <title>파이썬에서 함수를 만들 때, 리턴값으로 `namedtuple`을 써보자.</title>
+      <link>https://dialektike.github.io/2018/11/30/1160/</link>
+      <pubDate>Fri, 30 Nov 2018 16:47:06 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2018/11/30/1160/</guid>
+      <description>파이썬에서 리턴값이 조금 복잡해지면, 딕셔너리를 많이 사용했었습니다. 그런데 이렇게 만든 함수를 쓰려면(함수 이름을 &amp;lsquo;fun&amp;rsquo;이라고 합시다!), fun[&amp;rsquo;name&amp;rsquo;] 과 같이 딕셔너리를 불러오는 방식으로 써야합니다. 뭐 키보드를 많이 두드려야 합니다. 그래서 이를 쉽게 하는 방법을 찾다가 Not using named tuples when returning more than one value from a function이라는 글을 봤습니다. namedtuple을 이용해서 하면 fun.name과 같이 쉽게 처리할 수 있습니다. 윗글에서 코드를 가져왔습니다. 아주 쉽게 처리할 수 있습니다! name = namedtuple(&amp;quot;name&amp;quot;, [&amp;quot;first&amp;quot;, &amp;quot;middle&amp;quot;, &amp;quot;last&amp;quot;]), 코드에서 namedtuple을 만들어서 return name(&amp;quot;Richard&amp;quot;, &amp;quot;Xavier&amp;quot;, &amp;quot;Jones&amp;quot;)같이 사용하는 것입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

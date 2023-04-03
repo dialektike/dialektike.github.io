@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on Epistemology</title>
+    <link>https://dialektike.github.io/categories/misc/</link>
+    <description>Recent content in Misc on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 26 Sep 2020 16:56:26 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker를 사용해서 MariaDB을 설치하기</title>
+      <link>https://dialektike.github.io/2020/09/26/1293/</link>
+      <pubDate>Sat, 26 Sep 2020 16:56:26 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2020/09/26/1293/</guid>
+      <description>참고: 이 글은 JiHun님의 Docker를-사용해서-MariaDB-설치하기을 참고했습니다. 자세한 내용은 이 글을 참고하세요!
+docker 에 mariadb container를 받고 실행합니다. MYSQL_ROOT_PASSWORD = RT27hDosK에 쓴 RT27hDosK은 DB 비번입니다. 적절하게 고쳐주세요. 연습용으로 쓰실 것이면, 그대로 사용해도 무방합니다.
+docker pull mariadb docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=RT27hDosK mariadb 앞에서 실행한 container에 들어가서 bash를 실행합니다.
+docker exec -it mariadb /bin/bash container에 들어갔으니, mysql으로 들어가겠습니다. 피번은 앞에서 MYSQL_ROOT_PASSWORD = RT27hDosK이라고 했으니 RT27hDosK을 입력하시면 됩니다.
+root@e144fdbab9be:/# mysql -u root -p Enter password: 들어갔으니 DB상태를 살펴보겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown 으로 작성된 것을 GitHub Markdown 으로 바꾸기</title>
+      <link>https://dialektike.github.io/2019/06/18/1237/</link>
+      <pubDate>Tue, 18 Jun 2019 15:43:52 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2019/06/18/1237/</guid>
+      <description>아주 쉽습니다. 아래와 같이 맨처음에 있는 설정 부분에서 output: github_document이라고 변경하시면 됩니다.
+--- title: &amp;#34;Habits&amp;#34; author: John Doe date: March 22, 2005 output: github_document --- 다음 링크를 참고하세요
+GitHub Documents </description>
+    </item>
+    
+    <item>
+      <title>터미널을 이용해서 현재 Raspberry Pi 서버의 IP 번호를 알고 싶을 때?</title>
+      <link>https://dialektike.github.io/2017/04/10/1111/</link>
+      <pubDate>Mon, 10 Apr 2017 16:09:22 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2017/04/10/1111/</guid>
+      <description>저는 라즈베리파이를 서버로 사용하고 있습니다. 터미널을 사용하다가 서버의 IP 주소를 알고자 할 때에는 조금 부식한 명령어인 ifconfig를 사용했습니다. 그런데 Raspberry Pi를 사용하다고 조금 더 쉬운 명령어를 알았습니다. hostname -I이라고 터미널에서 쓰면 바로 IP번호가 나옵니다. 이게 더 단순하게 이쁘게 나오네요! 아마도 파이가 우분투를 사용하니, 우분투를 사용하는 리눅스에서도 이 명령어는 돌아갈 것 같습니다. 맥에서는 이 명령어가 작동하지 않네요. 참고하세요. 이 내용은 Worksheet - Build a Python Web Server with Flask | Raspberry Pi Learning Resources에서 찾았습니다.</description>
+    </item>
+    
+    <item>
+      <title>R 에서 대문자를 소문자로, 소문자를 대문자로 바꾸는 방법</title>
+      <link>https://dialektike.github.io/2016/01/22/1030/</link>
+      <pubDate>Fri, 22 Jan 2016 16:24:12 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2016/01/22/1030/</guid>
+      <description>영어로 된 문자열을 모두 대문자로 바꾸거나 소문자로 바꿔야 할 경우가 있습니다. 그럴 때에는 toupper or tolower 아래와 같이 사용하면 됩니다.
+&amp;gt; test &amp;lt;- c(&amp;#34;Test tesT&amp;#34;) ##입력 &amp;gt; test ## 확인 [1] &amp;#34;Test tesT&amp;#34; &amp;gt; tolower(test) ## 소문자로 바꿉니다. [1] &amp;#34;test test&amp;#34; &amp;gt; toupper(test) ## 대문자로 바꿉니다. [1] &amp;#34;TEST TEST&amp;#34; R에서 다음과 같이 입력 하시면 도움말을 보실 수 있습니다.
+?toupper ?tolower https://gist.github.com/dialektike/4973ba184b8c6ccc49da</description>
+    </item>
+    
+    <item>
+      <title>Atom 에서 정규 표현식(regular expression)을 사용하기</title>
+      <link>https://dialektike.github.io/2016/01/02/988/</link>
+      <pubDate>Sat, 02 Jan 2016 16:37:30 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2016/01/02/988/</guid>
+      <description>생각 보다 단순합니다. Atom 에디터 메뉴에서 Find 메뉴에서 Find in Buffer 를 선택합니다. 그러면 에디터 아랫 부분에 다음과 같은 메뉴가 뜹니다.
+Atom에서 정규 표현식 사용하기 위에서 파란색으로 되어 있는 버튼을 눌러서 선택합니다. 그러면 저처럼 파란색이 되거나 다른 색으로 반전되면서 위에 “Finding with Options: Regex, ~ ”과 같은 문장이 보기에 됩니다. 그런 다음 앞에 칸에 사용할 정규표현식을 쓰시면 됩니다. 전 HTML 주석을 제거하기 위하여 거기에 &amp;lt;!--(.|\s)*?--&amp;gt;이라고 적었습니다.
+정규 표현식을 배우시려면 영어로 된 RegExr: Learn, Build, &amp;amp; Test RegEx에서 배우실 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>마크다운(Markdown)으로 글을 쓰면서 대괄호(backslash bracket), &#39;[, ]&#39;을 표시하기</title>
+      <link>https://dialektike.github.io/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Sat, 05 Dec 2015 18:56:42 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</guid>
+      <description>마크다운(Markdown)으로 글을 쓰고 나서, 막상 대괄호(backslash bracket)인 &amp;lsquo;[ &amp;lsquo;이 사라지는 경우가 왕왕 있습니다. 이럴때는 앞 대괄호 앞에 &amp;lsquo;\[&amp;lsquo;처럼 \을 넣어주시면 간단하게 해결되기도 합니다. 만약 뒷 대괄호가 안 나온다면, 위와 마찬가지로 &amp;lsquo;\]&amp;lsquo;처럼 그 앞에 \에 넣어주시면 됩니다. 만약 \이 키보드에 없거나 화면에 표시 되지 않는 경우가 있습니다. 역슬래시,&amp;rsquo;&#39;대신 키보드에서 원화 마크를 찾아서 사용하시면 됩니다.
+PS:혹시 이 글에서 역슬래시가 안 나오고 원화 마크가 계속해서 나오면, 문제가 없는 것이니 위의 문제 해결을 하기 위해서 원화마크를 쓰시면 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>wordpress에 Gist GitHub Shortcode 넣기</title>
+      <link>https://dialektike.github.io/2015/10/12/920/</link>
+      <pubDate>Mon, 12 Oct 2015 18:27:37 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/10/12/920/</guid>
+      <description>초보자가 프로그램을 공부를 하면서 정리도 할 겸 이 곳에서 간단한 소개와 함께 써놓았죠. 워드프레스(wordpress)에서 코드를 보여주기 위해서 단순하게 글에 작은 코드를 넣고 보게끔 만들었습니다. 그런데 그 코드들을 변경하고자 할 경우, 번거롭게 글도 고쳐야 했습니다. 이때 https://gist.github.com를 사용하여 코드를 저장하고 관리하는데 더 편리한 것을 알게되었습니다. 그러면 여기에 저장되어 있는 작은 코드를 어떻게 하면 wordpress에 넣을까 하고 플러그인을 찾아봤습니다. 역시 있더군요.
+https://wordpress.org/plugins/gist-github-shortcode/
+사용하는 방법은 단순합니다. 우선 플러그인 Gist GitHub Shortcode을 설치합니다. 그런 다음 이 플러그인을 Plugins 메뉴에서 찾아 활성화(activate) 해 줍니다.</description>
+    </item>
+    
+    <item>
+      <title>윈도우 7 이상에서는 기본적으로 iso 파일을 구울 수 있는 디스크 이미지 버너가 포함되어 있습니다.</title>
+      <link>https://dialektike.github.io/2014/09/03/766/</link>
+      <pubDate>Wed, 03 Sep 2014 23:38:56 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/09/03/766/</guid>
+      <description>저는 윈도우 8.1을 쓰고 있는데, iso파일을 CD로 구워 프로그램을 설치해야 할 경우가 생겼습니다. 그래서 예전에 쓰던 CD 굽는 프로그램을 찾아봤습니다. 그러다가 혹시 찾아봤더니 다음과 같은 링크가 있더군요.
+http://windows.microsoft.com/ko-kr/windows7/burn-a-cd-or-dvd-from-an-iso-file
+뭔가 이미 윈도우에 그런 프로그램이 설치되어 있는 것 같네요. 그래서 찾아보니 역시 들어 있네요. 윈도우 7 이상에는 &amp;ldquo;윈도우 7에 기본으로 디스크 이미지 버너가 포함되어 있습니다. 그냥 ISO 파일에 우클릭 하시면 디스크 이미지 굽기 메뉴가 뜹니다. &amp;ldquo;고 합니다. 다음 링크 참고!
+http://snoopybox.co.kr/1368</description>
+    </item>
+    
+    <item>
+      <title>소니 액션 캠 라이브 뷰 HDRAS100VR/CE35 살 때 주의할 점</title>
+      <link>https://dialektike.github.io/2014/06/12/759/</link>
+      <pubDate>Thu, 12 Jun 2014 16:00:03 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/06/12/759/</guid>
+      <description>동영상을 찍게 되어 살펴보던 중 쓸만해 보여서 압구정 매장에 직접 가 봤습니다. 저는 야외 뿐만 아니라 실내에서 강의 같은 것을 녹화하려고 살려고 했습니다. 그러나 매장 직원이 다음과 같은 점을 설명해주더군요. 혹시 틀린 점 있으면 지적해주시면 고맙겠습니다.
+배터리가 1시간 정도 밖에 되지 않습니다. 즉 실 사용시간이 1시간! 외부전원을 연결해서 사용할 수 없습니다. 즉 1시간 이상 녹화할 수 없다. 메모리는 추가로 구입해야 한다. 즉 메모리가 안 들어있다. </description>
+    </item>
+    
+    <item>
+      <title>LEICA T 카메라의 센서 크기에 대한 메모</title>
+      <link>https://dialektike.github.io/2014/05/26/744/</link>
+      <pubDate>Mon, 26 May 2014 14:48:41 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/05/26/744/</guid>
+      <description>목표가 풀프레임_DSLR을 사보는 것인데, 최근에 라이카에서 새로운 LEICA T 카메라가 나와서, 라이카 홈페이지에서 TECHNICAL DATA 자료를 찾아봤습니다. 생각처럼 플프레임은 아니었고, size APS-C 이더군요(다음 인용 참고: 이 인용은 라이카 홈페이지 자료를 참고했습니다).
+CMOS sensor, size APS-C (23.6 x 15.7 mm) with 16.5/16.3 million pixels (total/effective), format aspect ratio 3:2.
+이 센서는 DSLR 이미지센서 - [ APS-H ] 와 [ APS-C ] 타입의 이해를 참고해 보면, 대략 풀프레임보다 1/2 정도 되는 것 같습니다.</description>
+    </item>
+    
+    <item>
+      <title>ubuntu 설치에 대한 몇 가지 tip!</title>
+      <link>https://dialektike.github.io/2013/07/03/672/</link>
+      <pubDate>Wed, 03 Jul 2013 16:17:48 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2013/07/03/672/</guid>
+      <description>USB 에 만들어서 설치하면 빠르게 설치할 수 있다. 다음 링크 참고!
+http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows 단, &amp;lsquo;Step 4: Set a persistent file size for storing change (Optional)&amp;lsquo;이라는 항목에서 USB 메모리가 허용하는 한 많은 양을 설정해야 한다. 왜냐하면 이 항목을 0으로 처리하면 모든 자료를 서버에서 다운받아 설치하기 때문에 우분투가 느리게 설치됩니다. 다음 링크 참고
+http://kmsblog.tistory.com/70 </description>
+    </item>
+    
+    <item>
+      <title>Latex 에서 {quotation} 와 {quote} 의 차이.</title>
+      <link>https://dialektike.github.io/2013/03/04/655/</link>
+      <pubDate>Mon, 04 Mar 2013 14:26:48 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2013/03/04/655/</guid>
+      <description>쓰다보면, 이 둘의 차이를 명확하게 알기 쉽지 않습니다. 그래서 그냥 혼합해서 사용했었습니다. 그런데 이 둘 사이에 들여쓰기와 줄간격이 조금 다르게 쓰이는 것을 보고 조금 찾아 봤더니역시 있더군요. 내용을 대충 번역해봤습니다. 참고하세요.
+{quote} : 짧은 인용문이나 작은 인용의 나열 모임 등을 위하여 사용한다. 빈 줄로 분리한다(for a short quotation, or a series of small quotes, separated by blank lines).
+{quotation}: 긴 인용문에 사용하는데, 특히 1단락 이상에서 사용한다. 왜냐하면 이것은 그 각각의 단락의 앞부분을 들여쓰기 하기 때문이다(for use with longer quotations, of more than one paragraph, because it indents the first line of each paragraph).</description>
+    </item>
+    
+    <item>
+      <title>부팅하면서 바이오스(BIOS)의 초기 화면이 출력된 후 시스템이 멈출 때</title>
+      <link>https://dialektike.github.io/2012/04/22/626/</link>
+      <pubDate>Sun, 22 Apr 2012 12:56:21 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2012/04/22/626/</guid>
+      <description>제가 오래된 컴퓨터를 재미삼아 서버로 사용하고 있습니다. 그러다 보니 여기저기서 남아 도는 IDE 하드 디스크를 많이 사용하고 있습니다. 거기에 우분투를 사용하다가 보니 작은 하드를 몇 개를 연결해서 큰 하드로 사용하는 방법을 공부하느냐고 IDE 하드 디스크를 포맷하고 다시 쓰다가 포맷하고 이렇게 몇 번 반복했습니다. 그러다가 갑자기 채팅하면서 바이오스 화면이 나왔는데, 더 이상 진행이 안 되는 것이었습니다.
+드디어 컴퓨터가 망가졌구나 생각이 들었습니다. 그래서 다른 컴퓨터를 구하려고 했는데, 조금 뭔가 이상해서 인터넷을 뒤졌습니다. 역시 &amp;ldquo;바이오스(BIOS)의 초기 화면이 출력된 후 시스템이 멈출 때&amp;ldquo;라는 글이 있더군요.</description>
+    </item>
+    
+    <item>
+      <title>Gmail 계정을 OpenID로 사용해 보자!</title>
+      <link>https://dialektike.github.io/2010/12/31/538/</link>
+      <pubDate>Fri, 31 Dec 2010 17:52:07 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/12/31/538/</guid>
+      <description>많은 홈페이지를 쓰고 사용하는 경우 많은 아이디와 비밀번호에 때문에 고생하는 경우가 많습니다. 저같은 경우에도 제가 사용하는 블로그가 이것을 포함해서 2개이고, 관리하는 홈페이지가 1개 있습니다. 여기에 관리하는 홈페이지에 게시판을 달려고 하니 또 하나가 늘어서 4개의 아이디를 쓰면서 홈페이지들을 관리합니다. 물론 이것말고 또 여러 유명한 Site 아이디, 메일 계정 등등 한 10개 정도의 아이디를 가지고 있는 것 같습니다. 그렇다 보니 아이디와 비번을 잃어버리는 것은 다반사죠.
+물론 저만 이런 문제를 가지고 있는 것을 아니었습니다.</description>
+    </item>
+    
+    <item>
+      <title>인터넷을 살펴보는데 유용한 프로그램들</title>
+      <link>https://dialektike.github.io/2010/12/31/535/</link>
+      <pubDate>Fri, 31 Dec 2010 17:50:10 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/12/31/535/</guid>
+      <description>다음은 인터넷이 뭔가 드려다 볼 때 필요한 프로그램들입니다.
+패킷의 흐름을 분석하는 tcpdump 패킷을 분석하는 ethereal 현재 시스템에서 지나가는 패킷을 종류별로 분석: iptraf PS: http://dialektike.textcube.com/ 가 없어지는 바람에 이전한 글입니다.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS X 에서는 어떻게 MD5 체크(MD5 Check)를 할까?</title>
+      <link>https://dialektike.github.io/2010/12/31/532/</link>
+      <pubDate>Fri, 31 Dec 2010 17:45:39 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/12/31/532/</guid>
+      <description>여기에 가끔 오시는 분들은 이 제목을 보고 무슨 뜻인지 전혀 모를 것 같네요. 그래도 자료 정리겸 끄적거려봅니다. 단순하게 설명하자면 &amp;ldquo;MD5 Check&amp;quot;란 다운로드 하거나 복사한 파일이 손상없이 원본과 같은 상태인지 확인하고자 할 때 필요한 것입니다. 참고로 &amp;lsquo;Check&amp;rsquo;란 뜻을 사전에서 찾아보면, &amp;ldquo;사물의 상태를 검사하거나 대조함. 또는 그런 표적으로 찍는 ‘V’ 자 모양의 표.&amp;ldquo;라고 하네요. 우리가 가끔 인터넷상에서 어떤 파일을 받으려고 할 때, 그 옆에 Md5: c3ad0b16898865a5b57ae4ebb5f1c3d6 라는 복잡한 것이 적혀 있는 경우가 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>LaTeX 에서 chapter / section title 에 Footnote(각주) 달기</title>
+      <link>https://dialektike.github.io/2010/09/30/520/</link>
+      <pubDate>Thu, 30 Sep 2010 15:16:32 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/09/30/520/</guid>
+      <description>그냥 다음과 같이 하면, 아랫줄에 각주 번호가 나옵니다.
+\section{History of Philosophy? \footnote{코플스톤, 김보연 역, 『그리스 로마 철학사』 1998년, 들어가는 말에서} } 다음과 같이 하면 본인이 의도한 위치에 각주 번호가 나옵니다.
+\section[blah]{History of Philosophy? \footnote{코플스톤, 김보연 역, 『그리스 로마 철학사』 1998년, 들어가는 말에서} } [blah]이라는 태그만 들어가면 됩니다.
+출처: http://idontcare.us/blog/2006/07/11/footnote-in-the-chaptersection-title-latex</description>
+    </item>
+    
+    <item>
+      <title>스타벅스 라이스 칩</title>
+      <link>https://dialektike.github.io/2010/08/10/495/</link>
+      <pubDate>Tue, 10 Aug 2010 23:08:39 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/08/10/495/</guid>
+      <description>Pros: 스타벅스에서 부담없이 사 먹을 수 있는 가격. 봉지를 뜯으면 떡 같아 보여 살짝 실망하지만 먹어보면 새콤합니다.
+Cons: 그래도 비쌉니다. 한 1000원하면 사 먹을 수 있겠지만, 1800원이라니..</description>
+    </item>
+    
+    <item>
+      <title>연락하실 분은 방명록 대신 트위터로!</title>
+      <link>https://dialektike.github.io/2010/05/16/484/</link>
+      <pubDate>Sun, 16 May 2010 22:07:16 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/05/16/484/</guid>
+      <description>세상이 많이 변해서 제가 처음 이 홈피를 블로그로 만들 때에는 방명록을 만드는 것이 중요한 일이었습니다. 그래서 별별 방안을 다 강구했었죠! 그러나 요즘은 그런 것 고민할 필요가 없어졌습니다. 트위터가 생겼기 때문입니다. 생각해보면 이제서야 홈피가, 솔직히 블로그가 제 본연의 자리를 잡아가게 될 것 같네요. 전 블로그와 트위터를 다음과 같이 정의하려고 합니다.
+블로그: 인터넷 개인 출판사, 트위터: 개인 커뮤니케이션 창구!
+블로그는 원래 자신의 특징인 글을 올리고, 그 글에 고정된 인터넷 주소(permalink)를 부여하고, 그 글들을 관리하는 역할로 돌아갈 것 같습니다.</description>
+    </item>
+    
+    <item>
+      <title>Twitter를 하는데 필요한 10가지</title>
+      <link>https://dialektike.github.io/2009/12/06/436/</link>
+      <pubDate>Sun, 06 Dec 2009 21:15:30 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2009/12/06/436/</guid>
+      <description>요즘 전 Twitter(이하 트위터)에 관심이 많습니다. 그런데 트위터가 생각보다 만만하지 않더군요. 알아야 할 것도 좀 있고 그래서 구글로 찾아봤는데 쏙 마음에 드는 설명서가 없어서 제가 필요한 것만 정리하다가 친구들에게도 트위처를 소개할 겸 Web page로 만들고자 합니다. 참고로 저는 Mac을 사용하고 있는데, tweetie이라는 프로그램을 사용하여 트위터를 사용하고 있습니다.
+1. 트위터랑 메신저는 어떻게 다를까요? 우선 메신저는 전용 프로그램을 이용해서 메세지를 1:1 또는 1:여러명이 주고 받습니다. 그러나 트위터는 제가 쓴 메세지를 누구에게 주지 않습니다.</description>
+    </item>
+    
+    <item>
+      <title>커피 전문점 커피, 어떻게 만들까?</title>
+      <link>https://dialektike.github.io/2009/02/25/359/</link>
+      <pubDate>Wed, 25 Feb 2009 00:46:30 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2009/02/25/359/</guid>
+      <description>요즘 커피 전문점에 가면 메뉴가 복잡합니다. 뭘로 만드는지도 궁금하기도 하고.. 물론 어느 정도는 대충 알고 있었지만, 이 그림을 보면서 정확하게 알게 되었습니다. 참 잘 그렸죠? 다음 링크에 가시면 원본을 보실 수 있습니다.
+coffee_menu http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/</description>
+    </item>
+    
+    <item>
+      <title>영문 물리학 용어를 한글로.</title>
+      <link>https://dialektike.github.io/2008/10/09/256/</link>
+      <pubDate>Thu, 09 Oct 2008 16:10:23 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/10/09/256/</guid>
+      <description>공부하는 있어서 불편한 점 중의 하나가 용어를 이해하는 것입니다. 물론 외국에서 들어온 학문은 외국어로 하는 편이 좋을 수도 있습니다. 그러나 책을 보는 경우에는 문제가 조금 달라집니다. 용어들이 통일되어 번역되지 않은 경우가 있습니다. 이런 경우 답답하죠. 이 단어가 어떤 것인지.. 물리학 용어들이 번역되어 인터넷에 있다는 것은 좋은 일입니다.
+물리학 용어 (영문을 한글로) 마지막 수정일 : 2000. 2. 29 한국물리학회가 1995년에 제정하여, 사용하기를 권장하고 있는 물리학 한글용어를 싣습니다. 한글 용어의 표준화를 위하여 실험보고서 등에 이용하기를 바라며, 따로이 책으로 된 &amp;ldquo;물리학 용어집&amp;quot;을 구입하기를 원하는 분들은 한국물리학회(전화: 556-4737)로 문의하십시요.</description>
+    </item>
+    
+    <item>
+      <title>안개낀 왕산</title>
+      <link>https://dialektike.github.io/2008/07/17/150/</link>
+      <pubDate>Thu, 17 Jul 2008 11:28:49 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/07/17/150/</guid>
+      <description>이제야 방학이 되는 것 같습니다. 물론 아직 계절학기 채점이 남았지만, 그래도 조금은 여유가 있네요. 2008년도 1학기, 계절학기를 수업하신 분들 수고하셨습니다.</description>
+    </item>
+    
+    <item>
+      <title>전세계에서 발생하는 이산화탄소 발생 지도</title>
+      <link>https://dialektike.github.io/2008/07/16/146/</link>
+      <pubDate>Wed, 16 Jul 2008 19:32:57 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/07/16/146/</guid>
+      <description>참 막연하게 이산화탄소에 대해서 생각했었는데 우리나라가 생각보다 많이 매출하네요. 앞에 그림 자료를 인쇄할만한 크기의 파일을 찾으시려면 다음 링크를 누르세요.
+carbonatlas.pdf</description>
+    </item>
+    
+    <item>
+      <title>엔지니어들을 위한 프레젠테이션 잘하는 방법: &#34;발표 자료는 보고서가 아닙니다&#34;</title>
+      <link>https://dialektike.github.io/2008/07/03/124/</link>
+      <pubDate>Thu, 03 Jul 2008 16:22:39 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/07/03/124/</guid>
+      <description>요즘 프레젠테이션(이하 PT)가 대학에서는 대세로 굳어지고 있는 것 같습니다. 그럼에도 불구하고 제가 수업시간에 PT가 대세라고 떠들어 대도, 아직도 많은 학생들은 꾿꾿하게 막상 PT로 발표하라, 레포트를 내라고 시키면, 대충 만들어 내고 발표하는 것 같습니다. 그러나 아쉽게도 현실은 조금 더 빠르게 변하고 있습니다. 이미 엔티니어들도 PT를 잘해야 하는 시대가 오고 있습니다. 다음 링크는 &amp;ldquo;엔지니어들을 위한 프레젠테이션 잘하는 방법&amp;quot;라는 컬럼입니다. 이 컬럼에 나오는 다음과 같은 글을 곰 씹어볼 필요가 있다. 뭐 다 아는 이야기지지만, PT의 정수를 말하는 말이니 한번 잘 생각해봅시다.</description>
+    </item>
+    
+    <item>
+      <title>철학의 부활?</title>
+      <link>https://dialektike.github.io/2008/04/09/132/</link>
+      <pubDate>Wed, 09 Apr 2008 00:18:48 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/04/09/132/</guid>
+      <description>4월 8일자 기사로 &amp;ldquo;철학의 부활&amp;quot;이라는 제목으로 거의 똑같은 내용의 기사가 올라왔습니다. 다음 링크를 참고하세요.
+동아일보, 횡설수설/홍찬식: 철학의 부활 조선일보, 만물상/이선민 논설위원: 철학의 부활 조선일보, 이석호 기자, 미(美) 대학가 &amp;lsquo;철학의 부활&amp;rsquo; 철학과에서 생활하는 입장에서 반가워서 읽어 보았더니, 철학이 의외로 실용적인 면이 있어서 미국 대학생들이 선택하고 있었더군요. 신기하기도 하고 조금은..
+미국 대학생들에게 외면당해 온 철학 과목이 다시 인기를 끌고 있다고 한다. 6일 뉴욕타임스 보도에 따르면 뉴욕시립대의 경우 철학이 전공인 학생이 6년 전보다 50%나 늘어난 322명에 이른다.</description>
+    </item>
+    
+    <item>
+      <title>스팸전화번호일까 한번 알아볼까요? 스팸번호 검색DB</title>
+      <link>https://dialektike.github.io/2008/03/10/131/</link>
+      <pubDate>Mon, 10 Mar 2008 00:26:23 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/03/10/131/</guid>
+      <description>가끔 바쁠때 전화가 옵니다. 그것도 모르는 전화가 옵니다. 난감한 상황이 생기곤 하죠. 당연히 그 때는 받지 못하고 있다고 나중에 걸어야 하는 것인지 걱정하게 됩니다. 이런 경우에 다음 사이트에서 찾아보세요. 걸려온 전화번호가 스팸전화번호인지 아실 수 있습니다. 쓸만한 싸이트이기 때문에 정리 차원에서 홈피에 올려봅니다.
+Spam Caller-ID Database:http://missed-call.no-ip.info </description>
+    </item>
+    
+    <item>
+      <title>&#34;국제금융의 위선&#34;이라는 칼럼을 읽고</title>
+      <link>https://dialektike.github.io/2008/01/28/130/</link>
+      <pubDate>Mon, 28 Jan 2008 15:06:41 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/01/28/130/</guid>
+      <description>우리는 한국인이 서양 사람들보다 합리적이지 않다고 생각하는 경향이 있습니다. 물론 이러한 것도 한국인의 특징이 될 수 있지만, 그렇다고 해서 서양사람들이 항상 우리보다 합리적인 것만은 아닌 것 같습니다. 조선일보에 나온 조지프 스티글리츠 선생님의 &amp;ldquo;국제금융의 위선&amp;quot;라는 칼럼을 읽어보면, 서양인 또한 항상 합리적이지 않고 그들도 자신의 이익에 따라서 얼마든지 자신들의 입장을 바꿀 수 있다는 점을 볼 수 있습니다. 앞의 컬럼에 나온 한 단락을 살펴봅시다.
+IMF와 미국 재무부가 동아시아에 내린 처방과 현재 서브프라임 사태에서 일어나고 있는 일과 너무 대비돼 눈이 부실 지경이다.</description>
+    </item>
+    
+    <item>
+      <title>&#34;누군가 내 글을 이해하지 못했다면 독자의 잘못이 아닌 내 잘못입니다.&#34;</title>
+      <link>https://dialektike.github.io/2008/01/06/126/</link>
+      <pubDate>Sun, 06 Jan 2008 13:31:57 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/01/06/126/</guid>
+      <description>이 제목은 2007년 12월 29-30일 토-일요일 자 조선일보 D1 면에 있는 &amp;lsquo;왜 나는 너를 사랑하는가&amp;rsquo; 작가 알랭 드 보통과의 인터뷰 기사의 제목입니다. 저도 글 좀 써보겠다고 끄적대고 있지만, 제가 쓴 글이 과연 사람들이 내 의도대로 이해하게끔 썼을까 하는 고민은 별로 안 했던 것 같습니다. 최근에서야 이런 고민이 중요하다는 것을 알았지만, 생각만 하고 있었지 행동으로 옮기기 못했던 것 같습니다. 이 내용에 대한 내요을 한번 살펴봅시다.
+역사학자인 조너선 스펜스 에일대 교수는 영국의 19세기 작가들이 교양 대중을 위한 글쓰기의 전통을 쌓아 올렸다고 한다.</description>
+    </item>
+    
+    <item>
+      <title>무료 폰트를 써봅시다.</title>
+      <link>https://dialektike.github.io/2007/10/11/119/</link>
+      <pubDate>Thu, 11 Oct 2007 13:12:28 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2007/10/11/119/</guid>
+      <description>글을 쓰는데는 아래하 한글을 많이 쓰기 때문에 폰트에 대한 걱정을 하지 못하지만, PT를 하는 경우에는 쓸만한 폰트가 없어서 항상 고민이 많습니다. 물론 편법으로 구할 수도 있지만 조금은 꺼림직한 것도 사실입니다. 요즘 무료 폰트가 많이 나와서 이런 걱정을 많이 덜어 주고 있었는데 이런 무료 폰트를 잘 정리해 둔 사이트가 있어서 소개합니다.
+황씨 신문이라는 사이트인데 여기에서 다음 링크에 나온 글이 이러한 무로푠트를 자세하게 소개하고 있습니다.
+http://sulfur.pe.kr/nudalak/free_font.html</description>
+    </item>
+    
+    <item>
+      <title>사전을 찾아봐도 안 나오는 영어 단어 때문에 고민할 때</title>
+      <link>https://dialektike.github.io/2007/09/20/114/</link>
+      <pubDate>Thu, 20 Sep 2007 14:22:29 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2007/09/20/114/</guid>
+      <description>요즘 다시 조엘 온 소프트웨어 : 유쾌한 오프라인 블로그이라는 책을 읽고 있습니다. 원래 제가 IT에 관심이 엄청 많기 때문이기도 하지만, 이 책을 또 읽으면서 참 똑똑한 사람이 많다는 생각을 다시금 하게 됩니다. 지금 이야기하고 싶은 것이 이 책 내용이 아니라 이 책을 번역하신 박재호님의 326쪽, 338쪽에 실려 있는 글의 내용입니다. 번역에 대한 글인데, 번역하는 과정에서 생긴 재미있는 에피소드를 이야기하면서 본인이 번역할 때 사용했던 Site들을 소개하고 있습니다. 저도 유용하다는 생각이 들어서 글로 남겨 봅니다.</description>
+    </item>
+    
+    <item>
+      <title>Philosopher&#39;s Stone 길드를 정리하며..</title>
+      <link>https://dialektike.github.io/2007/07/22/106/</link>
+      <pubDate>Sun, 22 Jul 2007 11:31:32 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2007/07/22/106/</guid>
+      <description>Philosopher’s Stone 길드 Description: 외대철학과 와우게시판에 2005년 5월 7일에 처음으로 글을 썼네요. 이것보다 더 전에 와우를 시작했는데, 게시판을 만들고 시작한 것은 이 날이 처음이었네요. 지금도 하고 있으니 참 오래동안 와우를 하고 있습니다. 그때는 정말로 재미 있었는데 이때 같이 하던 사람들은 요즘은 와우 안하시는 분들은 뭐하고 지내시나.. 성겸이가 갑자기 보고 싶네요. 오늘 서버를 고치면서 게시판을 지우고 기념으로 게시판을 갈무리 해 둡니다. 그림을 누르시면 큰 사진으로 보실 수 있습니다.참고로 아래 Read more…을 클릭하시거나 글 제목을 나머지 게시판 갈무리 화면 링크가 나옵니다.</description>
+    </item>
+    
+    <item>
+      <title>습관을 고쳐 초딩때 꼴찌가 전교 순위권이 된 이야기</title>
+      <link>https://dialektike.github.io/2007/01/11/89/</link>
+      <pubDate>Thu, 11 Jan 2007 15:26:12 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2007/01/11/89/</guid>
+      <description>조선일보 2006년 11월 6일 월요일, D1, &amp;lsquo;맛있는 공부&amp;rsquo; 편에 나왔던 이야기를 소개해보겠습니다. 우선 제목이 &amp;ldquo;초등 꼴지, 4년 만에 15등이 된 비결은? &amp;ldquo;6가지 습관 고쳐 상위권으로&amp;quot;&amp;ldquo;이라고 상당히 길었습니다. 저를 포함한 많은 사람들이 &amp;lsquo;비법&amp;rsquo;이니 &amp;lsquo;특효약&amp;rsquo;이니 같은 것에 관심이 많습니다. 저도 여기에 특별한 비법이 있다하고 자세히 읽어봤습니다. 내용은 초등학고 선생님이 아마도 꼴지라는 말에 충격을 받은 여학생이 공부를 해야겠다는 중학교에 들어가면서 성적이 올라가서 결국은 고등학교에서 성적이 순위권에 들어가게 되었다는 단순한 이야기입니다.
+이런 이야기는 여러곳에서 접해볼 수 있는 평범한 이야기지만, 제가 글을 쓸만큼 관심가는 내용이 있었습니다.</description>
+    </item>
+    
+    <item>
+      <title>사이버 펑크에 대한 대화</title>
+      <link>https://dialektike.github.io/2006/11/12/73/</link>
+      <pubDate>Sun, 12 Nov 2006 18:09:41 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/11/12/73/</guid>
+      <description>출처는 아마도 옛날에 정은임 님이 라디오 하실 때, 정성일 선생님과 나눈 대화를 채록한 것 같습니다. 출처모르겠지만, 좋은 글이라고 생각이 들어 올려봅니다. 저도 인쇄본으로만 가지고 있다가 인터넷을 뒤져보니 옛날에는 이곳 저곳에 있었는데, 요즘은 보기 힘들어 보존차원에서 올려봅니다. 조금 이상한 부분이 있지만 그대로 올려봅니다. 참고로 읽기 편하게 편집을 조금했습니다. 그리고 이름 앞에 성을 붙여서 올렸습니다.
+정은임: 자 이번에는 영화 평론가 정성일의 영화 읽기 시간입니다. 안녕하세요!
+정성일: 안녕하세요.
+정은임: 노래 어떠세요 멋있죠!
+정성일: 네.</description>
+    </item>
+    
+    <item>
+      <title>인문대 올라가는 길</title>
+      <link>https://dialektike.github.io/2006/11/05/71/</link>
+      <pubDate>Sun, 05 Nov 2006 13:33:32 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/11/05/71/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2003 가을 학생회관</title>
+      <link>https://dialektike.github.io/2006/10/11/61/</link>
+      <pubDate>Wed, 11 Oct 2006 22:52:56 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/10/11/61/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

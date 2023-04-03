@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcode on Epistemology</title>
+    <link>https://dialektike.github.io/tags/shortcode/</link>
+    <description>Recent content in shortcode on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 12 Oct 2015 18:27:37 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress에 Gist GitHub Shortcode 넣기</title>
+      <link>https://dialektike.github.io/2015/10/12/920/</link>
+      <pubDate>Mon, 12 Oct 2015 18:27:37 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/10/12/920/</guid>
+      <description>초보자가 프로그램을 공부를 하면서 정리도 할 겸 이 곳에서 간단한 소개와 함께 써놓았죠. 워드프레스(wordpress)에서 코드를 보여주기 위해서 단순하게 글에 작은 코드를 넣고 보게끔 만들었습니다. 그런데 그 코드들을 변경하고자 할 경우, 번거롭게 글도 고쳐야 했습니다. 이때 https://gist.github.com를 사용하여 코드를 저장하고 관리하는데 더 편리한 것을 알게되었습니다. 그러면 여기에 저장되어 있는 작은 코드를 어떻게 하면 wordpress에 넣을까 하고 플러그인을 찾아봤습니다. 역시 있더군요.
+https://wordpress.org/plugins/gist-github-shortcode/
+사용하는 방법은 단순합니다. 우선 플러그인 Gist GitHub Shortcode을 설치합니다. 그런 다음 이 플러그인을 Plugins 메뉴에서 찾아 활성화(activate) 해 줍니다.</description>
+    </item>
+    
+  </channel>
+</rss>

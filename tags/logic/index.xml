@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logic on Epistemology</title>
+    <link>https://dialektike.github.io/tags/logic/</link>
+    <description>Recent content in Logic on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 18 Apr 2014 17:13:29 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/logic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LEMMON 스타일로 Latex 에서 자연 연역 추론을 표현하기</title>
+      <link>https://dialektike.github.io/2014/04/18/731/</link>
+      <pubDate>Fri, 18 Apr 2014 17:13:29 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/04/18/731/</guid>
+      <description>드디어 LEMMON 스타일로 자연 연역 추론을 표현할 방법을 알게 되었습니다. 몇 가지 다른 표현법을 알고 있었는데 배운 것과 다르고 좀 단순한 것을 찾다가 포기했는데 드디어 찾았습니다. 물론 Edward John Lemmon이 쓴 Beginning Logic&amp;lt;에 사용된 표기법을 말합니다.
+이 내용은 http://phloxgroup.wordpress.com에 있는 &amp;ldquo;LEMMON-STYLE NATURAL DEDUCTION PROOFS IN LATEX&amp;ldquo;이라는 글입니다. 참고하세요. 메뉴얼도 위의 페이지에 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>논증의 재구성에 대한 참고 서적 소개</title>
+      <link>https://dialektike.github.io/2006/10/25/67/</link>
+      <pubDate>Wed, 25 Oct 2006 16:43:56 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/10/25/67/</guid>
+      <description>제가 참고한 서적들을 소개합니다. 참고하세요!
+70-87쪽, 노야 시게키, 논리 트레이닝, 서혜영 옮김, 일빛, 2002. 도서관 번호:160 N949rKs
+제 2부 논증, 3장 논증과 재구성과 분석, 비판적 사고를 위한 논리, 박은진, 김희정, 아카넷, 도서관 번호:160 B149n 참고: 저는 1판을 가지고 있습니다(112쪽부터). 그런데 이 책 1판은 문제가 좀 있습니다. 답도 틀린 곳도 많고 오타도 좀 있습니다. 내용을 바꾸면 판올림을 해야 하는데 슬쩍 다시 찍었더군요. 그래서 요즘 나온 책에서는 틀린 점들이 대폭 수정되었습니다. 그러니 요즘 나온 책을 찾아서 봐야 합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

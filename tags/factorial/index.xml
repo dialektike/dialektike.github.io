@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>factorial on Epistemology</title>
+    <link>https://dialektike.github.io/tags/factorial/</link>
+    <description>Recent content in factorial on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Nov 2015 01:35:21 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/factorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R 에서 팩토리얼(factorial), 계승을 계산하는 법</title>
+      <link>https://dialektike.github.io/2015/11/08/938/</link>
+      <pubDate>Sun, 08 Nov 2015 01:35:21 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/11/08/938/</guid>
+      <description>3! = 3 * 2 * 1 = 6 R에서 계산하는 방법은 다음과 같습니다.
+&amp;gt; factorial(3) #3 × 2 × 1 [1] 6 &amp;gt; factorial(52) [1] 8.065818e+67 </description>
+    </item>
+    
+  </channel>
+</rss>

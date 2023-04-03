@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uconv on Epistemology</title>
+    <link>https://dialektike.github.io/tags/uconv/</link>
+    <description>Recent content in uconv on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Jul 2016 19:12:05 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/uconv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R에서 미국 연비(MPG)를 한국연비(km/L)로 있어보이게 바꾸기</title>
+      <link>https://dialektike.github.io/2016/07/07/1057/</link>
+      <pubDate>Thu, 07 Jul 2016 19:12:05 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2016/07/07/1057/</guid>
+      <description>우리 나라에서 사용하는 연비란 에너지관리공단 수송에너지 &amp;gt; 자동차공인연비 &amp;gt; 공인연비에 따르면 연료 1ℓ로 주행 가능한 거리(km)를 말하는 것을 말합니다. 그러나 미국은 연료 1갤런(gallon)으로 주행 가능한 거리를 마일(mile)로 계산하여 연비를 계산합니다. 미국이랑 우리나라가 단위가 다르니 생기는 문제입니다. 참고로 1갤런은 3.785411784리터(참고: 갤런 - 위키백과, 우리 모두의 백과사전) 이고 1 마일은 1.609344 킬로미터(참고: 마일 - 위키백과, 우리 모두의 백과사전) 입니다.
+뭐 사전 지식은 다 알았으니, 실제로 연비를 바꿔보겠습니다. 미국 연비를 10부터 40까지 만들보겠습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

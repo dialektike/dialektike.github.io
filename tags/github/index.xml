@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on Epistemology</title>
+    <link>https://dialektike.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Jun 2019 15:43:52 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R Markdown 으로 작성된 것을 GitHub Markdown 으로 바꾸기</title>
+      <link>https://dialektike.github.io/2019/06/18/1237/</link>
+      <pubDate>Tue, 18 Jun 2019 15:43:52 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2019/06/18/1237/</guid>
+      <description>아주 쉽습니다. 아래와 같이 맨처음에 있는 설정 부분에서 output: github_document이라고 변경하시면 됩니다.
+--- title: &amp;#34;Habits&amp;#34; author: John Doe date: March 22, 2005 output: github_document --- 다음 링크를 참고하세요
+GitHub Documents </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latex on Epistemology</title>
+    <link>https://dialektike.github.io/categories/latex/</link>
+    <description>Recent content in Latex on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Jul 2015 16:56:04 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/categories/latex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacTeX-2015이 6월 14일에 나왔습니다.</title>
+      <link>https://dialektike.github.io/2015/07/06/872/</link>
+      <pubDate>Mon, 06 Jul 2015 16:56:04 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/07/06/872/</guid>
+      <description>혹시 MacTeX을 쓰시는 분은 다음 링크에서 업그레이드 하세요! 현재 다운로드 속도가 느리네요.
+https://tug.org/mactex/mactex-download.html</description>
+    </item>
+    
+    <item>
+      <title>LaTeX에서 수평선 그리기</title>
+      <link>https://dialektike.github.io/2014/11/14/833/</link>
+      <pubDate>Fri, 14 Nov 2014 17:56:24 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/11/14/833/</guid>
+      <description>LaTex에서 논증을 구성하고 결론을 보여주고자 할 때 그냥 무작정 그었더니 예쁘지 않더군요. 그래서 오래간만에 좀 찾아봤더니 역시 그리는 방법이 있었습니다.TIMMURPHY.ORG의 글을 참고했습니다.
+선은 LaTeX의 \line function을 이용하여 그립니다. 이 function은 다음과 같이 x-slope, y-slope 그리고 length등을 정의합니다:
+\line(x-slope,y-slope){length} 이때 수평선은 그리기 위해서는, x-slope은 1로, y-slope는 0으로 설정합니다. 다음과 같이 하면 멋진 수평선을 그을 수 있습니다. 여기서 \begin{center}은 문서 중앙에 그리라고 설정한 것입니다.
+\begin{center} \line(1,0){250} \end{center} </description>
+    </item>
+    
+  </channel>
+</rss>

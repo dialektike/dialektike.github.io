@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Epistemology</title>
+    <link>https://dialektike.github.io/categories/mac/</link>
+    <description>Recent content in Mac on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 09 Dec 2021 17:34:31 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac용 R 성능을 올려 보기</title>
+      <link>https://dialektike.github.io/2021/12/09/1399/</link>
+      <pubDate>Thu, 09 Dec 2021 17:34:31 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2021/12/09/1399/</guid>
+      <description>맥 OS에서 R 성능을 올리는 글이 봤었는데, 여기에서 알려지지 않을 것 같아서 정보 공유 차원에서 올려봅니다. 자세한 내용은 아래 링크 두 개를 참고하세요!
+대락적인 내용은 애플에서 제공하는 Apple’s BLAS를 사용하면 R 속도가 메트릭스 연산 속도가 거의 1/10로 줄어 듭니다. 그런데 아쉽게도 현재 macOS에서는 사용할 수 없게 되었고 macOS 10.13 하이 시에라까지만 사용할 수 있습니다. 이 내용이 두 번째 링크 내용입니다.
+그런데 첫 번째 링크를 보면, 저자는 M1 Mac mini에서 OpenBLAS 0.</description>
+    </item>
+    
+    <item>
+      <title>맥에서 보안 때문에 사용할 수 없는 크롬드라이버 사용하는 법</title>
+      <link>https://dialektike.github.io/2021/03/12/1369/</link>
+      <pubDate>Fri, 12 Mar 2021 14:14:02 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2021/03/12/1369/</guid>
+      <description>맥에서 크롤링을 하기 위해서 chromedriver를 사용하는 경우가 많습니다. 홈브루를 이용하시면, 터미널에서 brew install chromedriver을 입력하시면 사용할 수 있습니다. 그런데 맥 최신 오에스에서는 이렇게 설치한 chromedriver을 보안을 이유로 막는 경우가 있습니다. 좀 찾아봤는데 아주 쉽게 해결할 수 있습니다. 위와 같이 chromedriver를 설치하셨다면 터미널에서 xattr -d com.apple.quarantine $(which chromedriver)이라고 입력하시면 바로 문제 없이 사용하실 수 있습니다.
+xattr -d com.apple.quarantine $(which chromedriver) 아래 글을 참고하세요!
+java - MacOS Catalina(v 10.15.3): Error: “chromedriver” cannot be opened because the developer cannot be verified.</description>
+    </item>
+    
+    <item>
+      <title>맥에서 sshpass 설치하기</title>
+      <link>https://dialektike.github.io/2021/03/09/1361/</link>
+      <pubDate>Tue, 09 Mar 2021 18:36:57 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2021/03/09/1361/</guid>
+      <description>homebrew로 sshpass이 설치되지 않는다! 아래 링크를 보면, 초보자들이 가볍게 설치하지 못 하도록 하려고 설치를 막았다고 하는 것 같다. 그래서 아래 링크에 있는 소스를 이용하는 방법으로 설치해보자! 설치한 후 다운받은 폴더와 파일을 삭제하면 된다.
+cd ~ curl -O -L https://fossies.org/linux/privat/sshpass-1.09.tar.gz &amp;amp;&amp;amp; tar xvzf sshpass-1.09.tar.gz cd sshpass-1.09 ./configure sudo make install sshpass macos - How to install sshpass on mac? - Stack Overflow</description>
+    </item>
+    
+    <item>
+      <title>Docker를 사용해서 MariaDB을 설치하기</title>
+      <link>https://dialektike.github.io/2020/09/26/1293/</link>
+      <pubDate>Sat, 26 Sep 2020 16:56:26 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2020/09/26/1293/</guid>
+      <description>참고: 이 글은 JiHun님의 Docker를-사용해서-MariaDB-설치하기을 참고했습니다. 자세한 내용은 이 글을 참고하세요!
+docker 에 mariadb container를 받고 실행합니다. MYSQL_ROOT_PASSWORD = RT27hDosK에 쓴 RT27hDosK은 DB 비번입니다. 적절하게 고쳐주세요. 연습용으로 쓰실 것이면, 그대로 사용해도 무방합니다.
+docker pull mariadb docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=RT27hDosK mariadb 앞에서 실행한 container에 들어가서 bash를 실행합니다.
+docker exec -it mariadb /bin/bash container에 들어갔으니, mysql으로 들어가겠습니다. 피번은 앞에서 MYSQL_ROOT_PASSWORD = RT27hDosK이라고 했으니 RT27hDosK을 입력하시면 됩니다.
+root@e144fdbab9be:/# mysql -u root -p Enter password: 들어갔으니 DB상태를 살펴보겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>맥에서 홈브루(Homebrew)를 이용해서 chromedriver를 설치하기</title>
+      <link>https://dialektike.github.io/2018/09/25/1153/</link>
+      <pubDate>Tue, 25 Sep 2018 17:36:30 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2018/09/25/1153/</guid>
+      <description>통상적으로 웹 상에 있는 자료를 수집할 때 , 로그인과 같은 것을 처리하려면 PhantomJS을 이용해서, 즉 화면이 존재하지 않는 웹 브라우저, Headless Browser을 사용해서 웹 크롤링을 합니다. 그런데 문제는 이 방법이 진짜 웹 브라우저를 실행하는 것은 아니기 때문에 자잘한 문제가 많았습니다. 이를 해결하는 방법이 나왔는데, 창없는 크롬으로 크롤링하기 | Beomi&amp;rsquo;s Tech Blog입니다.
+이 방법을 사용하기 위해서는 앞의 링크에서 언급한 것처럼 크롬과 chromedriver을 설치해야 합니다. 크롬은 설치하는 것을 쉽지만, chromedriver를 링크에서 언급한 곳에서 다운 받아 설치하면, 조금 번거로운 과정(chromedriver를 받아서 압축을 풀고, 그 압축을 푼 폴더 위치를 정확하게 찾아서 알아야 하는 과정)을 겪어야 합니다.</description>
+    </item>
+    
+    <item>
+      <title>맥에 mpv을 설치해보자!</title>
+      <link>https://dialektike.github.io/2016/11/21/1094/</link>
+      <pubDate>Mon, 21 Nov 2016 15:54:06 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2016/11/21/1094/</guid>
+      <description>맥에는 이미 무비스트라는 걸출한 동영상을 보는 앱이 있기 때문에, 다른 앱이 거의 필요가 없죠. 그러나 가끔은 다른 앱이 필요한 경우가 있습니다. 이런 경우 저는 MPlayerx, MPlayer, VLC 등을 사용했었습니다. 그러나 MPlayerx은 malware 문제가 있는 관계로 바로 지워 버렸고, MPlayer 도 설치하는 것이 어렵고 뭘 설치해야 하는지 정신이 없고, VLC는 좀 사용하기가 불편했습니다. 예를 들어 앞으로 돌리기, 뒤로 되돌아 가기 등을 잘 찾을 수가 없더군요.
+그러던 중 mplayer2 과 MPlayer을 포크해서(즉 소스를 갖다가 새로 만든) mpv(mpv.</description>
+    </item>
+    
+    <item>
+      <title>Swift 2.x에서 .toInt() 명령어가 사라지고, 대신 초기자 Int 등장!</title>
+      <link>https://dialektike.github.io/2015/09/21/888/</link>
+      <pubDate>Mon, 21 Sep 2015 18:35:42 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2015/09/21/888/</guid>
+      <description>Swift 2.x에서 string(문자)를 int(숫자)로 바꿔 주는 .toInt() 함수가 없어졌네요. 헐! 그 대신 문자열을 제어할 수 있는 초기자(initializer), Int 가 생겼습니다. 다음 코드를 보시면 쉽게 아실 수 있습니다.
+// from string to int in swift let intString: String = &amp;#34;256&amp;#34; let stringInt: Int? = Int(intString) </description>
+    </item>
+    
+    <item>
+      <title>Swift에서 array 초기화 하기</title>
+      <link>https://dialektike.github.io/2014/11/19/837/</link>
+      <pubDate>Wed, 19 Nov 2014 18:52:51 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/11/19/837/</guid>
+      <description>참 책을 만들면서 뭔가 바뀌면, 정오표를 만들어 제공하는 것이 예의인데, 그냥 개정판을 내는 것은 도리가 아닌 것 같다. swift에서 배열을 초기화하는 것은 다음과 같이 해서는 안 된다.
+var WrongArrayInit = Int[]() 다음과 같이 해야 한다.
+var RightArrayInit = [Int]() 애플 공식문서에 하면, &amp;ldquo;You can create an empty array of a certain type (without setting any initial values) using initializer syntax:&amp;rdquo;
+var someInts = [Int]() println(&amp;#34;someInts is of type [Int] with (someInts.</description>
+    </item>
+    
+    <item>
+      <title>맥 검색인 Spotlight 에서 Evernote가 검색되지 않는 경우 해결책</title>
+      <link>https://dialektike.github.io/2014/04/02/723/</link>
+      <pubDate>Wed, 02 Apr 2014 17:09:03 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2014/04/02/723/</guid>
+      <description>에버노트를 잘 앱스토어에서 잘 다운 받아 쓰다가 문득 해봤는데 안 검색이 되지 않아서 고생했습니다. 찾아보니 해결책은 쉽습니다. 애버노트 홈피에서 개발자의 다음과 같은 답변을 찾았습니다.
+There is an issue with 10.9 and Spotlight functionality. It is a restriction only on Mac App Store builds. To get around this, please download Evernote directly from us at
+즉 애플 앱스토어에서 애버노트 앱을 다운 받지 말고, 애버노트 홈에서 다음 링크로 가신 다음,
+https://evernote.com/intl/ko/evernote/
+그냥 맥용 내려받기 버튼을 누르시면 앱스토어로 가는 경우가 있으니 다음과 같이 해주시면 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Mac OS X Terminal에 IR Black 테마로 예쁜 컬러로 바꿔보자.</title>
+      <link>https://dialektike.github.io/2011/10/21/595/</link>
+      <pubDate>Fri, 21 Oct 2011 21:01:53 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2011/10/21/595/</guid>
+      <description>요즘 한참 vi를 익히고 있습니다. 그렇다 보니 Terminal을 많이 사용하게 됩니다. 그러다가 문득 클리앙에서 부드러운직선님이 쓰신 다음과 같은 글을 보았습니다.
+-Tip 터미널 텍스트 예쁜 컬러 입히기 IR Black
+원 출처를 조금 찾아보니 다음과 같았습니다.
+IR_Black for OS X Lion 설치는 쉽습니다. 위의 링크에서 IR_Black.terminal 파일을 다운 받으신 다음, 그 파일을 더블 클릭하시면 다음과 같이 멋진 색을 가진 터미널을 사용할 수 있게 됩니다.
+IR_Black Theme in Mac OS X Terminal 조금 조심할 부분이 두 가지 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>BOOL 값을 NSDictionary 에 넣어보자.</title>
+      <link>https://dialektike.github.io/2011/07/10/589/</link>
+      <pubDate>Sun, 10 Jul 2011 21:21:03 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2011/07/10/589/</guid>
+      <description>BOOL 값과 같은 비 객체는 NSDictionary 에 넣을 수 없습니다. 그래서 다음과 같이 값을 숫자로 변신 시켜서 저장해야 합니다. BOOL isInReply; NSNumber *isInReplyToNumberValue = [NSNumber numberWithBool:isInReply]; reply = [NSDictionary dictionaryWithObjectsAndKeys: reply_time, @&amp;#34;time&amp;#34;, reply_id, @&amp;#34;iD&amp;#34;, isInReplyToNumberValue, @&amp;#34;isInReply&amp;#34;, reply_content, @&amp;#34;content&amp;#34;, nil]; </description>
+    </item>
+    
+    <item>
+      <title>Mac OS X 에서는 어떻게 MD5 체크(MD5 Check)를 할까?</title>
+      <link>https://dialektike.github.io/2010/12/31/532/</link>
+      <pubDate>Fri, 31 Dec 2010 17:45:39 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2010/12/31/532/</guid>
+      <description>여기에 가끔 오시는 분들은 이 제목을 보고 무슨 뜻인지 전혀 모를 것 같네요. 그래도 자료 정리겸 끄적거려봅니다. 단순하게 설명하자면 &amp;ldquo;MD5 Check&amp;quot;란 다운로드 하거나 복사한 파일이 손상없이 원본과 같은 상태인지 확인하고자 할 때 필요한 것입니다. 참고로 &amp;lsquo;Check&amp;rsquo;란 뜻을 사전에서 찾아보면, &amp;ldquo;사물의 상태를 검사하거나 대조함. 또는 그런 표적으로 찍는 ‘V’ 자 모양의 표.&amp;ldquo;라고 하네요. 우리가 가끔 인터넷상에서 어떤 파일을 받으려고 할 때, 그 옆에 Md5: c3ad0b16898865a5b57ae4ebb5f1c3d6 라는 복잡한 것이 적혀 있는 경우가 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>정식으로 음악파일을 사는 것이 이렇게 쉬운데..</title>
+      <link>https://dialektike.github.io/2008/10/28/139/</link>
+      <pubDate>Tue, 28 Oct 2008 00:05:52 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/10/28/139/</guid>
+      <description>first buy the song in iTune 제가 첫번째로 iTunes에서 산 파일입니다. 복잡하게 선불카드인 iTune card를 사고 아주 단순하게 몇번의 클릭으로 음악파일을 샀습니다. 아시는 분은 아시겠지만, 전 정식으로 모든 음악파일을 사는 것이 목표입니다. 물론 가지고 있던 모든 파일도 다 지웠죠. 그러나 아쉽게도 한국에서 음악 파일을 사거 듣는 다는 것이 것이 그리 쉬운 결정은 아니었습니다. 너무 쉽게 불법으로 구할 수 있기 때문입니다. 그러나 저부터 양심을 속이지 말고 변하기로 결정했습니다. 술 한잔 먹지 말고 CD를 사고 음악 파일을 구입하겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>터미널의 설정법</title>
+      <link>https://dialektike.github.io/2008/06/21/141/</link>
+      <pubDate>Sat, 21 Jun 2008 16:48:53 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2008/06/21/141/</guid>
+      <description>Mac은 원래 출생이 유닉스이기 때문에 터미널이 있습니다. linux를 쓰신 분들은 잘 아시겠지만, 터미널만 있어도 많은 일을 할 수 있고 실제로 많은 일을 했죠. 요즘은 이런 터미널을 쓰는 사람이 많지는 않지만 배워두면 나중에 웹 호스팅 하거나 서버를 만질 때 유용합니다. 저도 기록을 남기기 위해서 여기에 정리합니다. 참고로 여기서 소개하는 내용을 Mac 우선시 하시만, 다른 Uinx 계열에서도 잘 작동할 것 같네요 ^^;
+vi의 기본 사용법: vi는 입력 모드와 명령 모드로 나누어져 동작합니다 명령모드로: [esc] 키 입력 모드로: i키: 현재 커서의 위치부터 입력 a키: 현재 커서의 위치 다음 칸부터 입력 o키: 현재 커서의 다음 줄에 입력 s키: 현재 커서 위치의 한 글자를 지우고 입력 vi를 종료하기: 우선 명령행 모드로 가야 합니다.</description>
+    </item>
+    
+    <item>
+      <title>무료 폰트를 써봅시다.</title>
+      <link>https://dialektike.github.io/2007/10/11/119/</link>
+      <pubDate>Thu, 11 Oct 2007 13:12:28 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2007/10/11/119/</guid>
+      <description>글을 쓰는데는 아래하 한글을 많이 쓰기 때문에 폰트에 대한 걱정을 하지 못하지만, PT를 하는 경우에는 쓸만한 폰트가 없어서 항상 고민이 많습니다. 물론 편법으로 구할 수도 있지만 조금은 꺼림직한 것도 사실입니다. 요즘 무료 폰트가 많이 나와서 이런 걱정을 많이 덜어 주고 있었는데 이런 무료 폰트를 잘 정리해 둔 사이트가 있어서 소개합니다.
+황씨 신문이라는 사이트인데 여기에서 다음 링크에 나온 글이 이러한 무로푠트를 자세하게 소개하고 있습니다.
+http://sulfur.pe.kr/nudalak/free_font.html</description>
+    </item>
+    
+    <item>
+      <title>Happy Hacking Keyboard Lite 2를 샀습니다.</title>
+      <link>https://dialektike.github.io/2006/11/03/62/</link>
+      <pubDate>Fri, 03 Nov 2006 15:22:27 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/11/03/62/</guid>
+      <description>제 수업을 들으셨던 분들은 아시겠지만, 저는 맥용 노트북인 iBook를 사용합니다. 이 아이북은 2002년에 샀으니 꽤 오래 썼네요! 속도는 600MHz 이고 살 시절에는 파격적인 DVD도 달려 있습니다. 지금도 잘 쓰고 있고, 만족하고 있지만, 제가 수업에서 사용하는 프로그램인 키노트2가 페이지가 전환이 상당히 느리게 되면서 저는 이제는 바꿀 시기되었다고 생각하고 교환을 고려하기 시작했습니다. 2006년 말 쯤에 구입하려고 했지만, 내년에 맥 오에스도 새 버젼인 10.5가 나온다고 하고, 인텔에서 내년 1/4분기에 노트북용 신형 칩셋이 나온다는 말을 듣고 내년 상반기 이후에 노트북을 사기로 결정했습니다.</description>
+    </item>
+    
+    <item>
+      <title>Option 키로 부팅 디스크 선택하기</title>
+      <link>https://dialektike.github.io/2006/03/09/41/</link>
+      <pubDate>Thu, 09 Mar 2006 16:53:46 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/03/09/41/</guid>
+      <description>우선 만약에 1394로 부팅을 하시려면, 시작하기 전에 연결시켜 놓으시는 편이 좋습니다. 그런 다음 만약 순발력이 있다면, 맥을 켜자마자 option키를 누르면 됩니다. 그러나 저처럼 순발력이 없으시다면, 켜지기 전부터, option키를 누르고, 시작 버튼을 눌러도 됩니다. 그런 다음 시동 디스크 화면 나올 때까지 누르고 있으시면 됩니다. 조금 있으면 화면에 시스템 폴더가 작동하는 디스크, CD, 파티션의 아이콘들이 나옵니다. 물론 자신의 Mac의 설정에 따라 조금씩 다르게 나오겠죠? 이때 시동하시려는 아이콘을 클릭한 다음, 단추를 누릅니다. 그러면 선택한 운영체제로 시동합니다.</description>
+    </item>
+    
+    <item>
+      <title>맥에서 FTP 사용하기</title>
+      <link>https://dialektike.github.io/2006/03/09/40/</link>
+      <pubDate>Thu, 09 Mar 2006 16:44:24 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2006/03/09/40/</guid>
+      <description>저는 Mac을 2000년경부터 OS X부터 사용하고 있습니다. 홈페이지를 관리하려고 하면 FTP 사용이 거의 필수적입니다. 물론 명령어 방식으로 일일히 명령어를 치면서 OS X에 내장된 FTP를 사용할 수도 있지만, 그래도 아이콘을 꼭꼭 누르면서 사용하는 맛도 쏠쏠합니다. 물론 현재 Mac에서의 FTP지존은 panic사에서 만든 transmit일 겁니다. 사용하기 편리하면서도 풍부한 기능, 깔끔한 디자인 등등 어디 하나 버릴 곳이 없습니다. 그러나 안타깝게도 상용입니다. 물론 절실히 필요하면 사서 쓸 수도 있겠지만, 그렇게 FTP를 많이 사용하는 것도 아닌지라 사지 않고 있었습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

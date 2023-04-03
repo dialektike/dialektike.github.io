@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Markdown on Epistemology</title>
+    <link>https://dialektike.github.io/tags/r-markdown/</link>
+    <description>Recent content in R Markdown on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Jun 2019 15:43:52 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R Markdown 으로 작성된 것을 GitHub Markdown 으로 바꾸기</title>
+      <link>https://dialektike.github.io/2019/06/18/1237/</link>
+      <pubDate>Tue, 18 Jun 2019 15:43:52 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2019/06/18/1237/</guid>
+      <description>아주 쉽습니다. 아래와 같이 맨처음에 있는 설정 부분에서 output: github_document이라고 변경하시면 됩니다.
+--- title: &amp;#34;Habits&amp;#34; author: John Doe date: March 22, 2005 output: github_document --- 다음 링크를 참고하세요
+GitHub Documents </description>
+    </item>
+    
+    <item>
+      <title>RStudio를 이용하여, R 코드와 한글이 들어 있는 R Markdown으로 쓴 파일을 pdf로 만드는 팁!</title>
+      <link>https://dialektike.github.io/2016/08/04/1067/</link>
+      <pubDate>Thu, 04 Aug 2016 15:52:11 +0900</pubDate>
+      
+      <guid>https://dialektike.github.io/2016/08/04/1067/</guid>
+      <description>RStudio에는 기본적인 R보다 유용한 기능이 많습니다. 그중에서는 저는 knitr 패키지를 이용하여 R 코드가 들어있는 R Markdown으로 쓰여진 글을 HTML이나 pdf 파일로 만들어 주는 기능에 관심이 많았습니다. 물론 프리뷰(Preview) 버젼인 RStudio Version 0.99.1273에는 이것 보다 더 진보한R Markdown Notebooks이 들어 있습니다.
+그러나 문제는 이 기능이 영어로만 되어 있는 것은 잘 되는데, 유난히 한글만 들어가면 잘 안 된다는 것입니다. HTML로 변환하는 것은 잘 되는 것 같았는데, pdf으로 변환하는 것이 문제였습니다. 그러다가 우연히 권재명님이 쓰신 Jaimyoung/data-science-in-korean: 한국어를 포함한 데이터와 분석코드를 다루는 팁을 살펴보다가 https://raw.</description>
+    </item>
+    
+  </channel>
+</rss>

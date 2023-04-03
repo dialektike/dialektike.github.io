@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang='ko' dir='auto'><head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='항상 홈페이지를 만들때, 항상 방명록을 어떻게 구현하는가하는게 문제였습니다. 저번에 Movble Type(이하 MT)을 사용할 때에도 이것은 문제였습니다. 그래서 항상 제로보드와 같은 별도의 프로그램을 사용하여 방명록를 만들어 왔습니다. 그런데 제가 디자인과 프로그램 실력이 미천해서, 홈피와 방명록을 같은 디자인으로 만들지 못하겠더군요. 항상 제 홈피는 망명록과 홈피 디자인이 따로 놀게 되었습니다. 어느날 우연히 kukie님의 글을 보니, 쉽게 만들수 있을 것 같은 생각이 들더군요! 물론 이런 생각이 무모했죠 ^^; kukie님의 글을 몇번씩 숙독한 다음, 따라하기 시작했습니다.'>
+<meta name='theme-color' content='#A6034F'>
+
+<meta property='og:title' content='페이지 넘어가는 답변 기능을 가진 플러그인을 깔아서 방명록 만들기! • Jae-Hwan'>
+<meta property='og:description' content='항상 홈페이지를 만들때, 항상 방명록을 어떻게 구현하는가하는게 문제였습니다. 저번에 Movble Type(이하 MT)을 사용할 때에도 이것은 문제였습니다. 그래서 항상 제로보드와 같은 별도의 프로그램을 사용하여 방명록를 만들어 왔습니다. 그런데 제가 디자인과 프로그램 실력이 미천해서, 홈피와 방명록을 같은 디자인으로 만들지 못하겠더군요. 항상 제 홈피는 망명록과 홈피 디자인이 따로 놀게 되었습니다. 어느날 우연히 kukie님의 글을 보니, 쉽게 만들수 있을 것 같은 생각이 들더군요! 물론 이런 생각이 무모했죠 ^^; kukie님의 글을 몇번씩 숙독한 다음, 따라하기 시작했습니다.'>
+<meta property='og:url' content='https://dialektike.github.io/2006/10/02/11/'>
+<meta property='og:site_name' content='Epistemology'>
+<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:published_time' content='2006-10-02T15:46:43&#43;09:00'/><meta property='article:modified_time' content='2006-10-02T15:46:43&#43;09:00'/><meta name='twitter:card' content='summary'><meta name='twitter:creator' content='@dialektike'>
+
+<meta name="generator" content="Hugo 0.111.3">
+
+  <title>페이지 넘어가는 답변 기능을 가진 플러그인을 깔아서 방명록 만들기! • Jae-Hwan</title>
+  <link rel='canonical' href='https://dialektike.github.io/2006/10/02/11/'>
+  
+  
+  <link rel='icon' href='/images/favicon.ico'>
+<link rel='stylesheet' href='/assets/css/main.ab98e12b.css'><link rel='stylesheet' href='/css/custom.css'><style>
+:root{--color-accent:#A6034F;}
+</style>
+
+  
+
+</head>
+<body class='page type-post has-sidebar'>
+
+  <div class='site'><div id='sidebar' class='sidebar'>
+  <a class='screen-reader-text' href='#main-menu'></a>
+
+  <div class='container'><section class='widget widget-about sep-after'>
+  <header>
+    
+    <div class='logo'>
+      <a href='/'>
+        <img src='/images/avatar.jpeg'>
+      </a>
+    </div>
+    
+    <h2 class='title site-title '>
+      <a href='/'>
+      Epistemology
+      </a>
+    </h2>
+    <div class='desc'>
+    The truth is out there.
+    </div>
+  </header>
+
+</section>
+<section class='widget widget-search sep-after'>
+  <header>
+    <h4 class='title widget-title'>Search</h4>
+  </header>
+
+  <form action='/search' id='search-form' class='search-form'>
+    <label>
+      <span class='screen-reader-text'></span>
+      <input id='search-term' class='search-term' type='search' name='q' placeholder='&hellip;'>
+    </label></form>
+
+</section>
+<section class='widget widget-sidebar_menu sep-after'><nav id='sidebar-menu' class='menu sidebar-menu' aria-label=''>
+    <div class='container'>
+      <ul><li class='item'>
+  <a href='/archive/'>Archive</a></li></ul>
+    </div>
+  </nav>
+
+</section><section class='widget widget-taxonomy_cloud sep-after'>
+  <header>
+    <h4 class='title widget-title'>Categories</h4>
+  </header>
+
+  <div class='container list-container'>
+  <ul class='list taxonomy-cloud'><li>
+        <a href='/categories/books-i-read/' style='font-size:1.1714285714285715em'>Books i read</a>
+      </li><li>
+        <a href='/categories/css/' style='font-size:1.0285714285714285em'>CSS</a>
+      </li><li>
+        <a href='/categories/hugo/' style='font-size:1em'>Hugo</a>
+      </li><li>
+        <a href='/categories/ios/' style='font-size:1.1142857142857143em'>iOS</a>
+      </li><li>
+        <a href='/categories/latex/' style='font-size:1.0285714285714285em'>Latex</a>
+      </li><li>
+        <a href='/categories/mac/' style='font-size:1.4857142857142858em'>Mac</a>
+      </li><li>
+        <a href='/categories/misc/' style='font-size:2em'>Misc</a>
+      </li><li>
+        <a href='/categories/programming/' style='font-size:1.1428571428571428em'>Programming</a>
+      </li><li>
+        <a href='/categories/pt/' style='font-size:1.2571428571428571em'>PT</a>
+      </li><li>
+        <a href='/categories/python/' style='font-size:1.0571428571428572em'>python</a>
+      </li><li>
+        <a href='/categories/r/' style='font-size:1.2571428571428571em'>R</a>
+      </li><li>
+        <a href='/categories/swift/' style='font-size:1.0857142857142856em'>swift</a>
+      </li><li>
+        <a href='/categories/wordpress/' style='font-size:1.2857142857142856em'>WordPress</a>
+      </li><li>
+        <a href='/categories/%EB%85%BC%EB%A6%AC%ED%95%99/' style='font-size:1.1428571428571428em'>논리학</a>
+      </li><li>
+        <a href='/categories/%EB%9F%AC%EC%8A%A4%ED%8A%B8/' style='font-size:1.0285714285714285em'>러스트</a>
+      </li><li>
+        <a href='/categories/%EB%B9%84%ED%8C%90%EC%A0%81-%EC%82%AC%EA%B3%A0/' style='font-size:1.0285714285714285em'>비판적 사고</a>
+      </li><li>
+        <a href='/categories/%EC%9D%B8%EC%8B%9D%EB%A1%A0/' style='font-size:1.1142857142857143em'>인식론</a>
+      </li><li>
+        <a href='/categories/%EC%B2%A0%ED%95%99/' style='font-size:1.4285714285714286em'>철학</a>
+      </li><li>
+        <a href='/categories/%ED%86%B5%EA%B3%84%ED%95%99/' style='font-size:1.1714285714285715em'>통계학</a>
+      </li></ul>
+</div>
+
+
+</section>
+</div>
+
+  <div class='sidebar-overlay'></div>
+</div><div class='main'><nav id='main-menu' class='menu main-menu' aria-label=''>
+  <div class='container'>
+    <a class='screen-reader-text' href='#content'></a>
+
+<button id='sidebar-toggler' class='sidebar-toggler' aria-controls='sidebar'>
+  <span class='screen-reader-text'></span>
+  <span class='open'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="3" y1="12" x2="21" y2="12" />
+<line x1="3" y1="6" x2="21" y2="6" />
+<line x1="3" y1="18" x2="21" y2="18" />
+</svg>
+</span>
+  <span class='close'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="18" y1="6" x2="6" y2="18" />
+<line x1="6" y1="6" x2="18" y2="18" />
+</svg>
+</span>
+</button>
+    <ul><li class='item'>
+        <a href='/about/'>About</a>
+      </li><li class='item'>
+        <a href='/jobs_word/'>Jobs&#39;s word</a>
+      </li><li class='item'>
+        <a href='/intro_logic_books/'>논리학 교재</a>
+      </li><li class='item'>
+        <a href='/history_of_philosophy/'>철학사 스터디</a>
+      </li><li class='item'>
+        <a href='/%ED%86%B5%EA%B3%84%ED%95%99-%EB%B2%88%EC%97%AD/'>통계학 번역어</a>
+      </li><li class='item'>
+        <a href=''></a>
+      </li></ul>
+  </div>
+</nav><div class='header-widgets'>
+        <div class='container'>
+    
+    <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+  <section class='widget widget-breadcrumbs sep-after'>
+    <nav id='breadcrumbs'>
+      <ol><li><a href='/'>Epistemology</a></li><li><a href='/posts/'>Posts</a></li><li><span>페이지 넘어가는 답변 기능을 가진 플러그인을 깔아서 방명록 만들기!</span></li></ol>
+    </nav>
+  </section></div>
+      </div>
+
+      <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'><p class='site-title title'>Epistemology</p><p class='desc site-desc'>The truth is out there.</p>
+          </div>
+        </div>
+      </header>
+
+      <main id='content'>
+
+
+<article lang='ko' class='entry'>
+  <header class='header entry-header'>
+  <div class='container sep-after'>
+    <div class='header-info'>
+      <h1 class='title'>페이지 넘어가는 답변 기능을 가진 플러그인을 깔아서 방명록 만들기!</h1>
+      
+
+    </div>
+    <div class='entry-meta'>
+  <span class='posted-on'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+<line x1="16" y1="2" x2="16" y2="6" />
+<line x1="8" y1="2" x2="8" y2="6" />
+<line x1="3" y1="10" x2="21" y2="10" />
+</svg>
+<span class='screen-reader-text'> </span>
+  <time class='entry-date' datetime='2006-10-02T15:46:43&#43;09:00'>2006, Oct 02</time>
+</span>
+
+  <span class='byline'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M21,21V20c0-2.76-4-5-9-5s-9,2.24-9,5v1" />
+<path d="M16,6.37A4,4,0,1,1,12.63,3,4,4,0,0,1,16,6.37Z" />
+</svg>
+<span class='screen-reader-text'>  </span><a href='/authors/dialektike'>Jae-Hwan</a></span>
+  
+<span class='reading-time'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><circle cx="12" cy="12" r="10" />
+<polyline points="12 6 12 12 15 15" />
+</svg>
+
+</span>
+
+
+</div>
+
+
+  </div>
+</header>
+
+  
+  
+
+  <div class='container entry-content'>
+  <p>항상 홈페이지를 만들때, 항상 방명록을 어떻게 구현하는가하는게 문제였습니다. 저번에 Movble Type(이하 MT)을 사용할 때에도 이것은 문제였습니다. 그래서 항상 제로보드와 같은 별도의 프로그램을 사용하여 방명록를 만들어 왔습니다. 그런데 제가 디자인과 프로그램 실력이 미천해서, 홈피와 방명록을 같은 디자인으로 만들지 못하겠더군요. 항상 제 홈피는 망명록과 홈피 디자인이 따로 놀게 되었습니다. 어느날 우연히 <a href="http://kukie.net/index.php/2005/06/15/64/">kukie님의 글</a>을 보니, 쉽게 만들수 있을 것 같은 생각이 들더군요! 물론 이런 생각이 무모했죠 ^^; kukie님의 글을 몇번씩 숙독한 다음, 따라하기 시작했습니다. 그러다가 실패를 거듭해서 포기하고 있었습니다(참고: <a href="http://pionelle.net/wp/2005/06/17/32/">피오넬님의 포스트</a>도 참고했습니다!).</p>
+<p>그러다가 오늘 다시 kukie님이 방명록을 만들면서 소개한 Keyvan Minoukadeh님의 <a href="http://www.keyvan.net/code/paged-comments/">WordPress Paged Comments Plugin</a><!-- raw HTML omitted -->을 다시 가봤습니다. 자세히 보니, 이 플러그인이 방명록만을 위한 것은 아니더군요! 답변이 많아지면, 페이지를 넘겨주고, 답변의 순서도 바꿔주는 기능을 합니다. 앞의 글을 보시면 설치하는 법이 잘 나와있지만, 제 경험을 바탕으로 다시 정리해보겠습니다. (참고로 저는 WordPress 2.0을 사용하고 있습니다. 마지막에 1.5 사용방법이 나오지만, 제가 몰라서 과감하게 삭제했습니다!)</p>
+<ol>
+<li>파일을 받아서 압축을 풉니다.</li>
+<li>설정을 바꾸시려면, paged-comments-config-sample.php 파일을 수정해서 paged-comments-config.php 이라는 이름으로 바꿔 저장합니다. 파일 안에 보시면, 설명이 다 들어 있습니다. 우선 페이지당 나오는 답변의 숫자 설정, 답변의 순서(쓴 시간 순서가 앞쪽으로 혹은 뒷쪽으로) 변경 등등을 변경하실 수 있습니다. 물론 만들어 쓰신 파일이 있으시면, 하실 필요없습니다.</li>
+<li>paged-comments.php과 앞에서 만드신 paged-comments-config.php, 이 2개의 파일을 plugins folder(wp-content/plugins/)에 올립니다.</li>
+<li>앞에서 압축을 풀어 놓은 folder를 보면, 테마별로 comments-paged.php 파일이 있습니다. 지금 쓰시고 게시는 테마가 이중에 있으시면, 그 파일을 테마 폴더(예:wp-content/themes/&ldquo;쓰시는 테마이름&rdquo;/)에 올리세요. 없으시면, ‘default’ folder에 있는 있는 comments-paged.php을 쓰시는 테마 폴더에 올리시면 됩니다.</li>
+<li>자신이 쓰시는 테마 폴더(앞에서 comments-paged.php을 올린 곳)에서 template file(일반적으로 single.php and page.php 등등 )들을 수정합니다. 파일을 열어서 &ldquo;comments_template();&rdquo; 이라고 적혀 있는 곳을 지우시고 다음과 같이 적어줍니다. 저도 요기에서 조금 헛갈렸습니다. 프로그램에서 명령어를 바꿔주는 것이더군요. 앞에서 올린 파일을 써서 답변을 만들고, 만약 없으면 있던 것을 쓰자! 뭐 이런 명령어입니다. 파일을 열고 단순히 고치시면 됩니다. 저는 page 기능을 이용해서 방명록에서만 쓰려고 했기 때문에, page.php만 고쳤습니다. <code>if (function_exists('paged_comments_template')) paged_comments_template(); else comments_template();</code></li>
+<li>마지막으로 admin interface에 가서 앞에서 올린 paged_comments을 활성화(active)시켜주면 됩니다. 물론 WordPress 2.0에만 이 기능이 있습니다.</li>
+<li>설치는 다했는데, 마지막으로 Page기능을 이용해 방명록을 만들겠습니다. admin의 write menu에서 적당한 이름의 page(ex. guestbook)를 생성해줍니다. 그런 다음 admin의 Manage menu에서 pages를 선택하면 앞에서 만든 page가 있습니다. 여기서 view를 누르시면, 그 page가 뜹니다. 그리고 edit누르시면 내용이 들어가게 됩니다. 여기에 쓰시고 싶으신 글을 쓰시면 됩니다. 다음은 제 방명록 페이지 링크입니다.</li>
+</ol>
+<p><a href="http://www.epistemology.pe.kr/guestbook/">http://www.epistemology.pe.kr/guestbook/</a></p>
+<p>이것을 방명록으로 링크를 걸어서 사용하시면 됩니다.</p>
+
+</div>
+
+  
+<footer class='entry-footer'>
+  <div class='container sep-before'><div class='categories'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M22,19a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V5A2,2,0,0,1,4,3H9l2,3h9a2,2,0,0,1,2,2Z" />
+</svg>
+<span class='screen-reader-text'>categories: </span><a class='category' href='/categories/wordpress/'>WordPress</a></div>
+
+  </div>
+</footer>
+
+
+</article>
+
+<nav class='entry-nav'>
+  <div class='container'><div class='prev-entry sep-before'>
+      <a href='/2006/09/28/56/'>
+        <span aria-hidden='true'><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="20" y1="12" x2="4" y2="12" />
+<polyline points="10 18 4 12 10 6" />
+</svg>
+ </span>
+        <span class='screen-reader-text'>: </span>블로그에 음악을 달아봅시다.</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/2006/10/11/61/'>
+        <span class='screen-reader-text'>: </span>2003 가을 학생회관<span aria-hidden='true'> <svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><line x1="4" y1="12" x2="20" y2="12" />
+<polyline points="14 6 20 12 14 18" />
+</svg>
+</span>
+      </a>
+    </div></div>
+</nav>
+
+
+
+
+      </main>
+
+      <footer id='footer' class='footer'>
+        <div class='container sep-before'><section class='widget widget-social_menu sep-after'><nav aria-label=''>
+    <ul><li>
+        <a href='https://github.com/dialektike' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'></span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+</svg>
+</a>
+      </li><li>
+        <a href='https://twitter.com/dialektike' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'></span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+</svg>
+</a>
+      </li><li>
+        <a href='https://www.youtube.com/channel/UCA09XgcepbmC9NPaFfrBn0g' target='_blank' rel='noopener me'>
+          <span class='screen-reader-text'></span><svg
+  class="icon"
+  xmlns="http://www.w3.org/2000/svg"
+  viewbox="0 0 24 24"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  stroke-width="2"
+  aria-hidden="true"
+><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+<polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</section><div class='copyright'>
+  <p> &copy; 2005-2023 Jae-Hwan </p>
+</div>
+
+        </div>
+      </footer>
+
+    </div>
+  </div><script>window.__assets_js_src="/assets/js/"</script>
+
+<script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
+
+</body>
+
+</html>
+
