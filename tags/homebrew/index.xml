@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homebrew on Epistemology</title>
-    <link>https://dialektike.github.io/tags/homebrew/</link>
+    <link>http://www.epistemology.pe.kr/tags/homebrew/</link>
     <description>Recent content in Homebrew on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Sep 2018 17:36:30 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Sep 2018 17:36:30 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/homebrew/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>맥에서 홈브루(Homebrew)를 이용해서 chromedriver를 설치하기</title>
-      <link>https://dialektike.github.io/2018/09/25/1153/</link>
+      <link>http://www.epistemology.pe.kr/2018/09/25/1153/</link>
       <pubDate>Tue, 25 Sep 2018 17:36:30 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2018/09/25/1153/</guid>
+      <guid>http://www.epistemology.pe.kr/2018/09/25/1153/</guid>
       <description>통상적으로 웹 상에 있는 자료를 수집할 때 , 로그인과 같은 것을 처리하려면 PhantomJS을 이용해서, 즉 화면이 존재하지 않는 웹 브라우저, Headless Browser을 사용해서 웹 크롤링을 합니다. 그런데 문제는 이 방법이 진짜 웹 브라우저를 실행하는 것은 아니기 때문에 자잘한 문제가 많았습니다. 이를 해결하는 방법이 나왔는데, 창없는 크롬으로 크롤링하기 | Beomi&amp;rsquo;s Tech Blog입니다.
 이 방법을 사용하기 위해서는 앞의 링크에서 언급한 것처럼 크롬과 chromedriver을 설치해야 합니다. 크롬은 설치하는 것을 쉽지만, chromedriver를 링크에서 언급한 곳에서 다운 받아 설치하면, 조금 번거로운 과정(chromedriver를 받아서 압축을 풀고, 그 압축을 푼 폴더 위치를 정확하게 찾아서 알아야 하는 과정)을 겪어야 합니다.</description>
     </item>
     
     <item>
       <title>맥에 mpv을 설치해보자!</title>
-      <link>https://dialektike.github.io/2016/11/21/1094/</link>
+      <link>http://www.epistemology.pe.kr/2016/11/21/1094/</link>
       <pubDate>Mon, 21 Nov 2016 15:54:06 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/11/21/1094/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/11/21/1094/</guid>
       <description>맥에는 이미 무비스트라는 걸출한 동영상을 보는 앱이 있기 때문에, 다른 앱이 거의 필요가 없죠. 그러나 가끔은 다른 앱이 필요한 경우가 있습니다. 이런 경우 저는 MPlayerx, MPlayer, VLC 등을 사용했었습니다. 그러나 MPlayerx은 malware 문제가 있는 관계로 바로 지워 버렸고, MPlayer 도 설치하는 것이 어렵고 뭘 설치해야 하는지 정신이 없고, VLC는 좀 사용하기가 불편했습니다. 예를 들어 앞으로 돌리기, 뒤로 되돌아 가기 등을 잘 찾을 수가 없더군요.
 그러던 중 mplayer2 과 MPlayer을 포크해서(즉 소스를 갖다가 새로 만든) mpv(mpv.</description>
     </item>

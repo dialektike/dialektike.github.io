@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>julia on Epistemology</title>
-    <link>https://dialektike.github.io/tags/julia/</link>
+    <link>http://www.epistemology.pe.kr/tags/julia/</link>
     <description>Recent content in julia on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Jan 2020 15:04:48 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/julia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jan 2020 15:04:48 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/julia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Array 에서 행을 잡는 방법</title>
-      <link>https://dialektike.github.io/2020/01/16/1271/</link>
+      <link>http://www.epistemology.pe.kr/2020/01/16/1271/</link>
       <pubDate>Thu, 16 Jan 2020 15:04:48 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2020/01/16/1271/</guid>
+      <guid>http://www.epistemology.pe.kr/2020/01/16/1271/</guid>
       <description>줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
 M = [1 2 3; 4 5 6; 7 8 9] 실행 결과:
 3×3 Array{Int64,2}: 1 2 3 4 5 6 7 8 9 그러나 아쉽게도 다음과 같이 셀을 하나씩 잡아서 준다.
@@ -21,10 +21,10 @@ for i in (M) println(i) end 실행 결과:
     
     <item>
       <title>맥에서 julia를 쉽게 설치하는 법</title>
-      <link>https://dialektike.github.io/2019/12/16/1250/</link>
+      <link>http://www.epistemology.pe.kr/2019/12/16/1250/</link>
       <pubDate>Mon, 16 Dec 2019 16:10:16 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2019/12/16/1250/</guid>
+      <guid>http://www.epistemology.pe.kr/2019/12/16/1250/</guid>
       <description>당연히 homebrew를 사용하는 것입니다.
 brew cask install julia 다음 링크를 참고하세요
 Platform Specific Instructions for Official Binaries </description>

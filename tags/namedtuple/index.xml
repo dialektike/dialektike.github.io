@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>namedtuple on Epistemology</title>
-    <link>https://dialektike.github.io/tags/namedtuple/</link>
+    <link>http://www.epistemology.pe.kr/tags/namedtuple/</link>
     <description>Recent content in namedtuple on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Nov 2018 16:47:06 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/namedtuple/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Nov 2018 16:47:06 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/namedtuple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>파이썬에서 함수를 만들 때, 리턴값으로 `namedtuple`을 써보자.</title>
-      <link>https://dialektike.github.io/2018/11/30/1160/</link>
+      <link>http://www.epistemology.pe.kr/2018/11/30/1160/</link>
       <pubDate>Fri, 30 Nov 2018 16:47:06 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2018/11/30/1160/</guid>
+      <guid>http://www.epistemology.pe.kr/2018/11/30/1160/</guid>
       <description>파이썬에서 리턴값이 조금 복잡해지면, 딕셔너리를 많이 사용했었습니다. 그런데 이렇게 만든 함수를 쓰려면(함수 이름을 &amp;lsquo;fun&amp;rsquo;이라고 합시다!), fun[&amp;rsquo;name&amp;rsquo;] 과 같이 딕셔너리를 불러오는 방식으로 써야합니다. 뭐 키보드를 많이 두드려야 합니다. 그래서 이를 쉽게 하는 방법을 찾다가 Not using named tuples when returning more than one value from a function이라는 글을 봤습니다. namedtuple을 이용해서 하면 fun.name과 같이 쉽게 처리할 수 있습니다. 윗글에서 코드를 가져왔습니다. 아주 쉽게 처리할 수 있습니다! name = namedtuple(&amp;quot;name&amp;quot;, [&amp;quot;first&amp;quot;, &amp;quot;middle&amp;quot;, &amp;quot;last&amp;quot;]), 코드에서 namedtuple을 만들어서 return name(&amp;quot;Richard&amp;quot;, &amp;quot;Xavier&amp;quot;, &amp;quot;Jones&amp;quot;)같이 사용하는 것입니다.</description>
     </item>
     

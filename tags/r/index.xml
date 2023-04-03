@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Epistemology</title>
-    <link>https://dialektike.github.io/tags/r/</link>
+    <link>http://www.epistemology.pe.kr/tags/r/</link>
     <description>Recent content in R on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R에서 `csv`형식 파일을 압축하기</title>
-      <link>https://dialektike.github.io/2022/08/02/1415/</link>
+      <link>http://www.epistemology.pe.kr/2022/08/02/1415/</link>
       <pubDate>Tue, 02 Aug 2022 15:27:14 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2022/08/02/1415/</guid>
+      <guid>http://www.epistemology.pe.kr/2022/08/02/1415/</guid>
       <description>사용하고 있는 csv형식 파일들을 갯수도 많고 용량도 크다면, 이것들을 보관하거나 전달하기 위해서는 압축하는 것이 편리하다. archive라는 패키지를 이용해서 여러개의 csv형식 파일들을 한 파일로 압축해보자. 이 패키지에 대한 세부적인 내용은 아래 링크를 참고하자.
 archive: Multi-Format Archive and Compression Support 우선 해당 패키지를 설치해보자.
 install.packages(&amp;#34;archive&amp;#34;) 아래 명령어로 현재 압축하고자 하는 csv형식 파일이 있는지 살펴보자. 참고로 &amp;ldquo;data.zip&amp;quot;라는 파일명으로 압축하니, 이 폴더에 이 파일이 없어야 한다. 만약 있으면 에러가 날 확률이 많다.
@@ -20,10 +20,10 @@ dir() 이제 압축하고자 하는 csv형식 파일을 한 파일로 압축해�
     
     <item>
       <title>Mac용 R 성능을 올려 보기</title>
-      <link>https://dialektike.github.io/2021/12/09/1399/</link>
+      <link>http://www.epistemology.pe.kr/2021/12/09/1399/</link>
       <pubDate>Thu, 09 Dec 2021 17:34:31 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2021/12/09/1399/</guid>
+      <guid>http://www.epistemology.pe.kr/2021/12/09/1399/</guid>
       <description>맥 OS에서 R 성능을 올리는 글이 봤었는데, 여기에서 알려지지 않을 것 같아서 정보 공유 차원에서 올려봅니다. 자세한 내용은 아래 링크 두 개를 참고하세요!
 대락적인 내용은 애플에서 제공하는 Apple’s BLAS를 사용하면 R 속도가 메트릭스 연산 속도가 거의 1/10로 줄어 듭니다. 그런데 아쉽게도 현재 macOS에서는 사용할 수 없게 되었고 macOS 10.13 하이 시에라까지만 사용할 수 있습니다. 이 내용이 두 번째 링크 내용입니다.
 그런데 첫 번째 링크를 보면, 저자는 M1 Mac mini에서 OpenBLAS 0.</description>
@@ -31,20 +31,20 @@ dir() 이제 압축하고자 하는 csv형식 파일을 한 파일로 압축해�
     
     <item>
       <title>R으로 Docker로 구성한 MariaDB 사용하기</title>
-      <link>https://dialektike.github.io/2020/10/30/1342/</link>
+      <link>http://www.epistemology.pe.kr/2020/10/30/1342/</link>
       <pubDate>Fri, 30 Oct 2020 16:35:59 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2020/10/30/1342/</guid>
+      <guid>http://www.epistemology.pe.kr/2020/10/30/1342/</guid>
       <description>이 글은 R로 MariaDB(이하 마리아디비)에 접근하기 위한 글입니다. 컴퓨터에 직접 마리아디비를 설치하고 이용하는 것이 아니라, 도커에 설치한 마리아디비를 이용하고자 합니다. 직접 설치하신 마리아디비를 사용하고자 하실 분들이나 외부 다른 컴퓨터에 설치된 것을 사용하고자 하실 분들도 아래 연결 설정값을 적절하게 입력하신다면, 그 글을 따라가시는데 문제가 없을 것 같습니다.
 본격적으로 시작하기에 앞서 참고로 여기에서는 이미 Docker로 마리아디비를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. Docker를 사용해서 MariaDB을 설치하기 그리고 이미 다음과 같은 sql명령을 사용하여 gregs_list이라는 DATABASE를 만들고, 그 안에 my_contacts라는 테이블을 만들고 두 사람의 자료를 입력했습니다.</description>
     </item>
     
     <item>
       <title>Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법</title>
-      <link>https://dialektike.github.io/2017/07/13/1121/</link>
+      <link>http://www.epistemology.pe.kr/2017/07/13/1121/</link>
       <pubDate>Thu, 13 Jul 2017 16:52:25 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2017/07/13/1121/</guid>
+      <guid>http://www.epistemology.pe.kr/2017/07/13/1121/</guid>
       <description>한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
 R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가는 글자를 어떤 형식으로 구성하느냐 하는 문제, 즉 인코딩 문제 때문입니다. 일반적으로 윈도우는 euc-kr를 사용하고, 반면에 맥이나 리눅스는 utf-8을 사용하기 때문입니다.
 이 문제를 극복하기 위한 여러가기 꼼수가 있었지만, R에서 이를 처리하는 함수를 하나 만들어서 처리하는 방식이 있어서 소개하고자 합니다.</description>
@@ -52,10 +52,10 @@ R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가�
     
     <item>
       <title>Mac 에서 R의 rugarch 패키지 설치시 오류가 날 때 처리법</title>
-      <link>https://dialektike.github.io/2016/12/28/1097/</link>
+      <link>http://www.epistemology.pe.kr/2016/12/28/1097/</link>
       <pubDate>Wed, 28 Dec 2016 16:54:36 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/12/28/1097/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/12/28/1097/</guid>
       <description>제목 그대로 다음과 같은 오류가 날 수 있습니다.
 https://gist.github.com/dialektike/f939309cd457ead414bb02e997b5a303
 그러면 XQuartz에 가서 XQuartz을 다운받아서 설치하시고 R을 종료하고 재실행하시면 잘 설치됩니다. 출처는 다음과 같습니다.
@@ -64,10 +64,10 @@ Installing &amp;ldquo;rgl&amp;rdquo; package in R, Mac OSX El Captian [fixed] - 
     
     <item>
       <title>윈도우에서 만든 csv 파일을 Mac에서 사용하는 R에서 쉽게 열어보자.</title>
-      <link>https://dialektike.github.io/2016/08/22/1074/</link>
+      <link>http://www.epistemology.pe.kr/2016/08/22/1074/</link>
       <pubDate>Mon, 22 Aug 2016 23:06:22 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/08/22/1074/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/08/22/1074/</guid>
       <description>뭐 간단한 팁인데요.
 R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용하는 경우가 있습니다. 이때 맥과 리눅스 간에는 유니코드 인코딩 방식중 UTF-8을 사용하면 그리 문제없이 파일을 공유할 수 있습니다. 그런데 문제는 윈도우가 끼어들면 문제가 복잡합니다. 윈도우에서 만들어진 csv 파일이 맥이나 리눅스에서 잘 안 읽어지는 경우가 많습니다.
 물론 고수이신 분들은 다 쉽게 처리하시겠지만, 저는 항상 이런 경우 문제가 많았습니다. 그런데 아주 쉬운 방법을 하나 찾았습니다. 맥으로 파일을 보내기 전에 윈도우에서 보낼 csv 파일을 윈도우에서 메모장을 엽니다.</description>
@@ -75,30 +75,30 @@ R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용
     
     <item>
       <title>RStudio를 이용하여, R 코드와 한글이 들어 있는 R Markdown으로 쓴 파일을 pdf로 만드는 팁!</title>
-      <link>https://dialektike.github.io/2016/08/04/1067/</link>
+      <link>http://www.epistemology.pe.kr/2016/08/04/1067/</link>
       <pubDate>Thu, 04 Aug 2016 15:52:11 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/08/04/1067/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/08/04/1067/</guid>
       <description>RStudio에는 기본적인 R보다 유용한 기능이 많습니다. 그중에서는 저는 knitr 패키지를 이용하여 R 코드가 들어있는 R Markdown으로 쓰여진 글을 HTML이나 pdf 파일로 만들어 주는 기능에 관심이 많았습니다. 물론 프리뷰(Preview) 버젼인 RStudio Version 0.99.1273에는 이것 보다 더 진보한R Markdown Notebooks이 들어 있습니다.
 그러나 문제는 이 기능이 영어로만 되어 있는 것은 잘 되는데, 유난히 한글만 들어가면 잘 안 된다는 것입니다. HTML로 변환하는 것은 잘 되는 것 같았는데, pdf으로 변환하는 것이 문제였습니다. 그러다가 우연히 권재명님이 쓰신 Jaimyoung/data-science-in-korean: 한국어를 포함한 데이터와 분석코드를 다루는 팁을 살펴보다가 https://raw.</description>
     </item>
     
     <item>
       <title>R에서 미국 연비(MPG)를 한국연비(km/L)로 있어보이게 바꾸기</title>
-      <link>https://dialektike.github.io/2016/07/07/1057/</link>
+      <link>http://www.epistemology.pe.kr/2016/07/07/1057/</link>
       <pubDate>Thu, 07 Jul 2016 19:12:05 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/07/07/1057/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/07/07/1057/</guid>
       <description>우리 나라에서 사용하는 연비란 에너지관리공단 수송에너지 &amp;gt; 자동차공인연비 &amp;gt; 공인연비에 따르면 연료 1ℓ로 주행 가능한 거리(km)를 말하는 것을 말합니다. 그러나 미국은 연료 1갤런(gallon)으로 주행 가능한 거리를 마일(mile)로 계산하여 연비를 계산합니다. 미국이랑 우리나라가 단위가 다르니 생기는 문제입니다. 참고로 1갤런은 3.785411784리터(참고: 갤런 - 위키백과, 우리 모두의 백과사전) 이고 1 마일은 1.609344 킬로미터(참고: 마일 - 위키백과, 우리 모두의 백과사전) 입니다.
 뭐 사전 지식은 다 알았으니, 실제로 연비를 바꿔보겠습니다. 미국 연비를 10부터 40까지 만들보겠습니다.</description>
     </item>
     
     <item>
       <title>R 에서 대문자를 소문자로, 소문자를 대문자로 바꾸는 방법</title>
-      <link>https://dialektike.github.io/2016/01/22/1030/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/22/1030/</link>
       <pubDate>Fri, 22 Jan 2016 16:24:12 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/22/1030/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/22/1030/</guid>
       <description>영어로 된 문자열을 모두 대문자로 바꾸거나 소문자로 바꿔야 할 경우가 있습니다. 그럴 때에는 toupper or tolower 아래와 같이 사용하면 됩니다.
 &amp;gt; test &amp;lt;- c(&amp;#34;Test tesT&amp;#34;) ##입력 &amp;gt; test ## 확인 [1] &amp;#34;Test tesT&amp;#34; &amp;gt; tolower(test) ## 소문자로 바꿉니다. [1] &amp;#34;test test&amp;#34; &amp;gt; toupper(test) ## 대문자로 바꿉니다. [1] &amp;#34;TEST TEST&amp;#34; R에서 다음과 같이 입력 하시면 도움말을 보실 수 있습니다.
 ?toupper ?tolower https://gist.github.com/dialektike/4973ba184b8c6ccc49da</description>
@@ -106,10 +106,10 @@ R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용
     
     <item>
       <title>엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!</title>
-      <link>https://dialektike.github.io/2016/01/06/995/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/06/995/</link>
       <pubDate>Wed, 06 Jan 2016 00:30:24 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/06/995/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/06/995/</guid>
       <description>엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
 R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.
 &amp;gt; a &amp;lt;-c(100,200,300,400,500) &amp;gt; a [1] 100 200 300 400 500 &amp;gt; b &amp;lt;- c(&amp;#34;컴퓨터&amp;#34;,&amp;#34;DSLR&amp;#34;,&amp;#34;냉장고&amp;#34;,&amp;#34;TV&amp;#34;,&amp;#34;에어컨&amp;#34;) &amp;gt; b [1] &amp;#34;컴퓨터&amp;#34; &amp;#34;DSLR&amp;#34; &amp;#34;냉장고&amp;#34; &amp;#34;TV&amp;#34; &amp;#34;에어컨&amp;#34; &amp;gt; c &amp;lt;- c(700000,450000,2300000,4100000,1400000) &amp;gt; c [1] 700000 450000 2300000 4100000 1400000 &amp;gt; items &amp;lt;- data.</description>
@@ -117,10 +117,10 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
     
     <item>
       <title>R 에서 170!팩토리얼(factorial), 170계승 이상을 계산하는 법</title>
-      <link>https://dialektike.github.io/2015/11/12/944/</link>
+      <link>http://www.epistemology.pe.kr/2015/11/12/944/</link>
       <pubDate>Thu, 12 Nov 2015 17:47:25 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/11/12/944/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/11/12/944/</guid>
       <description>R에서는 170!까지만 계산할 수 있습니다(아래 코드 참조). 171!부터는 다음과 같이 일반적인 방법으로 계산할 수 없습니다.
 &amp;gt; factorial(170) [1] 7.257416e+306 &amp;gt; factorial(171) [1] Inf 경고메시지(들): In factorial(171) : value out of range in &amp;#39;gammafn&amp;#39; 그러면 어떻게 계산할 수 있을까요? factorialZ 을 쓰시면 됩니다. 우선 다음과 같이 gmp를 설치합니다.
 &amp;gt; install.packages(&amp;#34;gmp&amp;#34;) 그런 다음 아래와 같이 하면 됩니다. 참고로 조금 표현 방식이 다르게 나옵니다. 그리고 171!이상도 계산해서 결과를 보여주니, 너무 높은 값을 넣으면, 엄청난 숫자를 보게 되니 주의하세요!</description>
@@ -128,30 +128,30 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
     
     <item>
       <title>R 에서 팩토리얼(factorial), 계승을 계산하는 법</title>
-      <link>https://dialektike.github.io/2015/11/08/938/</link>
+      <link>http://www.epistemology.pe.kr/2015/11/08/938/</link>
       <pubDate>Sun, 08 Nov 2015 01:35:21 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/11/08/938/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/11/08/938/</guid>
       <description>3! = 3 * 2 * 1 = 6 R에서 계산하는 방법은 다음과 같습니다.
 &amp;gt; factorial(3) #3 × 2 × 1 [1] 6 &amp;gt; factorial(52) [1] 8.065818e+67 </description>
     </item>
     
     <item>
       <title>R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance) 구하기</title>
-      <link>https://dialektike.github.io/2015/02/11/844/</link>
+      <link>http://www.epistemology.pe.kr/2015/02/11/844/</link>
       <pubDate>Wed, 11 Feb 2015 01:53:49 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/02/11/844/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/02/11/844/</guid>
       <description>R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance)을 구해보겠습니다. 그러기 위해서는 우선 준비작업으로 값을 넣어보겠습니다.
 여기서 입력하고자 하는 값들은 농구선수가 게임당 특점한 값들이라고 가정했습니다. 1번째 줄은 그 자료를 입력하는 것입니다. 2번째 줄은 그것을 R의 데이터 프레임 형식으로 만들어 player라는 변수에 넣는 것입니다. 마지막으로 3번째 줄은 이 값들에 열 이름을 넣는 것입니다. 엑셀 파일에 1줄로 자료를 입력한 후, 맨 앞 칸에 열 이름을 넣는 것이라고 생각하시면 됩니다. 마지막 줄을 입력하면 지금까지 한 것을 확인할 수 있습니다.</description>
     </item>
     
     <item>
       <title>R로 사분위도(Quatile)를 계산해보자.</title>
-      <link>https://dialektike.github.io/2014/03/17/690/</link>
+      <link>http://www.epistemology.pe.kr/2014/03/17/690/</link>
       <pubDate>Mon, 17 Mar 2014 17:16:20 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/03/17/690/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/03/17/690/</guid>
       <description>R은 기본적으로 사분위도(Quatile)를 다루기 위해서 “ quartile(x, p) ”이라는 명령어를 사용합니다. 이 명령어의 사용법은 R 메뉴얼을 보면 다음과 같습니다.
 ## Default S3 method: quantile(x, probs = seq(0, 1, 0.25), na.rm = FALSE, names = TRUE, type = 7, ...) 여기서 제일 중요한 x에 들어갈 것은 우리가 조사하고자 하는 자료입니다. 그리고 두 번째로 중요한 것은 probs = seq(0, 1, 0.25)입니다. 이 명령어의 의미는 0%~100%까지 까지 25%씩 나눠서 계산하라고 명령하는 것입니다. 따라서 위와 같이 입력한다면, &amp;ldquo;0%, 25%, 50% 75%, 100%&amp;ldquo;에 해당하는 값을 출력하게 됩니다.</description>
     </item>

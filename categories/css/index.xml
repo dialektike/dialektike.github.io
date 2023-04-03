@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Epistemology</title>
-    <link>https://dialektike.github.io/categories/css/</link>
+    <link>http://www.epistemology.pe.kr/categories/css/</link>
     <description>Recent content in CSS on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Dec 2007 22:37:15 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Dec 2007 22:37:15 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/categories/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best of CSS Design 2007</title>
-      <link>https://dialektike.github.io/2007/12/18/125/</link>
+      <link>http://www.epistemology.pe.kr/2007/12/18/125/</link>
       <pubDate>Tue, 18 Dec 2007 22:37:15 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/12/18/125/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/12/18/125/</guid>
       <description>뭐 아시는 분은 아시겠지만, 제가 웹디자인에 관심이 있습니다. 이번에 http://www.webdesignerwall.com/이라는 곳에서 올해의 Best of CSS Design 2007 을 선정했습니다. 관심 있으신 분은 다음 링크를 클릭하시면 됩니다. 뭐 한국은 아직도 윈도우에서 벗어나고 있지 못한데, 참 많은 것이 빨리 변하고 있습니다.
 http://www.webdesignerwall.com/trends/best-of-css-design-2007/ </description>
     </item>
     
     <item>
       <title>인용문에 따옴표(“) 넣기</title>
-      <link>https://dialektike.github.io/2005/12/21/32/</link>
+      <link>http://www.epistemology.pe.kr/2005/12/21/32/</link>
       <pubDate>Wed, 21 Dec 2005 22:51:44 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2005/12/21/32/</guid>
+      <guid>http://www.epistemology.pe.kr/2005/12/21/32/</guid>
       <description>하는 일이 특성상 사람들이 말했던 말을 인용하는 경우가 많습니다. 물론 글을 쓸 때에는 인용을 하고 각주 같은 것을 달아서 해결하지만, 웹에서는 어떻게 처리할지 걱정이 많았습니다. 요즘 웹표준(링크는 예스 24입니다)이라는 책을 읽으면서 4장 인용문에서 힌트를 얻었습니다. 그리고 저자 사이트를 참고했습니다. 기본 CSS에 다음과 같은 코드를 넣고 따옴표 이미지 파일을 넣으시면 됩니다. 간단하죠?
 blockquote { margin:0; padding:0 18px; font-size: 88%; line-height: 1.5em; color: #777; padding-left: 23px; background: url(/images/quotemarks.gif) no-repeat 0 3px; } </description>
     </item>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Array on Epistemology</title>
-    <link>https://dialektike.github.io/tags/array/</link>
+    <link>http://www.epistemology.pe.kr/tags/array/</link>
     <description>Recent content in Array on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Nov 2014 18:52:51 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Nov 2014 18:52:51 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/array/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Swift에서 array 초기화 하기</title>
-      <link>https://dialektike.github.io/2014/11/19/837/</link>
+      <link>http://www.epistemology.pe.kr/2014/11/19/837/</link>
       <pubDate>Wed, 19 Nov 2014 18:52:51 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/11/19/837/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/11/19/837/</guid>
       <description>참 책을 만들면서 뭔가 바뀌면, 정오표를 만들어 제공하는 것이 예의인데, 그냥 개정판을 내는 것은 도리가 아닌 것 같다. swift에서 배열을 초기화하는 것은 다음과 같이 해서는 안 된다.
 var WrongArrayInit = Int[]() 다음과 같이 해야 한다.
 var RightArrayInit = [Int]() 애플 공식문서에 하면, &amp;ldquo;You can create an empty array of a certain type (without setting any initial values) using initializer syntax:&amp;rdquo;

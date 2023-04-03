@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>statistics on Epistemology</title>
-    <link>https://dialektike.github.io/tags/statistics/</link>
+    <link>http://www.epistemology.pe.kr/tags/statistics/</link>
     <description>Recent content in statistics on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 06 Jan 2016 00:30:24 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jan 2016 00:30:24 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!</title>
-      <link>https://dialektike.github.io/2016/01/06/995/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/06/995/</link>
       <pubDate>Wed, 06 Jan 2016 00:30:24 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/06/995/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/06/995/</guid>
       <description>엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
 R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.
 &amp;gt; a &amp;lt;-c(100,200,300,400,500) &amp;gt; a [1] 100 200 300 400 500 &amp;gt; b &amp;lt;- c(&amp;#34;컴퓨터&amp;#34;,&amp;#34;DSLR&amp;#34;,&amp;#34;냉장고&amp;#34;,&amp;#34;TV&amp;#34;,&amp;#34;에어컨&amp;#34;) &amp;gt; b [1] &amp;#34;컴퓨터&amp;#34; &amp;#34;DSLR&amp;#34; &amp;#34;냉장고&amp;#34; &amp;#34;TV&amp;#34; &amp;#34;에어컨&amp;#34; &amp;gt; c &amp;lt;- c(700000,450000,2300000,4100000,1400000) &amp;gt; c [1] 700000 450000 2300000 4100000 1400000 &amp;gt; items &amp;lt;- data.</description>
@@ -19,10 +19,10 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
     
     <item>
       <title>R로 사분위도(Quatile)를 계산해보자.</title>
-      <link>https://dialektike.github.io/2014/03/17/690/</link>
+      <link>http://www.epistemology.pe.kr/2014/03/17/690/</link>
       <pubDate>Mon, 17 Mar 2014 17:16:20 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/03/17/690/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/03/17/690/</guid>
       <description>R은 기본적으로 사분위도(Quatile)를 다루기 위해서 “ quartile(x, p) ”이라는 명령어를 사용합니다. 이 명령어의 사용법은 R 메뉴얼을 보면 다음과 같습니다.
 ## Default S3 method: quantile(x, probs = seq(0, 1, 0.25), na.rm = FALSE, names = TRUE, type = 7, ...) 여기서 제일 중요한 x에 들어갈 것은 우리가 조사하고자 하는 자료입니다. 그리고 두 번째로 중요한 것은 probs = seq(0, 1, 0.25)입니다. 이 명령어의 의미는 0%~100%까지 까지 25%씩 나눠서 계산하라고 명령하는 것입니다. 따라서 위와 같이 입력한다면, &amp;ldquo;0%, 25%, 50% 75%, 100%&amp;ldquo;에 해당하는 값을 출력하게 됩니다.</description>
     </item>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Epistemology</title>
-    <link>https://dialektike.github.io/authors/</link>
+    <link>http://www.epistemology.pe.kr/authors/</link>
     <description>Recent content in Authors on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dialektike</title>
-      <link>https://dialektike.github.io/authors/dialektike/</link>
+      <link>http://www.epistemology.pe.kr/authors/dialektike/</link>
       <pubDate>Tue, 02 Aug 2022 15:27:14 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/authors/dialektike/</guid>
+      <guid>http://www.epistemology.pe.kr/authors/dialektike/</guid>
       <description></description>
     </item>
     

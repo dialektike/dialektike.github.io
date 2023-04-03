@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dialektike on Epistemology</title>
-    <link>https://dialektike.github.io/authors/dialektike/</link>
+    <link>http://www.epistemology.pe.kr/authors/dialektike/</link>
     <description>Recent content in dialektike on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/authors/dialektike/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 15:27:14 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/authors/dialektike/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R에서 `csv`형식 파일을 압축하기</title>
-      <link>https://dialektike.github.io/2022/08/02/1415/</link>
+      <link>http://www.epistemology.pe.kr/2022/08/02/1415/</link>
       <pubDate>Tue, 02 Aug 2022 15:27:14 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2022/08/02/1415/</guid>
+      <guid>http://www.epistemology.pe.kr/2022/08/02/1415/</guid>
       <description>사용하고 있는 csv형식 파일들을 갯수도 많고 용량도 크다면, 이것들을 보관하거나 전달하기 위해서는 압축하는 것이 편리하다. archive라는 패키지를 이용해서 여러개의 csv형식 파일들을 한 파일로 압축해보자. 이 패키지에 대한 세부적인 내용은 아래 링크를 참고하자.
 archive: Multi-Format Archive and Compression Support 우선 해당 패키지를 설치해보자.
 install.packages(&amp;#34;archive&amp;#34;) 아래 명령어로 현재 압축하고자 하는 csv형식 파일이 있는지 살펴보자. 참고로 &amp;ldquo;data.zip&amp;quot;라는 파일명으로 압축하니, 이 폴더에 이 파일이 없어야 한다. 만약 있으면 에러가 날 확률이 많다.
@@ -20,20 +20,20 @@ dir() 이제 압축하고자 하는 csv형식 파일을 한 파일로 압축해�
     
     <item>
       <title>러스트(Rust)에서 한글 문자열 글자수 세기</title>
-      <link>https://dialektike.github.io/2022/02/11/1405/</link>
+      <link>http://www.epistemology.pe.kr/2022/02/11/1405/</link>
       <pubDate>Fri, 11 Feb 2022 18:26:05 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2022/02/11/1405/</guid>
+      <guid>http://www.epistemology.pe.kr/2022/02/11/1405/</guid>
       <description>러스트(Rust)에서 한글 문자열을 세기 위해서 단순하게 아래와 같이 len()을 사용하면 제대로 세지를 못한다. chars().count()을 이용해서 정확하게 셀 수 있다. 아래 코드를 실행하면, 정확하게 알 수 있다.
 fn main() { let temp = &amp;#34;안녕하세요!&amp;#34;; println!(&amp;#34;temp.chars().count()로 센 글자수:{}&amp;#34;, temp.chars().count()); println!(&amp;#34;temp.len() 센 글자수:{}&amp;#34;, temp.len()); } </description>
     </item>
     
     <item>
       <title>Mac용 R 성능을 올려 보기</title>
-      <link>https://dialektike.github.io/2021/12/09/1399/</link>
+      <link>http://www.epistemology.pe.kr/2021/12/09/1399/</link>
       <pubDate>Thu, 09 Dec 2021 17:34:31 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2021/12/09/1399/</guid>
+      <guid>http://www.epistemology.pe.kr/2021/12/09/1399/</guid>
       <description>맥 OS에서 R 성능을 올리는 글이 봤었는데, 여기에서 알려지지 않을 것 같아서 정보 공유 차원에서 올려봅니다. 자세한 내용은 아래 링크 두 개를 참고하세요!
 대락적인 내용은 애플에서 제공하는 Apple’s BLAS를 사용하면 R 속도가 메트릭스 연산 속도가 거의 1/10로 줄어 듭니다. 그런데 아쉽게도 현재 macOS에서는 사용할 수 없게 되었고 macOS 10.13 하이 시에라까지만 사용할 수 있습니다. 이 내용이 두 번째 링크 내용입니다.
 그런데 첫 번째 링크를 보면, 저자는 M1 Mac mini에서 OpenBLAS 0.</description>
@@ -41,10 +41,10 @@ fn main() { let temp = &amp;#34;안녕하세요!&amp;#34;; println!(&amp;#34;tem
     
     <item>
       <title>엔서블에서 `apt` 이용할 때 나오는 오류 처리법</title>
-      <link>https://dialektike.github.io/2021/03/18/1378/</link>
+      <link>http://www.epistemology.pe.kr/2021/03/18/1378/</link>
       <pubDate>Thu, 18 Mar 2021 17:48:04 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2021/03/18/1378/</guid>
+      <guid>http://www.epistemology.pe.kr/2021/03/18/1378/</guid>
       <description>apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
 tasks: - name: Update and upgrade apt packages become: true apt: upgrade: yes update_cache: yes cache_valid_time: 86400 #One day 이런 경우 다음과 같은 경고가 뜰 수 있죠.
 TASK [Update and upgrade apt packages] ************************************************************************************************************************ [WARNING]: The value &amp;#34;True&amp;#34; (type bool) was converted to &amp;#34;&amp;#39;True&amp;#39;&amp;#34; (type string). If this does not look like what you expect, quote the entire value to ensure it does not change.</description>
@@ -52,10 +52,10 @@ TASK [Update and upgrade apt packages] *****************************************
     
     <item>
       <title>맥에서 보안 때문에 사용할 수 없는 크롬드라이버 사용하는 법</title>
-      <link>https://dialektike.github.io/2021/03/12/1369/</link>
+      <link>http://www.epistemology.pe.kr/2021/03/12/1369/</link>
       <pubDate>Fri, 12 Mar 2021 14:14:02 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2021/03/12/1369/</guid>
+      <guid>http://www.epistemology.pe.kr/2021/03/12/1369/</guid>
       <description>맥에서 크롤링을 하기 위해서 chromedriver를 사용하는 경우가 많습니다. 홈브루를 이용하시면, 터미널에서 brew install chromedriver을 입력하시면 사용할 수 있습니다. 그런데 맥 최신 오에스에서는 이렇게 설치한 chromedriver을 보안을 이유로 막는 경우가 있습니다. 좀 찾아봤는데 아주 쉽게 해결할 수 있습니다. 위와 같이 chromedriver를 설치하셨다면 터미널에서 xattr -d com.apple.quarantine $(which chromedriver)이라고 입력하시면 바로 문제 없이 사용하실 수 있습니다.
 xattr -d com.apple.quarantine $(which chromedriver) 아래 글을 참고하세요!
 java - MacOS Catalina(v 10.15.3): Error: “chromedriver” cannot be opened because the developer cannot be verified.</description>
@@ -63,30 +63,30 @@ java - MacOS Catalina(v 10.15.3): Error: “chromedriver” cannot be opened bec
     
     <item>
       <title>맥에서 sshpass 설치하기</title>
-      <link>https://dialektike.github.io/2021/03/09/1361/</link>
+      <link>http://www.epistemology.pe.kr/2021/03/09/1361/</link>
       <pubDate>Tue, 09 Mar 2021 18:36:57 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2021/03/09/1361/</guid>
+      <guid>http://www.epistemology.pe.kr/2021/03/09/1361/</guid>
       <description>homebrew로 sshpass이 설치되지 않는다! 아래 링크를 보면, 초보자들이 가볍게 설치하지 못 하도록 하려고 설치를 막았다고 하는 것 같다. 그래서 아래 링크에 있는 소스를 이용하는 방법으로 설치해보자! 설치한 후 다운받은 폴더와 파일을 삭제하면 된다.
 cd ~ curl -O -L https://fossies.org/linux/privat/sshpass-1.09.tar.gz &amp;amp;&amp;amp; tar xvzf sshpass-1.09.tar.gz cd sshpass-1.09 ./configure sudo make install sshpass macos - How to install sshpass on mac? - Stack Overflow</description>
     </item>
     
     <item>
       <title>R으로 Docker로 구성한 MariaDB 사용하기</title>
-      <link>https://dialektike.github.io/2020/10/30/1342/</link>
+      <link>http://www.epistemology.pe.kr/2020/10/30/1342/</link>
       <pubDate>Fri, 30 Oct 2020 16:35:59 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2020/10/30/1342/</guid>
+      <guid>http://www.epistemology.pe.kr/2020/10/30/1342/</guid>
       <description>이 글은 R로 MariaDB(이하 마리아디비)에 접근하기 위한 글입니다. 컴퓨터에 직접 마리아디비를 설치하고 이용하는 것이 아니라, 도커에 설치한 마리아디비를 이용하고자 합니다. 직접 설치하신 마리아디비를 사용하고자 하실 분들이나 외부 다른 컴퓨터에 설치된 것을 사용하고자 하실 분들도 아래 연결 설정값을 적절하게 입력하신다면, 그 글을 따라가시는데 문제가 없을 것 같습니다.
 본격적으로 시작하기에 앞서 참고로 여기에서는 이미 Docker로 마리아디비를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. Docker를 사용해서 MariaDB을 설치하기 그리고 이미 다음과 같은 sql명령을 사용하여 gregs_list이라는 DATABASE를 만들고, 그 안에 my_contacts라는 테이블을 만들고 두 사람의 자료를 입력했습니다.</description>
     </item>
     
     <item>
       <title>Docker를 사용해서 MariaDB을 설치하기</title>
-      <link>https://dialektike.github.io/2020/09/26/1293/</link>
+      <link>http://www.epistemology.pe.kr/2020/09/26/1293/</link>
       <pubDate>Sat, 26 Sep 2020 16:56:26 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2020/09/26/1293/</guid>
+      <guid>http://www.epistemology.pe.kr/2020/09/26/1293/</guid>
       <description>참고: 이 글은 JiHun님의 Docker를-사용해서-MariaDB-설치하기을 참고했습니다. 자세한 내용은 이 글을 참고하세요!
 docker 에 mariadb container를 받고 실행합니다. MYSQL_ROOT_PASSWORD = RT27hDosK에 쓴 RT27hDosK은 DB 비번입니다. 적절하게 고쳐주세요. 연습용으로 쓰실 것이면, 그대로 사용해도 무방합니다.
 docker pull mariadb docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=RT27hDosK mariadb 앞에서 실행한 container에 들어가서 bash를 실행합니다.
@@ -96,10 +96,10 @@ root@e144fdbab9be:/# mysql -u root -p Enter password: 들어갔으니 DB상태�
     
     <item>
       <title>Array 에서 행을 잡는 방법</title>
-      <link>https://dialektike.github.io/2020/01/16/1271/</link>
+      <link>http://www.epistemology.pe.kr/2020/01/16/1271/</link>
       <pubDate>Thu, 16 Jan 2020 15:04:48 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2020/01/16/1271/</guid>
+      <guid>http://www.epistemology.pe.kr/2020/01/16/1271/</guid>
       <description>줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
 M = [1 2 3; 4 5 6; 7 8 9] 실행 결과:
 3×3 Array{Int64,2}: 1 2 3 4 5 6 7 8 9 그러나 아쉽게도 다음과 같이 셀을 하나씩 잡아서 준다.
@@ -109,10 +109,10 @@ for i in (M) println(i) end 실행 결과:
     
     <item>
       <title>맥에서 julia를 쉽게 설치하는 법</title>
-      <link>https://dialektike.github.io/2019/12/16/1250/</link>
+      <link>http://www.epistemology.pe.kr/2019/12/16/1250/</link>
       <pubDate>Mon, 16 Dec 2019 16:10:16 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2019/12/16/1250/</guid>
+      <guid>http://www.epistemology.pe.kr/2019/12/16/1250/</guid>
       <description>당연히 homebrew를 사용하는 것입니다.
 brew cask install julia 다음 링크를 참고하세요
 Platform Specific Instructions for Official Binaries </description>
@@ -120,10 +120,10 @@ Platform Specific Instructions for Official Binaries </description>
     
     <item>
       <title>R Markdown 으로 작성된 것을 GitHub Markdown 으로 바꾸기</title>
-      <link>https://dialektike.github.io/2019/06/18/1237/</link>
+      <link>http://www.epistemology.pe.kr/2019/06/18/1237/</link>
       <pubDate>Tue, 18 Jun 2019 15:43:52 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2019/06/18/1237/</guid>
+      <guid>http://www.epistemology.pe.kr/2019/06/18/1237/</guid>
       <description>아주 쉽습니다. 아래와 같이 맨처음에 있는 설정 부분에서 output: github_document이라고 변경하시면 됩니다.
 --- title: &amp;#34;Habits&amp;#34; author: John Doe date: March 22, 2005 output: github_document --- 다음 링크를 참고하세요
 GitHub Documents </description>
@@ -131,10 +131,10 @@ GitHub Documents </description>
     
     <item>
       <title>라즈베리 파이에 Python 3.7.2 설치</title>
-      <link>https://dialektike.github.io/2019/03/22/1194/</link>
+      <link>http://www.epistemology.pe.kr/2019/03/22/1194/</link>
       <pubDate>Fri, 22 Mar 2019 13:45:47 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2019/03/22/1194/</guid>
+      <guid>http://www.epistemology.pe.kr/2019/03/22/1194/</guid>
       <description>라즈베리 파이에는 Python 3.5.3이 설치되어 있어서, 여기에 Python 3.7.2을 설치하려고 합니다.
 아래 코드의 출처 다음과 같습니다.
 http://www.wikipython.com/raspberry-pi/installing-python-3-7-2/ 라즈베리 파이의 터미널에서 다음과 같이 입력하시면 설치가 됩니다.
@@ -143,39 +143,39 @@ sudo apt install build-essential checkinstall sudo apt install libreadline-gplv2
     
     <item>
       <title>아이폰 또는 아이패드 키노트에서 아이폰 또는 아이패드에 없는 폰트를 사용하는 법</title>
-      <link>https://dialektike.github.io/2018/12/17/1173/</link>
+      <link>http://www.epistemology.pe.kr/2018/12/17/1173/</link>
       <pubDate>Mon, 17 Dec 2018 17:42:19 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2018/12/17/1173/</guid>
+      <guid>http://www.epistemology.pe.kr/2018/12/17/1173/</guid>
       <description>맥을 사용하는 이유 중의 하나가 맥에는 키노트라는 PT 프로그램이 있기 때문입니다. 전 수업을 키노트를 이용해서 하는데 수업 한 번 하려고 매번 무거운 노트북을 들고 다니는 것도 너무 힘들거군요.
 원래는 아이폰용 키노트가 맥용 키노트보다 품질이 좋지는 았지만, 애플이 맥에서 만든 키노트 파일을 아이폰에서도 그대로 사용하게 하기 위해서 맥용 키노트의 성능을 아이폰용 키노트에 맞춰 다운그래이드하고, 맥용 최신 버젼인 모하비에서는 아예 성능이 좋은 예전 맥용 키노트가 작동하지 못 하게 만들었습니다. 결국 이제는 맥용과 아이폰용 키노트는 거의 90% 같은 것이라고 할 수 있습니다.</description>
     </item>
     
     <item>
       <title>파이썬에서 함수를 만들 때, 리턴값으로 `namedtuple`을 써보자.</title>
-      <link>https://dialektike.github.io/2018/11/30/1160/</link>
+      <link>http://www.epistemology.pe.kr/2018/11/30/1160/</link>
       <pubDate>Fri, 30 Nov 2018 16:47:06 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2018/11/30/1160/</guid>
+      <guid>http://www.epistemology.pe.kr/2018/11/30/1160/</guid>
       <description>파이썬에서 리턴값이 조금 복잡해지면, 딕셔너리를 많이 사용했었습니다. 그런데 이렇게 만든 함수를 쓰려면(함수 이름을 &amp;lsquo;fun&amp;rsquo;이라고 합시다!), fun[&amp;rsquo;name&amp;rsquo;] 과 같이 딕셔너리를 불러오는 방식으로 써야합니다. 뭐 키보드를 많이 두드려야 합니다. 그래서 이를 쉽게 하는 방법을 찾다가 Not using named tuples when returning more than one value from a function이라는 글을 봤습니다. namedtuple을 이용해서 하면 fun.name과 같이 쉽게 처리할 수 있습니다. 윗글에서 코드를 가져왔습니다. 아주 쉽게 처리할 수 있습니다! name = namedtuple(&amp;quot;name&amp;quot;, [&amp;quot;first&amp;quot;, &amp;quot;middle&amp;quot;, &amp;quot;last&amp;quot;]), 코드에서 namedtuple을 만들어서 return name(&amp;quot;Richard&amp;quot;, &amp;quot;Xavier&amp;quot;, &amp;quot;Jones&amp;quot;)같이 사용하는 것입니다.</description>
     </item>
     
     <item>
       <title>맥에서 홈브루(Homebrew)를 이용해서 chromedriver를 설치하기</title>
-      <link>https://dialektike.github.io/2018/09/25/1153/</link>
+      <link>http://www.epistemology.pe.kr/2018/09/25/1153/</link>
       <pubDate>Tue, 25 Sep 2018 17:36:30 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2018/09/25/1153/</guid>
+      <guid>http://www.epistemology.pe.kr/2018/09/25/1153/</guid>
       <description>통상적으로 웹 상에 있는 자료를 수집할 때 , 로그인과 같은 것을 처리하려면 PhantomJS을 이용해서, 즉 화면이 존재하지 않는 웹 브라우저, Headless Browser을 사용해서 웹 크롤링을 합니다. 그런데 문제는 이 방법이 진짜 웹 브라우저를 실행하는 것은 아니기 때문에 자잘한 문제가 많았습니다. 이를 해결하는 방법이 나왔는데, 창없는 크롬으로 크롤링하기 | Beomi&amp;rsquo;s Tech Blog입니다.
 이 방법을 사용하기 위해서는 앞의 링크에서 언급한 것처럼 크롬과 chromedriver을 설치해야 합니다. 크롬은 설치하는 것을 쉽지만, chromedriver를 링크에서 언급한 곳에서 다운 받아 설치하면, 조금 번거로운 과정(chromedriver를 받아서 압축을 풀고, 그 압축을 푼 폴더 위치를 정확하게 찾아서 알아야 하는 과정)을 겪어야 합니다.</description>
     </item>
     
     <item>
       <title>Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법</title>
-      <link>https://dialektike.github.io/2017/07/13/1121/</link>
+      <link>http://www.epistemology.pe.kr/2017/07/13/1121/</link>
       <pubDate>Thu, 13 Jul 2017 16:52:25 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2017/07/13/1121/</guid>
+      <guid>http://www.epistemology.pe.kr/2017/07/13/1121/</guid>
       <description>한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
 R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가는 글자를 어떤 형식으로 구성하느냐 하는 문제, 즉 인코딩 문제 때문입니다. 일반적으로 윈도우는 euc-kr를 사용하고, 반면에 맥이나 리눅스는 utf-8을 사용하기 때문입니다.
 이 문제를 극복하기 위한 여러가기 꼼수가 있었지만, R에서 이를 처리하는 함수를 하나 만들어서 처리하는 방식이 있어서 소개하고자 합니다.</description>
@@ -183,10 +183,10 @@ R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가�
     
     <item>
       <title>Noesis 라는 단어의 출처는 어디일까?</title>
-      <link>https://dialektike.github.io/2017/04/13/1116/</link>
+      <link>http://www.epistemology.pe.kr/2017/04/13/1116/</link>
       <pubDate>Thu, 13 Apr 2017 20:27:49 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2017/04/13/1116/</guid>
+      <guid>http://www.epistemology.pe.kr/2017/04/13/1116/</guid>
       <description>플라톤의 대화편이 테아이테토스를 읽다가 갑자기 ‘노에시스’라는 단어가 생각나서 찾아봤더니 후설:노에시스/노에마이라는 글을 발견했다. 이 곳에 다음과 같은 내용이 있었다.
 중기부터 후기에 걸쳐 후설은 이 두 번째의 측면을 노에시스적 계기, 줄여서 노에시스(Noesis)라 불렀다.(좀 더 넓은 의미로, 지향적 체험 전체를 노에시스로 부르기도 한다.) 이것을 후설이 그리스어 누스&amp;rsquo;Nous(정신, 이성)&amp;rsquo; 와 &amp;lsquo;노에인Noein(사유하다, 지각하다, 직관하다)&amp;lsquo;을 결합시켜 만들어낸 술어이다. 노에시스를 직역하면 &amp;lsquo;의식작용&amp;rsquo;이 된다.
 진짜 그런가 하고 희랍어 텍스트에 이 단어가 들어있는 곳이 없는지 다음과 같이 Noesis를 검사해봤다. Perseus under Philologic: searching for νόησις</description>
@@ -194,19 +194,19 @@ R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가�
     
     <item>
       <title>터미널을 이용해서 현재 Raspberry Pi 서버의 IP 번호를 알고 싶을 때?</title>
-      <link>https://dialektike.github.io/2017/04/10/1111/</link>
+      <link>http://www.epistemology.pe.kr/2017/04/10/1111/</link>
       <pubDate>Mon, 10 Apr 2017 16:09:22 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2017/04/10/1111/</guid>
+      <guid>http://www.epistemology.pe.kr/2017/04/10/1111/</guid>
       <description>저는 라즈베리파이를 서버로 사용하고 있습니다. 터미널을 사용하다가 서버의 IP 주소를 알고자 할 때에는 조금 부식한 명령어인 ifconfig를 사용했습니다. 그런데 Raspberry Pi를 사용하다고 조금 더 쉬운 명령어를 알았습니다. hostname -I이라고 터미널에서 쓰면 바로 IP번호가 나옵니다. 이게 더 단순하게 이쁘게 나오네요! 아마도 파이가 우분투를 사용하니, 우분투를 사용하는 리눅스에서도 이 명령어는 돌아갈 것 같습니다. 맥에서는 이 명령어가 작동하지 않네요. 참고하세요. 이 내용은 Worksheet - Build a Python Web Server with Flask | Raspberry Pi Learning Resources에서 찾았습니다.</description>
     </item>
     
     <item>
       <title>구글 R 스타일 가이드(Google&#39;s R Style Guide)을 번역해 보았습니다.</title>
-      <link>https://dialektike.github.io/2017/03/06/1108/</link>
+      <link>http://www.epistemology.pe.kr/2017/03/06/1108/</link>
       <pubDate>Mon, 06 Mar 2017 15:25:43 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2017/03/06/1108/</guid>
+      <guid>http://www.epistemology.pe.kr/2017/03/06/1108/</guid>
       <description>구글에서 만든 Google&amp;rsquo;s R Style Guide를 번역해 봤습니다.
 번역한 것을 보시려면, 아래 링크를 가시면 됩니다. 영어 부분은 링크파일에 주석처리되어 있습니다. 이상한 부분은 코드를 직접 보시고 확인해주셔도 됩니다. 앞부분에 있는 참고 부분을 추가한 것을 빼고는, 거의 구조와 내용은 손대지 않고 영어만 한글도 번역했습니다. 꼭 번역이 필요하지 않다고 생각된 부분은 번역을 하지 않았습니다.
 Google&amp;rsquo;s R Style Guide
@@ -215,10 +215,10 @@ Google&amp;rsquo;s R Style Guide
     
     <item>
       <title>Mac 에서 R의 rugarch 패키지 설치시 오류가 날 때 처리법</title>
-      <link>https://dialektike.github.io/2016/12/28/1097/</link>
+      <link>http://www.epistemology.pe.kr/2016/12/28/1097/</link>
       <pubDate>Wed, 28 Dec 2016 16:54:36 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/12/28/1097/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/12/28/1097/</guid>
       <description>제목 그대로 다음과 같은 오류가 날 수 있습니다.
 https://gist.github.com/dialektike/f939309cd457ead414bb02e997b5a303
 그러면 XQuartz에 가서 XQuartz을 다운받아서 설치하시고 R을 종료하고 재실행하시면 잘 설치됩니다. 출처는 다음과 같습니다.
@@ -227,30 +227,30 @@ Installing &amp;ldquo;rgl&amp;rdquo; package in R, Mac OSX El Captian [fixed] - 
     
     <item>
       <title>맥에 mpv을 설치해보자!</title>
-      <link>https://dialektike.github.io/2016/11/21/1094/</link>
+      <link>http://www.epistemology.pe.kr/2016/11/21/1094/</link>
       <pubDate>Mon, 21 Nov 2016 15:54:06 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/11/21/1094/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/11/21/1094/</guid>
       <description>맥에는 이미 무비스트라는 걸출한 동영상을 보는 앱이 있기 때문에, 다른 앱이 거의 필요가 없죠. 그러나 가끔은 다른 앱이 필요한 경우가 있습니다. 이런 경우 저는 MPlayerx, MPlayer, VLC 등을 사용했었습니다. 그러나 MPlayerx은 malware 문제가 있는 관계로 바로 지워 버렸고, MPlayer 도 설치하는 것이 어렵고 뭘 설치해야 하는지 정신이 없고, VLC는 좀 사용하기가 불편했습니다. 예를 들어 앞으로 돌리기, 뒤로 되돌아 가기 등을 잘 찾을 수가 없더군요.
 그러던 중 mplayer2 과 MPlayer을 포크해서(즉 소스를 갖다가 새로 만든) mpv(mpv.</description>
     </item>
     
     <item>
       <title>데카르트의 Cogito ergo sum 에 대한 짧은 느낌</title>
-      <link>https://dialektike.github.io/2016/10/31/1085/</link>
+      <link>http://www.epistemology.pe.kr/2016/10/31/1085/</link>
       <pubDate>Mon, 31 Oct 2016 15:41:34 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/10/31/1085/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/10/31/1085/</guid>
       <description>당근 지금 나는 생각하고 있겠지. 내가 있어야 생각할 수 있겠지. 없으면 생각할 수 있겠어? 나는 이것이 나에게 명석판명하게(clearly and distinctly), 인식되기 있기 때문에 참이라고 생각해. 그런데 그렇다고 해서, 다시 말해 내가 생각하고 있다고 해서, 내가 생각하고 있기 때문에, 이것을 근거로 내가 내 몸을 갖고 있다고 말할 수는 없지. 물론 나는 있지만 &amp;hellip;?!
 만일 내가 사고하지 않는다면 나는 내가 존재한다고 믿을 어떤 근거도 지니지 못할 것이다. 따라서 나는 오직 사고하는 것만을 본질로 삼는 실체이다.</description>
     </item>
     
     <item>
       <title>윈도우에서 만든 csv 파일을 Mac에서 사용하는 R에서 쉽게 열어보자.</title>
-      <link>https://dialektike.github.io/2016/08/22/1074/</link>
+      <link>http://www.epistemology.pe.kr/2016/08/22/1074/</link>
       <pubDate>Mon, 22 Aug 2016 23:06:22 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/08/22/1074/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/08/22/1074/</guid>
       <description>뭐 간단한 팁인데요.
 R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용하는 경우가 있습니다. 이때 맥과 리눅스 간에는 유니코드 인코딩 방식중 UTF-8을 사용하면 그리 문제없이 파일을 공유할 수 있습니다. 그런데 문제는 윈도우가 끼어들면 문제가 복잡합니다. 윈도우에서 만들어진 csv 파일이 맥이나 리눅스에서 잘 안 읽어지는 경우가 많습니다.
 물론 고수이신 분들은 다 쉽게 처리하시겠지만, 저는 항상 이런 경우 문제가 많았습니다. 그런데 아주 쉬운 방법을 하나 찾았습니다. 맥으로 파일을 보내기 전에 윈도우에서 보낼 csv 파일을 윈도우에서 메모장을 엽니다.</description>
@@ -258,30 +258,30 @@ R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용
     
     <item>
       <title>RStudio를 이용하여, R 코드와 한글이 들어 있는 R Markdown으로 쓴 파일을 pdf로 만드는 팁!</title>
-      <link>https://dialektike.github.io/2016/08/04/1067/</link>
+      <link>http://www.epistemology.pe.kr/2016/08/04/1067/</link>
       <pubDate>Thu, 04 Aug 2016 15:52:11 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/08/04/1067/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/08/04/1067/</guid>
       <description>RStudio에는 기본적인 R보다 유용한 기능이 많습니다. 그중에서는 저는 knitr 패키지를 이용하여 R 코드가 들어있는 R Markdown으로 쓰여진 글을 HTML이나 pdf 파일로 만들어 주는 기능에 관심이 많았습니다. 물론 프리뷰(Preview) 버젼인 RStudio Version 0.99.1273에는 이것 보다 더 진보한R Markdown Notebooks이 들어 있습니다.
 그러나 문제는 이 기능이 영어로만 되어 있는 것은 잘 되는데, 유난히 한글만 들어가면 잘 안 된다는 것입니다. HTML로 변환하는 것은 잘 되는 것 같았는데, pdf으로 변환하는 것이 문제였습니다. 그러다가 우연히 권재명님이 쓰신 Jaimyoung/data-science-in-korean: 한국어를 포함한 데이터와 분석코드를 다루는 팁을 살펴보다가 https://raw.</description>
     </item>
     
     <item>
       <title>R에서 미국 연비(MPG)를 한국연비(km/L)로 있어보이게 바꾸기</title>
-      <link>https://dialektike.github.io/2016/07/07/1057/</link>
+      <link>http://www.epistemology.pe.kr/2016/07/07/1057/</link>
       <pubDate>Thu, 07 Jul 2016 19:12:05 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/07/07/1057/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/07/07/1057/</guid>
       <description>우리 나라에서 사용하는 연비란 에너지관리공단 수송에너지 &amp;gt; 자동차공인연비 &amp;gt; 공인연비에 따르면 연료 1ℓ로 주행 가능한 거리(km)를 말하는 것을 말합니다. 그러나 미국은 연료 1갤런(gallon)으로 주행 가능한 거리를 마일(mile)로 계산하여 연비를 계산합니다. 미국이랑 우리나라가 단위가 다르니 생기는 문제입니다. 참고로 1갤런은 3.785411784리터(참고: 갤런 - 위키백과, 우리 모두의 백과사전) 이고 1 마일은 1.609344 킬로미터(참고: 마일 - 위키백과, 우리 모두의 백과사전) 입니다.
 뭐 사전 지식은 다 알았으니, 실제로 연비를 바꿔보겠습니다. 미국 연비를 10부터 40까지 만들보겠습니다.</description>
     </item>
     
     <item>
       <title>맥이나 리눅스에서 제피(Gephi)를 돌릴 때, 손쉽게 분석 자료에서 “,”를 “;”로 바꾸는 방법</title>
-      <link>https://dialektike.github.io/2016/02/26/1038/</link>
+      <link>http://www.epistemology.pe.kr/2016/02/26/1038/</link>
       <pubDate>Fri, 26 Feb 2016 16:00:57 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/02/26/1038/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/02/26/1038/</guid>
       <description>안녕하세요!
 맥이나 리눅스에서 제피(Gephi)를 돌릴 때, 일반적으로 csv 파일을 이용하여 분석합니다. 그런데 Gephi는 csv 파일이 사용하는 ,보다 ;을 이용하여 작업을 하기 때문에, 분석 파일에 들어 있는 ,를 ;으로 바꿔줘야 합니다. 이런 경우 에디터로 해당 파일을 열어서 바꿔줍니다.
 그러나 맥이나 리눅스를 사용하시는 분은 에디터를 사용하지 않고 손쉽게 바꾸실 수 있습니다. 우리가 바꿀 파일이 aaa.csv라고 해봅니다. 그리고 이 파일을 변환하여 바꾼 파일을 bbb.csv라고 해봅시다. 그러면 아래와 같이 터미널에서 한 줄만 명령어를 쳐주시면 됩니다.</description>
@@ -289,10 +289,10 @@ R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용
     
     <item>
       <title>R 에서 대문자를 소문자로, 소문자를 대문자로 바꾸는 방법</title>
-      <link>https://dialektike.github.io/2016/01/22/1030/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/22/1030/</link>
       <pubDate>Fri, 22 Jan 2016 16:24:12 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/22/1030/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/22/1030/</guid>
       <description>영어로 된 문자열을 모두 대문자로 바꾸거나 소문자로 바꿔야 할 경우가 있습니다. 그럴 때에는 toupper or tolower 아래와 같이 사용하면 됩니다.
 &amp;gt; test &amp;lt;- c(&amp;#34;Test tesT&amp;#34;) ##입력 &amp;gt; test ## 확인 [1] &amp;#34;Test tesT&amp;#34; &amp;gt; tolower(test) ## 소문자로 바꿉니다. [1] &amp;#34;test test&amp;#34; &amp;gt; toupper(test) ## 대문자로 바꿉니다. [1] &amp;#34;TEST TEST&amp;#34; R에서 다음과 같이 입력 하시면 도움말을 보실 수 있습니다.
 ?toupper ?tolower https://gist.github.com/dialektike/4973ba184b8c6ccc49da</description>
@@ -300,19 +300,19 @@ R을 사용하면서 csv파일을 맥, 윈도우, 리눅스 간에 같이 사용
     
     <item>
       <title>플라톤의 대화편에서 이데아(희랍어 :ἰδέα, 영어:Idea)을 어떻게 이해할까?</title>
-      <link>https://dialektike.github.io/2016/01/11/1015/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/11/1015/</link>
       <pubDate>Mon, 11 Jan 2016 16:14:30 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/11/1015/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/11/1015/</guid>
       <description>The Principle of Commonality. Wherever several things are F, this is because they participate in or imitate a single Idea of F (Phd. 100c; Men. 72c, 75a; Rep. 5. 476a10, 597c). The Principle of Separation. The Idea of F is distinct from all the things that are F (Phd. 74c; Smp. 211b). The Principle of Self-Predication. The Idea of F is itself F (Hp. Ma. 292e; Prt. 230c–e; Prm. 132a–b).</description>
     </item>
     
     <item>
       <title>엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!</title>
-      <link>https://dialektike.github.io/2016/01/06/995/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/06/995/</link>
       <pubDate>Wed, 06 Jan 2016 00:30:24 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/06/995/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/06/995/</guid>
       <description>엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
 R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.
 &amp;gt; a &amp;lt;-c(100,200,300,400,500) &amp;gt; a [1] 100 200 300 400 500 &amp;gt; b &amp;lt;- c(&amp;#34;컴퓨터&amp;#34;,&amp;#34;DSLR&amp;#34;,&amp;#34;냉장고&amp;#34;,&amp;#34;TV&amp;#34;,&amp;#34;에어컨&amp;#34;) &amp;gt; b [1] &amp;#34;컴퓨터&amp;#34; &amp;#34;DSLR&amp;#34; &amp;#34;냉장고&amp;#34; &amp;#34;TV&amp;#34; &amp;#34;에어컨&amp;#34; &amp;gt; c &amp;lt;- c(700000,450000,2300000,4100000,1400000) &amp;gt; c [1] 700000 450000 2300000 4100000 1400000 &amp;gt; items &amp;lt;- data.</description>
@@ -320,10 +320,10 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
     
     <item>
       <title>Atom 에서 정규 표현식(regular expression)을 사용하기</title>
-      <link>https://dialektike.github.io/2016/01/02/988/</link>
+      <link>http://www.epistemology.pe.kr/2016/01/02/988/</link>
       <pubDate>Sat, 02 Jan 2016 16:37:30 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2016/01/02/988/</guid>
+      <guid>http://www.epistemology.pe.kr/2016/01/02/988/</guid>
       <description>생각 보다 단순합니다. Atom 에디터 메뉴에서 Find 메뉴에서 Find in Buffer 를 선택합니다. 그러면 에디터 아랫 부분에 다음과 같은 메뉴가 뜹니다.
 Atom에서 정규 표현식 사용하기 위에서 파란색으로 되어 있는 버튼을 눌러서 선택합니다. 그러면 저처럼 파란색이 되거나 다른 색으로 반전되면서 위에 “Finding with Options: Regex, ~ ”과 같은 문장이 보기에 됩니다. 그런 다음 앞에 칸에 사용할 정규표현식을 쓰시면 됩니다. 전 HTML 주석을 제거하기 위하여 거기에 &amp;lt;!--(.|\s)*?--&amp;gt;이라고 적었습니다.
 정규 표현식을 배우시려면 영어로 된 RegExr: Learn, Build, &amp;amp; Test RegEx에서 배우실 수 있습니다.</description>
@@ -331,30 +331,30 @@ Atom에서 정규 표현식 사용하기 위에서 파란색으로 되어 있는
     
     <item>
       <title>내일 날자를 만들어 봅시다.</title>
-      <link>https://dialektike.github.io/2015/12/07/965/</link>
+      <link>http://www.epistemology.pe.kr/2015/12/07/965/</link>
       <pubDate>Mon, 07 Dec 2015 23:51:37 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/12/07/965/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/12/07/965/</guid>
       <description>swift에서 초 단위의 데이터를 사용하지 않고, 내일 날자를 구하는 코드입니다.
 // 아래 코드는 swift 2.0에서 현재 시간에 하루를 더하는 것을 보여주고 있습니다. let now = NSDate() // 현재 시간 정보를 넣습니다. let comp = NSDateComponents() // 하루를 더하기 위해서 NSDateComponents를 하나 만듭니다. comp.setValue(1, forKey: &amp;#34;day&amp;#34;) // 위에서 만든 곳에 1일을 넣습니다. forKey를 바꾸면 다른 것도 넣을 수 있습니다. let myCal = NSCalendar.init(calendarIdentifier: NSCalendarIdentifierGregorian) // 하루를 더해서 넣을 NSCalendar를 하나 만듭니다. let tomorrow = myCal!</description>
     </item>
     
     <item>
       <title>마크다운(Markdown)으로 글을 쓰면서 대괄호(backslash bracket), &#39;[, ]&#39;을 표시하기</title>
-      <link>https://dialektike.github.io/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</link>
+      <link>http://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</link>
       <pubDate>Sat, 05 Dec 2015 18:56:42 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</guid>
       <description>마크다운(Markdown)으로 글을 쓰고 나서, 막상 대괄호(backslash bracket)인 &amp;lsquo;[ &amp;lsquo;이 사라지는 경우가 왕왕 있습니다. 이럴때는 앞 대괄호 앞에 &amp;lsquo;\[&amp;lsquo;처럼 \을 넣어주시면 간단하게 해결되기도 합니다. 만약 뒷 대괄호가 안 나온다면, 위와 마찬가지로 &amp;lsquo;\]&amp;lsquo;처럼 그 앞에 \에 넣어주시면 됩니다. 만약 \이 키보드에 없거나 화면에 표시 되지 않는 경우가 있습니다. 역슬래시,&amp;rsquo;&#39;대신 키보드에서 원화 마크를 찾아서 사용하시면 됩니다.
 PS:혹시 이 글에서 역슬래시가 안 나오고 원화 마크가 계속해서 나오면, 문제가 없는 것이니 위의 문제 해결을 하기 위해서 원화마크를 쓰시면 됩니다.</description>
     </item>
     
     <item>
       <title>R 에서 170!팩토리얼(factorial), 170계승 이상을 계산하는 법</title>
-      <link>https://dialektike.github.io/2015/11/12/944/</link>
+      <link>http://www.epistemology.pe.kr/2015/11/12/944/</link>
       <pubDate>Thu, 12 Nov 2015 17:47:25 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/11/12/944/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/11/12/944/</guid>
       <description>R에서는 170!까지만 계산할 수 있습니다(아래 코드 참조). 171!부터는 다음과 같이 일반적인 방법으로 계산할 수 없습니다.
 &amp;gt; factorial(170) [1] 7.257416e+306 &amp;gt; factorial(171) [1] Inf 경고메시지(들): In factorial(171) : value out of range in &amp;#39;gammafn&amp;#39; 그러면 어떻게 계산할 수 있을까요? factorialZ 을 쓰시면 됩니다. 우선 다음과 같이 gmp를 설치합니다.
 &amp;gt; install.packages(&amp;#34;gmp&amp;#34;) 그런 다음 아래와 같이 하면 됩니다. 참고로 조금 표현 방식이 다르게 나옵니다. 그리고 171!이상도 계산해서 결과를 보여주니, 너무 높은 값을 넣으면, 엄청난 숫자를 보게 되니 주의하세요!</description>
@@ -362,20 +362,20 @@ PS:혹시 이 글에서 역슬래시가 안 나오고 원화 마크가 계속해
     
     <item>
       <title>R 에서 팩토리얼(factorial), 계승을 계산하는 법</title>
-      <link>https://dialektike.github.io/2015/11/08/938/</link>
+      <link>http://www.epistemology.pe.kr/2015/11/08/938/</link>
       <pubDate>Sun, 08 Nov 2015 01:35:21 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/11/08/938/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/11/08/938/</guid>
       <description>3! = 3 * 2 * 1 = 6 R에서 계산하는 방법은 다음과 같습니다.
 &amp;gt; factorial(3) #3 × 2 × 1 [1] 6 &amp;gt; factorial(52) [1] 8.065818e+67 </description>
     </item>
     
     <item>
       <title>swift 에서 문자에 들어 있는 글자 숫자를 세어보자.</title>
-      <link>https://dialektike.github.io/2015/11/07/934/</link>
+      <link>http://www.epistemology.pe.kr/2015/11/07/934/</link>
       <pubDate>Sat, 07 Nov 2015 18:55:34 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/11/07/934/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/11/07/934/</guid>
       <description>swift 2.0 에서 문자를 세는 방법이 많이 바뀌었습니다. 어떻게 보면 단순해진 것이죠. 다음 코드를 보시면 담박 아실 수 있습니다.
 let string = &amp;#34;나는 전설이다.&amp;#34; print(string.characters.count) let newString = &amp;#34;I Am Legend.&amp;#34; print(newString.characters.count) 좀 더 자세한 내용은 아래 링크를 확인하세요.
 애플 개발자 문서 Strings in Swift 2</description>
@@ -383,20 +383,20 @@ let string = &amp;#34;나는 전설이다.&amp;#34; print(string.characters.coun
     
     <item>
       <title>String 를 NSData 로, NSData 를 String 로</title>
-      <link>https://dialektike.github.io/2015/10/12/929/</link>
+      <link>http://www.epistemology.pe.kr/2015/10/12/929/</link>
       <pubDate>Mon, 12 Oct 2015 18:39:26 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/10/12/929/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/10/12/929/</guid>
       <description>swift에서 String를 NSData로, NSData를 String로 바꾸는 코드입니다.
 var swift_string = &amp;#34;lorem ipsum dolor sit amet&amp;#34; // from String to NSData let data = swift_string.dataUsingEncoding(NSUTF8StringEncoding) print(data) // from NSData to String var out: String = String(data:data!, encoding:NSUTF8StringEncoding)! print(out) // print &amp;#34;lorem ipsum dolor sit amet&amp;#34; </description>
     </item>
     
     <item>
       <title>wordpress에 Gist GitHub Shortcode 넣기</title>
-      <link>https://dialektike.github.io/2015/10/12/920/</link>
+      <link>http://www.epistemology.pe.kr/2015/10/12/920/</link>
       <pubDate>Mon, 12 Oct 2015 18:27:37 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/10/12/920/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/10/12/920/</guid>
       <description>초보자가 프로그램을 공부를 하면서 정리도 할 겸 이 곳에서 간단한 소개와 함께 써놓았죠. 워드프레스(wordpress)에서 코드를 보여주기 위해서 단순하게 글에 작은 코드를 넣고 보게끔 만들었습니다. 그런데 그 코드들을 변경하고자 할 경우, 번거롭게 글도 고쳐야 했습니다. 이때 https://gist.github.com를 사용하여 코드를 저장하고 관리하는데 더 편리한 것을 알게되었습니다. 그러면 여기에 저장되어 있는 작은 코드를 어떻게 하면 wordpress에 넣을까 하고 플러그인을 찾아봤습니다. 역시 있더군요.
 https://wordpress.org/plugins/gist-github-shortcode/
 사용하는 방법은 단순합니다. 우선 플러그인 Gist GitHub Shortcode을 설치합니다. 그런 다음 이 플러그인을 Plugins 메뉴에서 찾아 활성화(activate) 해 줍니다.</description>
@@ -404,49 +404,49 @@ https://wordpress.org/plugins/gist-github-shortcode/
     
     <item>
       <title>Swift 2.x에서 .toInt() 명령어가 사라지고, 대신 초기자 Int 등장!</title>
-      <link>https://dialektike.github.io/2015/09/21/888/</link>
+      <link>http://www.epistemology.pe.kr/2015/09/21/888/</link>
       <pubDate>Mon, 21 Sep 2015 18:35:42 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/09/21/888/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/09/21/888/</guid>
       <description>Swift 2.x에서 string(문자)를 int(숫자)로 바꿔 주는 .toInt() 함수가 없어졌네요. 헐! 그 대신 문자열을 제어할 수 있는 초기자(initializer), Int 가 생겼습니다. 다음 코드를 보시면 쉽게 아실 수 있습니다.
 // from string to int in swift let intString: String = &amp;#34;256&amp;#34; let stringInt: Int? = Int(intString) </description>
     </item>
     
     <item>
       <title>MacTeX-2015이 6월 14일에 나왔습니다.</title>
-      <link>https://dialektike.github.io/2015/07/06/872/</link>
+      <link>http://www.epistemology.pe.kr/2015/07/06/872/</link>
       <pubDate>Mon, 06 Jul 2015 16:56:04 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/07/06/872/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/07/06/872/</guid>
       <description>혹시 MacTeX을 쓰시는 분은 다음 링크에서 업그레이드 하세요! 현재 다운로드 속도가 느리네요.
 https://tug.org/mactex/mactex-download.html</description>
     </item>
     
     <item>
       <title>나는 이런 책을 읽어왔다</title>
-      <link>https://dialektike.github.io/2015/04/10/863/</link>
+      <link>http://www.epistemology.pe.kr/2015/04/10/863/</link>
       <pubDate>Fri, 10 Apr 2015 15:40:58 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/04/10/863/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/04/10/863/</guid>
       <description>286쪽: 이제 마지막이라고 한마디 하자면, 나는 책이란 만인의 대학이라고 생각한다. 어느 대학에 들어가건 사람이 대학에서 배울 수 있는 것은 양적으로든 질적으로든 극히 일부분에 불과하다. 대학에서도, 대학을 졸업하고 나서도 무엇인가를 배우려고 한다면 인간은 결국 책을 읽지 않을 수 없다. 대학을 계속 다니지 않는다면 아무것도 배울 수 없다. 나는 지금까지 살아오면서 책이라는 대학에 지속적으로 그 누구보다 열심히 다니고 있다. 때로는 책이라는 대학의 한가운데를 하염없이 거닐거나, 노는 기분으로 긴장을 늦추는 행동을 다양하게 취해보면서 공부를 계속해 왔다.</description>
     </item>
     
     <item>
       <title>R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance) 구하기</title>
-      <link>https://dialektike.github.io/2015/02/11/844/</link>
+      <link>http://www.epistemology.pe.kr/2015/02/11/844/</link>
       <pubDate>Wed, 11 Feb 2015 01:53:49 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/02/11/844/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/02/11/844/</guid>
       <description>R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance)을 구해보겠습니다. 그러기 위해서는 우선 준비작업으로 값을 넣어보겠습니다.
 여기서 입력하고자 하는 값들은 농구선수가 게임당 특점한 값들이라고 가정했습니다. 1번째 줄은 그 자료를 입력하는 것입니다. 2번째 줄은 그것을 R의 데이터 프레임 형식으로 만들어 player라는 변수에 넣는 것입니다. 마지막으로 3번째 줄은 이 값들에 열 이름을 넣는 것입니다. 엑셀 파일에 1줄로 자료를 입력한 후, 맨 앞 칸에 열 이름을 넣는 것이라고 생각하시면 됩니다. 마지막 줄을 입력하면 지금까지 한 것을 확인할 수 있습니다.</description>
     </item>
     
     <item>
       <title>Swift에서 array 초기화 하기</title>
-      <link>https://dialektike.github.io/2014/11/19/837/</link>
+      <link>http://www.epistemology.pe.kr/2014/11/19/837/</link>
       <pubDate>Wed, 19 Nov 2014 18:52:51 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/11/19/837/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/11/19/837/</guid>
       <description>참 책을 만들면서 뭔가 바뀌면, 정오표를 만들어 제공하는 것이 예의인데, 그냥 개정판을 내는 것은 도리가 아닌 것 같다. swift에서 배열을 초기화하는 것은 다음과 같이 해서는 안 된다.
 var WrongArrayInit = Int[]() 다음과 같이 해야 한다.
 var RightArrayInit = [Int]() 애플 공식문서에 하면, &amp;ldquo;You can create an empty array of a certain type (without setting any initial values) using initializer syntax:&amp;rdquo;
@@ -455,10 +455,10 @@ var someInts = [Int]() println(&amp;#34;someInts is of type [Int] with (someInts
     
     <item>
       <title>LaTeX에서 수평선 그리기</title>
-      <link>https://dialektike.github.io/2014/11/14/833/</link>
+      <link>http://www.epistemology.pe.kr/2014/11/14/833/</link>
       <pubDate>Fri, 14 Nov 2014 17:56:24 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/11/14/833/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/11/14/833/</guid>
       <description>LaTex에서 논증을 구성하고 결론을 보여주고자 할 때 그냥 무작정 그었더니 예쁘지 않더군요. 그래서 오래간만에 좀 찾아봤더니 역시 그리는 방법이 있었습니다.TIMMURPHY.ORG의 글을 참고했습니다.
 선은 LaTeX의 \line function을 이용하여 그립니다. 이 function은 다음과 같이 x-slope, y-slope 그리고 length등을 정의합니다:
 \line(x-slope,y-slope){length} 이때 수평선은 그리기 위해서는, x-slope은 1로, y-slope는 0으로 설정합니다. 다음과 같이 하면 멋진 수평선을 그을 수 있습니다. 여기서 \begin{center}은 문서 중앙에 그리라고 설정한 것입니다.
@@ -467,10 +467,10 @@ var someInts = [Int]() println(&amp;#34;someInts is of type [Int] with (someInts
     
     <item>
       <title>윈도우 7 이상에서는 기본적으로 iso 파일을 구울 수 있는 디스크 이미지 버너가 포함되어 있습니다.</title>
-      <link>https://dialektike.github.io/2014/09/03/766/</link>
+      <link>http://www.epistemology.pe.kr/2014/09/03/766/</link>
       <pubDate>Wed, 03 Sep 2014 23:38:56 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/09/03/766/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/09/03/766/</guid>
       <description>저는 윈도우 8.1을 쓰고 있는데, iso파일을 CD로 구워 프로그램을 설치해야 할 경우가 생겼습니다. 그래서 예전에 쓰던 CD 굽는 프로그램을 찾아봤습니다. 그러다가 혹시 찾아봤더니 다음과 같은 링크가 있더군요.
 http://windows.microsoft.com/ko-kr/windows7/burn-a-cd-or-dvd-from-an-iso-file
 뭔가 이미 윈도우에 그런 프로그램이 설치되어 있는 것 같네요. 그래서 찾아보니 역시 들어 있네요. 윈도우 7 이상에는 &amp;ldquo;윈도우 7에 기본으로 디스크 이미지 버너가 포함되어 있습니다. 그냥 ISO 파일에 우클릭 하시면 디스크 이미지 굽기 메뉴가 뜹니다. &amp;ldquo;고 합니다. 다음 링크 참고!
@@ -479,20 +479,20 @@ http://snoopybox.co.kr/1368</description>
     
     <item>
       <title>소니 액션 캠 라이브 뷰 HDRAS100VR/CE35 살 때 주의할 점</title>
-      <link>https://dialektike.github.io/2014/06/12/759/</link>
+      <link>http://www.epistemology.pe.kr/2014/06/12/759/</link>
       <pubDate>Thu, 12 Jun 2014 16:00:03 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/06/12/759/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/06/12/759/</guid>
       <description>동영상을 찍게 되어 살펴보던 중 쓸만해 보여서 압구정 매장에 직접 가 봤습니다. 저는 야외 뿐만 아니라 실내에서 강의 같은 것을 녹화하려고 살려고 했습니다. 그러나 매장 직원이 다음과 같은 점을 설명해주더군요. 혹시 틀린 점 있으면 지적해주시면 고맙겠습니다.
 배터리가 1시간 정도 밖에 되지 않습니다. 즉 실 사용시간이 1시간! 외부전원을 연결해서 사용할 수 없습니다. 즉 1시간 이상 녹화할 수 없다. 메모리는 추가로 구입해야 한다. 즉 메모리가 안 들어있다. </description>
     </item>
     
     <item>
       <title>LEICA T 카메라의 센서 크기에 대한 메모</title>
-      <link>https://dialektike.github.io/2014/05/26/744/</link>
+      <link>http://www.epistemology.pe.kr/2014/05/26/744/</link>
       <pubDate>Mon, 26 May 2014 14:48:41 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/05/26/744/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/05/26/744/</guid>
       <description>목표가 풀프레임_DSLR을 사보는 것인데, 최근에 라이카에서 새로운 LEICA T 카메라가 나와서, 라이카 홈페이지에서 TECHNICAL DATA 자료를 찾아봤습니다. 생각처럼 플프레임은 아니었고, size APS-C 이더군요(다음 인용 참고: 이 인용은 라이카 홈페이지 자료를 참고했습니다).
 CMOS sensor, size APS-C (23.6 x 15.7 mm) with 16.5/16.3 million pixels (total/effective), format aspect ratio 3:2.
 이 센서는 DSLR 이미지센서 - [ APS-H ] 와 [ APS-C ] 타입의 이해를 참고해 보면, 대략 풀프레임보다 1/2 정도 되는 것 같습니다.</description>
@@ -500,20 +500,20 @@ CMOS sensor, size APS-C (23.6 x 15.7 mm) with 16.5/16.3 million pixels (total/ef
     
     <item>
       <title>LEMMON 스타일로 Latex 에서 자연 연역 추론을 표현하기</title>
-      <link>https://dialektike.github.io/2014/04/18/731/</link>
+      <link>http://www.epistemology.pe.kr/2014/04/18/731/</link>
       <pubDate>Fri, 18 Apr 2014 17:13:29 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/04/18/731/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/04/18/731/</guid>
       <description>드디어 LEMMON 스타일로 자연 연역 추론을 표현할 방법을 알게 되었습니다. 몇 가지 다른 표현법을 알고 있었는데 배운 것과 다르고 좀 단순한 것을 찾다가 포기했는데 드디어 찾았습니다. 물론 Edward John Lemmon이 쓴 Beginning Logic&amp;lt;에 사용된 표기법을 말합니다.
 이 내용은 http://phloxgroup.wordpress.com에 있는 &amp;ldquo;LEMMON-STYLE NATURAL DEDUCTION PROOFS IN LATEX&amp;ldquo;이라는 글입니다. 참고하세요. 메뉴얼도 위의 페이지에 있습니다.</description>
     </item>
     
     <item>
       <title>맥 검색인 Spotlight 에서 Evernote가 검색되지 않는 경우 해결책</title>
-      <link>https://dialektike.github.io/2014/04/02/723/</link>
+      <link>http://www.epistemology.pe.kr/2014/04/02/723/</link>
       <pubDate>Wed, 02 Apr 2014 17:09:03 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/04/02/723/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/04/02/723/</guid>
       <description>에버노트를 잘 앱스토어에서 잘 다운 받아 쓰다가 문득 해봤는데 안 검색이 되지 않아서 고생했습니다. 찾아보니 해결책은 쉽습니다. 애버노트 홈피에서 개발자의 다음과 같은 답변을 찾았습니다.
 There is an issue with 10.9 and Spotlight functionality. It is a restriction only on Mac App Store builds. To get around this, please download Evernote directly from us at
 즉 애플 앱스토어에서 애버노트 앱을 다운 받지 말고, 애버노트 홈에서 다음 링크로 가신 다음,
@@ -523,29 +523,29 @@ https://evernote.com/intl/ko/evernote/
     
     <item>
       <title>R로 사분위도(Quatile)를 계산해보자.</title>
-      <link>https://dialektike.github.io/2014/03/17/690/</link>
+      <link>http://www.epistemology.pe.kr/2014/03/17/690/</link>
       <pubDate>Mon, 17 Mar 2014 17:16:20 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2014/03/17/690/</guid>
+      <guid>http://www.epistemology.pe.kr/2014/03/17/690/</guid>
       <description>R은 기본적으로 사분위도(Quatile)를 다루기 위해서 “ quartile(x, p) ”이라는 명령어를 사용합니다. 이 명령어의 사용법은 R 메뉴얼을 보면 다음과 같습니다.
 ## Default S3 method: quantile(x, probs = seq(0, 1, 0.25), na.rm = FALSE, names = TRUE, type = 7, ...) 여기서 제일 중요한 x에 들어갈 것은 우리가 조사하고자 하는 자료입니다. 그리고 두 번째로 중요한 것은 probs = seq(0, 1, 0.25)입니다. 이 명령어의 의미는 0%~100%까지 까지 25%씩 나눠서 계산하라고 명령하는 것입니다. 따라서 위와 같이 입력한다면, &amp;ldquo;0%, 25%, 50% 75%, 100%&amp;ldquo;에 해당하는 값을 출력하게 됩니다.</description>
     </item>
     
     <item>
       <title>&#34;To know is to have a belief that tracks the truth.&#34;</title>
-      <link>https://dialektike.github.io/2013/11/26/679/</link>
+      <link>http://www.epistemology.pe.kr/2013/11/26/679/</link>
       <pubDate>Tue, 26 Nov 2013 02:30:21 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2013/11/26/679/</guid>
+      <guid>http://www.epistemology.pe.kr/2013/11/26/679/</guid>
       <description>“안다는 것은 그 진리를 추적하는 믿음을 갖는 것이다(To know is to have a belief that tracks the truth),” p.178, Nozick, R., (1981) Philosophical Explanations, Harvard University Press.</description>
     </item>
     
     <item>
       <title>ubuntu 설치에 대한 몇 가지 tip!</title>
-      <link>https://dialektike.github.io/2013/07/03/672/</link>
+      <link>http://www.epistemology.pe.kr/2013/07/03/672/</link>
       <pubDate>Wed, 03 Jul 2013 16:17:48 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2013/07/03/672/</guid>
+      <guid>http://www.epistemology.pe.kr/2013/07/03/672/</guid>
       <description>USB 에 만들어서 설치하면 빠르게 설치할 수 있다. 다음 링크 참고!
 http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows 단, &amp;lsquo;Step 4: Set a persistent file size for storing change (Optional)&amp;lsquo;이라는 항목에서 USB 메모리가 허용하는 한 많은 양을 설정해야 한다. 왜냐하면 이 항목을 0으로 처리하면 모든 자료를 서버에서 다운받아 설치하기 때문에 우분투가 느리게 설치됩니다. 다음 링크 참고
 http://kmsblog.tistory.com/70 </description>
@@ -553,10 +553,10 @@ http://kmsblog.tistory.com/70 </description>
     
     <item>
       <title>한컴 대표글꼴 함초롬체 version 변경에 대하여</title>
-      <link>https://dialektike.github.io/2013/04/15/663/</link>
+      <link>http://www.epistemology.pe.kr/2013/04/15/663/</link>
       <pubDate>Mon, 15 Apr 2013 18:02:11 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2013/04/15/663/</guid>
+      <guid>http://www.epistemology.pe.kr/2013/04/15/663/</guid>
       <description>거의 나올 때부터 한컴의 함초롬체를 사용해 왔습니다. 라이센스 문제도 조금 자유로워서 쓰기 편하죠(다음 링크 참고.) 물론 맥을 쓰기에 OTF 포멧으로 제공해주시면 더 좋을 것 같지만 그래도 이런 폰트를 무료로 제공한다는 점에서는 너무나 좋습니다. 고맙습니다. 한컴!
 https://www.hancom.com/cs_center/csDownload.do
 [&amp;lsquo;함초롬&amp;rsquo;체 지적재산권에 대한 안내]
@@ -566,20 +566,20 @@ https://www.hancom.com/cs_center/csDownload.do
     
     <item>
       <title>John Burnet 이 쓴 초기 그리스 철학(Early Greek Philosophy) 인터넷에 있네요.</title>
-      <link>https://dialektike.github.io/2013/03/27/659/</link>
+      <link>http://www.epistemology.pe.kr/2013/03/27/659/</link>
       <pubDate>Wed, 27 Mar 2013 01:00:48 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2013/03/27/659/</guid>
+      <guid>http://www.epistemology.pe.kr/2013/03/27/659/</guid>
       <description>희랍 철학에 대해서 아시는 분은 다 아시는 유명한 철학자인 버넷(Burnet)이 쓴 초기 그리스 철학이라는 책이 인터넷에서 읽을 수 있게 되었군요. 초기 희랍철학에 대한 소스는 거의 이곳에서 나오는 것 같은데 좋은 책이 공개되어 있으니 좋네요. 물론 영어입니다.
 http://www.classicpersuasion.org/pw/burnet/index.htm </description>
     </item>
     
     <item>
       <title>Latex 에서 {quotation} 와 {quote} 의 차이.</title>
-      <link>https://dialektike.github.io/2013/03/04/655/</link>
+      <link>http://www.epistemology.pe.kr/2013/03/04/655/</link>
       <pubDate>Mon, 04 Mar 2013 14:26:48 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2013/03/04/655/</guid>
+      <guid>http://www.epistemology.pe.kr/2013/03/04/655/</guid>
       <description>쓰다보면, 이 둘의 차이를 명확하게 알기 쉽지 않습니다. 그래서 그냥 혼합해서 사용했었습니다. 그런데 이 둘 사이에 들여쓰기와 줄간격이 조금 다르게 쓰이는 것을 보고 조금 찾아 봤더니역시 있더군요. 내용을 대충 번역해봤습니다. 참고하세요.
 {quote} : 짧은 인용문이나 작은 인용의 나열 모임 등을 위하여 사용한다. 빈 줄로 분리한다(for a short quotation, or a series of small quotes, separated by blank lines).
 {quotation}: 긴 인용문에 사용하는데, 특히 1단락 이상에서 사용한다. 왜냐하면 이것은 그 각각의 단락의 앞부분을 들여쓰기 하기 때문이다(for use with longer quotations, of more than one paragraph, because it indents the first line of each paragraph).</description>
@@ -587,30 +587,30 @@ http://www.classicpersuasion.org/pw/burnet/index.htm </description>
     
     <item>
       <title>테카르트에게 있어서 관념이란?</title>
-      <link>https://dialektike.github.io/2012/12/29/637/</link>
+      <link>http://www.epistemology.pe.kr/2012/12/29/637/</link>
       <pubDate>Sat, 29 Dec 2012 17:04:11 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2012/12/29/637/</guid>
+      <guid>http://www.epistemology.pe.kr/2012/12/29/637/</guid>
       <description>데카르트가 근대 이후의 관념에 대한 생각을 거의 처음으로 정립했을 것입니다. 그 이후의 관념은 그전의 관념에 대한 생각과는 확연히 달라집니다. 다음 인용문을 보면 어떻게 달라지고 있는지 알 수 있습니다. 재미있는 점은 이런 점이 신의 개념을 필요로 하게 된다는 점이죠.
 여기서 데카르트는 생득 관념과 &amp;lsquo;나에게 사실상 일어난&amp;rsquo; 사실적 사건을 구별한다. &amp;lsquo;생득 관념&amp;rsquo;(idea innata)들은, &amp;lsquo;사물&amp;rsquo; &amp;lsquo;진리&amp;rsquo; &amp;lsquo;사고&amp;rsquo; 및 &amp;lsquo;연장&amp;rsquo;등의 관념들과 같이, 나의 본성 자체로부터 내가 가지고 있는 관념들이다. 여기서 연장이라 함은, 나에게 감각적으로 제시되고 또 내가 내 눈앞에 떠올리고 있는 양초 조각의 다른 성질들처럼 변하고 증가하거나 감소되는 그런 연장이 아니라 오직 나의 지성만이 포착할 수 있는 연장을 가리키고 있다.</description>
     </item>
     
     <item>
       <title>부팅하면서 바이오스(BIOS)의 초기 화면이 출력된 후 시스템이 멈출 때</title>
-      <link>https://dialektike.github.io/2012/04/22/626/</link>
+      <link>http://www.epistemology.pe.kr/2012/04/22/626/</link>
       <pubDate>Sun, 22 Apr 2012 12:56:21 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2012/04/22/626/</guid>
+      <guid>http://www.epistemology.pe.kr/2012/04/22/626/</guid>
       <description>제가 오래된 컴퓨터를 재미삼아 서버로 사용하고 있습니다. 그러다 보니 여기저기서 남아 도는 IDE 하드 디스크를 많이 사용하고 있습니다. 거기에 우분투를 사용하다가 보니 작은 하드를 몇 개를 연결해서 큰 하드로 사용하는 방법을 공부하느냐고 IDE 하드 디스크를 포맷하고 다시 쓰다가 포맷하고 이렇게 몇 번 반복했습니다. 그러다가 갑자기 채팅하면서 바이오스 화면이 나왔는데, 더 이상 진행이 안 되는 것이었습니다.
 드디어 컴퓨터가 망가졌구나 생각이 들었습니다. 그래서 다른 컴퓨터를 구하려고 했는데, 조금 뭔가 이상해서 인터넷을 뒤졌습니다. 역시 &amp;ldquo;바이오스(BIOS)의 초기 화면이 출력된 후 시스템이 멈출 때&amp;ldquo;라는 글이 있더군요.</description>
     </item>
     
     <item>
       <title>클라우드의 충격</title>
-      <link>https://dialektike.github.io/2012/01/13/620/</link>
+      <link>http://www.epistemology.pe.kr/2012/01/13/620/</link>
       <pubDate>Fri, 13 Jan 2012 14:40:15 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2012/01/13/620/</guid>
+      <guid>http://www.epistemology.pe.kr/2012/01/13/620/</guid>
       <description>저자: 시로타 마코토, 제이펍, 2009.
 책 느낌: 전문적인 용어 없이 편안하게 읽으면서, 어느 어느 정도 IT 관련 지식만 있으면 클라우드에 관한 대략적인 정보를 얻을 수 있다. 또한 2009년에 나온 책이기 때문에 현재 이 분야의 모습을 보면 얼마나 사람들이 예측하고 있었으며, 그 예측이 맞았는지 살펴 볼 수 기회를 제공하고 있다.
 36 쪽, 그렇다면 실제로 클라우드 컴퓨팅 환경에서 이용되고 있는 서버는 어느 정도의 빈도로 고장 나고 있을까? 이점에 관해서 구글의 팰로우인 제프딘(Jelf Dean)이 2008년 5월에 샌프란 시스코에서 있었던 구글 주최의 컨퍼런스에서 대단히 흥미로운 강연을 한 적이 있다.</description>
@@ -618,10 +618,10 @@ http://www.classicpersuasion.org/pw/burnet/index.htm </description>
     
     <item>
       <title>Mac OS X Terminal에 IR Black 테마로 예쁜 컬러로 바꿔보자.</title>
-      <link>https://dialektike.github.io/2011/10/21/595/</link>
+      <link>http://www.epistemology.pe.kr/2011/10/21/595/</link>
       <pubDate>Fri, 21 Oct 2011 21:01:53 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2011/10/21/595/</guid>
+      <guid>http://www.epistemology.pe.kr/2011/10/21/595/</guid>
       <description>요즘 한참 vi를 익히고 있습니다. 그렇다 보니 Terminal을 많이 사용하게 됩니다. 그러다가 문득 클리앙에서 부드러운직선님이 쓰신 다음과 같은 글을 보았습니다.
 -Tip 터미널 텍스트 예쁜 컬러 입히기 IR Black
 원 출처를 조금 찾아보니 다음과 같았습니다.
@@ -631,19 +631,19 @@ IR_Black Theme in Mac OS X Terminal 조금 조심할 부분이 두 가지 있습
     
     <item>
       <title>BOOL 값을 NSDictionary 에 넣어보자.</title>
-      <link>https://dialektike.github.io/2011/07/10/589/</link>
+      <link>http://www.epistemology.pe.kr/2011/07/10/589/</link>
       <pubDate>Sun, 10 Jul 2011 21:21:03 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2011/07/10/589/</guid>
+      <guid>http://www.epistemology.pe.kr/2011/07/10/589/</guid>
       <description>BOOL 값과 같은 비 객체는 NSDictionary 에 넣을 수 없습니다. 그래서 다음과 같이 값을 숫자로 변신 시켜서 저장해야 합니다. BOOL isInReply; NSNumber *isInReplyToNumberValue = [NSNumber numberWithBool:isInReply]; reply = [NSDictionary dictionaryWithObjectsAndKeys: reply_time, @&amp;#34;time&amp;#34;, reply_id, @&amp;#34;iD&amp;#34;, isInReplyToNumberValue, @&amp;#34;isInReply&amp;#34;, reply_content, @&amp;#34;content&amp;#34;, nil]; </description>
     </item>
     
     <item>
       <title>Epistemology: An Anthology, 2nd Edition</title>
-      <link>https://dialektike.github.io/2011/05/11/583/</link>
+      <link>http://www.epistemology.pe.kr/2011/05/11/583/</link>
       <pubDate>Wed, 11 May 2011 20:39:28 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2011/05/11/583/</guid>
+      <guid>http://www.epistemology.pe.kr/2011/05/11/583/</guid>
       <description>드디어 2nd Edition이 나왔네요. 이제는 완벽한 논문 백화점이 되어있군요.. 상세한 내용은 다음 링크로 가보세요.
 http://as.wiley.com/WileyCDA/WileyTitle/productCd-1405169664,descCd-tableOfContents.html
 Part I: Skepticism:.
@@ -660,20 +660,20 @@ Introduction.</description>
     
     <item>
       <title>아이폰 앱을 만들 때, 객체를 알파 값을 바꿔 투명하게 만드는 것이 좋지 않군요.</title>
-      <link>https://dialektike.github.io/2011/04/16/577/</link>
+      <link>http://www.epistemology.pe.kr/2011/04/16/577/</link>
       <pubDate>Sat, 16 Apr 2011 23:37:07 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2011/04/16/577/</guid>
+      <guid>http://www.epistemology.pe.kr/2011/04/16/577/</guid>
       <description>인스펙터의 다음 항목은 알파 Alpha 값인데 이 항목을 다룰 때에는 매우 신중을 기해야 한다. 알파값으로 이미지 투명도를 조정하는데 알파값 설정에 따라 이미지를 투명하게 만들어서 뒤에 있는 컨트롤이 보이는 정도를 조절할 수 있다. 1.0 보다 작은 값이면, 뷰는 투명해서 밑의 객체를 투과시키기 때문에, 애플리케이션은 투명도 계산을 위해 프로세서 사이클을 소비한다. 그러니 확실한 이유가 있지 않으면, 1.0외의 값으로 설정하지 않는 것이 좋다.
 &amp;ldquo;시작하세요 아이폰 프로그래밍: iPhone SDK를 이용한 아이폰 개발&amp;rdquo;, 66쪽.</description>
     </item>
     
     <item>
       <title>Strategy pattern을 Objective-C 로 만들어봤습니다.</title>
-      <link>https://dialektike.github.io/2011/02/10/555/</link>
+      <link>http://www.epistemology.pe.kr/2011/02/10/555/</link>
       <pubDate>Thu, 10 Feb 2011 14:46:19 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2011/02/10/555/</guid>
+      <guid>http://www.epistemology.pe.kr/2011/02/10/555/</guid>
       <description>Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
 How to create a strategy pattern in Objective-C?
 // // main.m // testing // // Created by Jaehwan on 11. 2. 9.. // Copyright 2011 Wireless Air. All rights reserved.</description>
@@ -681,48 +681,48 @@ How to create a strategy pattern in Objective-C?
     
     <item>
       <title>Gmail 계정을 OpenID로 사용해 보자!</title>
-      <link>https://dialektike.github.io/2010/12/31/538/</link>
+      <link>http://www.epistemology.pe.kr/2010/12/31/538/</link>
       <pubDate>Fri, 31 Dec 2010 17:52:07 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/12/31/538/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/12/31/538/</guid>
       <description>많은 홈페이지를 쓰고 사용하는 경우 많은 아이디와 비밀번호에 때문에 고생하는 경우가 많습니다. 저같은 경우에도 제가 사용하는 블로그가 이것을 포함해서 2개이고, 관리하는 홈페이지가 1개 있습니다. 여기에 관리하는 홈페이지에 게시판을 달려고 하니 또 하나가 늘어서 4개의 아이디를 쓰면서 홈페이지들을 관리합니다. 물론 이것말고 또 여러 유명한 Site 아이디, 메일 계정 등등 한 10개 정도의 아이디를 가지고 있는 것 같습니다. 그렇다 보니 아이디와 비번을 잃어버리는 것은 다반사죠.
 물론 저만 이런 문제를 가지고 있는 것을 아니었습니다.</description>
     </item>
     
     <item>
       <title>인터넷을 살펴보는데 유용한 프로그램들</title>
-      <link>https://dialektike.github.io/2010/12/31/535/</link>
+      <link>http://www.epistemology.pe.kr/2010/12/31/535/</link>
       <pubDate>Fri, 31 Dec 2010 17:50:10 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/12/31/535/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/12/31/535/</guid>
       <description>다음은 인터넷이 뭔가 드려다 볼 때 필요한 프로그램들입니다.
 패킷의 흐름을 분석하는 tcpdump 패킷을 분석하는 ethereal 현재 시스템에서 지나가는 패킷을 종류별로 분석: iptraf PS: http://dialektike.textcube.com/ 가 없어지는 바람에 이전한 글입니다.</description>
     </item>
     
     <item>
       <title>Mac OS X 에서는 어떻게 MD5 체크(MD5 Check)를 할까?</title>
-      <link>https://dialektike.github.io/2010/12/31/532/</link>
+      <link>http://www.epistemology.pe.kr/2010/12/31/532/</link>
       <pubDate>Fri, 31 Dec 2010 17:45:39 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/12/31/532/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/12/31/532/</guid>
       <description>여기에 가끔 오시는 분들은 이 제목을 보고 무슨 뜻인지 전혀 모를 것 같네요. 그래도 자료 정리겸 끄적거려봅니다. 단순하게 설명하자면 &amp;ldquo;MD5 Check&amp;quot;란 다운로드 하거나 복사한 파일이 손상없이 원본과 같은 상태인지 확인하고자 할 때 필요한 것입니다. 참고로 &amp;lsquo;Check&amp;rsquo;란 뜻을 사전에서 찾아보면, &amp;ldquo;사물의 상태를 검사하거나 대조함. 또는 그런 표적으로 찍는 ‘V’ 자 모양의 표.&amp;ldquo;라고 하네요. 우리가 가끔 인터넷상에서 어떤 파일을 받으려고 할 때, 그 옆에 Md5: c3ad0b16898865a5b57ae4ebb5f1c3d6 라는 복잡한 것이 적혀 있는 경우가 있습니다.</description>
     </item>
     
     <item>
       <title>Is justified true belief knowledge?</title>
-      <link>https://dialektike.github.io/2010/12/03/526/</link>
+      <link>http://www.epistemology.pe.kr/2010/12/03/526/</link>
       <pubDate>Fri, 03 Dec 2010 01:07:12 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/12/03/526/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/12/03/526/</guid>
       <description>Edmund L. Gettier, Is justified true belief knowledge? From Analysis 23 (1963): p.121-p.123, Translated by 정재환(Jae-hwan Chung), 곽기영(Keeyoung Koak), 2001, Updated: 2010-Jan-08</description>
     </item>
     
     <item>
       <title>LaTeX 에서 chapter / section title 에 Footnote(각주) 달기</title>
-      <link>https://dialektike.github.io/2010/09/30/520/</link>
+      <link>http://www.epistemology.pe.kr/2010/09/30/520/</link>
       <pubDate>Thu, 30 Sep 2010 15:16:32 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/09/30/520/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/09/30/520/</guid>
       <description>그냥 다음과 같이 하면, 아랫줄에 각주 번호가 나옵니다.
 \section{History of Philosophy? \footnote{코플스톤, 김보연 역, 『그리스 로마 철학사』 1998년, 들어가는 말에서} } 다음과 같이 하면 본인이 의도한 위치에 각주 번호가 나옵니다.
 \section[blah]{History of Philosophy? \footnote{코플스톤, 김보연 역, 『그리스 로마 철학사』 1998년, 들어가는 말에서} } [blah]이라는 태그만 들어가면 됩니다.
@@ -731,38 +731,38 @@ How to create a strategy pattern in Objective-C?
     
     <item>
       <title>아퀴나스</title>
-      <link>https://dialektike.github.io/2010/09/08/513/</link>
+      <link>http://www.epistemology.pe.kr/2010/09/08/513/</link>
       <pubDate>Wed, 08 Sep 2010 15:53:46 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/09/08/513/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/09/08/513/</guid>
       <description>Pros: 아퀴나스의 생애에 대해서 비교적 자세한 정보를 얻을 수 있었습니다. 단순한 내용 나열이 아니라 그의 업적을 중심으로 내용을 이끌어 가고 있습니다. 특히 존재와 인식에 대한 내용을 이 책에서는 꽤 자세하게 다루고 있습니다. 개론서에서 볼 수 없는 자세한 설명을 보실 수 있습니다. Cons: 내용이 너무 특정 분야에 편중되어 있는 것 같습니다. 그래서 아퀴나스에 대한 전반적인 지식을 갖고자 하는 분들은 조금 실망하실 수 있습니다. 지은이: 헨리 채드웍 옮긴이: 김승철 펴낸곳: 시공사 참고: 시공 로고스 총서-24 출판연도: 2000.</description>
     </item>
     
     <item>
       <title>아우구스티누스 : 라틴 교부 철학의 위대한 사상가</title>
-      <link>https://dialektike.github.io/2010/08/19/508/</link>
+      <link>http://www.epistemology.pe.kr/2010/08/19/508/</link>
       <pubDate>Thu, 19 Aug 2010 15:03:57 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/08/19/508/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/08/19/508/</guid>
       <description> Pros: 중세 철학에 관련된 책은 조금 지루하고 답답한 경우가 많은데, 이 책은 참 쉽고 나름 재미있게 쓰여졌습니다. 번역하신 분이 후기에 쓰신 것처럼 고수의 기운이 느껴지는 책입니다. 어거스틴에 대한 정보를 얻으시려면 읽어볼만한 책입니다. Cons: 재미있게 읽다보면 장이 끝나 다음 내용으로 넘어갑니다. 책이 너무 양이 적습니다. 지은이: 헨리 채드웍 옮긴이: 김승철 펴낸곳: 시공사 출판연도: 2010. 7. 31. 참고: 절판 yes24 책 링크 </description>
     </item>
     
     <item>
       <title>스타벅스 라이스 칩</title>
-      <link>https://dialektike.github.io/2010/08/10/495/</link>
+      <link>http://www.epistemology.pe.kr/2010/08/10/495/</link>
       <pubDate>Tue, 10 Aug 2010 23:08:39 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/08/10/495/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/08/10/495/</guid>
       <description>Pros: 스타벅스에서 부담없이 사 먹을 수 있는 가격. 봉지를 뜯으면 떡 같아 보여 살짝 실망하지만 먹어보면 새콤합니다.
 Cons: 그래도 비쌉니다. 한 1000원하면 사 먹을 수 있겠지만, 1800원이라니..</description>
     </item>
     
     <item>
       <title>연락하실 분은 방명록 대신 트위터로!</title>
-      <link>https://dialektike.github.io/2010/05/16/484/</link>
+      <link>http://www.epistemology.pe.kr/2010/05/16/484/</link>
       <pubDate>Sun, 16 May 2010 22:07:16 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2010/05/16/484/</guid>
+      <guid>http://www.epistemology.pe.kr/2010/05/16/484/</guid>
       <description>세상이 많이 변해서 제가 처음 이 홈피를 블로그로 만들 때에는 방명록을 만드는 것이 중요한 일이었습니다. 그래서 별별 방안을 다 강구했었죠! 그러나 요즘은 그런 것 고민할 필요가 없어졌습니다. 트위터가 생겼기 때문입니다. 생각해보면 이제서야 홈피가, 솔직히 블로그가 제 본연의 자리를 잡아가게 될 것 같네요. 전 블로그와 트위터를 다음과 같이 정의하려고 합니다.
 블로그: 인터넷 개인 출판사, 트위터: 개인 커뮤니케이션 창구!
 블로그는 원래 자신의 특징인 글을 올리고, 그 글에 고정된 인터넷 주소(permalink)를 부여하고, 그 글들을 관리하는 역할로 돌아갈 것 같습니다.</description>
@@ -770,10 +770,10 @@ Cons: 그래도 비쌉니다. 한 1000원하면 사 먹을 수 있겠지만, 180
     
     <item>
       <title>중앙일보 신문 전용서체, 중앙폰트</title>
-      <link>https://dialektike.github.io/2009/12/16/456/</link>
+      <link>http://www.epistemology.pe.kr/2009/12/16/456/</link>
       <pubDate>Wed, 16 Dec 2009 13:50:18 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/12/16/456/</guid>
+      <guid>http://www.epistemology.pe.kr/2009/12/16/456/</guid>
       <description>쓸만한 폰트입니다. 그리고 거기에 무료네요. PT에 쓰기에도 좋네요. 참고로 이 글꼴은 11172자의 모든 현대 한글 글자를 표현할 수 있는 것 같습니다. 다음 링크에 가시면 받으실 수 있습니다. 또한 아래 그림을 누르시면 큰 그림으로 보실 수 있습니다.
 http://newj.joins.com/berliner/joongangfont.asp
 중앙폰트 </description>
@@ -781,20 +781,20 @@ http://newj.joins.com/berliner/joongangfont.asp
     
     <item>
       <title>Twitter를 하는데 필요한 10가지</title>
-      <link>https://dialektike.github.io/2009/12/06/436/</link>
+      <link>http://www.epistemology.pe.kr/2009/12/06/436/</link>
       <pubDate>Sun, 06 Dec 2009 21:15:30 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/12/06/436/</guid>
+      <guid>http://www.epistemology.pe.kr/2009/12/06/436/</guid>
       <description>요즘 전 Twitter(이하 트위터)에 관심이 많습니다. 그런데 트위터가 생각보다 만만하지 않더군요. 알아야 할 것도 좀 있고 그래서 구글로 찾아봤는데 쏙 마음에 드는 설명서가 없어서 제가 필요한 것만 정리하다가 친구들에게도 트위처를 소개할 겸 Web page로 만들고자 합니다. 참고로 저는 Mac을 사용하고 있는데, tweetie이라는 프로그램을 사용하여 트위터를 사용하고 있습니다.
 1. 트위터랑 메신저는 어떻게 다를까요? 우선 메신저는 전용 프로그램을 이용해서 메세지를 1:1 또는 1:여러명이 주고 받습니다. 그러나 트위터는 제가 쓴 메세지를 누구에게 주지 않습니다.</description>
     </item>
     
     <item>
       <title>영어로 플라톤의 대화편을 찾아서 보는 방법</title>
-      <link>https://dialektike.github.io/2009/09/16/423/</link>
+      <link>http://www.epistemology.pe.kr/2009/09/16/423/</link>
       <pubDate>Wed, 16 Sep 2009 15:28:40 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/09/16/423/</guid>
+      <guid>http://www.epistemology.pe.kr/2009/09/16/423/</guid>
       <description>항상 책을 통해서 접하게 되는 플라톤의 대화편이지만, 너무 오래되었기 때문에 온라인에 있지 않을까하는 생각이 들어서 혹시나 해서 찾아봤더니만 역시 있네요. 아래 홈피 화면에서 볼 수 있는 것처럼 필요한 곳을 찾아보시거나, 저자 이름을 넣고 찾아보시면 됩니다. 참고로 희랍어도 같이 나옵니다. 물론 영어 번역도 있습니다.
 http://perseus.uchicago.edu/greek.html
 Texts-Translations 다음 링크는 제가 좋아하는 테아이테토스편을 희랍어로 찾아본 것입니다. (참고: 2014년 9월 현재 링크가 변경되었습니다. 아래 링크로 가세요.)
@@ -805,39 +805,39 @@ http://perseus.uchicago.edu/perseus-cgi/citequery3.pl?dbname=PerseusGreekTexts&a
     
     <item>
       <title>커피 전문점 커피, 어떻게 만들까?</title>
-      <link>https://dialektike.github.io/2009/02/25/359/</link>
+      <link>http://www.epistemology.pe.kr/2009/02/25/359/</link>
       <pubDate>Wed, 25 Feb 2009 00:46:30 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/02/25/359/</guid>
+      <guid>http://www.epistemology.pe.kr/2009/02/25/359/</guid>
       <description>요즘 커피 전문점에 가면 메뉴가 복잡합니다. 뭘로 만드는지도 궁금하기도 하고.. 물론 어느 정도는 대충 알고 있었지만, 이 그림을 보면서 정확하게 알게 되었습니다. 참 잘 그렸죠? 다음 링크에 가시면 원본을 보실 수 있습니다.
 coffee_menu http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/</description>
     </item>
     
     <item>
       <title>회사에서 바로 통하는 프레젠테이션 기획 &#43; 디자인</title>
-      <link>https://dialektike.github.io/2009/02/20/351/</link>
+      <link>http://www.epistemology.pe.kr/2009/02/20/351/</link>
       <pubDate>Fri, 20 Feb 2009 15:41:43 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/02/20/351/</guid>
+      <guid>http://www.epistemology.pe.kr/2009/02/20/351/</guid>
       <description>지은이: 유현덕 펴낸곳: 한빛미디어(주) 출판연도: 2007년 이제 Presentation(이하 PT) 책도 진화를 거듭해서 볼만하고 쓸 만한 책이 상당히 많습니다. 예전에는 PT책이 파워포인트 활용서인 경우가 많았죠. 그러나 요즘은 PT자체에 대한 이야기를 많은 이야기를 담고 있는 책들이 많아서 실제로 PT를 하는데 많은 도움이 됩니다. 바로 이 책이 그런 책 중 하나입니다. 이 책은 크게 1. 기획파트와 2. 디자인 파트로 나눠집니다. 여기서 기획파트가 참 알차게 되어 있습니다. 그리고 2. 디자인 파트도 아주 쓸모 있게 되어 있습니다.</description>
     </item>
     
     <item>
       <title>폰트 광고에서 한글에 대해서 한수 배우다.</title>
-      <link>https://dialektike.github.io/2009/02/03/%ED%8F%B0%ED%8A%B8-%EA%B4%91%EA%B3%A0%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%ED%95%9C%EC%88%98-%EB%B0%B0%EC%9A%B0%EB%8B%A4./</link>
+      <link>http://www.epistemology.pe.kr/2009/02/03/%ED%8F%B0%ED%8A%B8-%EA%B4%91%EA%B3%A0%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%ED%95%9C%EC%88%98-%EB%B0%B0%EC%9A%B0%EB%8B%A4./</link>
       <pubDate>Tue, 03 Feb 2009 00:02:14 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/02/03/%ED%8F%B0%ED%8A%B8-%EA%B4%91%EA%B3%A0%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%ED%95%9C%EC%88%98-%EB%B0%B0%EC%9A%B0%EB%8B%A4./</guid>
+      <guid>http://www.epistemology.pe.kr/2009/02/03/%ED%8F%B0%ED%8A%B8-%EA%B4%91%EA%B3%A0%EC%97%90%EC%84%9C-%ED%95%9C%EA%B8%80%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%ED%95%9C%EC%88%98-%EB%B0%B0%EC%9A%B0%EB%8B%A4./</guid>
       <description>이제서야 채점이 끝나 오래간만에 도서관에서 잡지를 보다가, 한글에 대한 광고를 보게 되었습니다. 라디오, TV, 잡지등 많은 매체를 보거나 듣다 보면, 수많은 광고들이 정신을 어지럽게 만들지만, 꼼꼼히 잘 들여다보면 쓸만한 정보가 꽤 있습니다. 『디자인』이라는 잡지에 11, 12월호에 유익한 광고가 있어서 소개합니다.
 우선 12월호에 나온 ‘타이포 그래피 Tip 02: 가독성 높이는 방법’부터 보겠습니다. 가독성을 높이기 위해서서는 글자에 관련된 다양한 것을 조절해야 한다고 합니다. 단어사이가 좋으면 단어 구별이 잘 안 되면 단어를 잘 구별할 수 없고, 반대로 너무 넓으면 같은 문장으로 보이지 않을 수 있다고 하네요.</description>
     </item>
     
     <item>
       <title>왜 하필이면 그리스에서 과학이 탄생했을까?</title>
-      <link>https://dialektike.github.io/2009/01/27/333/</link>
+      <link>http://www.epistemology.pe.kr/2009/01/27/333/</link>
       <pubDate>Tue, 27 Jan 2009 00:27:06 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2009/01/27/333/</guid>
+      <guid>http://www.epistemology.pe.kr/2009/01/27/333/</guid>
       <description>저자: 앤드류 그레고리, 몸과마음, 2003
 이 책은 서양 고대 철학과 과학을 잘 소개하고 있는 책입니다. 서양 고대 철학(특히 그리스)에 관심이 있으신 분에게 강추합니다.
 201-202쪽, 그리스인들에게 유리한 도운 조건에는 중앙집권적 종교와 위계적 조직이 없었다는 것과 표현의 자유가 있었다는 것이다. 그리스 사회는 충분히 풍족해서 사람들이 세계의 본성에 대한 질문을 탐구하기 위해 한가한 시간을 가질 수 있는 사회였다. 덧붙여 어떤 분야(기하학, 천문학, 의학)에서는 기술적인 기초가 이미 마련되어 있었다. 그래서 과학에 대한 변화의 시간이 무르익었다.</description>
@@ -845,68 +845,68 @@ coffee_menu http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/<
     
     <item>
       <title>공자 평전</title>
-      <link>https://dialektike.github.io/2008/11/17/291/</link>
+      <link>http://www.epistemology.pe.kr/2008/11/17/291/</link>
       <pubDate>Mon, 17 Nov 2008 21:56:07 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/11/17/291/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/11/17/291/</guid>
       <description>저자: 천웨이핑, 미다스북스, 2003
 최근에 오래간만에 읽은 동양철학에 관한 책입니다. 공자에 대한 평가는 정말로 다양하지만, 중요한 점은 기원전 551년에 태어나 479년에 떠난 이후 지금까지 유가라는 사상이 전해져 내려고 있다는 점이죠. 2천년을 지난 지금까지도 성인으로 우리에게 남아있다는 것은 정말로 대단한 것입니다. 물론 객관적으로 공자를 파악하기는 쉽지 않지만 이 책을 통해서 그 풍모를 조금이나마 엿볼 수 있다는 점이 좋았습니다. 제 1부는 풍부한 문헌으로 공자의 일생을, 제 2부는 유가사상에 대하여, 제 3부는 공자의 사고가 중국 내외에 어떤 영향을 미치고 있는지를 보여줍니다.</description>
     </item>
     
     <item>
       <title>정식으로 음악파일을 사는 것이 이렇게 쉬운데..</title>
-      <link>https://dialektike.github.io/2008/10/28/139/</link>
+      <link>http://www.epistemology.pe.kr/2008/10/28/139/</link>
       <pubDate>Tue, 28 Oct 2008 00:05:52 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/10/28/139/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/10/28/139/</guid>
       <description>first buy the song in iTune 제가 첫번째로 iTunes에서 산 파일입니다. 복잡하게 선불카드인 iTune card를 사고 아주 단순하게 몇번의 클릭으로 음악파일을 샀습니다. 아시는 분은 아시겠지만, 전 정식으로 모든 음악파일을 사는 것이 목표입니다. 물론 가지고 있던 모든 파일도 다 지웠죠. 그러나 아쉽게도 한국에서 음악 파일을 사거 듣는 다는 것이 것이 그리 쉬운 결정은 아니었습니다. 너무 쉽게 불법으로 구할 수 있기 때문입니다. 그러나 저부터 양심을 속이지 말고 변하기로 결정했습니다. 술 한잔 먹지 말고 CD를 사고 음악 파일을 구입하겠습니다.</description>
     </item>
     
     <item>
       <title>영문 물리학 용어를 한글로.</title>
-      <link>https://dialektike.github.io/2008/10/09/256/</link>
+      <link>http://www.epistemology.pe.kr/2008/10/09/256/</link>
       <pubDate>Thu, 09 Oct 2008 16:10:23 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/10/09/256/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/10/09/256/</guid>
       <description>공부하는 있어서 불편한 점 중의 하나가 용어를 이해하는 것입니다. 물론 외국에서 들어온 학문은 외국어로 하는 편이 좋을 수도 있습니다. 그러나 책을 보는 경우에는 문제가 조금 달라집니다. 용어들이 통일되어 번역되지 않은 경우가 있습니다. 이런 경우 답답하죠. 이 단어가 어떤 것인지.. 물리학 용어들이 번역되어 인터넷에 있다는 것은 좋은 일입니다.
 물리학 용어 (영문을 한글로) 마지막 수정일 : 2000. 2. 29 한국물리학회가 1995년에 제정하여, 사용하기를 권장하고 있는 물리학 한글용어를 싣습니다. 한글 용어의 표준화를 위하여 실험보고서 등에 이용하기를 바라며, 따로이 책으로 된 &amp;ldquo;물리학 용어집&amp;quot;을 구입하기를 원하는 분들은 한국물리학회(전화: 556-4737)로 문의하십시요.</description>
     </item>
     
     <item>
       <title>프로그램 코드와 같은 형식의 글을 넣어보자!</title>
-      <link>https://dialektike.github.io/2008/10/03/234/</link>
+      <link>http://www.epistemology.pe.kr/2008/10/03/234/</link>
       <pubDate>Fri, 03 Oct 2008 23:24:50 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/10/03/234/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/10/03/234/</guid>
       <description>조금 제목이 이상하지만, 가끔 글을 올릴 때 컴퓨터 명령어나 프로그램 코드와 같은 것들을 올려야 될 경우가 있습니다. 바로 Mac OS X 에서는 어떻게 MD5 체크(MD5 Check)를 할까?라는 글이 그렇습니다. 여기에는 터미널에서 사용하는 명령어를 넣어야 하는데 그냥 쓰는 글로 쓰면 구별이 안될 것 같아서 다르게 넣으려고 인용으로 넣었지만 보기가 좋지 않았습니다. 그래서 찾아보다 다음 플러그인을 발견했습니다. 쓸만합니다. 사용법도 물론 간단합니다.
 WP-Syntax</description>
     </item>
     
     <item>
       <title>PT에서 쓸만한 서체 &#34;다음체&#34; 무료 배포!</title>
-      <link>https://dialektike.github.io/2008/09/14/199/</link>
+      <link>http://www.epistemology.pe.kr/2008/09/14/199/</link>
       <pubDate>Sun, 14 Sep 2008 23:08:47 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/09/14/199/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/09/14/199/</guid>
       <description>요즘 좋은 글꼴이 쏟아지고 있습니다. 예전에 네이버에서도 나오더니 다음에서도 한글날을 얼마 안 남기고 누구나 사용할 수 있도록 다음체를 배포하고 있네요. 고딕 형식이기 때문에 문서 본문용으로 쓰기에는 무리가 있지만, PT나 제목용으로 쓰기에는 좋을 것 같습니다. 참고로 TTF 형식의 서체입니다. 들어있는 영어글꼴이 예뻐서 찾아보았더니 현대카드 등을 통해 독창적인 디자인으로 인정받은 유명 네덜란드 디자인회사 토털아이덴터티가 영문글꼴을 만들었다고 합니다. 한글글꼴은 국내 폰트 디자인 전문업체인 좋은글씨가 만들었다고 합니다. 다음 링크를 가시면 다운받을 수 있습니다. 그런데 이 글꼴은 11172자의 모든 현대 한글 글자를 표현할 수 없네요.</description>
     </item>
     
     <item>
       <title>PT 용 포인터: Z-motion의 MM-120</title>
-      <link>https://dialektike.github.io/2008/07/26/161/</link>
+      <link>http://www.epistemology.pe.kr/2008/07/26/161/</link>
       <pubDate>Sat, 26 Jul 2008 15:55:26 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/07/26/161/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/07/26/161/</guid>
       <description>저도 PT를 많이 하기 때문에(수업을 모두 PT로 ^^;) 포인터에 대한 관심이 무척 많습니다.예전에 홈피에도 썼지만,지금 사용하고 있는 PT용 포인터 X-Pointer II도 PT하는데 불편 없이 잘 사용하고 있습니다. 그러나 이 제품을 보니, 혹 하네요. 우선 디자인이 좋고 무엇보다도 무선 3차원 공간인식을 한다는 점이 마음에 듭니다. 손목만 움직이면, 마우스처럼 움직인다고 하네요. 제가 쓰는 것이 망가지면 고민해 봐야겠습니다. 그러나 안 좋은 점은 충전한다는 점이네요. 하여간 링크 하나 걸어둡니다.
 http://www.zmotion.co.kr/products/products.asp</description>
     </item>
     
     <item>
       <title>Philosophy of Language 논문 정리</title>
-      <link>https://dialektike.github.io/2008/07/24/157/</link>
+      <link>http://www.epistemology.pe.kr/2008/07/24/157/</link>
       <pubDate>Thu, 24 Jul 2008 14:47:23 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/07/24/157/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/07/24/157/</guid>
       <description>이 글은 영미 언어철학을 공부하는데 필요한 논문의 이름을 정리한 글입니다. 필요하신 분은 아래를 클릭해주세요!
 다음에서 소개할 논문들의 출처는 다음과 같은 약자로 표시 합니다.
 L = Peter Ludlow. Readings in the Philosophy of Language. Cambridge, MA: MIT Press, 1997.
@@ -916,38 +916,38 @@ M4 = A. P. Martinich. The Philosophy of Language. 4th ed. Oxford: Oxford Univers
     
     <item>
       <title>안개낀 왕산</title>
-      <link>https://dialektike.github.io/2008/07/17/150/</link>
+      <link>http://www.epistemology.pe.kr/2008/07/17/150/</link>
       <pubDate>Thu, 17 Jul 2008 11:28:49 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/07/17/150/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/07/17/150/</guid>
       <description>이제야 방학이 되는 것 같습니다. 물론 아직 계절학기 채점이 남았지만, 그래도 조금은 여유가 있네요. 2008년도 1학기, 계절학기를 수업하신 분들 수고하셨습니다.</description>
     </item>
     
     <item>
       <title>전세계에서 발생하는 이산화탄소 발생 지도</title>
-      <link>https://dialektike.github.io/2008/07/16/146/</link>
+      <link>http://www.epistemology.pe.kr/2008/07/16/146/</link>
       <pubDate>Wed, 16 Jul 2008 19:32:57 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/07/16/146/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/07/16/146/</guid>
       <description>참 막연하게 이산화탄소에 대해서 생각했었는데 우리나라가 생각보다 많이 매출하네요. 앞에 그림 자료를 인쇄할만한 크기의 파일을 찾으시려면 다음 링크를 누르세요.
 carbonatlas.pdf</description>
     </item>
     
     <item>
       <title>엔지니어들을 위한 프레젠테이션 잘하는 방법: &#34;발표 자료는 보고서가 아닙니다&#34;</title>
-      <link>https://dialektike.github.io/2008/07/03/124/</link>
+      <link>http://www.epistemology.pe.kr/2008/07/03/124/</link>
       <pubDate>Thu, 03 Jul 2008 16:22:39 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/07/03/124/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/07/03/124/</guid>
       <description>요즘 프레젠테이션(이하 PT)가 대학에서는 대세로 굳어지고 있는 것 같습니다. 그럼에도 불구하고 제가 수업시간에 PT가 대세라고 떠들어 대도, 아직도 많은 학생들은 꾿꾿하게 막상 PT로 발표하라, 레포트를 내라고 시키면, 대충 만들어 내고 발표하는 것 같습니다. 그러나 아쉽게도 현실은 조금 더 빠르게 변하고 있습니다. 이미 엔티니어들도 PT를 잘해야 하는 시대가 오고 있습니다. 다음 링크는 &amp;ldquo;엔지니어들을 위한 프레젠테이션 잘하는 방법&amp;quot;라는 컬럼입니다. 이 컬럼에 나오는 다음과 같은 글을 곰 씹어볼 필요가 있다. 뭐 다 아는 이야기지지만, PT의 정수를 말하는 말이니 한번 잘 생각해봅시다.</description>
     </item>
     
     <item>
       <title>여러개 PT 슬라이드를 한 장에 모아 인쇄하는 방법</title>
-      <link>https://dialektike.github.io/2008/06/28/142/</link>
+      <link>http://www.epistemology.pe.kr/2008/06/28/142/</link>
       <pubDate>Sat, 28 Jun 2008 17:19:17 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/06/28/142/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/06/28/142/</guid>
       <description>우선 다음을 참고합니다.
 유인물 만들기 및 인쇄 http://office.microsoft.com/ko-kr/powerpoint/HA100312841042.aspx
 PowerPoint에서 유인물 인쇄 http://office.microsoft.com/ko-kr/powerpoint/HA010348091042.aspx
@@ -957,20 +957,20 @@ PowerPoint에서 유인물 인쇄 http://office.microsoft.com/ko-kr/powerpoint/H
     
     <item>
       <title>터미널의 설정법</title>
-      <link>https://dialektike.github.io/2008/06/21/141/</link>
+      <link>http://www.epistemology.pe.kr/2008/06/21/141/</link>
       <pubDate>Sat, 21 Jun 2008 16:48:53 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/06/21/141/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/06/21/141/</guid>
       <description>Mac은 원래 출생이 유닉스이기 때문에 터미널이 있습니다. linux를 쓰신 분들은 잘 아시겠지만, 터미널만 있어도 많은 일을 할 수 있고 실제로 많은 일을 했죠. 요즘은 이런 터미널을 쓰는 사람이 많지는 않지만 배워두면 나중에 웹 호스팅 하거나 서버를 만질 때 유용합니다. 저도 기록을 남기기 위해서 여기에 정리합니다. 참고로 여기서 소개하는 내용을 Mac 우선시 하시만, 다른 Uinx 계열에서도 잘 작동할 것 같네요 ^^;
 vi의 기본 사용법: vi는 입력 모드와 명령 모드로 나누어져 동작합니다 명령모드로: [esc] 키 입력 모드로: i키: 현재 커서의 위치부터 입력 a키: 현재 커서의 위치 다음 칸부터 입력 o키: 현재 커서의 다음 줄에 입력 s키: 현재 커서 위치의 한 글자를 지우고 입력 vi를 종료하기: 우선 명령행 모드로 가야 합니다.</description>
     </item>
     
     <item>
       <title>철학의 부활?</title>
-      <link>https://dialektike.github.io/2008/04/09/132/</link>
+      <link>http://www.epistemology.pe.kr/2008/04/09/132/</link>
       <pubDate>Wed, 09 Apr 2008 00:18:48 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/04/09/132/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/04/09/132/</guid>
       <description>4월 8일자 기사로 &amp;ldquo;철학의 부활&amp;quot;이라는 제목으로 거의 똑같은 내용의 기사가 올라왔습니다. 다음 링크를 참고하세요.
 동아일보, 횡설수설/홍찬식: 철학의 부활 조선일보, 만물상/이선민 논설위원: 철학의 부활 조선일보, 이석호 기자, 미(美) 대학가 &amp;lsquo;철학의 부활&amp;rsquo; 철학과에서 생활하는 입장에서 반가워서 읽어 보았더니, 철학이 의외로 실용적인 면이 있어서 미국 대학생들이 선택하고 있었더군요. 신기하기도 하고 조금은..
 미국 대학생들에게 외면당해 온 철학 과목이 다시 인기를 끌고 있다고 한다. 6일 뉴욕타임스 보도에 따르면 뉴욕시립대의 경우 철학이 전공인 학생이 6년 전보다 50%나 늘어난 322명에 이른다.</description>
@@ -978,20 +978,20 @@ vi의 기본 사용법: vi는 입력 모드와 명령 모드로 나누어져 동
     
     <item>
       <title>스팸전화번호일까 한번 알아볼까요? 스팸번호 검색DB</title>
-      <link>https://dialektike.github.io/2008/03/10/131/</link>
+      <link>http://www.epistemology.pe.kr/2008/03/10/131/</link>
       <pubDate>Mon, 10 Mar 2008 00:26:23 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/03/10/131/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/03/10/131/</guid>
       <description>가끔 바쁠때 전화가 옵니다. 그것도 모르는 전화가 옵니다. 난감한 상황이 생기곤 하죠. 당연히 그 때는 받지 못하고 있다고 나중에 걸어야 하는 것인지 걱정하게 됩니다. 이런 경우에 다음 사이트에서 찾아보세요. 걸려온 전화번호가 스팸전화번호인지 아실 수 있습니다. 쓸만한 싸이트이기 때문에 정리 차원에서 홈피에 올려봅니다.
 Spam Caller-ID Database:http://missed-call.no-ip.info </description>
     </item>
     
     <item>
       <title>Philosophy of Logic</title>
-      <link>https://dialektike.github.io/2008/01/31/476/</link>
+      <link>http://www.epistemology.pe.kr/2008/01/31/476/</link>
       <pubDate>Thu, 31 Jan 2008 00:04:45 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/01/31/476/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/01/31/476/</guid>
       <description>Edited by: Dale Jacquette (Pennsylvania State University)
 Series: Blackwell Philosophy Anthologies
 Preface.
@@ -1004,20 +1004,20 @@ Truth and Meaning: Donald Davidson. Outline of a Theory of Truth: Saul A.</descr
     
     <item>
       <title>&#34;국제금융의 위선&#34;이라는 칼럼을 읽고</title>
-      <link>https://dialektike.github.io/2008/01/28/130/</link>
+      <link>http://www.epistemology.pe.kr/2008/01/28/130/</link>
       <pubDate>Mon, 28 Jan 2008 15:06:41 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/01/28/130/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/01/28/130/</guid>
       <description>우리는 한국인이 서양 사람들보다 합리적이지 않다고 생각하는 경향이 있습니다. 물론 이러한 것도 한국인의 특징이 될 수 있지만, 그렇다고 해서 서양사람들이 항상 우리보다 합리적인 것만은 아닌 것 같습니다. 조선일보에 나온 조지프 스티글리츠 선생님의 &amp;ldquo;국제금융의 위선&amp;quot;라는 칼럼을 읽어보면, 서양인 또한 항상 합리적이지 않고 그들도 자신의 이익에 따라서 얼마든지 자신들의 입장을 바꿀 수 있다는 점을 볼 수 있습니다. 앞의 컬럼에 나온 한 단락을 살펴봅시다.
 IMF와 미국 재무부가 동아시아에 내린 처방과 현재 서브프라임 사태에서 일어나고 있는 일과 너무 대비돼 눈이 부실 지경이다.</description>
     </item>
     
     <item>
       <title>철학자 탁석산이 제안하는 글쓰기의 왕도 – 논증을 배워라!</title>
-      <link>https://dialektike.github.io/2008/01/12/128/</link>
+      <link>http://www.epistemology.pe.kr/2008/01/12/128/</link>
       <pubDate>Sat, 12 Jan 2008 16:39:25 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/01/12/128/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/01/12/128/</guid>
       <description>제가 대학교 1학년때 탁석산 선생님께 수업을 들었던 적이 있습니다. 그 때도 항상 말씀이 쨍쨍했죠. 그러다가 TV에서 보고 이렇게 인터넷을 통해 기사를 보니 너무 좋습니다. 다음 글을 보면 선생님의 스타일을 짐작하실 수 있죠.
 고등학생을 위한 논술 책이라기보다는 실용적인 글쓰기에 대한 책입니다. 논술이라는 것은 자신의 주장을 남에게 설득시키는 글이지, 감정을 표현하는 글은 아니죠. 우리는 ‘글쓰기’라면 문학적인 글쓰기를 생각하는데 생활에서 필요한 글은 문학적인 글이 아닙니다.
 다음 링크를 보시면, 선생님의 인터뷰를 보실 수 있습니다. 강추합니다.</description>
@@ -1025,40 +1025,40 @@ IMF와 미국 재무부가 동아시아에 내린 처방과 현재 서브프라�
     
     <item>
       <title>&#34;누군가 내 글을 이해하지 못했다면 독자의 잘못이 아닌 내 잘못입니다.&#34;</title>
-      <link>https://dialektike.github.io/2008/01/06/126/</link>
+      <link>http://www.epistemology.pe.kr/2008/01/06/126/</link>
       <pubDate>Sun, 06 Jan 2008 13:31:57 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/01/06/126/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/01/06/126/</guid>
       <description>이 제목은 2007년 12월 29-30일 토-일요일 자 조선일보 D1 면에 있는 &amp;lsquo;왜 나는 너를 사랑하는가&amp;rsquo; 작가 알랭 드 보통과의 인터뷰 기사의 제목입니다. 저도 글 좀 써보겠다고 끄적대고 있지만, 제가 쓴 글이 과연 사람들이 내 의도대로 이해하게끔 썼을까 하는 고민은 별로 안 했던 것 같습니다. 최근에서야 이런 고민이 중요하다는 것을 알았지만, 생각만 하고 있었지 행동으로 옮기기 못했던 것 같습니다. 이 내용에 대한 내요을 한번 살펴봅시다.
 역사학자인 조너선 스펜스 에일대 교수는 영국의 19세기 작가들이 교양 대중을 위한 글쓰기의 전통을 쌓아 올렸다고 한다.</description>
     </item>
     
     <item>
       <title>굴림 폰트 사용시 크기 비교 및 특징</title>
-      <link>https://dialektike.github.io/2008/01/01/127/</link>
+      <link>http://www.epistemology.pe.kr/2008/01/01/127/</link>
       <pubDate>Tue, 01 Jan 2008 16:42:44 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/01/01/127/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/01/01/127/</guid>
       <description>인터넷에서 뭔가를 할 때, 가장 고민하는 문제가 바로 서체, 유식하게 말하다면 서체 문제가 아닐까 생각이 듭니다. kukie님 홈피인 Designer kukie에서 귀중한 글을 발견했다. HTML에 관심이 있으시면 곱씹어 읽어볼 충분한 가치가 있는글입니다. 강추합니다.
 -http://kukie.net/resources/font_gulim/#gulim</description>
     </item>
     
     <item>
       <title>Best of CSS Design 2007</title>
-      <link>https://dialektike.github.io/2007/12/18/125/</link>
+      <link>http://www.epistemology.pe.kr/2007/12/18/125/</link>
       <pubDate>Tue, 18 Dec 2007 22:37:15 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/12/18/125/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/12/18/125/</guid>
       <description>뭐 아시는 분은 아시겠지만, 제가 웹디자인에 관심이 있습니다. 이번에 http://www.webdesignerwall.com/이라는 곳에서 올해의 Best of CSS Design 2007 을 선정했습니다. 관심 있으신 분은 다음 링크를 클릭하시면 됩니다. 뭐 한국은 아직도 윈도우에서 벗어나고 있지 못한데, 참 많은 것이 빨리 변하고 있습니다.
 http://www.webdesignerwall.com/trends/best-of-css-design-2007/ </description>
     </item>
     
     <item>
       <title>무료 폰트를 써봅시다.</title>
-      <link>https://dialektike.github.io/2007/10/11/119/</link>
+      <link>http://www.epistemology.pe.kr/2007/10/11/119/</link>
       <pubDate>Thu, 11 Oct 2007 13:12:28 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/10/11/119/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/10/11/119/</guid>
       <description>글을 쓰는데는 아래하 한글을 많이 쓰기 때문에 폰트에 대한 걱정을 하지 못하지만, PT를 하는 경우에는 쓸만한 폰트가 없어서 항상 고민이 많습니다. 물론 편법으로 구할 수도 있지만 조금은 꺼림직한 것도 사실입니다. 요즘 무료 폰트가 많이 나와서 이런 걱정을 많이 덜어 주고 있었는데 이런 무료 폰트를 잘 정리해 둔 사이트가 있어서 소개합니다.
 황씨 신문이라는 사이트인데 여기에서 다음 링크에 나온 글이 이러한 무로푠트를 자세하게 소개하고 있습니다.
 http://sulfur.pe.kr/nudalak/free_font.html</description>
@@ -1066,68 +1066,68 @@ http://sulfur.pe.kr/nudalak/free_font.html</description>
     
     <item>
       <title>사전을 찾아봐도 안 나오는 영어 단어 때문에 고민할 때</title>
-      <link>https://dialektike.github.io/2007/09/20/114/</link>
+      <link>http://www.epistemology.pe.kr/2007/09/20/114/</link>
       <pubDate>Thu, 20 Sep 2007 14:22:29 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/09/20/114/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/09/20/114/</guid>
       <description>요즘 다시 조엘 온 소프트웨어 : 유쾌한 오프라인 블로그이라는 책을 읽고 있습니다. 원래 제가 IT에 관심이 엄청 많기 때문이기도 하지만, 이 책을 또 읽으면서 참 똑똑한 사람이 많다는 생각을 다시금 하게 됩니다. 지금 이야기하고 싶은 것이 이 책 내용이 아니라 이 책을 번역하신 박재호님의 326쪽, 338쪽에 실려 있는 글의 내용입니다. 번역에 대한 글인데, 번역하는 과정에서 생긴 재미있는 에피소드를 이야기하면서 본인이 번역할 때 사용했던 Site들을 소개하고 있습니다. 저도 유용하다는 생각이 들어서 글로 남겨 봅니다.</description>
     </item>
     
     <item>
       <title>이미지 파일을 크게 띄우는 플러그인 Lightbox 2</title>
-      <link>https://dialektike.github.io/2007/07/22/109/</link>
+      <link>http://www.epistemology.pe.kr/2007/07/22/109/</link>
       <pubDate>Sun, 22 Jul 2007 19:15:51 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/07/22/109/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/07/22/109/</guid>
       <description>이미지를 크게 보려고 이미지를 눌러도 커지지 않습니다. 그래서 고민하다가 옛 기억을 살려서 다음 플러그 인을 설치했습니다. 아래 링크를 가 보시면 알 아실 수 있습니다.
 Lightbox 2 Wordpress Plugin</description>
     </item>
     
     <item>
       <title>83개의 멋있는 WordPress 테마를 봅시다.</title>
-      <link>https://dialektike.github.io/2007/07/22/108/</link>
+      <link>http://www.epistemology.pe.kr/2007/07/22/108/</link>
       <pubDate>Sun, 22 Jul 2007 15:08:03 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/07/22/108/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/07/22/108/</guid>
       <description>Wordprss는 테마가 정말로 많습니다. 저도 기분에 따라 바꾸곤 하는데 이런 글이 있었네요. 영어로 되어 있지만 볼만합니다. 뭐 디자인만 보면 되니..
 83 Beautiful Wordpress Themes You (Probably) Haven’t Seen</description>
     </item>
     
     <item>
       <title>블로그에서 각주를 달아봅시다!</title>
-      <link>https://dialektike.github.io/2007/07/22/107/</link>
+      <link>http://www.epistemology.pe.kr/2007/07/22/107/</link>
       <pubDate>Sun, 22 Jul 2007 15:05:26 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/07/22/107/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/07/22/107/</guid>
       <description>여기에 글을 올릴려고 하는데, 긴 글이다 보니 각주를 달아야 될 일이 생겼습니다. 고민하고 있었는데 역시 찾았습니다. 아직 설치는 하지 않았지만, 설치할 계획입니다. 자세한 것은 아랫 글을 참고해주세요!
 WP-Footnotes (a plugin for WordPress)</description>
     </item>
     
     <item>
       <title>Philosopher&#39;s Stone 길드를 정리하며..</title>
-      <link>https://dialektike.github.io/2007/07/22/106/</link>
+      <link>http://www.epistemology.pe.kr/2007/07/22/106/</link>
       <pubDate>Sun, 22 Jul 2007 11:31:32 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/07/22/106/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/07/22/106/</guid>
       <description>Philosopher’s Stone 길드 Description: 외대철학과 와우게시판에 2005년 5월 7일에 처음으로 글을 썼네요. 이것보다 더 전에 와우를 시작했는데, 게시판을 만들고 시작한 것은 이 날이 처음이었네요. 지금도 하고 있으니 참 오래동안 와우를 하고 있습니다. 그때는 정말로 재미 있었는데 이때 같이 하던 사람들은 요즘은 와우 안하시는 분들은 뭐하고 지내시나.. 성겸이가 갑자기 보고 싶네요. 오늘 서버를 고치면서 게시판을 지우고 기념으로 게시판을 갈무리 해 둡니다. 그림을 누르시면 큰 사진으로 보실 수 있습니다.참고로 아래 Read more…을 클릭하시거나 글 제목을 나머지 게시판 갈무리 화면 링크가 나옵니다.</description>
     </item>
     
     <item>
       <title>습관을 고쳐 초딩때 꼴찌가 전교 순위권이 된 이야기</title>
-      <link>https://dialektike.github.io/2007/01/11/89/</link>
+      <link>http://www.epistemology.pe.kr/2007/01/11/89/</link>
       <pubDate>Thu, 11 Jan 2007 15:26:12 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/01/11/89/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/01/11/89/</guid>
       <description>조선일보 2006년 11월 6일 월요일, D1, &amp;lsquo;맛있는 공부&amp;rsquo; 편에 나왔던 이야기를 소개해보겠습니다. 우선 제목이 &amp;ldquo;초등 꼴지, 4년 만에 15등이 된 비결은? &amp;ldquo;6가지 습관 고쳐 상위권으로&amp;quot;&amp;ldquo;이라고 상당히 길었습니다. 저를 포함한 많은 사람들이 &amp;lsquo;비법&amp;rsquo;이니 &amp;lsquo;특효약&amp;rsquo;이니 같은 것에 관심이 많습니다. 저도 여기에 특별한 비법이 있다하고 자세히 읽어봤습니다. 내용은 초등학고 선생님이 아마도 꼴지라는 말에 충격을 받은 여학생이 공부를 해야겠다는 중학교에 들어가면서 성적이 올라가서 결국은 고등학교에서 성적이 순위권에 들어가게 되었다는 단순한 이야기입니다.
 이런 이야기는 여러곳에서 접해볼 수 있는 평범한 이야기지만, 제가 글을 쓸만큼 관심가는 내용이 있었습니다.</description>
     </item>
     
     <item>
       <title>C 프로그래머처럼 생각하기</title>
-      <link>https://dialektike.github.io/2007/01/02/88/</link>
+      <link>http://www.epistemology.pe.kr/2007/01/02/88/</link>
       <pubDate>Tue, 02 Jan 2007 22:49:34 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2007/01/02/88/</guid>
+      <guid>http://www.epistemology.pe.kr/2007/01/02/88/</guid>
       <description>이 글의 출처가 어딘지는 모르겠네요! 아마도 컴퓨터에 자료를 저장하기 시작한지 15년은 충분히 넘었을 것 같습니다. 그러니 좋은 글들은 모아두었던 것 같습니다. 이 자료도 프로그래머가 되어 보겠다고 이곳 저곳 기웃거릴 때 모아두었을 겁니다. 지우기에는 아까워 여기에 보관하려고 합니다.
 C 프로그래머처럼 생각하기
 여러분은 이 책의 내용을 공부하고 나서 능숙한 C 프로그래머가 되기를 바랄 것이다. 그러나 이것이 쉬운 일만은 아니다. 프로그래밍 언어도 영어나 일본어 같은 일반적인 언어와 마찬가지로 아무리 문법을 많이 알고 있다고 해도 적절한 경우에 적절한 문법을 사용하지 못한다면 아무 소용이 없다.</description>
@@ -1135,29 +1135,29 @@ C 프로그래머처럼 생각하기
     
     <item>
       <title>The Blackwell Guide to Metaphysics</title>
-      <link>https://dialektike.github.io/2006/12/26/86/</link>
+      <link>http://www.epistemology.pe.kr/2006/12/26/86/</link>
       <pubDate>Tue, 26 Dec 2006 15:14:54 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/12/26/86/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/12/26/86/</guid>
       <description>책제목: The Blackwell Guide to Metaphysics 펴낸곳: Blackwell Publishers 출판연도: 2002 Contents Preface. Physics, Metaphysics, and Method in Newton’s Dynamics: Lawrence Sklar. Causation: Wesley Salmon. What Events Are: Jonathan Bennett. Time, Temporality and Paradox, Richard M. Gale. A Thomist Metaphysics: John Haldane. The Concept of Ontological Catergory: a New Approach: Lorenz Puntel. Universals and Predication: Bruce Aune. Composition as a Fiction: Gideon Rosen and Cian Dorr. What Do We Refer To When We Say ‘I’?</description>
     </item>
     
     <item>
       <title>Web 디자인에 유용한 곳 링크 모음</title>
-      <link>https://dialektike.github.io/2006/12/26/85/</link>
+      <link>http://www.epistemology.pe.kr/2006/12/26/85/</link>
       <pubDate>Tue, 26 Dec 2006 15:01:25 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/12/26/85/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/12/26/85/</guid>
       <description>제 실력은 미천함에도 불구하고, 문과에서 컴퓨터를 잘 다루는 사람이 없는 관계로 관리하고 있는 홈페이지가 좀 있습니다. 뭐 그래도 Html과 같은 것은 어느 정도 알지만, 미적 표현력이 떨어진 나머지, 디자인적인 측면에서는 거의 50점도 못 되는 수준입니다. 그래서 웹디자인 실력을 늘리고자 자료를 조사했습니다. 이 아래 링크들은 아마도 책같은 곳에서 찾은 것 같은데, 정리한 파일에는 책이름이 적혀 있지 않네요. 출처불명이 되는군요. 그래서 좋은 곳들을 모아둔 것이니 참고하세요!
 http://www.w3.org 여기는 웹은 물론이고 웹 표준을 매일 개발하는 기관</description>
     </item>
     
     <item>
       <title>기호 논리 참고 자료</title>
-      <link>https://dialektike.github.io/2006/11/29/80/</link>
+      <link>http://www.epistemology.pe.kr/2006/11/29/80/</link>
       <pubDate>Wed, 29 Nov 2006 22:26:18 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/11/29/80/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/11/29/80/</guid>
       <description>제 7부 일상언어의 기호화, 필로지아, 오란디프, 도서관 번호:160 J581n2.
 제 4부 연역 논증1:명제 논리, (비판적 사고를 위한) 논리, 도서관 번호:160 B149n.
 제 10장 기호논리, 제 11장 연역의 방법, 논리학입문, 도서관 번호: 160 C783iKb10.</description>
@@ -1165,10 +1165,10 @@ http://www.w3.org 여기는 웹은 물론이고 웹 표준을 매일 개발하�
     
     <item>
       <title>사이버 펑크에 대한 대화</title>
-      <link>https://dialektike.github.io/2006/11/12/73/</link>
+      <link>http://www.epistemology.pe.kr/2006/11/12/73/</link>
       <pubDate>Sun, 12 Nov 2006 18:09:41 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/11/12/73/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/11/12/73/</guid>
       <description>출처는 아마도 옛날에 정은임 님이 라디오 하실 때, 정성일 선생님과 나눈 대화를 채록한 것 같습니다. 출처모르겠지만, 좋은 글이라고 생각이 들어 올려봅니다. 저도 인쇄본으로만 가지고 있다가 인터넷을 뒤져보니 옛날에는 이곳 저곳에 있었는데, 요즘은 보기 힘들어 보존차원에서 올려봅니다. 조금 이상한 부분이 있지만 그대로 올려봅니다. 참고로 읽기 편하게 편집을 조금했습니다. 그리고 이름 앞에 성을 붙여서 올렸습니다.
 정은임: 자 이번에는 영화 평론가 정성일의 영화 읽기 시간입니다. 안녕하세요!
 정성일: 안녕하세요.
@@ -1178,38 +1178,38 @@ http://www.w3.org 여기는 웹은 물론이고 웹 표준을 매일 개발하�
     
     <item>
       <title>글쓰기 참고 링크</title>
-      <link>https://dialektike.github.io/2006/11/09/72/</link>
+      <link>http://www.epistemology.pe.kr/2006/11/09/72/</link>
       <pubDate>Thu, 09 Nov 2006 13:27:57 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/11/09/72/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/11/09/72/</guid>
       <description>이번 주에 수업했던 내용이 들어 있는 사이트를 링크합니다. 참고하세요!
 http://di.knu.ac.kr/lect/be/writing/writing.html</description>
     </item>
     
     <item>
       <title>인문대 올라가는 길</title>
-      <link>https://dialektike.github.io/2006/11/05/71/</link>
+      <link>http://www.epistemology.pe.kr/2006/11/05/71/</link>
       <pubDate>Sun, 05 Nov 2006 13:33:32 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/11/05/71/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/11/05/71/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Happy Hacking Keyboard Lite 2를 샀습니다.</title>
-      <link>https://dialektike.github.io/2006/11/03/62/</link>
+      <link>http://www.epistemology.pe.kr/2006/11/03/62/</link>
       <pubDate>Fri, 03 Nov 2006 15:22:27 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/11/03/62/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/11/03/62/</guid>
       <description>제 수업을 들으셨던 분들은 아시겠지만, 저는 맥용 노트북인 iBook를 사용합니다. 이 아이북은 2002년에 샀으니 꽤 오래 썼네요! 속도는 600MHz 이고 살 시절에는 파격적인 DVD도 달려 있습니다. 지금도 잘 쓰고 있고, 만족하고 있지만, 제가 수업에서 사용하는 프로그램인 키노트2가 페이지가 전환이 상당히 느리게 되면서 저는 이제는 바꿀 시기되었다고 생각하고 교환을 고려하기 시작했습니다. 2006년 말 쯤에 구입하려고 했지만, 내년에 맥 오에스도 새 버젼인 10.5가 나온다고 하고, 인텔에서 내년 1/4분기에 노트북용 신형 칩셋이 나온다는 말을 듣고 내년 상반기 이후에 노트북을 사기로 결정했습니다.</description>
     </item>
     
     <item>
       <title>논증의 재구성에 대한 참고 서적 소개</title>
-      <link>https://dialektike.github.io/2006/10/25/67/</link>
+      <link>http://www.epistemology.pe.kr/2006/10/25/67/</link>
       <pubDate>Wed, 25 Oct 2006 16:43:56 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/10/25/67/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/10/25/67/</guid>
       <description>제가 참고한 서적들을 소개합니다. 참고하세요!
 70-87쪽, 노야 시게키, 논리 트레이닝, 서혜영 옮김, 일빛, 2002. 도서관 번호:160 N949rKs
 제 2부 논증, 3장 논증과 재구성과 분석, 비판적 사고를 위한 논리, 박은진, 김희정, 아카넷, 도서관 번호:160 B149n 참고: 저는 1판을 가지고 있습니다(112쪽부터). 그런데 이 책 1판은 문제가 좀 있습니다. 답도 틀린 곳도 많고 오타도 좀 있습니다. 내용을 바꾸면 판올림을 해야 하는데 슬쩍 다시 찍었더군요. 그래서 요즘 나온 책에서는 틀린 점들이 대폭 수정되었습니다. 그러니 요즘 나온 책을 찾아서 봐야 합니다.</description>
@@ -1217,28 +1217,28 @@ http://di.knu.ac.kr/lect/be/writing/writing.html</description>
     
     <item>
       <title>2003 가을 학생회관</title>
-      <link>https://dialektike.github.io/2006/10/11/61/</link>
+      <link>http://www.epistemology.pe.kr/2006/10/11/61/</link>
       <pubDate>Wed, 11 Oct 2006 22:52:56 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/10/11/61/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/10/11/61/</guid>
       <description></description>
     </item>
     
     <item>
       <title>페이지 넘어가는 답변 기능을 가진 플러그인을 깔아서 방명록 만들기!</title>
-      <link>https://dialektike.github.io/2006/10/02/11/</link>
+      <link>http://www.epistemology.pe.kr/2006/10/02/11/</link>
       <pubDate>Mon, 02 Oct 2006 15:46:43 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/10/02/11/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/10/02/11/</guid>
       <description>항상 홈페이지를 만들때, 항상 방명록을 어떻게 구현하는가하는게 문제였습니다. 저번에 Movble Type(이하 MT)을 사용할 때에도 이것은 문제였습니다. 그래서 항상 제로보드와 같은 별도의 프로그램을 사용하여 방명록를 만들어 왔습니다. 그런데 제가 디자인과 프로그램 실력이 미천해서, 홈피와 방명록을 같은 디자인으로 만들지 못하겠더군요. 항상 제 홈피는 망명록과 홈피 디자인이 따로 놀게 되었습니다. 어느날 우연히 kukie님의 글을 보니, 쉽게 만들수 있을 것 같은 생각이 들더군요! 물론 이런 생각이 무모했죠 ^^; kukie님의 글을 몇번씩 숙독한 다음, 따라하기 시작했습니다.</description>
     </item>
     
     <item>
       <title>블로그에 음악을 달아봅시다.</title>
-      <link>https://dialektike.github.io/2006/09/28/56/</link>
+      <link>http://www.epistemology.pe.kr/2006/09/28/56/</link>
       <pubDate>Thu, 28 Sep 2006 23:01:10 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/09/28/56/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/09/28/56/</guid>
       <description>뭐 아시는 분은 다 아시겠지만, 요즘 온라인게임이 유행입니다. 그런데 거기에 쓰이는 음악들이 수준이 대단합니다. 이번에 World of Warcraft라는 온라인 게임이 확장팩을 만들고 있습니다. 거기에 쓰인다는 노래를 들었는데, 정말로 좋더군요! 그래서 이 노래를 홈피에 올리고자, 기억을 더듬어서 다음 링크를 찾아냈습니다. 오래전부터 깔고 싶었던 것인데, 이제서야 손을 대는 군요!
 http://www.1pixelout.net/code/audio-player-wordpress-plugin/
 설치 방법은 쉽습니다. 위에 링크에 있습니다만, 잠시 정리하겠습니다.
@@ -1247,88 +1247,88 @@ http://www.1pixelout.net/code/audio-player-wordpress-plugin/
     
     <item>
       <title>Ned Block 선생님 홈페이지 소개</title>
-      <link>https://dialektike.github.io/2006/08/02/ned-block-%EC%84%A0%EC%83%9D%EB%8B%98-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C/</link>
+      <link>http://www.epistemology.pe.kr/2006/08/02/ned-block-%EC%84%A0%EC%83%9D%EB%8B%98-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C/</link>
       <pubDate>Wed, 02 Aug 2006 16:27:26 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/08/02/ned-block-%EC%84%A0%EC%83%9D%EB%8B%98-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/08/02/ned-block-%EC%84%A0%EC%83%9D%EB%8B%98-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C/</guid>
       <description>아시는 분들은 아시겠지만, Ned Block 선생님은 심리철학에 많은 관심을 가지셨으며, 특히 기능주의, 인지과학과 의식(consciousness) 문제에 많은 공헌을 하셨습니다. 제가 석사학위 논문을 쓸면서 기능주의(functionalism)를 공부할 때, 이 선생님을 논문을 읽었던 때가 생각납니다. 선생님 홈페이지는 다음과 같습니다. 위키의 Ned Block 선생님 페이지도 살펴보세요.
 http://www.nyu.edu/gsas/dept/philo/faculty/block/</description>
     </item>
     
     <item>
       <title>에드온 설치</title>
-      <link>https://dialektike.github.io/2006/07/06/50/</link>
+      <link>http://www.epistemology.pe.kr/2006/07/06/50/</link>
       <pubDate>Thu, 06 Jul 2006 16:01:49 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/07/06/50/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/07/06/50/</guid>
       <description>Wordpress 에 미리 특정 단어에 대한 인터넷 주소를 지정해 자동으로 링크를 만들어주는 Plugin인, aLinks를 설치했습니다. 이 Plugin의 주소는 다음과 같습니다.
 http://www.headzoo.com/alinks</description>
     </item>
     
     <item>
       <title>Option 키로 부팅 디스크 선택하기</title>
-      <link>https://dialektike.github.io/2006/03/09/41/</link>
+      <link>http://www.epistemology.pe.kr/2006/03/09/41/</link>
       <pubDate>Thu, 09 Mar 2006 16:53:46 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/03/09/41/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/03/09/41/</guid>
       <description>우선 만약에 1394로 부팅을 하시려면, 시작하기 전에 연결시켜 놓으시는 편이 좋습니다. 그런 다음 만약 순발력이 있다면, 맥을 켜자마자 option키를 누르면 됩니다. 그러나 저처럼 순발력이 없으시다면, 켜지기 전부터, option키를 누르고, 시작 버튼을 눌러도 됩니다. 그런 다음 시동 디스크 화면 나올 때까지 누르고 있으시면 됩니다. 조금 있으면 화면에 시스템 폴더가 작동하는 디스크, CD, 파티션의 아이콘들이 나옵니다. 물론 자신의 Mac의 설정에 따라 조금씩 다르게 나오겠죠? 이때 시동하시려는 아이콘을 클릭한 다음, 단추를 누릅니다. 그러면 선택한 운영체제로 시동합니다.</description>
     </item>
     
     <item>
       <title>맥에서 FTP 사용하기</title>
-      <link>https://dialektike.github.io/2006/03/09/40/</link>
+      <link>http://www.epistemology.pe.kr/2006/03/09/40/</link>
       <pubDate>Thu, 09 Mar 2006 16:44:24 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/03/09/40/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/03/09/40/</guid>
       <description>저는 Mac을 2000년경부터 OS X부터 사용하고 있습니다. 홈페이지를 관리하려고 하면 FTP 사용이 거의 필수적입니다. 물론 명령어 방식으로 일일히 명령어를 치면서 OS X에 내장된 FTP를 사용할 수도 있지만, 그래도 아이콘을 꼭꼭 누르면서 사용하는 맛도 쏠쏠합니다. 물론 현재 Mac에서의 FTP지존은 panic사에서 만든 transmit일 겁니다. 사용하기 편리하면서도 풍부한 기능, 깔끔한 디자인 등등 어디 하나 버릴 곳이 없습니다. 그러나 안타깝게도 상용입니다. 물론 절실히 필요하면 사서 쓸 수도 있겠지만, 그렇게 FTP를 많이 사용하는 것도 아닌지라 사지 않고 있었습니다.</description>
     </item>
     
     <item>
       <title>인용문에 따옴표(“) 넣기</title>
-      <link>https://dialektike.github.io/2005/12/21/32/</link>
+      <link>http://www.epistemology.pe.kr/2005/12/21/32/</link>
       <pubDate>Wed, 21 Dec 2005 22:51:44 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2005/12/21/32/</guid>
+      <guid>http://www.epistemology.pe.kr/2005/12/21/32/</guid>
       <description>하는 일이 특성상 사람들이 말했던 말을 인용하는 경우가 많습니다. 물론 글을 쓸 때에는 인용을 하고 각주 같은 것을 달아서 해결하지만, 웹에서는 어떻게 처리할지 걱정이 많았습니다. 요즘 웹표준(링크는 예스 24입니다)이라는 책을 읽으면서 4장 인용문에서 힌트를 얻었습니다. 그리고 저자 사이트를 참고했습니다. 기본 CSS에 다음과 같은 코드를 넣고 따옴표 이미지 파일을 넣으시면 됩니다. 간단하죠?
 blockquote { margin:0; padding:0 18px; font-size: 88%; line-height: 1.5em; color: #777; padding-left: 23px; background: url(/images/quotemarks.gif) no-repeat 0 3px; } </description>
     </item>
     
     <item>
       <title>본인이 생각한 철학의 두 가지 특징은?</title>
-      <link>https://dialektike.github.io/2005/12/21/30/</link>
+      <link>http://www.epistemology.pe.kr/2005/12/21/30/</link>
       <pubDate>Wed, 21 Dec 2005 21:07:22 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2005/12/21/30/</guid>
+      <guid>http://www.epistemology.pe.kr/2005/12/21/30/</guid>
       <description>&amp;ldquo;철학이란 무엇일까?, 철학의 두 가지 특징은?&amp;rdquo; 만약 이런 질문이 여러분에게 들이 닥친다면, 여러분은 어떤 생각이 들까요? 좀 황당무계하겠죠? 그런데 제가 이런 질문을 교양 수업으로 철학의 향기를 5주정도 맡아 본 학생들에게 과감하고 무모하게 던져보았습니다! 물론 갑가지 던지면 패닉 상태에 빠질까봐 미리 문제를 귓뜸했죠. 그런 다음 그들의 고민의 자국을 한번 살펴보았습니다. 물론 문제를 어렵습니다. 그래서 좋은 답은 많지 않았습니다. 심지어 철학의 두 가지 특징은 동양 철학, 서양 철학이라고 쓴 학생도 있었습니다.
 물론 제가 엄청난 고수의 실력을 보기 위하여 이런 질문을 던지지는 않았습니다.</description>
     </item>
     
     <item>
       <title>Critique of Pure Reason(e-text version)</title>
-      <link>https://dialektike.github.io/2005/12/04/20/</link>
+      <link>http://www.epistemology.pe.kr/2005/12/04/20/</link>
       <pubDate>Sun, 04 Dec 2005 22:46:03 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2005/12/04/20/</guid>
+      <guid>http://www.epistemology.pe.kr/2005/12/04/20/</guid>
       <description>다음 순수 이성 비판의 온라인판은 노먼 켐프 스미스(Norman Kemp Smith translation)의 1929년 번역에 바탕을 하고 있으며, 다음과 같은 8개의 부분으로 되어 있습니다.
 I. Prefaces and Introduction (pp.4-62) II. Aesthetic (pp.63-91) III. Analytic of Concepts (pp.92-175) IV. Analytic of Principles (pp.176-296) V. Dialectic: Paralogisms (pp.297-383) VI. Dialectic: Antinomies (pp.384-484) VII. Dialectic: Ideal (pp.485-570) VIII. Doctrine of Method (pp.571-668) 이 책의 e-text 판본은 원래 1985년에 옥스포스 문서저장고(Oxford Text Archive)에 있던 것을 Stephen Palmquist이 가져왔습니다.</description>
     </item>
     
     <item>
       <title>유저(user)의 레벨(Level) 관리</title>
-      <link>https://dialektike.github.io/2005/08/16/12/</link>
+      <link>http://www.epistemology.pe.kr/2005/08/16/12/</link>
       <pubDate>Tue, 16 Aug 2005 15:19:54 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2005/08/16/12/</guid>
+      <guid>http://www.epistemology.pe.kr/2005/08/16/12/</guid>
       <description>관리자 암호로 쓰는 것을 별로 좋아하지 않습니다. 옛날에 리눅스를 혼자 깔아서 쓰던 때에 배운 것인지 몰라도 항상 다른 아이디를 만들어서 사용합니다. 맥을 쓰고 있는데, 지금의 맥 OS는 유닉스의 변종(?)이죠. 그래서 인지 몰라도 설치할때, 관리자 아이디랑 사용자 아이디를 구별합니다. 그래서 프로그램을 깔 경우에는 관리자 비번을 묻습니다. 하여간 관리자 아이디로 블로그를 쓰는 것은 관리상 좋지 않습니다!
 그런데 (이하 WP)의 장점이 여러명이서 한 블로그를 사용할 수 있다는 점입니다. 그러나 만약 여러개의 불로그를 만드는 경우에는 아마도 어러번 WP를 깔아주어야 될 듯 같네요.</description>
     </item>
     
     <item>
       <title>시작합니다.</title>
-      <link>https://dialektike.github.io/2005/08/14/5/</link>
+      <link>http://www.epistemology.pe.kr/2005/08/14/5/</link>
       <pubDate>Sun, 14 Aug 2005 22:13:01 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2005/08/14/5/</guid>
+      <guid>http://www.epistemology.pe.kr/2005/08/14/5/</guid>
       <description>새 학기를 맞아서, 새로운 기분으로 홈페이지를 개편합니다. 저번에 쓰던 Movble type이 3.0대로 넘어가면서, 유료화 되고 시스템이 제가 유지하기에는 너무 방대하게 변하여, 과감히 WordPress로 개편했습니다.
 많은 것을 설치하지 않고, 이 한가지로만 만들려고 하지만, 아직까지 실력이 미천하여, 제로보드는 사용해야 될 것 같습니다. (참고:2005년 12월 23일 현재 저는 제로보드를 사용하고 있지 않습니다. 맥 노트북을 쓰는 저로써는 노트북에서 제로보드를 제대로 사용할 수 없기 때문에 게시판 프로그램을 바꿨습니다. GR보드를 쓰는데 이 게시판은 깔끔하며, 어떤 웹브라우져에서도 사용하실 수 있습니다) 수업게시판 같은 것을 사용하고자 할 경우에는 Blog 프로그램을 사용하는 것보다는 게시판용 프로그램을 쓰는 편이 좋을 것 같습니다.</description>
     </item>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VI on Epistemology</title>
-    <link>https://dialektike.github.io/tags/vi/</link>
+    <link>http://www.epistemology.pe.kr/tags/vi/</link>
     <description>Recent content in VI on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 21 Jun 2008 16:48:53 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/vi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jun 2008 16:48:53 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/vi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>터미널의 설정법</title>
-      <link>https://dialektike.github.io/2008/06/21/141/</link>
+      <link>http://www.epistemology.pe.kr/2008/06/21/141/</link>
       <pubDate>Sat, 21 Jun 2008 16:48:53 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/06/21/141/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/06/21/141/</guid>
       <description>Mac은 원래 출생이 유닉스이기 때문에 터미널이 있습니다. linux를 쓰신 분들은 잘 아시겠지만, 터미널만 있어도 많은 일을 할 수 있고 실제로 많은 일을 했죠. 요즘은 이런 터미널을 쓰는 사람이 많지는 않지만 배워두면 나중에 웹 호스팅 하거나 서버를 만질 때 유용합니다. 저도 기록을 남기기 위해서 여기에 정리합니다. 참고로 여기서 소개하는 내용을 Mac 우선시 하시만, 다른 Uinx 계열에서도 잘 작동할 것 같네요 ^^;
 vi의 기본 사용법: vi는 입력 모드와 명령 모드로 나누어져 동작합니다 명령모드로: [esc] 키 입력 모드로: i키: 현재 커서의 위치부터 입력 a키: 현재 커서의 위치 다음 칸부터 입력 o키: 현재 커서의 다음 줄에 입력 s키: 현재 커서 위치의 한 글자를 지우고 입력 vi를 종료하기: 우선 명령행 모드로 가야 합니다.</description>
     </item>

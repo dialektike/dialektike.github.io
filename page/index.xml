@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Epistemology</title>
-    <link>https://dialektike.github.io/page/</link>
+    <link>http://www.epistemology.pe.kr/page/</link>
     <description>Recent content in Pages on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Sep 2022 18:00:00 +0600</lastBuildDate><atom:link href="https://dialektike.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2022 18:00:00 +0600</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://dialektike.github.io/about/</link>
+      <link>http://www.epistemology.pe.kr/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dialektike.github.io/about/</guid>
+      <guid>http://www.epistemology.pe.kr/about/</guid>
       <description>취미로 프로그래밍과 데이터 분석을 합니다.
 본업은 인식론과 논리학을 공부하는 사람입니다.
 최근에는 컴퓨터 자체에 관심이 많습니다.</description>
@@ -19,10 +19,10 @@
     
     <item>
       <title>Jobs&#39;s word</title>
-      <link>https://dialektike.github.io/jobs_word/</link>
+      <link>http://www.epistemology.pe.kr/jobs_word/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dialektike.github.io/jobs_word/</guid>
+      <guid>http://www.epistemology.pe.kr/jobs_word/</guid>
       <description>1983년 펩시콜라 부사장 존 스컬리를 만나 스타우트를 제의하는 자리에서: &amp;ldquo;남은 인생 설탕물을 팔면서 보낼 건가, 아니면 세상을 바꿔놓을 기회를 갖고 싶은가.”
 1985년 플레이보이: “돈 같은 일에 대한 내 생각은 매우 웃긴다는 것이다. 모든 관심이 거기에 집중돼 있다. 하지만 돈은 나에게 일어날 수 있는 모든 일 중에서 가장 통찰력 있는 일도 아니고 가치 있는 일도 아니다.”
 1993년 월스트리트 저널: “무덤에서 가장 부자가 되는 일 따위는 중요하지 않다. 매일 밤 자기 전 우리는 정말 놀란 만한 일을 했다고 말하는 것이 내게 중요하다.</description>
@@ -30,47 +30,47 @@
     
     <item>
       <title>논리학 교재</title>
-      <link>https://dialektike.github.io/intro_logic_books/</link>
+      <link>http://www.epistemology.pe.kr/intro_logic_books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dialektike.github.io/intro_logic_books/</guid>
+      <guid>http://www.epistemology.pe.kr/intro_logic_books/</guid>
       <description>이 글은 논리학을 처음 배우고자 하시는 분들을 위해서 쓴 글입니다. 논리학을 잘하시거나 공부를 많이 하신 분들께서 읽으시면, 별 도움이 되지 않을 것 같네요.
 논리학에 대하여 처음 접하시거나, 관심이 있으신 분들이 논리학을 공부하려면, 어떤 책을 읽으면서 공부를 시작하면 좋을까 고민하게 됩니다. 제가 읽고 공부하면서 느낀 경험을 토대로 읽어볼만한 논리학 책을 소개해보겠습니다. 당연히 제가 읽은 것을 중심으로 쓰겠습니다. 더 좋은 책이 있으면, 댓들을 달아주세요! 그리고 번역서보다는 한국 저자들이 쓴 책을 중심으로 소개하겠습니다.</description>
     </item>
     
     <item>
       <title>철학사 스터디</title>
-      <link>https://dialektike.github.io/history_of_philosophy/</link>
+      <link>http://www.epistemology.pe.kr/history_of_philosophy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dialektike.github.io/history_of_philosophy/</guid>
+      <guid>http://www.epistemology.pe.kr/history_of_philosophy/</guid>
       <description>이 프로젝트는 “서양철학사(Geschichte der Philosophie), 요하네스 힐쉬베르거(Johannes Hirschberger) 지음 , 강성위 옮김”을 요약 정리하기 위해 시작한 것입니다. 항상 잘 읽고 있으면서 언젠가 전체를 요약을 해보자 하고 미루고 있다가 이제서야 시작해봅니다. 워낙 위의 책은 번역이 좋아서 읽는데 큰 불편은 없지만, 요즘 학생들이 읽기는 쉽지 않습니다. 이런 생각을 하던 중 후배들이 같이 읽어보자고 의기투합했고 읽으면서 혼자 읽는 다른 학생들에게 조금이라고 도움을 주고자 가이드북과 같이 요약문을 만들어보자고 시작했습니다. 시작은 했으나 철학사를 끝까지 읽고 요약문을 다 끝낼 수 있을지 걱정입니다.</description>
     </item>
     
     <item>
       <title>통계학 번역어</title>
-      <link>https://dialektike.github.io/%ED%86%B5%EA%B3%84%ED%95%99-%EB%B2%88%EC%97%AD/</link>
+      <link>http://www.epistemology.pe.kr/%ED%86%B5%EA%B3%84%ED%95%99-%EB%B2%88%EC%97%AD/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dialektike.github.io/%ED%86%B5%EA%B3%84%ED%95%99-%EB%B2%88%EC%97%AD/</guid>
+      <guid>http://www.epistemology.pe.kr/%ED%86%B5%EA%B3%84%ED%95%99-%EB%B2%88%EC%97%AD/</guid>
       <description>adjacency matrix : 인접도 행렬. 참고: 인접 행렬 이라고도 합니다. affinity Matrix :유사도 행렬 binomial distribution: 이항분포 categorical data: 범주형 자료 central limit theorem: 중심극한정리 cumulative distribution function: 누적 분포 함수 conditional expected value: 조건부 기대값 discrete probability distributions: 이산 확률 분포 expected value: 기대값 frequency: 도수 Observed frequency: 관측 도수: 참고: ofs은 observed frequencies 의 약자로 많이 사용됩니다. Expected frequency: 기대 도수 goodness of fit test: 적합도 검증 independent variable: 독립 변수 참고: 이 독립변수는 예측 변수(predictor variable), 복귀자(regressor), 통제 변수(controlled variable), 조작 변수(manipulated variable), 노출 변수(exposure variable), 리스크 팩터(risk factor) 이라고 하기도 하고, 기계 학습 혹은 패턴 인식에서는 특징 (feature) 이라고도 한다.</description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>https://dialektike.github.io/archive/</link>
+      <link>http://www.epistemology.pe.kr/archive/</link>
       <pubDate>Sat, 17 Sep 2022 18:00:00 +0600</pubDate>
       
-      <guid>https://dialektike.github.io/archive/</guid>
+      <guid>http://www.epistemology.pe.kr/archive/</guid>
       <description>지금까지 올린 글 지금까지 올린 글들을 연도별로 정리했습니다.</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://dialektike.github.io/search/</link>
+      <link>http://www.epistemology.pe.kr/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dialektike.github.io/search/</guid>
+      <guid>http://www.epistemology.pe.kr/search/</guid>
       <description></description>
     </item>
     

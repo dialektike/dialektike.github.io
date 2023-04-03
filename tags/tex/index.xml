@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tex on Epistemology</title>
-    <link>https://dialektike.github.io/tags/tex/</link>
+    <link>http://www.epistemology.pe.kr/tags/tex/</link>
     <description>Recent content in Tex on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Jul 2015 16:56:04 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/tex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2015 16:56:04 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/tex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MacTeX-2015이 6월 14일에 나왔습니다.</title>
-      <link>https://dialektike.github.io/2015/07/06/872/</link>
+      <link>http://www.epistemology.pe.kr/2015/07/06/872/</link>
       <pubDate>Mon, 06 Jul 2015 16:56:04 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2015/07/06/872/</guid>
+      <guid>http://www.epistemology.pe.kr/2015/07/06/872/</guid>
       <description>혹시 MacTeX을 쓰시는 분은 다음 링크에서 업그레이드 하세요! 현재 다운로드 속도가 느리네요.
 https://tug.org/mactex/mactex-download.html</description>
     </item>

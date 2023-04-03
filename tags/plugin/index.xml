@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plugin on Epistemology</title>
-    <link>https://dialektike.github.io/tags/plugin/</link>
+    <link>http://www.epistemology.pe.kr/tags/plugin/</link>
     <description>Recent content in Plugin on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Oct 2008 23:24:50 +0900</lastBuildDate><atom:link href="https://dialektike.github.io/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Oct 2008 23:24:50 +0900</lastBuildDate><atom:link href="http://www.epistemology.pe.kr/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>프로그램 코드와 같은 형식의 글을 넣어보자!</title>
-      <link>https://dialektike.github.io/2008/10/03/234/</link>
+      <link>http://www.epistemology.pe.kr/2008/10/03/234/</link>
       <pubDate>Fri, 03 Oct 2008 23:24:50 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2008/10/03/234/</guid>
+      <guid>http://www.epistemology.pe.kr/2008/10/03/234/</guid>
       <description>조금 제목이 이상하지만, 가끔 글을 올릴 때 컴퓨터 명령어나 프로그램 코드와 같은 것들을 올려야 될 경우가 있습니다. 바로 Mac OS X 에서는 어떻게 MD5 체크(MD5 Check)를 할까?라는 글이 그렇습니다. 여기에는 터미널에서 사용하는 명령어를 넣어야 하는데 그냥 쓰는 글로 쓰면 구별이 안될 것 같아서 다르게 넣으려고 인용으로 넣었지만 보기가 좋지 않았습니다. 그래서 찾아보다 다음 플러그인을 발견했습니다. 쓸만합니다. 사용법도 물론 간단합니다.
 WP-Syntax</description>
     </item>
     
     <item>
       <title>에드온 설치</title>
-      <link>https://dialektike.github.io/2006/07/06/50/</link>
+      <link>http://www.epistemology.pe.kr/2006/07/06/50/</link>
       <pubDate>Thu, 06 Jul 2006 16:01:49 +0900</pubDate>
       
-      <guid>https://dialektike.github.io/2006/07/06/50/</guid>
+      <guid>http://www.epistemology.pe.kr/2006/07/06/50/</guid>
       <description>Wordpress 에 미리 특정 단어에 대한 인터넷 주소를 지정해 자동으로 링크를 만들어주는 Plugin인, aLinks를 설치했습니다. 이 Plugin의 주소는 다음과 같습니다.
 http://www.headzoo.com/alinks</description>
     </item>
