@@ -15,14 +15,41 @@
     <loc>https://www.epistemology.pe.kr/archive/</loc>
     <lastmod>2022-09-17T18:00:00+06:00</lastmod>
   </url><url>
+    <loc>https://www.epistemology.pe.kr/authors/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
     <loc>https://www.epistemology.pe.kr/categories/</loc>
-    <lastmod>2023-02-22T13:29:40+09:00</lastmod>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/tags/data-analysis/</loc>
-    <lastmod>2023-02-22T13:29:40+09:00</lastmod>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/authors/dialektike/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/</loc>
-    <lastmod>2023-02-22T13:29:40+09:00</lastmod>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/tags/pandas/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/2023/04/07/1418/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/posts/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/tags/python/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/categories/python/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/tags/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/</loc>
+    <lastmod>2023-04-07T14:06:10+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/tags/hugo/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
@@ -31,9 +58,6 @@
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2023/02/22/1416/</loc>
-    <lastmod>2023-02-22T13:29:40+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/posts/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/tags/r/</loc>
@@ -45,25 +69,13 @@
     <loc>https://www.epistemology.pe.kr/2023/02/22/1417/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/</loc>
-    <lastmod>2023-02-22T13:29:40+09:00</lastmod>
-  </url><url>
     <loc>https://www.epistemology.pe.kr/tags/wordpress/</loc>
-    <lastmod>2023-02-22T13:29:40+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/page/</loc>
     <lastmod>2022-09-17T18:00:00+06:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/authors/</loc>
-    <lastmod>2022-08-02T15:27:14+09:00</lastmod>
-  </url><url>
     <loc>https://www.epistemology.pe.kr/tags/csv/</loc>
-    <lastmod>2022-08-02T15:27:14+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/authors/dialektike/</loc>
     <lastmod>2022-08-02T15:27:14+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2022/08/02/1415/</loc>
@@ -135,9 +147,6 @@
     <loc>https://www.epistemology.pe.kr/tags/pymysql/</loc>
     <lastmod>2020-10-23T16:49:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/categories/python/</loc>
-    <lastmod>2020-10-23T16:49:30+09:00</lastmod>
-  </url><url>
     <loc>https://www.epistemology.pe.kr/tags/sqlalchemy/</loc>
     <lastmod>2020-10-23T16:49:30+09:00</lastmod>
   </url><url>
@@ -167,9 +176,6 @@
   </url><url>
     <loc>https://www.epistemology.pe.kr/2019/06/18/1237/</loc>
     <lastmod>2019-06-18T15:43:52+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/python/</loc>
-    <lastmod>2019-03-22T13:45:47+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/tags/python3.7/</loc>
     <lastmod>2019-03-22T13:45:47+09:00</lastmod>
