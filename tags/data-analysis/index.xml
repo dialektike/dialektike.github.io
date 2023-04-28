@@ -5,7 +5,18 @@
     <link>https://www.epistemology.pe.kr/tags/data-analysis/</link>
     <description>Recent content in data analysis on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 07 Apr 2023 14:06:10 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Apr 2023 12:28:48 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기</title>
+      <link>https://www.epistemology.pe.kr/2023/04/28/1419/</link>
+      <pubDate>Fri, 28 Apr 2023 12:28:48 +0900</pubDate>
+      
+      <guid>https://www.epistemology.pe.kr/2023/04/28/1419/</guid>
+      <description>pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
+a = [[&amp;#39;20200906&amp;#39;, &amp;#39;NCSS1&amp;#39;],[&amp;#39;20201028&amp;#39;, &amp;#39;HHLG0&amp;#39;]] 실행 결과는 다음과 같습니다.
+&amp;gt;&amp;gt;&amp;gt; a [[&amp;#39;20200906&amp;#39;, &amp;#39;NCSS1&amp;#39;], [&amp;#39;20201028&amp;#39;, &amp;#39;HHLG0&amp;#39;]] 이 a의 자료 구조는 아주 단순합니다. 2개의 원소를 가진 list를 가지고 있는 list입니다.</description>
+    </item>
+    
     <item>
       <title>pandas 를 이용한 csv 저장</title>
       <link>https://www.epistemology.pe.kr/2023/04/07/1418/</link>
