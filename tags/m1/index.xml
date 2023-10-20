@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M1 on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/tags/m1/</link>
+    <description>Recent content in M1 on Epistemology</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 20 Oct 2023 12:28:48 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/m1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>애플 실리콘 맥북 프로에 Mojo🔥에 설치하기</title>
+      <link>https://www.epistemology.pe.kr/2023/10/20/1420/</link>
+      <pubDate>Fri, 20 Oct 2023 12:28:48 +0900</pubDate>
+      
+      <guid>https://www.epistemology.pe.kr/2023/10/20/1420/</guid>
+      <description>드디어 애플 실리콘에 Mojo🔥를 설치할 수 있게 되었습니다. 아래 링크 참고!
+Modular- Mojo🔥 is now available on Mac
+앞의 글을 따라서 쭉 설치하면 되지만, 혹시 설치할 때 저처럼 버벅거릴 사람이 있을 것 같아서 제가 설치할 때 경험했던 것을 적어보겠습니다.
+현재는 Modular에 가입해야 다운을 받을 수 있습니다. 가입을 할고 승인이 나면, 윗 블로그 글을 보시고 쭉 따라하시면 됩니다. curl로 다운을 받은 다음 modular install mojo으로 설치하면 됩니다. 러스트와 비슷하게 설치하네요.
+파일은 ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

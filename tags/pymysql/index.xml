@@ -5,6 +5,7 @@
     <link>https://www.epistemology.pe.kr/tags/pymysql/</link>
     <description>Recent content in PyMySQL on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
     <lastBuildDate>Fri, 23 Oct 2020 16:49:30 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/pymysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>파이썬으로 Docker로 구성한 MariaDB 사용하기</title>

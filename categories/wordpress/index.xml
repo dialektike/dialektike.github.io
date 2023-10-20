@@ -5,6 +5,7 @@
     <link>https://www.epistemology.pe.kr/categories/wordpress/</link>
     <description>Recent content in WordPress on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
     <lastBuildDate>Mon, 12 Oct 2015 18:27:37 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>wordpress에 Gist GitHub Shortcode 넣기</title>

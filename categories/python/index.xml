@@ -5,6 +5,7 @@
     <link>https://www.epistemology.pe.kr/categories/python/</link>
     <description>Recent content in python on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
     <lastBuildDate>Fri, 28 Apr 2023 12:28:48 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기</title>

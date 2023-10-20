@@ -5,6 +5,7 @@
     <link>https://www.epistemology.pe.kr/tags/latex/</link>
     <description>Recent content in latex on Epistemology</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
     <lastBuildDate>Thu, 04 Aug 2016 15:52:11 +0900</lastBuildDate><atom:link href="https://www.epistemology.pe.kr/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RStudio를 이용하여, R 코드와 한글이 들어 있는 R Markdown으로 쓴 파일을 pdf로 만드는 팁!</title>
