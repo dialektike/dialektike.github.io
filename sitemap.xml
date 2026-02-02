@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.epistemology.pe.kr/about/</loc>
-  </url><url>
     <loc>https://www.epistemology.pe.kr/jobs_word/</loc>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/about/</loc>
   </url><url>
     <loc>https://www.epistemology.pe.kr/intro_logic_books/</loc>
   </url><url>
@@ -12,70 +12,84 @@
   </url><url>
     <loc>https://www.epistemology.pe.kr/%ED%86%B5%EA%B3%84%ED%95%99-%EB%B2%88%EC%97%AD/</loc>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/archive/</loc>
-    <lastmod>2022-09-17T18:00:00+06:00</lastmod>
+    <loc>https://www.epistemology.pe.kr/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/ai/</loc>
-    <lastmod>2023-10-20T12:28:48+09:00</lastmod>
+    <loc>https://www.epistemology.pe.kr/blog/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/apple/</loc>
-    <lastmod>2023-10-20T12:28:48+09:00</lastmod>
+    <loc>https://www.epistemology.pe.kr/page/</loc>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/apple-silicon/</loc>
-    <lastmod>2023-10-20T12:28:48+09:00</lastmod>
+    <loc>https://www.epistemology.pe.kr/blog/1%EC%9D%98-%EB%B3%B4%EC%88%98/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/authors/</loc>
-    <lastmod>2023-10-20T12:28:48+09:00</lastmod>
+    <loc>https://www.epistemology.pe.kr/blog/2%EC%9D%98-%EB%B3%B4%EC%88%98/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/blog/complement/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/categories/computer/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/tags/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/blog/%EB%BA%84%EC%85%88/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%9D%B4%EC%A7%84%EC%88%98/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/2025/08/23/1421/</loc>
+    <lastmod>2025-08-23T17:11:30+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/blog/ai/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/authors/dialektike/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/apple/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/apple-silicon/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/m1/</loc>
-    <lastmod>2023-10-20T12:28:48+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mojo/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/m1/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/mojo/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/posts/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mojo/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/python/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/python/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/</loc>
-    <lastmod>2023-10-20T12:28:48+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%95%A0%ED%94%8C/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%95%A0%ED%94%8C/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2023/10/20/1420/</loc>
     <lastmod>2023-10-20T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/data-analysis/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/data-analysis/</loc>
     <lastmod>2023-04-28T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/dict/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/dict/</loc>
     <lastmod>2023-04-28T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/list/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/list/</loc>
     <lastmod>2023-04-28T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/pandas/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/pandas/</loc>
     <lastmod>2023-04-28T12:28:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/python/</loc>
     <lastmod>2023-04-28T12:28:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D/</loc>
     <lastmod>2023-04-28T12:28:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2023/04/28/1419/</loc>
@@ -84,46 +98,43 @@
     <loc>https://www.epistemology.pe.kr/2023/04/07/1418/</loc>
     <lastmod>2023-04-07T14:06:10+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/hugo/</loc>
+    <loc>https://www.epistemology.pe.kr/categories/hugo/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/categories/hugo/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/hugo/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2023/02/22/1416/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/r/</loc>
+    <loc>https://www.epistemology.pe.kr/categories/r/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/categories/r/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/r/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2023/02/22/1417/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/wordpress/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/wordpress/</loc>
     <lastmod>2023-02-22T13:29:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/page/</loc>
-    <lastmod>2022-09-17T18:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/csv/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/csv/</loc>
     <lastmod>2022-08-02T15:27:14+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2022/08/02/1415/</loc>
     <lastmod>2022-08-02T15:27:14+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/zip/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/zip/</loc>
     <lastmod>2022-08-02T15:27:14+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/programming/</loc>
     <lastmod>2022-02-11T18:26:05+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/rust/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/rust/</loc>
     <lastmod>2022-02-11T18:26:05+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/string/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/string/</loc>
     <lastmod>2022-02-11T18:26:05+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/%EB%9F%AC%EC%8A%A4%ED%8A%B8/</loc>
@@ -135,7 +146,7 @@
     <loc>https://www.epistemology.pe.kr/categories/mac/</loc>
     <lastmod>2021-12-09T17:34:31+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mac-os-x/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mac-os-x/</loc>
     <lastmod>2021-12-09T17:34:31+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2021/12/09/1399/</loc>
@@ -144,43 +155,43 @@
     <loc>https://www.epistemology.pe.kr/2021/09/10/1392/</loc>
     <lastmod>2021-09-10T17:04:06+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/ansible/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/ansible/</loc>
     <lastmod>2021-03-18T17:48:04+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/apt/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/apt/</loc>
     <lastmod>2021-03-18T17:48:04+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2021/03/18/1378/</loc>
     <lastmod>2021-03-18T17:48:04+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/chromedriver/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/chromedriver/</loc>
     <lastmod>2021-03-12T14:14:02+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mac/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mac/</loc>
     <lastmod>2021-03-12T14:14:02+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2021/03/12/1369/</loc>
     <lastmod>2021-03-12T14:14:02+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/sshpass/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/sshpass/</loc>
     <lastmod>2021-03-09T18:36:57+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2021/03/09/1361/</loc>
     <lastmod>2021-03-09T18:36:57+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/docker/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/docker/</loc>
     <lastmod>2020-10-30T16:35:59+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mariadb/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mariadb/</loc>
     <lastmod>2020-10-30T16:35:59+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2020/10/30/1342/</loc>
     <lastmod>2020-10-30T16:35:59+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/pymysql/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/pymysql/</loc>
     <lastmod>2020-10-23T16:49:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/sqlalchemy/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/sqlalchemy/</loc>
     <lastmod>2020-10-23T16:49:30+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</loc>
@@ -195,43 +206,43 @@
     <loc>https://www.epistemology.pe.kr/2020/01/16/1271/</loc>
     <lastmod>2020-01-16T15:04:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/julia/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/julia/</loc>
     <lastmod>2020-01-16T15:04:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2019/12/16/1250/</loc>
     <lastmod>2019-12-16T16:10:16+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/github/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/github/</loc>
     <lastmod>2019-06-18T15:43:52+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/r-markdown/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/r-markdown/</loc>
     <lastmod>2019-06-18T15:43:52+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2019/06/18/1237/</loc>
     <lastmod>2019-06-18T15:43:52+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/python3.7/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/python3.7/</loc>
     <lastmod>2019-03-22T13:45:47+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2019/03/22/1194/</loc>
     <lastmod>2019-03-22T13:45:47+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/ios/</loc>
+    <loc>https://www.epistemology.pe.kr/categories/ios/</loc>
     <lastmod>2018-12-17T17:42:19+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/categories/ios/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/ios/</loc>
     <lastmod>2018-12-17T17:42:19+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2018/12/17/1173/</loc>
     <lastmod>2018-12-17T17:42:19+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/namedtuple/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/namedtuple/</loc>
     <lastmod>2018-11-30T16:47:06+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2018/11/30/1160/</loc>
     <lastmod>2018-11-30T16:47:06+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/homebrew/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/homebrew/</loc>
     <lastmod>2018-09-25T17:36:30+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2018/09/25/1153/</loc>
@@ -240,22 +251,22 @@
     <loc>https://www.epistemology.pe.kr/2017/07/13/1121/</loc>
     <lastmod>2017-07-13T16:52:25+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%ED%95%9C%EA%B8%80/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%ED%95%9C%EA%B8%80/</loc>
     <lastmod>2017-07-13T16:52:25+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/noesis/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/noesis/</loc>
     <lastmod>2017-04-13T20:27:49+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2017/04/13/1116/</loc>
     <lastmod>2017-04-13T20:27:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EB%85%B8%EC%97%90%EC%8B%9C%EC%8A%A4/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EB%85%B8%EC%97%90%EC%8B%9C%EC%8A%A4/</loc>
     <lastmod>2017-04-13T20:27:49+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/%EC%B2%A0%ED%95%99/</loc>
     <lastmod>2017-04-13T20:27:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/raspberry-pi/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/raspberry-pi/</loc>
     <lastmod>2017-04-10T16:09:22+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2017/04/10/1111/</loc>
@@ -270,34 +281,34 @@
     <loc>https://www.epistemology.pe.kr/2016/12/28/1097/</loc>
     <lastmod>2016-12-28T16:54:36+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/rugarch/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/rugarch/</loc>
     <lastmod>2016-12-28T16:54:36+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mpv/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mpv/</loc>
     <lastmod>2016-11-21T15:54:06+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/11/21/1094/</loc>
     <lastmod>2016-11-21T15:54:06+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/philosophy/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/philosophy/</loc>
     <lastmod>2016-10-31T15:41:34+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/ren%C3%A9-descartes/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/ren%C3%A9-descartes/</loc>
     <lastmod>2016-10-31T15:41:34+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/10/31/1085/</loc>
     <lastmod>2016-10-31T15:41:34+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/utf-8/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/utf-8/</loc>
     <lastmod>2016-08-22T23:06:22+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/windows/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/windows/</loc>
     <lastmod>2016-08-22T23:06:22+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/08/22/1074/</loc>
     <lastmod>2016-08-22T23:06:22+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/latex/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/latex/</loc>
     <lastmod>2016-08-04T15:52:11+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/08/04/1067/</loc>
@@ -306,43 +317,43 @@
     <loc>https://www.epistemology.pe.kr/2016/07/07/1057/</loc>
     <lastmod>2016-07-07T19:12:05+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/uconv/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/uconv/</loc>
     <lastmod>2016-07-07T19:12:05+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/gephi/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/gephi/</loc>
     <lastmod>2016-02-26T16:00:57+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/sed/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/sed/</loc>
     <lastmod>2016-02-26T16:00:57+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/02/26/1038/</loc>
     <lastmod>2016-02-26T16:00:57+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/lower/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/lower/</loc>
     <lastmod>2016-01-22T16:24:12+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/01/22/1030/</loc>
     <lastmod>2016-01-22T16:24:12+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/upper/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/upper/</loc>
     <lastmod>2016-01-22T16:24:12+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/idea/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/idea/</loc>
     <lastmod>2016-01-11T16:14:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EA%B7%B8%EB%A6%AC%EC%8A%A4/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EA%B7%B8%EB%A6%AC%EC%8A%A4/</loc>
     <lastmod>2016-01-11T16:14:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%B2%A0%ED%95%99/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%B2%A0%ED%95%99/</loc>
     <lastmod>2016-01-11T16:14:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%B2%A0%ED%95%99%EC%82%AC/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%B2%A0%ED%95%99%EC%82%AC/</loc>
     <lastmod>2016-01-11T16:14:30+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/01/11/1015/</loc>
     <lastmod>2016-01-11T16:14:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/statistics/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/statistics/</loc>
     <lastmod>2016-01-06T00:30:24+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2016/01/06/995/</loc>
@@ -351,28 +362,28 @@
     <loc>https://www.epistemology.pe.kr/2016/01/02/988/</loc>
     <lastmod>2016-01-02T16:37:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/html/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/html/</loc>
     <lastmod>2016-01-02T16:37:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/regular-expression/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/regular-expression/</loc>
     <lastmod>2016-01-02T16:37:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/nsdate/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/nsdate/</loc>
     <lastmod>2015-12-07T23:51:37+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/nsdatecomponents/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/nsdatecomponents/</loc>
     <lastmod>2015-12-07T23:51:37+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/swift/</loc>
     <lastmod>2015-12-07T23:51:37+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/swift/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/swift/</loc>
     <lastmod>2015-12-07T23:51:37+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2015/12/07/965/</loc>
     <lastmod>2015-12-07T23:51:37+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/markdown/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/markdown/</loc>
     <lastmod>2015-12-05T18:56:42+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2015/12/05/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4markdown%EC%9C%BC%EB%A1%9C-%EA%B8%80%EC%9D%84-%EC%93%B0%EB%A9%B4%EC%84%9C-%EB%8C%80%EA%B4%84%ED%98%B8backslash-bracket-%EC%9D%84-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0/</loc>
@@ -381,7 +392,7 @@
     <loc>https://www.epistemology.pe.kr/2015/11/12/944/</loc>
     <lastmod>2015-11-12T17:47:25+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/factorial/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/factorial/</loc>
     <lastmod>2015-11-08T01:35:21+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2015/11/08/938/</loc>
@@ -393,7 +404,7 @@
     <loc>https://www.epistemology.pe.kr/2015/10/12/929/</loc>
     <lastmod>2015-10-12T18:39:26+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/shortcode/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/shortcode/</loc>
     <lastmod>2015-10-12T18:27:37+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/wordpress/</loc>
@@ -411,10 +422,10 @@
     <loc>https://www.epistemology.pe.kr/2015/07/06/872/</loc>
     <lastmod>2015-07-06T16:56:04+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/tex/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/tex/</loc>
     <lastmod>2015-07-06T16:56:04+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/book/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/book/</loc>
     <lastmod>2015-04-10T15:40:58+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/books-i-read/</loc>
@@ -423,25 +434,25 @@
     <loc>https://www.epistemology.pe.kr/2015/04/10/863/</loc>
     <lastmod>2015-04-10T15:40:58+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mean/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mean/</loc>
     <lastmod>2015-02-11T01:53:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/median/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/median/</loc>
     <lastmod>2015-02-11T01:53:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/mode/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/mode/</loc>
     <lastmod>2015-02-11T01:53:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/range/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/range/</loc>
     <lastmod>2015-02-11T01:53:49+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2015/02/11/844/</loc>
     <lastmod>2015-02-11T01:53:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/variance/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/variance/</loc>
     <lastmod>2015-02-11T01:53:49+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/array/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/array/</loc>
     <lastmod>2014-11-19T18:52:51+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2014/11/19/837/</loc>
@@ -450,13 +461,13 @@
     <loc>https://www.epistemology.pe.kr/2014/11/14/833/</loc>
     <lastmod>2014-11-14T17:56:24+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/line/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/line/</loc>
     <lastmod>2014-11-14T17:56:24+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2014/10/24/828/</loc>
     <lastmod>2014-10-24T17:31:09+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/windows-7/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/windows-7/</loc>
     <lastmod>2014-09-03T23:38:56+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2014/09/03/766/</loc>
@@ -465,28 +476,28 @@
     <loc>https://www.epistemology.pe.kr/2014/06/12/759/</loc>
     <lastmod>2014-06-12T16:00:03+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/leica/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/leica/</loc>
     <lastmod>2014-05-26T14:48:41+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2014/05/26/744/</loc>
     <lastmod>2014-05-26T14:48:41+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%B9%B4%EB%A9%94%EB%9D%BC/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%B9%B4%EB%A9%94%EB%9D%BC/</loc>
     <lastmod>2014-05-26T14:48:41+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2014/04/18/731/</loc>
     <lastmod>2014-04-18T17:13:29+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/logic/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/logic/</loc>
     <lastmod>2014-04-18T17:13:29+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/%EB%85%BC%EB%A6%AC%ED%95%99/</loc>
     <lastmod>2014-04-18T17:13:29+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/evernote/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/evernote/</loc>
     <lastmod>2014-04-02T17:09:03+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/spotlight/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/spotlight/</loc>
     <lastmod>2014-04-02T17:09:03+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2014/04/02/723/</loc>
@@ -498,34 +509,34 @@
     <loc>https://www.epistemology.pe.kr/2013/11/26/679/</loc>
     <lastmod>2013-11-26T02:30:21+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/epistemology/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/epistemology/</loc>
     <lastmod>2013-11-26T02:30:21+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/nozick/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/nozick/</loc>
     <lastmod>2013-11-26T02:30:21+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/%EC%9D%B8%EC%8B%9D%EB%A1%A0/</loc>
     <lastmod>2013-11-26T02:30:21+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/ubuntu/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/ubuntu/</loc>
     <lastmod>2013-07-03T16:17:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2013/07/03/672/</loc>
     <lastmod>2013-07-03T16:17:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/font/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/font/</loc>
     <lastmod>2013-04-15T18:02:11+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/pt/</loc>
     <lastmod>2013-04-15T18:02:11+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EA%B8%80%EA%BC%B4/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EA%B8%80%EA%BC%B4/</loc>
     <lastmod>2013-04-15T18:02:11+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2013/04/15/663/</loc>
     <lastmod>2013-04-15T18:02:11+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/greek/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/greek/</loc>
     <lastmod>2013-03-27T01:00:48+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2013/03/27/659/</loc>
@@ -534,22 +545,22 @@
     <loc>https://www.epistemology.pe.kr/2013/03/04/655/</loc>
     <lastmod>2013-03-04T14:26:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%ED%85%8C%EC%B9%B4%EB%A5%B4%ED%8A%B8/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%ED%85%8C%EC%B9%B4%EB%A5%B4%ED%8A%B8/</loc>
     <lastmod>2012-12-29T17:04:11+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2012/12/29/637/</loc>
     <lastmod>2012-12-29T17:04:11+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/bios/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/bios/</loc>
     <lastmod>2012-04-22T12:56:21+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/ide/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/ide/</loc>
     <lastmod>2012-04-22T12:56:21+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2012/04/22/626/</loc>
     <lastmod>2012-04-22T12:56:21+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/google/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/google/</loc>
     <lastmod>2012-01-13T14:40:15+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2012/01/13/620/</loc>
@@ -558,16 +569,16 @@
     <loc>https://www.epistemology.pe.kr/2011/10/21/595/</loc>
     <lastmod>2011-10-21T21:01:53+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/terminal/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/terminal/</loc>
     <lastmod>2011-10-21T21:01:53+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/bool/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/bool/</loc>
     <lastmod>2011-07-10T21:21:03+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2011/07/10/589/</loc>
     <lastmod>2011-07-10T21:21:03+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/nsdictionary/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/nsdictionary/</loc>
     <lastmod>2011-07-10T21:21:03+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2011/05/11/583/</loc>
@@ -588,7 +599,7 @@
     <loc>https://www.epistemology.pe.kr/2010/12/31/532/</loc>
     <lastmod>2010-12-31T17:45:39+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/md5/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/md5/</loc>
     <lastmod>2010-12-31T17:45:39+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2010/12/03/526/</loc>
@@ -597,19 +608,19 @@
     <loc>https://www.epistemology.pe.kr/2010/09/30/520/</loc>
     <lastmod>2010-09-30T15:16:32+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%95%84%ED%80%B4%EB%82%98%EC%8A%A4/</loc>
-    <lastmod>2010-09-08T15:53:46+09:00</lastmod>
-  </url><url>
     <loc>https://www.epistemology.pe.kr/2010/09/08/513/</loc>
     <lastmod>2010-09-08T15:53:46+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%95%84%EC%9A%B0%EA%B5%AC%EC%8A%A4%ED%8B%B0%EB%88%84%EC%8A%A4/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%95%84%ED%80%B4%EB%82%98%EC%8A%A4/</loc>
+    <lastmod>2010-09-08T15:53:46+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%95%84%EC%9A%B0%EA%B5%AC%EC%8A%A4%ED%8B%B0%EB%88%84%EC%8A%A4/</loc>
     <lastmod>2010-08-19T15:03:57+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2010/08/19/508/</loc>
     <lastmod>2010-08-19T15:03:57+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/starbucks/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/starbucks/</loc>
     <lastmod>2010-08-10T23:08:39+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2010/08/10/495/</loc>
@@ -618,7 +629,7 @@
     <loc>https://www.epistemology.pe.kr/2010/05/16/484/</loc>
     <lastmod>2010-05-16T22:07:16+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/pt/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/pt/</loc>
     <lastmod>2009-12-16T13:50:18+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2009/12/16/456/</loc>
@@ -630,16 +641,16 @@
     <loc>https://www.epistemology.pe.kr/2009/09/16/423/</loc>
     <lastmod>2009-09-16T15:28:40+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%BB%A4%ED%94%BC/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%BB%A4%ED%94%BC/</loc>
     <lastmod>2009-02-25T00:46:30+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2009/02/25/359/</loc>
     <lastmod>2009-02-25T00:46:30+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/presentation/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/presentation/</loc>
     <lastmod>2009-02-20T15:41:43+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%ED%8C%8C%EC%9B%8C%ED%8F%AC%EC%9D%B8%ED%8A%B8/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%ED%8C%8C%EC%9B%8C%ED%8F%AC%EC%9D%B8%ED%8A%B8/</loc>
     <lastmod>2009-02-20T15:41:43+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2009/02/20/351/</loc>
@@ -654,31 +665,31 @@
     <loc>https://www.epistemology.pe.kr/2008/11/17/291/</loc>
     <lastmod>2008-11-17T21:56:07+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/itune/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/itune/</loc>
     <lastmod>2008-10-28T00:05:52+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/10/28/139/</loc>
     <lastmod>2008-10-28T00:05:52+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/physics/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/physics/</loc>
     <lastmod>2008-10-09T16:10:23+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/10/09/256/</loc>
     <lastmod>2008-10-09T16:10:23+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/plugin/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/plugin/</loc>
     <lastmod>2008-10-03T23:24:50+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/10/03/234/</loc>
     <lastmod>2008-10-03T23:24:50+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/no_11172_%ED%95%9C%EA%B8%80/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/no_11172_%ED%95%9C%EA%B8%80/</loc>
     <lastmod>2008-09-14T23:08:47+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/09/14/199/</loc>
     <lastmod>2008-09-14T23:08:47+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/pointer/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/pointer/</loc>
     <lastmod>2008-07-26T15:55:26+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/07/26/161/</loc>
@@ -699,7 +710,7 @@
     <loc>https://www.epistemology.pe.kr/2008/06/28/142/</loc>
     <lastmod>2008-06-28T17:19:17+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/vi/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/vi/</loc>
     <lastmod>2008-06-21T16:48:53+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/06/21/141/</loc>
@@ -708,7 +719,7 @@
     <loc>https://www.epistemology.pe.kr/2008/04/09/132/</loc>
     <lastmod>2008-04-09T00:18:48+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/spam/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/spam/</loc>
     <lastmod>2008-03-10T00:26:23+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/03/10/131/</loc>
@@ -720,10 +731,10 @@
     <loc>https://www.epistemology.pe.kr/2008/01/28/130/</loc>
     <lastmod>2008-01-28T15:06:41+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EC%BB%AC%EB%9F%BC/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EC%BB%AC%EB%9F%BC/</loc>
     <lastmod>2008-01-28T15:06:41+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/%EA%B8%80%EC%93%B0%EA%B8%B0/</loc>
     <lastmod>2008-01-12T16:39:25+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/categories/%EB%B9%84%ED%8C%90%EC%A0%81-%EC%82%AC%EA%B3%A0/</loc>
@@ -735,7 +746,10 @@
     <loc>https://www.epistemology.pe.kr/2008/01/06/126/</loc>
     <lastmod>2008-01-06T13:31:57+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/gulim/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/gulim/</loc>
+    <lastmod>2008-01-01T16:42:44+09:00</lastmod>
+  </url><url>
+    <loc>https://www.epistemology.pe.kr/categories/xhtml-css-etc../</loc>
     <lastmod>2008-01-01T16:42:44+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2008/01/01/127/</loc>
@@ -771,19 +785,19 @@
     <loc>https://www.epistemology.pe.kr/2007/01/02/88/</loc>
     <lastmod>2007-01-02T22:49:34+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/metaphysics/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/metaphysics/</loc>
     <lastmod>2006-12-26T15:14:54+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2006/12/26/86/</loc>
     <lastmod>2006-12-26T15:14:54+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/css/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/css/</loc>
     <lastmod>2006-12-26T15:01:25+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2006/12/26/85/</loc>
     <lastmod>2006-12-26T15:01:25+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/xhtml/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/xhtml/</loc>
     <lastmod>2006-12-26T15:01:25+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2006/11/29/80/</loc>
@@ -801,7 +815,7 @@
     <loc>https://www.epistemology.pe.kr/2006/11/03/62/</loc>
     <lastmod>2006-11-03T15:22:27+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/keyboard/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/keyboard/</loc>
     <lastmod>2006-11-03T15:22:27+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2006/10/25/67/</loc>
@@ -819,7 +833,7 @@
     <loc>https://www.epistemology.pe.kr/2006/08/02/ned-block-%EC%84%A0%EC%83%9D%EB%8B%98-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%86%8C%EA%B0%9C/</loc>
     <lastmod>2006-08-02T16:27:26+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/alinks/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/alinks/</loc>
     <lastmod>2006-07-06T16:01:49+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2006/07/06/50/</loc>
@@ -840,7 +854,7 @@
     <loc>https://www.epistemology.pe.kr/2005/12/04/20/</loc>
     <lastmod>2005-12-04T22:46:03+09:00</lastmod>
   </url><url>
-    <loc>https://www.epistemology.pe.kr/tags/movabletype/</loc>
+    <loc>https://www.epistemology.pe.kr/blog/movabletype/</loc>
     <lastmod>2005-08-16T15:19:54+09:00</lastmod>
   </url><url>
     <loc>https://www.epistemology.pe.kr/2005/08/16/12/</loc>
@@ -851,11 +865,5 @@
   </url><url>
     <loc>https://www.epistemology.pe.kr/2005/01/06/43/</loc>
     <lastmod>2005-01-06T13:56:04+09:00</lastmod>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/search/</loc>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/series/</loc>
-  </url><url>
-    <loc>https://www.epistemology.pe.kr/categories/xhtml-css-etc../</loc>
   </url>
 </urlset>

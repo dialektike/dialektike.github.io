@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sshpass on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/blog/sshpass/</link>
+    <description>Recent content in Sshpass on Epistemology</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 09 Mar 2021 18:36:57 +0900</lastBuildDate>
+    <atom:link href="https://www.epistemology.pe.kr/blog/sshpass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>맥에서 sshpass 설치하기</title>
+      <link>https://www.epistemology.pe.kr/2021/03/09/1361/</link>
+      <pubDate>Tue, 09 Mar 2021 18:36:57 +0900</pubDate>
+      <guid>https://www.epistemology.pe.kr/2021/03/09/1361/</guid>
+      <description>&lt;p&gt;homebrew로 sshpass이 설치되지 않는다!&#xA;아래 링크를 보면, 초보자들이 가볍게 설치하지 못 하도록 하려고 설치를 막았다고 하는 것 같다. 그래서 아래 링크에 있는 소스를 이용하는 방법으로 설치해보자! 설치한 후 다운받은 폴더와 파일을 삭제하면 된다.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;cd&lt;/span&gt; ~&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;curl -O -L https://fossies.org/linux/privat/sshpass-1.09.tar.gz &lt;span style=&#34;color:#666&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; tar xvzf sshpass-1.09.tar.gz&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;cd&lt;/span&gt; sshpass-1.09&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;4&lt;/span&gt;&lt;span&gt;./configure&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;5&lt;/span&gt;&lt;span&gt;sudo make install&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;6&lt;/span&gt;&lt;span&gt;sshpass&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/32255660/how-to-install-sshpass-on-mac&#34;&gt;macos - How to install sshpass on mac? - Stack Overflow&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

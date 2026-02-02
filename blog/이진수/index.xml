@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>이진수 on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/blog/%EC%9D%B4%EC%A7%84%EC%88%98/</link>
+    <description>Recent content in 이진수 on Epistemology</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 23 Aug 2025 17:11:30 +0900</lastBuildDate>
+    <atom:link href="https://www.epistemology.pe.kr/blog/%EC%9D%B4%EC%A7%84%EC%88%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>컴퓨터가 빼기를 하는 방법: 1번째 글</title>
+      <link>https://www.epistemology.pe.kr/2025/08/23/1421/</link>
+      <pubDate>Sat, 23 Aug 2025 17:11:30 +0900</pubDate>
+      <guid>https://www.epistemology.pe.kr/2025/08/23/1421/</guid>
+      <description>&lt;p&gt;이 글은 이진수로 뺄셈을 하는 방법을 소개하는 글입니다. 좀 더 자세히 설명하면 컴퓨터가 어떻게 뺄셈을 하는지 개념적으로 설명하고자 하는 글입니다. 컴퓨터는 기본적으로 이진수를 가지고 연산하기 때문에 이 글 또한 컴퓨터에서 어떻게 이진수 뺄셈을 하는지 설명하고자 합니다.&lt;/p&gt;&#xA;&lt;p&gt;우리가 뺄셈할 때 알아야 할 것 중의 하나가 ‘빌림수’라는 개념입니다. 뺄셈을 할 때, 왜 이 개념이 필요한지 예를 들어 봅시다. &lt;code&gt;253 - 176&lt;/code&gt;을 하려고 할 때, 우리는 우선 &lt;code&gt;253&lt;/code&gt;의 마지막 숫자인 &lt;code&gt;3&lt;/code&gt;에서 &lt;code&gt;176&lt;/code&gt;의 마지막 숫자인 &lt;code&gt;6&lt;/code&gt;을 빼려고 합니다. 그런데 &lt;code&gt;3&lt;/code&gt;이 &lt;code&gt;6&lt;/code&gt;보다 작기 때문에 뺄셈을 할 수 없습니다. 이때 필요한 것이 ‘빌림수’입니다. 일반적으로 그 앞의 숫자인 &lt;code&gt;5&lt;/code&gt;에서 &lt;code&gt;1&lt;/code&gt;을 빌려와, 즉 &lt;code&gt;10&lt;/code&gt;을 빌려와서, 이 둘을 합친 &lt;code&gt;13&lt;/code&gt;에서 &lt;code&gt;6&lt;/code&gt;을 빼게 됩니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

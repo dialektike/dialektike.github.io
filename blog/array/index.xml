@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Array on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/blog/array/</link>
+    <description>Recent content in Array on Epistemology</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 19 Nov 2014 18:52:51 +0900</lastBuildDate>
+    <atom:link href="https://www.epistemology.pe.kr/blog/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swift에서 array 초기화 하기</title>
+      <link>https://www.epistemology.pe.kr/2014/11/19/837/</link>
+      <pubDate>Wed, 19 Nov 2014 18:52:51 +0900</pubDate>
+      <guid>https://www.epistemology.pe.kr/2014/11/19/837/</guid>
+      <description>&lt;p&gt;참 책을 만들면서 뭔가 바뀌면, 정오표를 만들어 제공하는 것이 예의인데, 그냥 개정판을 내는 것은 도리가 아닌 것 같다. &lt;code&gt;swift&lt;/code&gt;에서 배열을 초기화하는 것은 다음과 같이 해서는 안 된다.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;WrongArrayInit&lt;/span&gt; = &lt;span style=&#34;color:#007020&#34;&gt;Int&lt;/span&gt;[]()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;다음과 같이 해야 한다.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;RightArrayInit&lt;/span&gt; = [&lt;span style=&#34;color:#007020&#34;&gt;Int&lt;/span&gt;]()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;애플 공식문서에 하면, &amp;ldquo;&lt;a href=&#34;https://developer.apple.com/library/ios/documentation/swift/conceptual/Swift_Programming_Language/CollectionTypes.html&#34;&gt;You can create an empty array of a certain type (without setting any initial values) using initializer syntax:&lt;/a&gt;&amp;rdquo;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020;font-weight:bold&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#bb60d5&#34;&gt;someInts&lt;/span&gt; = [&lt;span style=&#34;color:#007020&#34;&gt;Int&lt;/span&gt;]()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#007020&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#34;someInts is of type [Int] with (someInts.count) items.&amp;#34;&lt;/span&gt;)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

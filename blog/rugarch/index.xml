@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rugarch on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/blog/rugarch/</link>
+    <description>Recent content in Rugarch on Epistemology</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 28 Dec 2016 16:54:36 +0900</lastBuildDate>
+    <atom:link href="https://www.epistemology.pe.kr/blog/rugarch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac 에서 R의 rugarch 패키지 설치시 오류가 날 때 처리법</title>
+      <link>https://www.epistemology.pe.kr/2016/12/28/1097/</link>
+      <pubDate>Wed, 28 Dec 2016 16:54:36 +0900</pubDate>
+      <guid>https://www.epistemology.pe.kr/2016/12/28/1097/</guid>
+      <description>&lt;p&gt;제목 그대로 다음과 같은 오류가 날 수 있습니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://gist.github.com/dialektike/f939309cd457ead414bb02e997b5a303&#34;&gt;https://gist.github.com/dialektike/f939309cd457ead414bb02e997b5a303&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;그러면 &lt;a href=&#34;https://www.xquartz.org/&#34;&gt;XQuartz&lt;/a&gt;에 가서 XQuartz을 다운받아서 설치하시고 R을 종료하고 재실행하시면 잘 설치됩니다. 출처는 다음과 같습니다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://stackoverflow.com/questions/33634871/installing-rgl-package-in-r-mac-osx-el-captian-fixed&#34;&gt;Installing &amp;ldquo;rgl&amp;rdquo; package in R, Mac OSX El Captian [fixed] - Stack Overflow&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

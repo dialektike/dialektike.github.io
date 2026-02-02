@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>R | Epistemology</title>
+<meta name="title" content="R" />
+<meta name="description" content="" />
+<meta name="keywords" content="books i read,computer,css,hugo,ios,latex,mac,misc,mojo,programming,pt,python,r,swift,wordpress,xhtml, css, etc..,논리학,러스트,비판적 사고,인식론,철학,통계학,1의 보수,2의 보수,ai,alinks,ansible,apple,apple silicon,apt,array,bios,book,bool,chromedriver,complement,css,csv,data analysis,dict,docker,epistemology,evernote,factorial,font,gephi,github,google,greek,gulim,homebrew,html,hugo,ide,idea,ios,itune,julia,keyboard,latex,leica,line,list,logic,lower,m1,mac,mac os x,mariadb,markdown,md5,mean,median,metaphysics,mode,mojo,movabletype,mpv,namedtuple,no_11172_한글,noesis,nozick,nsdate,nsdatecomponents,nsdictionary,pandas,philosophy,physics,plugin,pointer,presentation,pt,pymysql,python,python3.7,r,r markdown,range,raspberry pi,regular expression,rené descartes,rugarch,rust,sed,shortcode,spam,spotlight,sqlalchemy,sshpass,starbucks,statistics,string,swift,terminal,tex,ubuntu,uconv,upper,utf-8,variance,vi,windows,windows 7,wordpress,xhtml,zip,그리스,글꼴,글쓰기,노에시스,데이터 분석,뺄셈,아우구스티누스,아퀴나스,애플,이진수,철학,철학사,카메라,커피,컬럼,테카르트,파워포인트,한글," />
+
+
+<meta property="og:url" content="https://www.epistemology.pe.kr/blog/r/">
+  <meta property="og:site_name" content="Epistemology">
+  <meta property="og:title" content="R">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:type" content="website">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="R">
+
+
+
+
+  <meta itemprop="name" content="R">
+  <meta itemprop="datePublished" content="2023-02-22T13:29:40+09:00">
+  <meta itemprop="dateModified" content="2023-02-22T13:29:40+09:00">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+  <link rel="alternate" type="application/rss+xml" href="https://www.epistemology.pe.kr/blog/r/index.xml" title="Epistemology" />
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+    font-family: var(--font-main);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+  }
+
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  a:visited {
+    color: var(--visited-color);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a.title:hover h2 {
+    text-decoration: none;
+  }
+
+  blockquote {
+    color: var(--blockquote-color);
+    border-left: 4px solid var(--blockquote-color);
+    padding-left: 1em;
+    margin-left: 0;
+    font-style: italic;
+  }
+  .site-description {
+    color: #888;
+    margin-top: 0.3em;
+    margin-bottom: 1.2em;
+    font-weight: normal;
+    font-size: 0.95em;
+    font-style: italic;
+    text-align: left;
+  }
+  .made-with-bear {
+    display: block;
+    text-align: center;
+    color: #888;
+    font-size: 0.95em;
+    margin-top: 0.5em;
+  }
+</style>
+
+</head>
+<body>
+  <header><a href="/" class="title">
+  <h2>Epistemology</h2>
+</a>
+<h2 class="site-description">The truth is out there.</h2>
+<nav><nav></nav>
+  <ul style="list-style:none; padding:0; margin:0; display:flex; gap:1.5em;">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/blog/">All Posts</a></li>
+    <li><a href="/page/">Docs</a></li>
+    <li><a href="/jobs_word/">Words from Steve Jobs</a></li>
+</ul>
+</nav>
+</nav>
+</header>
+  <main>
+<content>
+  
+    <h1>R</h1>
+  
+  <ul class="blog-posts">
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2023-02-22'>
+            22 Feb, 2023
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2023/02/22/1417/">R에서 중복행을 제거하는 방법</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2022-08-02'>
+            02 Aug, 2022
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2022/08/02/1415/">R에서 `csv`형식 파일을 압축하기</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2021-12-09'>
+            09 Dec, 2021
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2021/12/09/1399/">Mac용 R 성능을 올려 보기</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2020-10-30'>
+            30 Oct, 2020
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2020/10/30/1342/">R으로 Docker로 구성한 MariaDB 사용하기</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2017-07-13'>
+            13 Jul, 2017
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2017/07/13/1121/">Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-12-28'>
+            28 Dec, 2016
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2016/12/28/1097/">Mac 에서 R의 rugarch 패키지 설치시 오류가 날 때 처리법</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-08-22'>
+            22 Aug, 2016
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2016/08/22/1074/">윈도우에서 만든 csv 파일을 Mac에서 사용하는 R에서 쉽게 열어보자.</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-08-04'>
+            04 Aug, 2016
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2016/08/04/1067/">RStudio를 이용하여, R 코드와 한글이 들어 있는 R Markdown으로 쓴 파일을 pdf로 만드는 팁!</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-07-07'>
+            07 Jul, 2016
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2016/07/07/1057/">R에서 미국 연비(MPG)를 한국연비(km/L)로 있어보이게 바꾸기</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-01-22'>
+            22 Jan, 2016
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2016/01/22/1030/">R 에서 대문자를 소문자로, 소문자를 대문자로 바꾸는 방법</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2016-01-06'>
+            06 Jan, 2016
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2016/01/06/995/">엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2015-11-12'>
+            12 Nov, 2015
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2015/11/12/944/">R 에서 170!팩토리얼(factorial), 170계승 이상을 계산하는 법</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2015-11-08'>
+            08 Nov, 2015
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2015/11/08/938/">R 에서 팩토리얼(factorial), 계승을 계산하는 법</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2015-02-11'>
+            11 Feb, 2015
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2015/02/11/844/">R로 평균값(mean), 중간값(median), 최빈값(mode), 범위(range), 분산(variance) 구하기</a>
+    </li>
+    
+    <li>
+      <span>
+        <i>
+          <time datetime='2014-03-17'>
+            17 Mar, 2014
+          </time>
+        </i>
+      </span>
+      <a href="https://www.epistemology.pe.kr/2014/03/17/690/">R로 사분위도(Quatile)를 계산해보자.</a>
+    </li>
+    
+  </ul>
+  
+</content>
+
+  </main>
+  <footer>
+    <div style="text-align:center; margin-top:1em; color:#888; font-size:0.95em;">
+      Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.
+    </div><span class="made-with-bear">Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a></span>
+</footer>
+</body>
+</html>

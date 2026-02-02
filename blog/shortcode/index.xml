@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcode on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/blog/shortcode/</link>
+    <description>Recent content in Shortcode on Epistemology</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Oct 2015 18:27:37 +0900</lastBuildDate>
+    <atom:link href="https://www.epistemology.pe.kr/blog/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress에 Gist GitHub Shortcode 넣기</title>
+      <link>https://www.epistemology.pe.kr/2015/10/12/920/</link>
+      <pubDate>Mon, 12 Oct 2015 18:27:37 +0900</pubDate>
+      <guid>https://www.epistemology.pe.kr/2015/10/12/920/</guid>
+      <description>&lt;p&gt;초보자가 프로그램을 공부를 하면서 정리도 할 겸 이 곳에서 간단한 소개와 함께 써놓았죠. 워드프레스(wordpress)에서 코드를 보여주기 위해서 &lt;a href=&#34;http://www.epistemology.pe.kr/2015/09/21/888&#34;&gt;단순하게 글에 작은 코드를 넣고 보게&lt;/a&gt;끔 만들었습니다. 그런데 그 코드들을 변경하고자 할 경우, 번거롭게 글도 고쳐야 했습니다. 이때 &lt;a href=&#34;https://gist.github.com&#34;&gt;https://gist.github.com&lt;/a&gt;를 사용하여 코드를 저장하고 관리하는데 더 편리한 것을 알게되었습니다. 그러면 여기에 저장되어 있는 작은 코드를 어떻게 하면 wordpress에 넣을까 하고 플러그인을 찾아봤습니다. 역시 있더군요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wordpress.org/plugins/gist-github-shortcode/&#34;&gt;https://wordpress.org/plugins/gist-github-shortcode/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;사용하는 방법은 단순합니다. 우선 플러그인 Gist GitHub Shortcode을 설치합니다. 그런 다음 이 플러그인을 Plugins 메뉴에서 찾아 활성화(activate) 해 줍니다. 그런 다음 자신이 올린 &lt;a href=&#34;https://gist.github.com&#34;&gt;여러분들이 gist에 올린 코드들&lt;/a&gt;의 주소를 찾아서 올리시면 됩니다. 제가 올린 코드의 URL 주소는 &lt;a href=&#34;https://gist.github.com/dialektike/2b711592501eaf4f964d&#34;&gt;https://gist.github.com/dialektike/2b711592501eaf4f964d&lt;/a&gt;와 같은데 여기서 &lt;strong&gt;2b711592501eaf4f964d&lt;/strong&gt;이 바로 코드 주소입니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

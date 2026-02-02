@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dict on Epistemology</title>
+    <link>https://www.epistemology.pe.kr/blog/dict/</link>
+    <description>Recent content in Dict on Epistemology</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 28 Apr 2023 12:28:48 +0900</lastBuildDate>
+    <atom:link href="https://www.epistemology.pe.kr/blog/dict/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기</title>
+      <link>https://www.epistemology.pe.kr/2023/04/28/1419/</link>
+      <pubDate>Fri, 28 Apr 2023 12:28:48 +0900</pubDate>
+      <guid>https://www.epistemology.pe.kr/2023/04/28/1419/</guid>
+      <description>&lt;p&gt;&lt;code&gt;pandas&lt;/code&gt;(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 &lt;code&gt;csv&lt;/code&gt; 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 &lt;code&gt;csv&lt;/code&gt;파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;a &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; [[&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;20200906&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;NCSS1&amp;#39;&lt;/span&gt;],[&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;20201028&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;HHLG0&amp;#39;&lt;/span&gt;]]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;실행 결과는 다음과 같습니다.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span&gt;[[&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;20200906&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;NCSS1&amp;#39;&lt;/span&gt;], [&lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;20201028&amp;#39;&lt;/span&gt;, &lt;span style=&#34;color:#4070a0&#34;&gt;&amp;#39;HHLG0&amp;#39;&lt;/span&gt;]]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;이 &lt;code&gt;a&lt;/code&gt;의 자료 구조는 아주 단순합니다. 2개의 원소를 가진 &lt;code&gt;list&lt;/code&gt;를 가지고 있는 &lt;code&gt;list&lt;/code&gt;입니다. 각 &lt;code&gt;list&lt;/code&gt; 모두 첫 번째는 숫자로 두 번째는 문자열을 가지고 있습니다. &lt;code&gt;csv&lt;/code&gt; 파일에서 숫자로 되어 있는 부분은 첫 번째 컬럼에 들어 가고 두번째 문자열로 되어 있는 부분은 두 번재 컬럼에 들어갈 것입니다. 그러면 저장해 봅시다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
