@@ -2,7 +2,7 @@
 
 이곳은 다음 링크의 개인 홈페이지를 만들기 위한 곳입니다.
 
-https://epistemology.pe.kr/blog/
+https://epistemology.pe.kr/
 
 ## 글 보존
 
