@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nozick on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/nozick/</link>
-    <description>Recent content in Nozick on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 26 Nov 2013 02:30:21 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/nozick/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>&#34;To know is to have a belief that tracks the truth.&#34;</title>
-      <link>https://www.epistemology.pe.kr/2013/11/26/679/</link>
-      <pubDate>Tue, 26 Nov 2013 02:30:21 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2013/11/26/679/</guid>
-      <description>&lt;p&gt;“안다는 것은 그 진리를 추적하는 믿음을 갖는 것이다(To know is to have a belief that tracks the truth),” p.178, Nozick, R., (1981) &lt;em&gt;Philosophical Explanations&lt;/em&gt;, Harvard University Press.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Nozick on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/nozick/</link>
+		<description>Recent content in Nozick on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Tue, 26 Nov 2013 02:30:21 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/nozick/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>&#34;To know is to have a belief that tracks the truth.&#34;</title>
+				<link>https://www.epistemology.pe.kr/2013/11/26/679/</link>
+				<pubDate>Tue, 26 Nov 2013 02:30:21 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2013/11/26/679/</guid>
+				<description>&lt;p&gt;“안다는 것은 그 진리를 추적하는 믿음을 갖는 것이다(To know is to have a belief that tracks the truth),” p.178, Nozick, R., (1981) &lt;em&gt;Philosophical Explanations&lt;/em&gt;, Harvard University Press.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

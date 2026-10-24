@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>PyMySQL on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/pymysql/</link>
-    <description>Recent content in PyMySQL on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 16:49:30 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/pymysql/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>파이썬으로 Docker로 구성한 MariaDB 사용하기</title>
-      <link>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
-      <pubDate>Fri, 23 Oct 2020 16:49:30 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
-      <description>&lt;p&gt;도커를 이용하여 MariaDB(이하 마리아디비)를 설치해봤습니다. 이렇게 설치한 마리아디비에 파이썬으로 이용하여 자료를 저장하고 저장한 값을 확인하고 지워보겠습니다. 우선 파이썬으로 마리아디비와 같은 실제 DB(이하 데이터베이스)에 접근하기 위해서는 해당 데이터베이스에 맞는 드라이버(또는 클라이언트 라이브러리(client library)라고 하기도 합니다)를 설치해줘야 합니다. 이 글에서는&lt;a href=&#34;https://pymysql.readthedocs.io/en/latest/&#34;&gt;PyMySQL&lt;/a&gt;을 사용하겠습니다. 설치 방법은 &lt;a href=&#34;https://pymysql.readthedocs.io/en/latest/user/installation.html&#34;&gt;Installation&lt;/a&gt;을 참고하세요. 현재 사용하고 있는 PyMySQL의 버전은 0.10.1입니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;본격적으로-시작하기에-앞서&#34;&gt;본격적으로 시작하기에 앞서&lt;/h2&gt;&#xA;&lt;p&gt;참고로 여기에서는 이미 Docker로 MariaDB를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. &lt;a href=&#34;http://www.epistemology.pe.kr/2020/09/26/1293&#34;&gt;Docker를 사용해서 MariaDB을 설치하기&lt;/a&gt; 그리고 이미 다음과 같은 &lt;code&gt;sql&lt;/code&gt;명령을 사용하여 &lt;code&gt;gregs_list&lt;/code&gt;이라는 DATABASE를 만들고, 그 안에 &lt;code&gt;my_contacts&lt;/code&gt;라는 테이블을 만들고 두 사람의 자료를 입력했습니다.그리고 사용하기 쉽게 하기 위해서 &lt;code&gt;sqlalchemy&lt;/code&gt;을 사용합니다. 이것의 설치 방법은 &lt;a href=&#34;https://www.pythoncentral.io/how-to-install-sqlalchemy/&#34;&gt;How to Install SQLAlchemy on Windows, Mac and Linux | Python Central&lt;/a&gt;을 참고하세요!&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>PyMySQL on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/pymysql/</link>
+		<description>Recent content in PyMySQL on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Fri, 23 Oct 2020 16:49:30 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/pymysql/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>파이썬으로 Docker로 구성한 MariaDB 사용하기</title>
+				<link>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</link>
+				<pubDate>Fri, 23 Oct 2020 16:49:30 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2020/10/23/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-docker%EB%A1%9C-%EA%B5%AC%EC%84%B1%ED%95%9C-mariadb-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0/</guid>
+				<description>&lt;p&gt;도커를 이용하여 MariaDB(이하 마리아디비)를 설치해봤습니다. 이렇게 설치한 마리아디비에 파이썬으로 이용하여 자료를 저장하고 저장한 값을 확인하고 지워보겠습니다. 우선 파이썬으로 마리아디비와 같은 실제 DB(이하 데이터베이스)에 접근하기 위해서는 해당 데이터베이스에 맞는 드라이버(또는 클라이언트 라이브러리(client library)라고 하기도 합니다)를 설치해줘야 합니다. 이 글에서는&lt;a href=&#34;https://pymysql.readthedocs.io/en/latest/&#34;&gt;PyMySQL&lt;/a&gt;을 사용하겠습니다. 설치 방법은 &lt;a href=&#34;https://pymysql.readthedocs.io/en/latest/user/installation.html&#34;&gt;Installation&lt;/a&gt;을 참고하세요. 현재 사용하고 있는 PyMySQL의 버전은 0.10.1입니다.&lt;/p&gt;&#xA;&lt;h2 id=&#34;본격적으로-시작하기에-앞서&#34;&gt;본격적으로 시작하기에 앞서&lt;/h2&gt;&#xA;&lt;p&gt;참고로 여기에서는 이미 Docker로 MariaDB를 설치했다고 가정할 것입니다. 설치하는 방법은 다음 링크를 참고하세요. &lt;a href=&#34;http://www.epistemology.pe.kr/2020/09/26/1293&#34;&gt;Docker를 사용해서 MariaDB을 설치하기&lt;/a&gt; 그리고 이미 다음과 같은 &lt;code&gt;sql&lt;/code&gt;명령을 사용하여 &lt;code&gt;gregs_list&lt;/code&gt;이라는 DATABASE를 만들고, 그 안에 &lt;code&gt;my_contacts&lt;/code&gt;라는 테이블을 만들고 두 사람의 자료를 입력했습니다.그리고 사용하기 쉽게 하기 위해서 &lt;code&gt;sqlalchemy&lt;/code&gt;을 사용합니다. 이것의 설치 방법은 &lt;a href=&#34;https://www.pythoncentral.io/how-to-install-sqlalchemy/&#34;&gt;How to Install SQLAlchemy on Windows, Mac and Linux | Python Central&lt;/a&gt;을 참고하세요!&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

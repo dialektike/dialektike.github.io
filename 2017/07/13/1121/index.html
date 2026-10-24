@@ -13,39 +13,39 @@ R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가�
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2017/07/13/1121/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법">
-  <meta property="og:description" content="한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법">
+	<meta property="og:description" content="한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
 R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가는 글자를 어떤 형식으로 구성하느냐 하는 문제, 즉 인코딩 문제 때문입니다. 일반적으로 윈도우는 euc-kr를 사용하고, 반면에 맥이나 리눅스는 utf-8을 사용하기 때문입니다.
 이 문제를 극복하기 위한 여러가기 꼼수가 있었지만, R에서 이를 처리하는 함수를 하나 만들어서 처리하는 방식이 있어서 소개하고자 합니다. 이 방법은 r에서 한글문서 열때 인코딩 문제 에 소개된 것입니다. 뭐 이 글의 아이디어를 제가 했기 때문에 여기에 소개해도 무방할 것 같네요 ^^;">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2017-07-13T16:52:25+09:00">
-    <meta property="article:modified_time" content="2017-07-13T16:52:25+09:00">
-    <meta property="article:tag" content="R">
-    <meta property="article:tag" content="한글">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2017-07-13T16:52:25+09:00">
+		<meta property="article:modified_time" content="2017-07-13T16:52:25+09:00">
+		<meta property="article:tag" content="R">
+		<meta property="article:tag" content="한글">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법">
-  <meta name="twitter:description" content="한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법">
+	<meta name="twitter:description" content="한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
 R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가는 글자를 어떤 형식으로 구성하느냐 하는 문제, 즉 인코딩 문제 때문입니다. 일반적으로 윈도우는 euc-kr를 사용하고, 반면에 맥이나 리눅스는 utf-8을 사용하기 때문입니다.
 이 문제를 극복하기 위한 여러가기 꼼수가 있었지만, R에서 이를 처리하는 함수를 하나 만들어서 처리하는 방식이 있어서 소개하고자 합니다. 이 방법은 r에서 한글문서 열때 인코딩 문제 에 소개된 것입니다. 뭐 이 글의 아이디어를 제가 했기 때문에 여기에 소개해도 무방할 것 같네요 ^^;">
 
 
 
 
-  <meta itemprop="name" content="Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법">
-  <meta itemprop="description" content="한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
+	<meta itemprop="name" content="Mac 용 R에서 잘 읽지 못 하는 한글 파일을 잘 읽는 방법">
+	<meta itemprop="description" content="한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.
 R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가는 글자를 어떤 형식으로 구성하느냐 하는 문제, 즉 인코딩 문제 때문입니다. 일반적으로 윈도우는 euc-kr를 사용하고, 반면에 맥이나 리눅스는 utf-8을 사용하기 때문입니다.
 이 문제를 극복하기 위한 여러가기 꼼수가 있었지만, R에서 이를 처리하는 함수를 하나 만들어서 처리하는 방식이 있어서 소개하고자 합니다. 이 방법은 r에서 한글문서 열때 인코딩 문제 에 소개된 것입니다. 뭐 이 글의 아이디어를 제가 했기 때문에 여기에 소개해도 무방할 것 같네요 ^^;">
-  <meta itemprop="datePublished" content="2017-07-13T16:52:25+09:00">
-  <meta itemprop="dateModified" content="2017-07-13T16:52:25+09:00">
-  <meta itemprop="wordCount" content="216">
-  <meta itemprop="keywords" content="R,한글">
+	<meta itemprop="datePublished" content="2017-07-13T16:52:25+09:00">
+	<meta itemprop="dateModified" content="2017-07-13T16:52:25+09:00">
+	<meta itemprop="wordCount" content="216">
+	<meta itemprop="keywords" content="R,한글">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -138,6 +138,8 @@ R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가�
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -159,6 +161,16 @@ R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가�
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2017-07-13
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p>한국에서는 워낙 윈도우가 압도적으로 사용되는 곳입니다. 그래서 맥을 사용하는 사람 입장에서는 윈도우에서 만든 기본적인 자료, txt나 csv 형식 자료를 읽는데 가끔 문제가 생기기도 합니다. 물론 맥에서 작업하던 파일을 윈도우에 가져와 작업하려면 문제가 많이 발생합니다.</p>
 <p>R을 사용할 때도 문제가 많이 생깁니다. 이는 파일에 들어가는 글자를 어떤 형식으로 구성하느냐 하는 문제, 즉 인코딩 문제 때문입니다. 일반적으로 윈도우는 euc-kr를 사용하고, 반면에 맥이나 리눅스는 utf-8을 사용하기 때문입니다.</p>
 <p>이 문제를 극복하기 위한 여러가기 꼼수가 있었지만, R에서 이를 처리하는 함수를 하나 만들어서 처리하는 방식이 있어서 소개하고자 합니다. 이 방법은 <a href="http://philogrammer.com/2017-03-15/encoding/">r에서 한글문서 열때 인코딩 문제</a> 에 소개된 것입니다. 뭐 이 글의 아이디어를 제가 했기 때문에 여기에 소개해도 무방할 것 같네요 ^^;</p>

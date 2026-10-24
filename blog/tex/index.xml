@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tex on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/tex/</link>
-    <description>Recent content in Tex on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 06 Jul 2015 16:56:04 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/tex/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MacTeX-2015이 6월 14일에 나왔습니다.</title>
-      <link>https://www.epistemology.pe.kr/2015/07/06/872/</link>
-      <pubDate>Mon, 06 Jul 2015 16:56:04 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2015/07/06/872/</guid>
-      <description>&lt;p&gt;혹시 MacTeX을 쓰시는 분은 다음 링크에서 업그레이드 하세요! 현재 다운로드 속도가 느리네요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tug.org/mactex/mactex-download.html&#34;&gt;https://tug.org/mactex/mactex-download.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tex on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/tex/</link>
+		<description>Recent content in Tex on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Mon, 06 Jul 2015 16:56:04 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/tex/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>MacTeX-2015이 6월 14일에 나왔습니다.</title>
+				<link>https://www.epistemology.pe.kr/2015/07/06/872/</link>
+				<pubDate>Mon, 06 Jul 2015 16:56:04 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2015/07/06/872/</guid>
+				<description>&lt;p&gt;혹시 MacTeX을 쓰시는 분은 다음 링크에서 업그레이드 하세요! 현재 다운로드 속도가 느리네요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://tug.org/mactex/mactex-download.html&#34;&gt;https://tug.org/mactex/mactex-download.html&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

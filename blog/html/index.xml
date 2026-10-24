@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>HTML on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/html/</link>
-    <description>Recent content in HTML on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 02 Jan 2016 16:37:30 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/html/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Atom 에서 정규 표현식(regular expression)을 사용하기</title>
-      <link>https://www.epistemology.pe.kr/2016/01/02/988/</link>
-      <pubDate>Sat, 02 Jan 2016 16:37:30 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2016/01/02/988/</guid>
-      <description>&lt;p&gt;생각 보다 단순합니다. &lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; 에디터 메뉴에서 Find 메뉴에서 Find in Buffer 를 선택합니다. 그러면 에디터 아랫 부분에 다음과 같은 메뉴가 뜹니다.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://www.epistemology.pe.kr/images/RegEx_Atom.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;Atom에서 정규 표현식 사용하기&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;위에서 파란색으로 되어 있는 버튼을 눌러서 선택합니다. 그러면 저처럼 파란색이 되거나 다른 색으로 반전되면서 위에 “Finding with Options: Regex, ~ ”과 같은 문장이 보기에 됩니다. 그런 다음 앞에 칸에 사용할 정규표현식을 쓰시면 됩니다. 전 HTML 주석을 제거하기 위하여 거기에 &lt;code&gt;&amp;lt;!--(.|\s)*?--&amp;gt;&lt;/code&gt;이라고 적었습니다.&lt;/p&gt;&#xA;&lt;p&gt;정규 표현식을 배우시려면 영어로 된 &lt;a href=&#34;http://regexr.com/&#34;&gt;RegExr: Learn, Build, &amp;amp; Test RegEx&lt;/a&gt;에서 배우실 수 있습니다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>HTML on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/html/</link>
+		<description>Recent content in HTML on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Sat, 02 Jan 2016 16:37:30 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/html/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Atom 에서 정규 표현식(regular expression)을 사용하기</title>
+				<link>https://www.epistemology.pe.kr/2016/01/02/988/</link>
+				<pubDate>Sat, 02 Jan 2016 16:37:30 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2016/01/02/988/</guid>
+				<description>&lt;p&gt;생각 보다 단순합니다. &lt;a href=&#34;https://atom.io/&#34;&gt;Atom&lt;/a&gt; 에디터 메뉴에서 Find 메뉴에서 Find in Buffer 를 선택합니다. 그러면 에디터 아랫 부분에 다음과 같은 메뉴가 뜹니다.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://www.epistemology.pe.kr/images/RegEx_Atom.png&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;Atom에서 정규 표현식 사용하기&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;위에서 파란색으로 되어 있는 버튼을 눌러서 선택합니다. 그러면 저처럼 파란색이 되거나 다른 색으로 반전되면서 위에 “Finding with Options: Regex, ~ ”과 같은 문장이 보기에 됩니다. 그런 다음 앞에 칸에 사용할 정규표현식을 쓰시면 됩니다. 전 HTML 주석을 제거하기 위하여 거기에 &lt;code&gt;&amp;lt;!--(.|\s)*?--&amp;gt;&lt;/code&gt;이라고 적었습니다.&lt;/p&gt;&#xA;&lt;p&gt;정규 표현식을 배우시려면 영어로 된 &lt;a href=&#34;http://regexr.com/&#34;&gt;RegExr: Learn, Build, &amp;amp; Test RegEx&lt;/a&gt;에서 배우실 수 있습니다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

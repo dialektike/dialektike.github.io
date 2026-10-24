@@ -51,39 +51,39 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2016/01/06/995/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!">
-  <meta property="og:description" content="엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!">
+	<meta property="og:description" content="엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
 R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.
 1&gt; a &lt;-c(100,200,300,400,500) 2&gt; a 3[1] 100 200 300 400 500 4&gt; b &lt;- c(&#34;컴퓨터&#34;,&#34;DSLR&#34;,&#34;냉장고&#34;,&#34;TV&#34;,&#34;에어컨&#34;) 5&gt; b 6[1] &#34;컴퓨터&#34; &#34;DSLR&#34; &#34;냉장고&#34; &#34;TV&#34; &#34;에어컨&#34; 7&gt; c &lt;- c(700000,450000,2300000,4100000,1400000) 8&gt; c 9[1] 700000 450000 2300000 4100000 1400000 10&gt; items &lt;- data.frame(번호=a, 상품명=b, 단가=c) 11&gt; items 12 번호 상품명 단가 131 100 컴퓨터 700000 142 200 DSLR 450000 153 300 냉장고 2300000 164 400 TV 4100000 175 500 에어컨 1400000 18&gt; orderNumbers &lt;- data.frame(번호=c(200,100,500)) 19&gt; orderNumbers 20 번호 211 200 222 100 233 500 24&gt; Order &lt;- merge(items, orderNumbers, by.x=&#34;번호&#34;, by.y=&#34;번호&#34;) 25&gt; Order 26 번호 상품명 단가 271 100 컴퓨터 700000 282 200 DSLR 450000 293 500 에어컨 1400000 30&gt; Order$수량 &lt;-c(1,3,1) 31&gt; Order$금액 &lt;- (Order$단가 * Order$수량) 32&gt; Order 33 번호 상품명 단가 수량 금액 341 100 컴퓨터 700000 1 700000 352 200 DSLR 450000 3 1350000 363 500 에어컨 1400000 1 1400000 37&gt; sum(Order$금액) 38[1] 3450000">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2016-01-06T00:30:24+09:00">
-    <meta property="article:modified_time" content="2016-01-06T00:30:24+09:00">
-    <meta property="article:tag" content="R">
-    <meta property="article:tag" content="Statistics">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2016-01-06T00:30:24+09:00">
+		<meta property="article:modified_time" content="2016-01-06T00:30:24+09:00">
+		<meta property="article:tag" content="R">
+		<meta property="article:tag" content="Statistics">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!">
-  <meta name="twitter:description" content="엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!">
+	<meta name="twitter:description" content="엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
 R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.
 1&gt; a &lt;-c(100,200,300,400,500) 2&gt; a 3[1] 100 200 300 400 500 4&gt; b &lt;- c(&#34;컴퓨터&#34;,&#34;DSLR&#34;,&#34;냉장고&#34;,&#34;TV&#34;,&#34;에어컨&#34;) 5&gt; b 6[1] &#34;컴퓨터&#34; &#34;DSLR&#34; &#34;냉장고&#34; &#34;TV&#34; &#34;에어컨&#34; 7&gt; c &lt;- c(700000,450000,2300000,4100000,1400000) 8&gt; c 9[1] 700000 450000 2300000 4100000 1400000 10&gt; items &lt;- data.frame(번호=a, 상품명=b, 단가=c) 11&gt; items 12 번호 상품명 단가 131 100 컴퓨터 700000 142 200 DSLR 450000 153 300 냉장고 2300000 164 400 TV 4100000 175 500 에어컨 1400000 18&gt; orderNumbers &lt;- data.frame(번호=c(200,100,500)) 19&gt; orderNumbers 20 번호 211 200 222 100 233 500 24&gt; Order &lt;- merge(items, orderNumbers, by.x=&#34;번호&#34;, by.y=&#34;번호&#34;) 25&gt; Order 26 번호 상품명 단가 271 100 컴퓨터 700000 282 200 DSLR 450000 293 500 에어컨 1400000 30&gt; Order$수량 &lt;-c(1,3,1) 31&gt; Order$금액 &lt;- (Order$단가 * Order$수량) 32&gt; Order 33 번호 상품명 단가 수량 금액 341 100 컴퓨터 700000 1 700000 352 200 DSLR 450000 3 1350000 363 500 에어컨 1400000 1 1400000 37&gt; sum(Order$금액) 38[1] 3450000">
 
 
 
 
-  <meta itemprop="name" content="엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!">
-  <meta itemprop="description" content="엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
+	<meta itemprop="name" content="엑셀(Excel)의 VLOOKUP 함수 기능을 R에서도 구현해보자!">
+	<meta itemprop="description" content="엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. 엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다. R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.
 R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.
 1&gt; a &lt;-c(100,200,300,400,500) 2&gt; a 3[1] 100 200 300 400 500 4&gt; b &lt;- c(&#34;컴퓨터&#34;,&#34;DSLR&#34;,&#34;냉장고&#34;,&#34;TV&#34;,&#34;에어컨&#34;) 5&gt; b 6[1] &#34;컴퓨터&#34; &#34;DSLR&#34; &#34;냉장고&#34; &#34;TV&#34; &#34;에어컨&#34; 7&gt; c &lt;- c(700000,450000,2300000,4100000,1400000) 8&gt; c 9[1] 700000 450000 2300000 4100000 1400000 10&gt; items &lt;- data.frame(번호=a, 상품명=b, 단가=c) 11&gt; items 12 번호 상품명 단가 131 100 컴퓨터 700000 142 200 DSLR 450000 153 300 냉장고 2300000 164 400 TV 4100000 175 500 에어컨 1400000 18&gt; orderNumbers &lt;- data.frame(번호=c(200,100,500)) 19&gt; orderNumbers 20 번호 211 200 222 100 233 500 24&gt; Order &lt;- merge(items, orderNumbers, by.x=&#34;번호&#34;, by.y=&#34;번호&#34;) 25&gt; Order 26 번호 상품명 단가 271 100 컴퓨터 700000 282 200 DSLR 450000 293 500 에어컨 1400000 30&gt; Order$수량 &lt;-c(1,3,1) 31&gt; Order$금액 &lt;- (Order$단가 * Order$수량) 32&gt; Order 33 번호 상품명 단가 수량 금액 341 100 컴퓨터 700000 1 700000 352 200 DSLR 450000 3 1350000 363 500 에어컨 1400000 1 1400000 37&gt; sum(Order$금액) 38[1] 3450000">
-  <meta itemprop="datePublished" content="2016-01-06T00:30:24+09:00">
-  <meta itemprop="dateModified" content="2016-01-06T00:30:24+09:00">
-  <meta itemprop="wordCount" content="199">
-  <meta itemprop="keywords" content="R,Statistics">
+	<meta itemprop="datePublished" content="2016-01-06T00:30:24+09:00">
+	<meta itemprop="dateModified" content="2016-01-06T00:30:24+09:00">
+	<meta itemprop="wordCount" content="199">
+	<meta itemprop="keywords" content="R,Statistics">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -176,6 +176,8 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -197,9 +199,19 @@ R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2016-01-06
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p>엑셀(Excel)의 VLOOKUP 함수는 멋진 기능을 하는 함수 입니다. <a href="http://billnote.net/136">엑셀(Excel) VLOOKUP함수, HLOOKUP함수 사용법 :: 빌노트의 노트</a>을 보시면, 어떤 기능을 하는 것인지 알 수 있습니다.  R에서 할 수 있지 않을까 하는 생각이 들어서 한번 구현해 봤습니다.</p>
 <p>R에서는 크게 두 가지 방법이 있는데 여기서는 merge이라는 함수를 사용해봤습니다. 그래서 최종 결과물의 순서가 위 링크에 있는 순서가 다르게 되었습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;</span> a <span style="color:#666">&lt;-</span><span style="color:#06287e">c</span>(<span style="color:#40a070">100</span>,<span style="color:#40a070">200</span>,<span style="color:#40a070">300</span>,<span style="color:#40a070">400</span>,<span style="color:#40a070">500</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;</span> a <span style="color:#666">&lt;-</span><span style="color:#06287e">c</span>(<span style="color:#40a070">100</span>,<span style="color:#40a070">200</span>,<span style="color:#40a070">300</span>,<span style="color:#40a070">400</span>,<span style="color:#40a070">500</span>)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#666">&gt;</span> a
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>[1] <span style="color:#40a070">100</span> <span style="color:#40a070">200</span> <span style="color:#40a070">300</span> <span style="color:#40a070">400</span> <span style="color:#40a070">500</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#666">&gt;</span> b <span style="color:#666">&lt;-</span> <span style="color:#06287e">c</span>(<span style="color:#4070a0">&#34;컴퓨터&#34;</span>,<span style="color:#4070a0">&#34;DSLR&#34;</span>,<span style="color:#4070a0">&#34;냉장고&#34;</span>,<span style="color:#4070a0">&#34;TV&#34;</span>,<span style="color:#4070a0">&#34;에어컨&#34;</span>)

@@ -23,39 +23,39 @@
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2021/03/18/1378/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="엔서블에서 `apt` 이용할 때 나오는 오류 처리법">
-  <meta property="og:description" content="apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="엔서블에서 `apt` 이용할 때 나오는 오류 처리법">
+	<meta property="og:description" content="apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
 1tasks: 2- name: Update and upgrade apt packages 3become: true 4apt: 5upgrade: yes 6update_cache: yes 7cache_valid_time: 86400 #One day 이런 경우 다음과 같은 경고가 뜰 수 있죠.
 1TASK [Update and upgrade apt packages] ************************************************************************************************************************ 2[WARNING]: The value &#34;True&#34; (type bool) was converted to &#34;&#39;True&#39;&#34; (type string). If this does not look like what you expect, quote the entire value to ensure 3it does not change. 이건 upgrade: yes을 upgrade: &#34;yes&#34;과 같이 바꾸면 해결됩니다. 즉 아래와 같이 하면 됩니다.">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2021-03-18T17:48:04+09:00">
-    <meta property="article:modified_time" content="2021-03-18T17:48:04+09:00">
-    <meta property="article:tag" content="Ansible">
-    <meta property="article:tag" content="Apt">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2021-03-18T17:48:04+09:00">
+		<meta property="article:modified_time" content="2021-03-18T17:48:04+09:00">
+		<meta property="article:tag" content="Ansible">
+		<meta property="article:tag" content="Apt">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="엔서블에서 `apt` 이용할 때 나오는 오류 처리법">
-  <meta name="twitter:description" content="apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="엔서블에서 `apt` 이용할 때 나오는 오류 처리법">
+	<meta name="twitter:description" content="apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
 1tasks: 2- name: Update and upgrade apt packages 3become: true 4apt: 5upgrade: yes 6update_cache: yes 7cache_valid_time: 86400 #One day 이런 경우 다음과 같은 경고가 뜰 수 있죠.
 1TASK [Update and upgrade apt packages] ************************************************************************************************************************ 2[WARNING]: The value &#34;True&#34; (type bool) was converted to &#34;&#39;True&#39;&#34; (type string). If this does not look like what you expect, quote the entire value to ensure 3it does not change. 이건 upgrade: yes을 upgrade: &#34;yes&#34;과 같이 바꾸면 해결됩니다. 즉 아래와 같이 하면 됩니다.">
 
 
 
 
-  <meta itemprop="name" content="엔서블에서 `apt` 이용할 때 나오는 오류 처리법">
-  <meta itemprop="description" content="apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
+	<meta itemprop="name" content="엔서블에서 `apt` 이용할 때 나오는 오류 처리법">
+	<meta itemprop="description" content="apt을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.
 1tasks: 2- name: Update and upgrade apt packages 3become: true 4apt: 5upgrade: yes 6update_cache: yes 7cache_valid_time: 86400 #One day 이런 경우 다음과 같은 경고가 뜰 수 있죠.
 1TASK [Update and upgrade apt packages] ************************************************************************************************************************ 2[WARNING]: The value &#34;True&#34; (type bool) was converted to &#34;&#39;True&#39;&#34; (type string). If this does not look like what you expect, quote the entire value to ensure 3it does not change. 이건 upgrade: yes을 upgrade: &#34;yes&#34;과 같이 바꾸면 해결됩니다. 즉 아래와 같이 하면 됩니다.">
-  <meta itemprop="datePublished" content="2021-03-18T17:48:04+09:00">
-  <meta itemprop="dateModified" content="2021-03-18T17:48:04+09:00">
-  <meta itemprop="wordCount" content="122">
-  <meta itemprop="keywords" content="Ansible,Apt">
+	<meta itemprop="datePublished" content="2021-03-18T17:48:04+09:00">
+	<meta itemprop="dateModified" content="2021-03-18T17:48:04+09:00">
+	<meta itemprop="wordCount" content="122">
+	<meta itemprop="keywords" content="Ansible,Apt">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -148,6 +148,8 @@
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -169,8 +171,18 @@
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2021-03-18
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p><code>apt</code>을 이용해 업그레이드할 때 통상적으로 다음과 같이 하는 경우가 많습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#062873;font-weight:bold">tasks</span>:<span style="color:#bbb">
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#062873;font-weight:bold">tasks</span>:<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Update and upgrade apt packages<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#062873;font-weight:bold">become</span>:<span style="color:#bbb"> </span><span style="color:#007020;font-weight:bold">true</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#062873;font-weight:bold">apt</span>:<span style="color:#bbb">
@@ -178,11 +190,11 @@
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span><span style="color:#062873;font-weight:bold">update_cache</span>:<span style="color:#bbb"> </span><span style="color:#007020;font-weight:bold">yes</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#062873;font-weight:bold">cache_valid_time</span>:<span style="color:#bbb"> </span><span style="color:#40a070">86400</span><span style="color:#bbb"> </span><span style="color:#60a0b0;font-style:italic">#One day</span><span style="color:#bbb">
 </span></span></span></code></pre></div><p>이런 경우 다음과 같은 경고가 뜰 수 있죠.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>TASK <span style="color:#666">[</span>Update and upgrade apt packages<span style="color:#666">]</span> ************************************************************************************************************************
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>TASK <span style="color:#666">[</span>Update and upgrade apt packages<span style="color:#666">]</span> ************************************************************************************************************************
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#666">[</span>WARNING<span style="color:#666">]</span>: The value <span style="color:#4070a0">&#34;True&#34;</span> <span style="color:#666">(</span><span style="color:#007020">type</span> bool<span style="color:#666">)</span> was converted to <span style="color:#4070a0">&#34;&#39;True&#39;&#34;</span> <span style="color:#666">(</span><span style="color:#007020">type</span> string<span style="color:#666">)</span>. If this does not look like what you expect, quote the entire value to ensure
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>it does not change.
 </span></span></code></pre></div><p>이건 <code>upgrade: yes</code>을 <code>upgrade: &quot;yes&quot;</code>과 같이 바꾸면 해결됩니다. 즉 아래와 같이 하면 됩니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#062873;font-weight:bold">tasks</span>:<span style="color:#bbb">
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#062873;font-weight:bold">tasks</span>:<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>- <span style="color:#062873;font-weight:bold">name</span>:<span style="color:#bbb"> </span>Update and upgrade apt packages<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#062873;font-weight:bold">become</span>:<span style="color:#bbb"> </span><span style="color:#007020;font-weight:bold">true</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#062873;font-weight:bold">apt</span>:<span style="color:#bbb">

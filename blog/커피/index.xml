@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>커피 on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/%EC%BB%A4%ED%94%BC/</link>
-    <description>Recent content in 커피 on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 25 Feb 2009 00:46:30 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/%EC%BB%A4%ED%94%BC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>커피 전문점 커피, 어떻게 만들까?</title>
-      <link>https://www.epistemology.pe.kr/2009/02/25/359/</link>
-      <pubDate>Wed, 25 Feb 2009 00:46:30 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2009/02/25/359/</guid>
-      <description>&lt;p&gt;요즘 커피 전문점에 가면 메뉴가 복잡합니다. 뭘로 만드는지도 궁금하기도 하고.. 물론 어느 정도는 대충 알고 있었지만, 이 그림을 보면서 정확하게 알게 되었습니다. 참 잘 그렸죠? 다음 링크에 가시면 원본을 보실 수 있습니다.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://www.epistemology.pe.kr/images/coffee_menu.gif&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;coffee_menu&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/&#34;&gt;http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>커피 on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/%EC%BB%A4%ED%94%BC/</link>
+		<description>Recent content in 커피 on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Wed, 25 Feb 2009 00:46:30 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/%EC%BB%A4%ED%94%BC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>커피 전문점 커피, 어떻게 만들까?</title>
+				<link>https://www.epistemology.pe.kr/2009/02/25/359/</link>
+				<pubDate>Wed, 25 Feb 2009 00:46:30 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2009/02/25/359/</guid>
+				<description>&lt;p&gt;요즘 커피 전문점에 가면 메뉴가 복잡합니다. 뭘로 만드는지도 궁금하기도 하고.. 물론 어느 정도는 대충 알고 있었지만, 이 그림을 보면서 정확하게 알게 되었습니다. 참 잘 그렸죠? 다음 링크에 가시면 원본을 보실 수 있습니다.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://www.epistemology.pe.kr/images/coffee_menu.gif&#34;&gt;&lt;figcaption&gt;&#xA;&#x9;&#x9;&#x9;&lt;h4&gt;coffee_menu&lt;/h4&gt;&#xA;&#x9;&#x9;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/&#34;&gt;http://www.lokeshdhakar.com/2007/08/20/an-illustrated-coffee-guide/&lt;/a&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

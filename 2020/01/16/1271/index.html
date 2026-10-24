@@ -32,26 +32,26 @@
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2020/01/16/1271/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="Array 에서 행을 잡는 방법">
-  <meta property="og:description" content="줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="Array 에서 행을 잡는 방법">
+	<meta property="og:description" content="줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
 1M = [1 2 3; 4 5 6; 7 8 9] 실행 결과:
 13×3 Array{Int64,2}: 21 2 3 34 5 6 47 8 9 그러나 아쉽게도 다음과 같이 셀을 하나씩 잡아서 준다.
 1for i in (M) 2println(i) 3end 실행 결과:
 11 24 37 42 55 68 73 86 99 이때 필요한 eachrow()함수이다. 이를 이용해서 for 문을 돌리면 아주 깔금하게 작동합니다.">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2020-01-16T15:04:48+09:00">
-    <meta property="article:modified_time" content="2020-01-16T15:04:48+09:00">
-    <meta property="article:tag" content="Julia">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2020-01-16T15:04:48+09:00">
+		<meta property="article:modified_time" content="2020-01-16T15:04:48+09:00">
+		<meta property="article:tag" content="Julia">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Array 에서 행을 잡는 방법">
-  <meta name="twitter:description" content="줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Array 에서 행을 잡는 방법">
+	<meta name="twitter:description" content="줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
 1M = [1 2 3; 4 5 6; 7 8 9] 실행 결과:
 13×3 Array{Int64,2}: 21 2 3 34 5 6 47 8 9 그러나 아쉽게도 다음과 같이 셀을 하나씩 잡아서 준다.
 1for i in (M) 2println(i) 3end 실행 결과:
@@ -60,16 +60,16 @@
 
 
 
-  <meta itemprop="name" content="Array 에서 행을 잡는 방법">
-  <meta itemprop="description" content="줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
+	<meta itemprop="name" content="Array 에서 행을 잡는 방법">
+	<meta itemprop="description" content="줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.
 1M = [1 2 3; 4 5 6; 7 8 9] 실행 결과:
 13×3 Array{Int64,2}: 21 2 3 34 5 6 47 8 9 그러나 아쉽게도 다음과 같이 셀을 하나씩 잡아서 준다.
 1for i in (M) 2println(i) 3end 실행 결과:
 11 24 37 42 55 68 73 86 99 이때 필요한 eachrow()함수이다. 이를 이용해서 for 문을 돌리면 아주 깔금하게 작동합니다.">
-  <meta itemprop="datePublished" content="2020-01-16T15:04:48+09:00">
-  <meta itemprop="dateModified" content="2020-01-16T15:04:48+09:00">
-  <meta itemprop="wordCount" content="90">
-  <meta itemprop="keywords" content="Julia">
+	<meta itemprop="datePublished" content="2020-01-16T15:04:48+09:00">
+	<meta itemprop="dateModified" content="2020-01-16T15:04:48+09:00">
+	<meta itemprop="wordCount" content="90">
+	<meta itemprop="keywords" content="Julia">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -162,6 +162,8 @@
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -183,19 +185,29 @@
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2020-01-16
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p>줄리아에서 아래와 같은 array를 가지고 for 문을 돌려 열을 선택하고 싶은 경우가 있다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>M <span style="color:#666">=</span> [<span style="color:#40a070">1</span> <span style="color:#40a070">2</span> <span style="color:#40a070">3</span>; <span style="color:#40a070">4</span> <span style="color:#40a070">5</span> <span style="color:#40a070">6</span>; <span style="color:#40a070">7</span> <span style="color:#40a070">8</span> <span style="color:#40a070">9</span>]
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>M <span style="color:#666">=</span> [<span style="color:#40a070">1</span> <span style="color:#40a070">2</span> <span style="color:#40a070">3</span>; <span style="color:#40a070">4</span> <span style="color:#40a070">5</span> <span style="color:#40a070">6</span>; <span style="color:#40a070">7</span> <span style="color:#40a070">8</span> <span style="color:#40a070">9</span>]
 </span></span></code></pre></div><p>실행 결과:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#40a070">3</span><span style="color:#666">×</span><span style="color:#40a070">3</span> <span style="color:#902000">Array</span>{<span style="color:#902000">Int64</span>,<span style="color:#40a070">2</span>}<span style="color:#666">:</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#40a070">3</span><span style="color:#666">×</span><span style="color:#40a070">3</span> <span style="color:#902000">Array</span>{<span style="color:#902000">Int64</span>,<span style="color:#40a070">2</span>}<span style="color:#666">:</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#40a070">1</span>  <span style="color:#40a070">2</span>  <span style="color:#40a070">3</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#40a070">4</span>  <span style="color:#40a070">5</span>  <span style="color:#40a070">6</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#40a070">7</span>  <span style="color:#40a070">8</span>  <span style="color:#40a070">9</span>
 </span></span></code></pre></div><p>그러나 아쉽게도 다음과 같이 셀을 하나씩 잡아서 준다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">for</span> i <span style="color:#007020;font-weight:bold">in</span> (M)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">for</span> i <span style="color:#007020;font-weight:bold">in</span> (M)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>println(i)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#007020;font-weight:bold">end</span>
 </span></span></code></pre></div><p>실행 결과:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#40a070">1</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#40a070">1</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#40a070">4</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#40a070">7</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#40a070">2</span>
@@ -205,11 +217,11 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span><span style="color:#40a070">6</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9</span><span><span style="color:#40a070">9</span>
 </span></span></code></pre></div><p>이때 필요한 <code>eachrow()</code>함수이다. 이를 이용해서 for 문을 돌리면 아주 깔금하게 작동합니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">for</span> row <span style="color:#007020;font-weight:bold">in</span> eachrow(M)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">for</span> row <span style="color:#007020;font-weight:bold">in</span> eachrow(M)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>println(row)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#007020;font-weight:bold">end</span>
 </span></span></code></pre></div><p>실행 결과:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>[<span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>]
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>[<span style="color:#40a070">1</span>, <span style="color:#40a070">2</span>, <span style="color:#40a070">3</span>]
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>[<span style="color:#40a070">4</span>, <span style="color:#40a070">5</span>, <span style="color:#40a070">6</span>]
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>[<span style="color:#40a070">7</span>, <span style="color:#40a070">8</span>, <span style="color:#40a070">9</span>]
 </span></span></code></pre></div>

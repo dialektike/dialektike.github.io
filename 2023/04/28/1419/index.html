@@ -16,43 +16,43 @@
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2023/04/28/1419/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기">
-  <meta property="og:description" content="pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기">
+	<meta property="og:description" content="pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
 1a = [[&#39;20200906&#39;, &#39;NCSS1&#39;],[&#39;20201028&#39;, &#39;HHLG0&#39;]] 실행 결과는 다음과 같습니다.
 1&gt;&gt;&gt; a 2[[&#39;20200906&#39;, &#39;NCSS1&#39;], [&#39;20201028&#39;, &#39;HHLG0&#39;]] 이 a의 자료 구조는 아주 단순합니다. 2개의 원소를 가진 list를 가지고 있는 list입니다. 각 list 모두 첫 번째는 숫자로 두 번째는 문자열을 가지고 있습니다. csv 파일에서 숫자로 되어 있는 부분은 첫 번째 컬럼에 들어 가고 두번째 문자열로 되어 있는 부분은 두 번재 컬럼에 들어갈 것입니다. 그러면 저장해 봅시다.">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2023-04-28T12:28:48+09:00">
-    <meta property="article:modified_time" content="2023-04-28T12:28:48+09:00">
-    <meta property="article:tag" content="Python">
-    <meta property="article:tag" content="Pandas">
-    <meta property="article:tag" content="데이터 분석">
-    <meta property="article:tag" content="Data Analysis">
-    <meta property="article:tag" content="List">
-    <meta property="article:tag" content="Dict">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2023-04-28T12:28:48+09:00">
+		<meta property="article:modified_time" content="2023-04-28T12:28:48+09:00">
+		<meta property="article:tag" content="Python">
+		<meta property="article:tag" content="Pandas">
+		<meta property="article:tag" content="데이터 분석">
+		<meta property="article:tag" content="Data Analysis">
+		<meta property="article:tag" content="List">
+		<meta property="article:tag" content="Dict">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기">
-  <meta name="twitter:description" content="pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기">
+	<meta name="twitter:description" content="pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
 1a = [[&#39;20200906&#39;, &#39;NCSS1&#39;],[&#39;20201028&#39;, &#39;HHLG0&#39;]] 실행 결과는 다음과 같습니다.
 1&gt;&gt;&gt; a 2[[&#39;20200906&#39;, &#39;NCSS1&#39;], [&#39;20201028&#39;, &#39;HHLG0&#39;]] 이 a의 자료 구조는 아주 단순합니다. 2개의 원소를 가진 list를 가지고 있는 list입니다. 각 list 모두 첫 번째는 숫자로 두 번째는 문자열을 가지고 있습니다. csv 파일에서 숫자로 되어 있는 부분은 첫 번째 컬럼에 들어 가고 두번째 문자열로 되어 있는 부분은 두 번재 컬럼에 들어갈 것입니다. 그러면 저장해 봅시다.">
 
 
 
 
-  <meta itemprop="name" content="파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기">
-  <meta itemprop="description" content="pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
+	<meta itemprop="name" content="파이썬에서 기본 모듈 `csv`을 이용해 `csv` 형식 파일로 자료를 저장하기">
+	<meta itemprop="description" content="pandas(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 csv 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 csv파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.
 1a = [[&#39;20200906&#39;, &#39;NCSS1&#39;],[&#39;20201028&#39;, &#39;HHLG0&#39;]] 실행 결과는 다음과 같습니다.
 1&gt;&gt;&gt; a 2[[&#39;20200906&#39;, &#39;NCSS1&#39;], [&#39;20201028&#39;, &#39;HHLG0&#39;]] 이 a의 자료 구조는 아주 단순합니다. 2개의 원소를 가진 list를 가지고 있는 list입니다. 각 list 모두 첫 번째는 숫자로 두 번째는 문자열을 가지고 있습니다. csv 파일에서 숫자로 되어 있는 부분은 첫 번째 컬럼에 들어 가고 두번째 문자열로 되어 있는 부분은 두 번재 컬럼에 들어갈 것입니다. 그러면 저장해 봅시다.">
-  <meta itemprop="datePublished" content="2023-04-28T12:28:48+09:00">
-  <meta itemprop="dateModified" content="2023-04-28T12:28:48+09:00">
-  <meta itemprop="wordCount" content="454">
-  <meta itemprop="keywords" content="Python,Pandas,데이터 분석,Data Analysis,List,Dict">
+	<meta itemprop="datePublished" content="2023-04-28T12:28:48+09:00">
+	<meta itemprop="dateModified" content="2023-04-28T12:28:48+09:00">
+	<meta itemprop="wordCount" content="454">
+	<meta itemprop="keywords" content="Python,Pandas,데이터 분석,Data Analysis,List,Dict">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -145,6 +145,8 @@
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -166,22 +168,32 @@
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2023-04-28
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p><code>pandas</code>(이하 판다스)를 이용하면 숫자를 다루는 것이 편하지만, 판다스를 설치할 수 없는 환경에 있거나 굳이 판다스까지 설치할 필요가 없지만, 자료를 <code>csv</code> 형식으로 저장해야할 때가 있습니다. 이때를 대비하여 파이썬이 가지고 있는 기본 모듈로 <code>csv</code>파일을 저장해 봅시다. 가장 단순 한 자료부터 시작해 봅시다. 우선 저장할 자료를 만들어봅시다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>a <span style="color:#666">=</span> [[<span style="color:#4070a0">&#39;20200906&#39;</span>, <span style="color:#4070a0">&#39;NCSS1&#39;</span>],[<span style="color:#4070a0">&#39;20201028&#39;</span>, <span style="color:#4070a0">&#39;HHLG0&#39;</span>]]
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>a <span style="color:#666">=</span> [[<span style="color:#4070a0">&#39;20200906&#39;</span>, <span style="color:#4070a0">&#39;NCSS1&#39;</span>],[<span style="color:#4070a0">&#39;20201028&#39;</span>, <span style="color:#4070a0">&#39;HHLG0&#39;</span>]]
 </span></span></code></pre></div><p>실행 결과는 다음과 같습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&gt;&gt;&gt;</span> a
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&gt;&gt;&gt;</span> a
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>[[<span style="color:#4070a0">&#39;20200906&#39;</span>, <span style="color:#4070a0">&#39;NCSS1&#39;</span>], [<span style="color:#4070a0">&#39;20201028&#39;</span>, <span style="color:#4070a0">&#39;HHLG0&#39;</span>]]
 </span></span></code></pre></div><p>이 <code>a</code>의 자료 구조는 아주 단순합니다. 2개의 원소를 가진 <code>list</code>를 가지고 있는 <code>list</code>입니다. 각 <code>list</code> 모두 첫 번째는 숫자로 두 번째는 문자열을 가지고 있습니다. <code>csv</code> 파일에서 숫자로 되어 있는 부분은 첫 번째 컬럼에 들어 가고 두번째 문자열로 되어 있는 부분은 두 번재 컬럼에 들어갈 것입니다. 그러면 저장해 봅시다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">csv</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">csv</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(<span style="color:#4070a0">&#34;out.csv&#34;</span>, <span style="color:#4070a0">&#34;w&#34;</span>, newline<span style="color:#666">=</span><span style="color:#4070a0">&#34;&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>    writer <span style="color:#666">=</span> csv<span style="color:#666">.</span>writer(f)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>    writer<span style="color:#666">.</span>writerows(a)
 </span></span></code></pre></div><p>여기서 살펴봐야 하는 부분은 <code>writer.writerows(a)</code>입니다. <code>a</code>를 한 줄씩 파일에 저장하고 있는 것을 확인할 수 있습니다. <code>out.csv</code> 파일을 확인해 보면, 다음과 같이 저장된 것을 확인할 수 있습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csv" data-lang="csv"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#4070a0">20200906</span>,<span style="color:#4070a0">NCSS1</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csv" data-lang="csv"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#4070a0">20200906</span>,<span style="color:#4070a0">NCSS1</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#4070a0">20201028</span>,<span style="color:#4070a0">HHLG0</span>
 </span></span></code></pre></div><p>앞에서 저장한 <code>a</code> 자료에는 컬럼 이름이 없었습니다. 이번에는 컬럼 이름을 가지고 있는 자료를 저장해 봅시다. 저장할 자료를 하나 만들겠습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>data <span style="color:#666">=</span> [
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>data <span style="color:#666">=</span> [
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>    {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A1&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">1</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">3.0</span>},
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>    {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A2&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">2</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">4.5</span>},
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>    {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A3&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">3</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">3.2</span>},
@@ -189,7 +201,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>    {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A5&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">5</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">3.5</span>},
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span>]
 </span></span></code></pre></div><p>실행 결과는 다음과 같습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&gt;&gt;&gt;</span> data <span style="color:#666">=</span> [
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&gt;&gt;&gt;</span> data <span style="color:#666">=</span> [
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#666">...</span>     {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A1&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">1</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">3.0</span>},
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#666">...</span>     {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A2&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">2</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">4.5</span>},
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#666">...</span>     {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A3&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">3</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">3.2</span>},
@@ -197,7 +209,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span><span style="color:#666">...</span>     {<span style="color:#4070a0">&#34;ID&#34;</span>: <span style="color:#4070a0">&#34;A5&#34;</span>, <span style="color:#4070a0">&#34;X1&#34;</span>: <span style="color:#40a070">5</span>, <span style="color:#4070a0">&#34;X2&#34;</span>: <span style="color:#40a070">3.5</span>},
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#666">...</span> ]
 </span></span></code></pre></div><p>이 자료는 앞에서 저장했던 <code>a</code>와 자료 구조가 전혀 다릅니다. <code>data</code>는 4개의 <code>dict</code>를 가지고 있는 <code>list</code>입니다. 모든 <code>dict</code>는 같은 키, <code>'ID', 'X1', 'X2'</code>를 가지고 있고 가지고 있는 값 또한 같은 형식입니다. 여기서 <code>'ID', 'X1', 'X2'</code>가 컬럼 이름으로 될 것입니다. 그리고 그 키를 기준으로 파일을 저장하게 됩니다. 이 자료를 저장해 봅시다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">csv</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">import</span> <span style="color:#0e84b5;font-weight:bold">csv</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(<span style="color:#4070a0">&#34;data_out.csv&#34;</span>, <span style="color:#4070a0">&#34;w&#34;</span>, newline<span style="color:#666">=</span><span style="color:#4070a0">&#34;&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>    fieldnames <span style="color:#666">=</span> [<span style="color:#4070a0">&#39;ID&#39;</span>, <span style="color:#4070a0">&#39;X1&#39;</span>, <span style="color:#4070a0">&#39;X2&#39;</span>]
@@ -206,13 +218,13 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span>    <span style="color:#007020;font-weight:bold">for</span> item <span style="color:#007020;font-weight:bold">in</span> data:
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>        writer<span style="color:#666">.</span>writerow(item)
 </span></span></code></pre></div><p>여기서 주의할 코드를 살펴보겠습니다. 첫 번째로 컬럼 이름을 저장하는 부분입니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>writer <span style="color:#666">=</span> csv<span style="color:#666">.</span>DictWriter(f, fieldnames<span style="color:#666">=</span>fieldnames)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>writer <span style="color:#666">=</span> csv<span style="color:#666">.</span>DictWriter(f, fieldnames<span style="color:#666">=</span>fieldnames)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>writer<span style="color:#666">.</span>writeheader()
 </span></span></code></pre></div><p>이 부분에서 <code>fieldnames = ['ID', 'X1', 'X2']</code>을 컬럼 이름으로 만듭니다. 이를 토대로 <code>data</code> 리스트를 한 개씩 읽어서 적절하게 저장하게 됩니다. 자료를 저장하는 코드는 다음 코드 입니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>    <span style="color:#007020;font-weight:bold">for</span> item <span style="color:#007020;font-weight:bold">in</span> data:
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>    <span style="color:#007020;font-weight:bold">for</span> item <span style="color:#007020;font-weight:bold">in</span> data:
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>        writer<span style="color:#666">.</span>writerow(item)
 </span></span></code></pre></div><p>이 코드가 <code>data</code> 리스트를 한 개씩 읽어서 컬럼 이름에 맞게 한 줄씩 저장하게 됩니다. 실행 결과는 다음과 같습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(<span style="color:#4070a0">&#34;data_out.csv&#34;</span>, <span style="color:#4070a0">&#34;w&#34;</span>, newline<span style="color:#666">=</span><span style="color:#4070a0">&#34;&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#007020;font-weight:bold">with</span> <span style="color:#007020">open</span>(<span style="color:#4070a0">&#34;data_out.csv&#34;</span>, <span style="color:#4070a0">&#34;w&#34;</span>, newline<span style="color:#666">=</span><span style="color:#4070a0">&#34;&#34;</span>) <span style="color:#007020;font-weight:bold">as</span> f:
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#666">...</span>     fieldnames <span style="color:#666">=</span> [<span style="color:#4070a0">&#39;ID&#39;</span>, <span style="color:#4070a0">&#39;X1&#39;</span>, <span style="color:#4070a0">&#39;X2&#39;</span>]
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#666">...</span>     writer <span style="color:#666">=</span> csv<span style="color:#666">.</span>DictWriter(f, fieldnames<span style="color:#666">=</span>fieldnames)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#666">...</span>     writer<span style="color:#666">.</span>writeheader()
@@ -226,7 +238,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span><span style="color:#40a070">10</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span><span style="color:#40a070">10</span>
 </span></span></code></pre></div><p>이렇게 만들어어진 <code>data_out.csv</code> 파일을 확인해 보면, 다음과 같이 저장된 것을 확인할 수 있습니다. 컬럼 이름도 적절하게 들어있습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csv" data-lang="csv"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#4070a0">ID</span>,<span style="color:#4070a0">X1</span>,<span style="color:#4070a0">X2</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-csv" data-lang="csv"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#4070a0">ID</span>,<span style="color:#4070a0">X1</span>,<span style="color:#4070a0">X2</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#4070a0">A1</span>,<span style="color:#4070a0">1</span>,<span style="color:#4070a0">3.0</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#4070a0">A2</span>,<span style="color:#4070a0">2</span>,<span style="color:#4070a0">4.5</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#4070a0">A3</span>,<span style="color:#4070a0">3</span>,<span style="color:#4070a0">3.2</span>

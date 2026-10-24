@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Metaphysics on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/metaphysics/</link>
-    <description>Recent content in Metaphysics on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 26 Dec 2006 15:14:54 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/metaphysics/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Blackwell Guide to Metaphysics</title>
-      <link>https://www.epistemology.pe.kr/2006/12/26/86/</link>
-      <pubDate>Tue, 26 Dec 2006 15:14:54 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2006/12/26/86/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;책제목: The Blackwell Guide to Metaphysics&lt;/li&gt;&#xA;&lt;li&gt;펴낸곳: Blackwell Publishers&lt;/li&gt;&#xA;&lt;li&gt;출판연도: 2002&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Preface.&lt;/li&gt;&#xA;&lt;li&gt;Physics, Metaphysics, and Method in Newton’s Dynamics: Lawrence Sklar.&lt;/li&gt;&#xA;&lt;li&gt;Causation: Wesley Salmon.&lt;/li&gt;&#xA;&lt;li&gt;What Events Are: Jonathan Bennett.&lt;/li&gt;&#xA;&lt;li&gt;Time, Temporality and Paradox, Richard M. Gale.&lt;/li&gt;&#xA;&lt;li&gt;A Thomist Metaphysics: John Haldane.&lt;/li&gt;&#xA;&lt;li&gt;The Concept of Ontological Catergory: a New Approach: Lorenz Puntel.&lt;/li&gt;&#xA;&lt;li&gt;Universals and Predication: Bruce Aune.&lt;/li&gt;&#xA;&lt;li&gt;Composition as a Fiction: Gideon Rosen and Cian Dorr.&lt;/li&gt;&#xA;&lt;li&gt;What Do We Refer To When We Say ‘I’? Peter van Inwagen.&lt;/li&gt;&#xA;&lt;li&gt;Personal Identity: The Non-Branching Form of ‘What Matters’: Jennifer E. Whiting.&lt;/li&gt;&#xA;&lt;li&gt;Idealism: T.L.S. Sprigge.&lt;/li&gt;&#xA;&lt;li&gt;An Idealistic Realism: Presuppositional Realism and Justifcatory Idealism: Nichlas Rescher.&lt;/li&gt;&#xA;&lt;li&gt;Overcoming a Dualism of Concepts and Causes: The Basic Argument of -‘Empiricism and the Philosophy of Mind’: Robert Brandom.&lt;/li&gt;&#xA;&lt;li&gt;Metaphysical Realism and Logical Nonrealism: Panayot Butchvarov.&lt;/li&gt;&#xA;&lt;li&gt;The Metaphysics of Possibilia: William Lycan.&lt;/li&gt;&#xA;&lt;li&gt;The Actual and the Possible: Alexander Pruss.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ps: 본 책은 논문집 형식으로 되어있습니다. 자료로 올립니다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Metaphysics on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/metaphysics/</link>
+		<description>Recent content in Metaphysics on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Tue, 26 Dec 2006 15:14:54 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/metaphysics/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Blackwell Guide to Metaphysics</title>
+				<link>https://www.epistemology.pe.kr/2006/12/26/86/</link>
+				<pubDate>Tue, 26 Dec 2006 15:14:54 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2006/12/26/86/</guid>
+				<description>&lt;ul&gt;&#xA;&lt;li&gt;책제목: The Blackwell Guide to Metaphysics&lt;/li&gt;&#xA;&lt;li&gt;펴낸곳: Blackwell Publishers&lt;/li&gt;&#xA;&lt;li&gt;출판연도: 2002&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Preface.&lt;/li&gt;&#xA;&lt;li&gt;Physics, Metaphysics, and Method in Newton’s Dynamics: Lawrence Sklar.&lt;/li&gt;&#xA;&lt;li&gt;Causation: Wesley Salmon.&lt;/li&gt;&#xA;&lt;li&gt;What Events Are: Jonathan Bennett.&lt;/li&gt;&#xA;&lt;li&gt;Time, Temporality and Paradox, Richard M. Gale.&lt;/li&gt;&#xA;&lt;li&gt;A Thomist Metaphysics: John Haldane.&lt;/li&gt;&#xA;&lt;li&gt;The Concept of Ontological Catergory: a New Approach: Lorenz Puntel.&lt;/li&gt;&#xA;&lt;li&gt;Universals and Predication: Bruce Aune.&lt;/li&gt;&#xA;&lt;li&gt;Composition as a Fiction: Gideon Rosen and Cian Dorr.&lt;/li&gt;&#xA;&lt;li&gt;What Do We Refer To When We Say ‘I’? Peter van Inwagen.&lt;/li&gt;&#xA;&lt;li&gt;Personal Identity: The Non-Branching Form of ‘What Matters’: Jennifer E. Whiting.&lt;/li&gt;&#xA;&lt;li&gt;Idealism: T.L.S. Sprigge.&lt;/li&gt;&#xA;&lt;li&gt;An Idealistic Realism: Presuppositional Realism and Justifcatory Idealism: Nichlas Rescher.&lt;/li&gt;&#xA;&lt;li&gt;Overcoming a Dualism of Concepts and Causes: The Basic Argument of -‘Empiricism and the Philosophy of Mind’: Robert Brandom.&lt;/li&gt;&#xA;&lt;li&gt;Metaphysical Realism and Logical Nonrealism: Panayot Butchvarov.&lt;/li&gt;&#xA;&lt;li&gt;The Metaphysics of Possibilia: William Lycan.&lt;/li&gt;&#xA;&lt;li&gt;The Actual and the Possible: Alexander Pruss.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ps: 본 책은 논문집 형식으로 되어있습니다. 자료로 올립니다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

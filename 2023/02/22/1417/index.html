@@ -26,40 +26,40 @@
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2023/02/22/1417/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="R에서 중복행을 제거하는 방법">
-  <meta property="og:description" content="R을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="R에서 중복행을 제거하는 방법">
+	<meta property="og:description" content="R을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.
 1a &lt;- c(rep(&#34;A&#34;, 3), rep(&#34;B&#34;, 3), rep(&#34;C&#34;,2)) 2b &lt;- c(1,1,2,4,1,1,2,2) 3df &lt;-data.frame(a,b) 윗 코드를 실행하면 다음과 같은 데이터프래임이 하나 만들어집니다.
 1&gt; df 2 a b 31 A 1 42 A 1 53 A 2 64 B 4 75 B 1 86 B 1 97 C 2 108 C 2 이 데이터프래임은 1행과 2행, 5행과 6행, 그리고 7행과 8행이 중복입니다. 이때 unique() 함수를 사용하며 중복행을 쉽게 제거할 수 있습니다. 다음과 같이 사용하시면 됩니다.">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2023-02-22T13:29:40+09:00">
-    <meta property="article:modified_time" content="2023-02-22T13:29:40+09:00">
-    <meta property="article:tag" content="R">
-    <meta property="article:tag" content="데이터 분석">
-    <meta property="article:tag" content="Data Analysis">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2023-02-22T13:29:40+09:00">
+		<meta property="article:modified_time" content="2023-02-22T13:29:40+09:00">
+		<meta property="article:tag" content="R">
+		<meta property="article:tag" content="데이터 분석">
+		<meta property="article:tag" content="Data Analysis">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="R에서 중복행을 제거하는 방법">
-  <meta name="twitter:description" content="R을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="R에서 중복행을 제거하는 방법">
+	<meta name="twitter:description" content="R을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.
 1a &lt;- c(rep(&#34;A&#34;, 3), rep(&#34;B&#34;, 3), rep(&#34;C&#34;,2)) 2b &lt;- c(1,1,2,4,1,1,2,2) 3df &lt;-data.frame(a,b) 윗 코드를 실행하면 다음과 같은 데이터프래임이 하나 만들어집니다.
 1&gt; df 2 a b 31 A 1 42 A 1 53 A 2 64 B 4 75 B 1 86 B 1 97 C 2 108 C 2 이 데이터프래임은 1행과 2행, 5행과 6행, 그리고 7행과 8행이 중복입니다. 이때 unique() 함수를 사용하며 중복행을 쉽게 제거할 수 있습니다. 다음과 같이 사용하시면 됩니다.">
 
 
 
 
-  <meta itemprop="name" content="R에서 중복행을 제거하는 방법">
-  <meta itemprop="description" content="R을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.
+	<meta itemprop="name" content="R에서 중복행을 제거하는 방법">
+	<meta itemprop="description" content="R을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.
 1a &lt;- c(rep(&#34;A&#34;, 3), rep(&#34;B&#34;, 3), rep(&#34;C&#34;,2)) 2b &lt;- c(1,1,2,4,1,1,2,2) 3df &lt;-data.frame(a,b) 윗 코드를 실행하면 다음과 같은 데이터프래임이 하나 만들어집니다.
 1&gt; df 2 a b 31 A 1 42 A 1 53 A 2 64 B 4 75 B 1 86 B 1 97 C 2 108 C 2 이 데이터프래임은 1행과 2행, 5행과 6행, 그리고 7행과 8행이 중복입니다. 이때 unique() 함수를 사용하며 중복행을 쉽게 제거할 수 있습니다. 다음과 같이 사용하시면 됩니다.">
-  <meta itemprop="datePublished" content="2023-02-22T13:29:40+09:00">
-  <meta itemprop="dateModified" content="2023-02-22T13:29:40+09:00">
-  <meta itemprop="wordCount" content="198">
-  <meta itemprop="keywords" content="R,데이터 분석,Data Analysis">
+	<meta itemprop="datePublished" content="2023-02-22T13:29:40+09:00">
+	<meta itemprop="dateModified" content="2023-02-22T13:29:40+09:00">
+	<meta itemprop="wordCount" content="198">
+	<meta itemprop="keywords" content="R,데이터 분석,Data Analysis">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -152,6 +152,8 @@
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -173,12 +175,22 @@
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2023-02-22
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p><code>R</code>을 가지고 데이터를 분석할 때 중복행을 제거해야 하는 경우가 많습니다. 쉬운 방법을 하나 소가하겠습니다. 우선 보기를 하나 만들겠습니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>a <span style="color:#666">&lt;-</span> <span style="color:#06287e">c</span>(<span style="color:#06287e">rep</span>(<span style="color:#4070a0">&#34;A&#34;</span>, <span style="color:#40a070">3</span>), <span style="color:#06287e">rep</span>(<span style="color:#4070a0">&#34;B&#34;</span>, <span style="color:#40a070">3</span>), <span style="color:#06287e">rep</span>(<span style="color:#4070a0">&#34;C&#34;</span>,<span style="color:#40a070">2</span>))
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>a <span style="color:#666">&lt;-</span> <span style="color:#06287e">c</span>(<span style="color:#06287e">rep</span>(<span style="color:#4070a0">&#34;A&#34;</span>, <span style="color:#40a070">3</span>), <span style="color:#06287e">rep</span>(<span style="color:#4070a0">&#34;B&#34;</span>, <span style="color:#40a070">3</span>), <span style="color:#06287e">rep</span>(<span style="color:#4070a0">&#34;C&#34;</span>,<span style="color:#40a070">2</span>))
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>b <span style="color:#666">&lt;-</span> <span style="color:#06287e">c</span>(<span style="color:#40a070">1</span>,<span style="color:#40a070">1</span>,<span style="color:#40a070">2</span>,<span style="color:#40a070">4</span>,<span style="color:#40a070">1</span>,<span style="color:#40a070">1</span>,<span style="color:#40a070">2</span>,<span style="color:#40a070">2</span>)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>df <span style="color:#666">&lt;-</span><span style="color:#06287e">data.frame</span>(a,b)
 </span></span></code></pre></div><p>윗 코드를 실행하면 다음과 같은 데이터프래임이 하나 만들어집니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;</span> df
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;</span> df
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  a b
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#40a070">1</span> A <span style="color:#40a070">1</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#40a070">2</span> A <span style="color:#40a070">1</span>
@@ -189,7 +201,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span><span style="color:#40a070">7</span> C <span style="color:#40a070">2</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#40a070">8</span> C <span style="color:#40a070">2</span>
 </span></span></code></pre></div><p>이 데이터프래임은 1행과 2행, 5행과 6행, 그리고 7행과 8행이 중복입니다. 이때 <code>unique()</code> 함수를 사용하며 중복행을 쉽게 제거할 수 있습니다. 다음과 같이 사용하시면 됩니다.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;</span> <span style="color:#06287e">unique</span>(df)
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#666">&gt;</span> <span style="color:#06287e">unique</span>(df)
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  a b
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#40a070">1</span> A <span style="color:#40a070">1</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#40a070">3</span> A <span style="color:#40a070">2</span>
@@ -207,7 +219,7 @@
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span><span style="color:#40a070">7</span> C <span style="color:#40a070">2</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span><span><span style="color:#40a070">8</span> C <span style="color:#40a070">2</span>
 </span></span></code></pre></div><p>물론 덮어쓰기를 하지 않은 상태이기 때문에 앞에서 본 것처럼 <code>df</code>도 다음과 같이 그대로 있습니다. <code>df</code>가 더이상 필요하지 않다면 다음과 같이 해서 덮어써도 됩니다. 그러나 데이터 분석을 하는 경우에는 이렇게 하는 것은 추천하지 않습니다. 원자료는 소중합니다!!</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&gt;</span> df <span style="color:#666">&lt;-</span> <span style="color:#06287e">unique</span>(df) 
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-R" data-lang="R"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&gt;</span> df <span style="color:#666">&lt;-</span> <span style="color:#06287e">unique</span>(df) 
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#666">&gt;</span> df
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>  a b
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#40a070">1</span> A <span style="color:#40a070">1</span>

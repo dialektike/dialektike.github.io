@@ -100,37 +100,37 @@ How to create a strategy pattern in Objective-C?
 
 
 <meta property="og:url" content="https://www.epistemology.pe.kr/2011/02/10/555/">
-  <meta property="og:site_name" content="Epistemology">
-  <meta property="og:title" content="Strategy pattern을 Objective-C 로 만들어봤습니다.">
-  <meta property="og:description" content="Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
+	<meta property="og:site_name" content="Epistemology">
+	<meta property="og:title" content="Strategy pattern을 Objective-C 로 만들어봤습니다.">
+	<meta property="og:description" content="Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
 How to create a strategy pattern in Objective-C?
 1// 2// main.m 3// testing 4// 5// Created by Jaehwan on 11. 2. 9.. 6// Copyright 2011 Wireless Air. All rights reserved. 7// 8 9#import 10 11@protocol FlyBehavior 12 13@required 14– (void) fly; 15 16@end 17 18@interface FlyWithWings : NSObject 19{ 20// ivars for A 21} 22@end 23 24@implementation FlyWithWings 25 26– (void) fly 27{ 28NSLog(@&#34;Fly With Wings!&#34;); 29} 30 31@end 32 33@interface FlyNoWay : NSObject 34{ 35// ivars for A 36} 37@end 38 39@implementation FlyNoWay 40 41– (void) fly 42{ 43NSLog(@&#34;Fly No Way!&#34;); 44} 45 46@end 47 48@interface Duck : NSObject 49{ 50id flyBehavior; 51} 52@property (assign) id flyBehavior; 53 54– (void) fly; 55 56@end 57 58@implementation Duck 59 60@synthesize flyBehavior; 61 62– (void) fly 63{ 64[flyBehavior fly]; 65} 66 67@end 68 69int main (int argc, const char * argv[]) { 70 71NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init]; 72// insert code here… 73NSLog(@&#34;Hello, World!&#34;); 74 75FlyWithWings * flyWithWings = [[[FlyWithWings alloc] init] autorelease]; 76FlyNoWay * flyNoWay = [[[FlyNoWay alloc] init] autorelease]; 77Duck * context = [[[Duck alloc] init] autorelease]; 78 79 80[context setFlyBehavior:flyWithWings]; 81[context fly]; 82[context setFlyBehavior:flyNoWay]; 83[context fly]; 84 85[pool drain]; 86return 0; 87}">
-  <meta property="og:locale" content="ko_KR">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2011-02-10T14:46:19+09:00">
-    <meta property="article:modified_time" content="2011-02-10T14:46:19+09:00">
+	<meta property="og:locale" content="ko_KR">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2011-02-10T14:46:19+09:00">
+		<meta property="article:modified_time" content="2011-02-10T14:46:19+09:00">
 
 
 
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Strategy pattern을 Objective-C 로 만들어봤습니다.">
-  <meta name="twitter:description" content="Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Strategy pattern을 Objective-C 로 만들어봤습니다.">
+	<meta name="twitter:description" content="Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
 How to create a strategy pattern in Objective-C?
 1// 2// main.m 3// testing 4// 5// Created by Jaehwan on 11. 2. 9.. 6// Copyright 2011 Wireless Air. All rights reserved. 7// 8 9#import 10 11@protocol FlyBehavior 12 13@required 14– (void) fly; 15 16@end 17 18@interface FlyWithWings : NSObject 19{ 20// ivars for A 21} 22@end 23 24@implementation FlyWithWings 25 26– (void) fly 27{ 28NSLog(@&#34;Fly With Wings!&#34;); 29} 30 31@end 32 33@interface FlyNoWay : NSObject 34{ 35// ivars for A 36} 37@end 38 39@implementation FlyNoWay 40 41– (void) fly 42{ 43NSLog(@&#34;Fly No Way!&#34;); 44} 45 46@end 47 48@interface Duck : NSObject 49{ 50id flyBehavior; 51} 52@property (assign) id flyBehavior; 53 54– (void) fly; 55 56@end 57 58@implementation Duck 59 60@synthesize flyBehavior; 61 62– (void) fly 63{ 64[flyBehavior fly]; 65} 66 67@end 68 69int main (int argc, const char * argv[]) { 70 71NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init]; 72// insert code here… 73NSLog(@&#34;Hello, World!&#34;); 74 75FlyWithWings * flyWithWings = [[[FlyWithWings alloc] init] autorelease]; 76FlyNoWay * flyNoWay = [[[FlyNoWay alloc] init] autorelease]; 77Duck * context = [[[Duck alloc] init] autorelease]; 78 79 80[context setFlyBehavior:flyWithWings]; 81[context fly]; 82[context setFlyBehavior:flyNoWay]; 83[context fly]; 84 85[pool drain]; 86return 0; 87}">
 
 
 
 
-  <meta itemprop="name" content="Strategy pattern을 Objective-C 로 만들어봤습니다.">
-  <meta itemprop="description" content="Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
+	<meta itemprop="name" content="Strategy pattern을 Objective-C 로 만들어봤습니다.">
+	<meta itemprop="description" content="Head First Design Patterns : 스토리가 있는 패턴 학습법을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;
 How to create a strategy pattern in Objective-C?
 1// 2// main.m 3// testing 4// 5// Created by Jaehwan on 11. 2. 9.. 6// Copyright 2011 Wireless Air. All rights reserved. 7// 8 9#import 10 11@protocol FlyBehavior 12 13@required 14– (void) fly; 15 16@end 17 18@interface FlyWithWings : NSObject 19{ 20// ivars for A 21} 22@end 23 24@implementation FlyWithWings 25 26– (void) fly 27{ 28NSLog(@&#34;Fly With Wings!&#34;); 29} 30 31@end 32 33@interface FlyNoWay : NSObject 34{ 35// ivars for A 36} 37@end 38 39@implementation FlyNoWay 40 41– (void) fly 42{ 43NSLog(@&#34;Fly No Way!&#34;); 44} 45 46@end 47 48@interface Duck : NSObject 49{ 50id flyBehavior; 51} 52@property (assign) id flyBehavior; 53 54– (void) fly; 55 56@end 57 58@implementation Duck 59 60@synthesize flyBehavior; 61 62– (void) fly 63{ 64[flyBehavior fly]; 65} 66 67@end 68 69int main (int argc, const char * argv[]) { 70 71NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init]; 72// insert code here… 73NSLog(@&#34;Hello, World!&#34;); 74 75FlyWithWings * flyWithWings = [[[FlyWithWings alloc] init] autorelease]; 76FlyNoWay * flyNoWay = [[[FlyNoWay alloc] init] autorelease]; 77Duck * context = [[[Duck alloc] init] autorelease]; 78 79 80[context setFlyBehavior:flyWithWings]; 81[context fly]; 82[context setFlyBehavior:flyNoWay]; 83[context fly]; 84 85[pool drain]; 86return 0; 87}">
-  <meta itemprop="datePublished" content="2011-02-10T14:46:19+09:00">
-  <meta itemprop="dateModified" content="2011-02-10T14:46:19+09:00">
-  <meta itemprop="wordCount" content="238">
-  <meta itemprop="keywords" content="IOS">
+	<meta itemprop="datePublished" content="2011-02-10T14:46:19+09:00">
+	<meta itemprop="dateModified" content="2011-02-10T14:46:19+09:00">
+	<meta itemprop="wordCount" content="238">
+	<meta itemprop="keywords" content="IOS">
 <meta name="referrer" content="no-referrer-when-downgrade" />
   <style>
   :root {
@@ -223,6 +223,8 @@ How to create a strategy pattern in Objective-C?
   }
 </style>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2836392858465500"
+     crossorigin="anonymous"></script>
 </head>
 <body>
   <header><a href="/" class="title">
@@ -244,9 +246,19 @@ How to create a strategy pattern in Objective-C?
 <div style="color:#888; font-size:0.95em; margin-bottom:1em;">
 	2011-02-10
 </div>
+<div style="text-align:center; margin:1.5em auto; max-width:100%; overflow:hidden;">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2836392858465500"
+     data-ad-slot="7113551643"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <p><a href="http://kangcom.com/sub/view.asp?sku=200508240010">Head First Design Patterns : 스토리가 있는 패턴 학습법</a>을 읽고, 한번 만들어 봤습니다. 다음 글을 보고, 책에 있는 자바로 만들어진 오리로 만들어 봤습니다. 책을 더 참고하시면 더 확장하실 수 있습니다. 참고로 저는 아직까지 50, 52, 64 번째 줄이 정확히 이해가 안 됩니다. ^^;</p>
 <p><a href="http://stackoverflow.com/questions/2234174/how-to-create-a-strategy-pattern-in-objective-c">How to create a strategy pattern in Objective-C?</a></p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#60a0b0;font-style:italic">//
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#60a0b0;font-style:italic">//
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#60a0b0;font-style:italic">// main.m
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#60a0b0;font-style:italic">// testing
 </span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#60a0b0;font-style:italic">//

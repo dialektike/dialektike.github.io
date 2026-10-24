@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>VI on Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/vi/</link>
-    <description>Recent content in VI on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 21 Jun 2008 16:48:53 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/vi/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>터미널의 설정법</title>
-      <link>https://www.epistemology.pe.kr/2008/06/21/141/</link>
-      <pubDate>Sat, 21 Jun 2008 16:48:53 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2008/06/21/141/</guid>
-      <description>&lt;p&gt;Mac은 원래 출생이 유닉스이기 때문에 터미널이 있습니다. linux를 쓰신 분들은 잘 아시겠지만, 터미널만 있어도 많은 일을 할 수 있고 실제로 많은 일을 했죠. 요즘은 이런 터미널을 쓰는 사람이 많지는 않지만 배워두면 나중에 웹 호스팅 하거나 서버를 만질 때 유용합니다. 저도  기록을 남기기 위해서 여기에 정리합니다. 참고로 여기서 소개하는 내용을 Mac 우선시 하시만, 다른 Uinx 계열에서도 잘 작동할 것 같네요 ^^;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;vi의 기본 사용법: vi는  입력 모드와 명령 모드로 나누어져 동작합니다&#xA;&lt;ul&gt;&#xA;&lt;li&gt;명령모드로:  &lt;code&gt;[esc]&lt;/code&gt; 키&lt;/li&gt;&#xA;&lt;li&gt;입력 모드로:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;i&lt;/code&gt;키: 현재 커서의 위치부터 입력&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;a&lt;/code&gt;키: 현재 커서의 위치 다음 칸부터 입력&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;o&lt;/code&gt;키: 현재 커서의 다음 줄에 입력&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;s&lt;/code&gt;키: 현재 커서 위치의 한 글자를 지우고 입력&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;vi를 종료하기: 우선 명령행 모드로 가야 합니다. 시작하고 나면 명령 모드 이기 때문에, &lt;code&gt;:&lt;/code&gt;를 입력하면 vi 좌측 하단에 &lt;code&gt;:&lt;/code&gt;가 출력됩니다. 이 때 vi를 종료하는 &lt;code&gt;q&lt;/code&gt;를 입력하고 [return]을 치면 종료!&lt;/li&gt;&#xA;&lt;li&gt;파일 만들고 저장하기: 터미널에서 &lt;code&gt;vi text.txt&lt;/code&gt; 과 같이 입력하면, &lt;code&gt;text.txt&lt;/code&gt;파일이 만들어지고 그 파일을 &lt;code&gt;vi&lt;/code&gt;에서 실행합니다. 여기서 &lt;code&gt;i&lt;/code&gt;를 입력하면 입력모드가 실행됩니다. 내용을 타이핑하고 나서 &lt;code&gt;[esc]&lt;/code&gt;키를 눌러 명령 모드로 들어가서 &lt;code&gt;:wq&lt;/code&gt;를 입력하고 &lt;code&gt;[return]&lt;/code&gt;키를 입력하면 vi는 종료됩니다. 참고로 명령어 wq는 파일을 저장하고 종료하라는 명령어입니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;vimrc 설정: &lt;a href=&#34;http://www.cocoadev.co.kr/30&#34;&gt;http://www.cocoadev.co.kr/30&lt;/a&gt; 참고&lt;/li&gt;&#xA;&lt;li&gt;터미널에서 ANSI 컬러 사용을 위해 ~/.profile 파일에서 수정할 내용: &lt;a href=&#34;http://www.likejazz.com/macosx/&#34;&gt;http://www.likejazz.com/macosx/&lt;/a&gt; 참고&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>VI on Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/vi/</link>
+		<description>Recent content in VI on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Sat, 21 Jun 2008 16:48:53 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/vi/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>터미널의 설정법</title>
+				<link>https://www.epistemology.pe.kr/2008/06/21/141/</link>
+				<pubDate>Sat, 21 Jun 2008 16:48:53 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2008/06/21/141/</guid>
+				<description>&lt;p&gt;Mac은 원래 출생이 유닉스이기 때문에 터미널이 있습니다. linux를 쓰신 분들은 잘 아시겠지만, 터미널만 있어도 많은 일을 할 수 있고 실제로 많은 일을 했죠. 요즘은 이런 터미널을 쓰는 사람이 많지는 않지만 배워두면 나중에 웹 호스팅 하거나 서버를 만질 때 유용합니다. 저도  기록을 남기기 위해서 여기에 정리합니다. 참고로 여기서 소개하는 내용을 Mac 우선시 하시만, 다른 Uinx 계열에서도 잘 작동할 것 같네요 ^^;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;vi의 기본 사용법: vi는  입력 모드와 명령 모드로 나누어져 동작합니다&#xA;&lt;ul&gt;&#xA;&lt;li&gt;명령모드로:  &lt;code&gt;[esc]&lt;/code&gt; 키&lt;/li&gt;&#xA;&lt;li&gt;입력 모드로:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;i&lt;/code&gt;키: 현재 커서의 위치부터 입력&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;a&lt;/code&gt;키: 현재 커서의 위치 다음 칸부터 입력&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;o&lt;/code&gt;키: 현재 커서의 다음 줄에 입력&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;s&lt;/code&gt;키: 현재 커서 위치의 한 글자를 지우고 입력&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;vi를 종료하기: 우선 명령행 모드로 가야 합니다. 시작하고 나면 명령 모드 이기 때문에, &lt;code&gt;:&lt;/code&gt;를 입력하면 vi 좌측 하단에 &lt;code&gt;:&lt;/code&gt;가 출력됩니다. 이 때 vi를 종료하는 &lt;code&gt;q&lt;/code&gt;를 입력하고 [return]을 치면 종료!&lt;/li&gt;&#xA;&lt;li&gt;파일 만들고 저장하기: 터미널에서 &lt;code&gt;vi text.txt&lt;/code&gt; 과 같이 입력하면, &lt;code&gt;text.txt&lt;/code&gt;파일이 만들어지고 그 파일을 &lt;code&gt;vi&lt;/code&gt;에서 실행합니다. 여기서 &lt;code&gt;i&lt;/code&gt;를 입력하면 입력모드가 실행됩니다. 내용을 타이핑하고 나서 &lt;code&gt;[esc]&lt;/code&gt;키를 눌러 명령 모드로 들어가서 &lt;code&gt;:wq&lt;/code&gt;를 입력하고 &lt;code&gt;[return]&lt;/code&gt;키를 입력하면 vi는 종료됩니다. 참고로 명령어 wq는 파일을 저장하고 종료하라는 명령어입니다.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;vimrc 설정: &lt;a href=&#34;http://www.cocoadev.co.kr/30&#34;&gt;http://www.cocoadev.co.kr/30&lt;/a&gt; 참고&lt;/li&gt;&#xA;&lt;li&gt;터미널에서 ANSI 컬러 사용을 위해 ~/.profile 파일에서 수정할 내용: &lt;a href=&#34;http://www.likejazz.com/macosx/&#34;&gt;http://www.likejazz.com/macosx/&lt;/a&gt; 참고&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+			</item>
+	</channel>
 </rss>

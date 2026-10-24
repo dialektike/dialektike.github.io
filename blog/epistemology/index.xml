@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Epistemology</title>
-    <link>https://www.epistemology.pe.kr/blog/epistemology/</link>
-    <description>Recent content on Epistemology</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 26 Nov 2013 02:30:21 +0900</lastBuildDate>
-    <atom:link href="https://www.epistemology.pe.kr/blog/epistemology/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>&#34;To know is to have a belief that tracks the truth.&#34;</title>
-      <link>https://www.epistemology.pe.kr/2013/11/26/679/</link>
-      <pubDate>Tue, 26 Nov 2013 02:30:21 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2013/11/26/679/</guid>
-      <description>&lt;p&gt;“안다는 것은 그 진리를 추적하는 믿음을 갖는 것이다(To know is to have a belief that tracks the truth),” p.178, Nozick, R., (1981) &lt;em&gt;Philosophical Explanations&lt;/em&gt;, Harvard University Press.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Epistemology: An Anthology, 2nd Edition</title>
-      <link>https://www.epistemology.pe.kr/2011/05/11/583/</link>
-      <pubDate>Wed, 11 May 2011 20:39:28 +0900</pubDate>
-      <guid>https://www.epistemology.pe.kr/2011/05/11/583/</guid>
-      <description>&lt;p&gt;드디어 2nd Edition이 나왔네요. 이제는 완벽한 논문 백화점이 되어있군요.. 상세한 내용은 다음 링크로 가보세요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://as.wiley.com/WileyCDA/WileyTitle/productCd-1405169664,descCd-tableOfContents.html&#34;&gt;http://as.wiley.com/WileyCDA/WileyTitle/productCd-1405169664,descCd-tableOfContents.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Part I: Skepticism:.&lt;/p&gt;&#xA;&lt;p&gt;Introduction.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Problem of the External World: Barry Stroud.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Proof of an External World: G. E. Moore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Four Forms of Scepticism: G. E. Moore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Certainty: G. E. Moore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How a Pyrrhonian Skeptic Might Respond to Academic Skepticism: Peter Klein.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Epistemological Realism: Michael Williams.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Part II: The Structure of Knowledge and Justification:.&lt;/p&gt;&#xA;&lt;p&gt;Introduction.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Epistemology</title>
+		<link>https://www.epistemology.pe.kr/blog/epistemology/</link>
+		<description>Recent content on Epistemology</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+			<copyright>Copyright © 2005-2025, Jae-Hwan Chung. All rights reserved.</copyright>
+		
+		
+			<lastBuildDate>Tue, 26 Nov 2013 02:30:21 +0900</lastBuildDate>
+		
+			<atom:link href="https://www.epistemology.pe.kr/blog/epistemology/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>&#34;To know is to have a belief that tracks the truth.&#34;</title>
+				<link>https://www.epistemology.pe.kr/2013/11/26/679/</link>
+				<pubDate>Tue, 26 Nov 2013 02:30:21 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2013/11/26/679/</guid>
+				<description>&lt;p&gt;“안다는 것은 그 진리를 추적하는 믿음을 갖는 것이다(To know is to have a belief that tracks the truth),” p.178, Nozick, R., (1981) &lt;em&gt;Philosophical Explanations&lt;/em&gt;, Harvard University Press.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Epistemology: An Anthology, 2nd Edition</title>
+				<link>https://www.epistemology.pe.kr/2011/05/11/583/</link>
+				<pubDate>Wed, 11 May 2011 20:39:28 +0900</pubDate>
+				<guid>https://www.epistemology.pe.kr/2011/05/11/583/</guid>
+				<description>&lt;p&gt;드디어 2nd Edition이 나왔네요. 이제는 완벽한 논문 백화점이 되어있군요.. 상세한 내용은 다음 링크로 가보세요.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://as.wiley.com/WileyCDA/WileyTitle/productCd-1405169664,descCd-tableOfContents.html&#34;&gt;http://as.wiley.com/WileyCDA/WileyTitle/productCd-1405169664,descCd-tableOfContents.html&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Part I: Skepticism:.&lt;/p&gt;&#xA;&lt;p&gt;Introduction.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Problem of the External World: Barry Stroud.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Proof of an External World: G. E. Moore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Four Forms of Scepticism: G. E. Moore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Certainty: G. E. Moore.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;How a Pyrrhonian Skeptic Might Respond to Academic Skepticism: Peter Klein.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Epistemological Realism: Michael Williams.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Part II: The Structure of Knowledge and Justification:.&lt;/p&gt;&#xA;&lt;p&gt;Introduction.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
